@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const menu = () => {
+const Menu = () => {
   return (
     <div>
       <header>
@@ -12,7 +12,8 @@ const menu = () => {
             />
           </div>
 
-          <div className="top-menu fixed top-0 w-full z-1000 bg-[#003470] p-1.5 flex justify-between">
+          {/* Top Menu */}
+          <div className="top-menu fixed top-0 w-full z-50 bg-[#003470] p-1.5 flex justify-between">
             <div className="icones ml-10 flex gap-5">
               <i className="ri-twitter-x-line text-white text-[17px]"></i>
               <i className="ri-facebook-circle-fill text-white text-[17px]"></i>
@@ -80,7 +81,7 @@ const menu = () => {
                 <a href="#" className="icone-amarelo">
                   <Image
                     src="/images/iconamarelo.png"
-                    alt="foto amalera"
+                    alt="foto amarela"
                     width={20}
                     height={20}
                   />
@@ -89,8 +90,9 @@ const menu = () => {
             </ul>
           </div>
 
+          {/* Navbar */}
           <div className="menus">
-            <div className="navbar fixed top-[38px] w-full z-999 bg-[#ffffffed] flex justify-between items-center p-[13px] pl-[20px] pr-[10px]">
+            <div className="navbar fixed top-[38px] w-full z-40 bg-[#ffffffed] flex justify-between items-center p-[13px] pl-[20px] pr-[10px]">
               <a href="#" className="logo pl-7">
                 <Image
                   src="/images/logo.png"
@@ -171,4 +173,4 @@ const menu = () => {
   );
 };
 
-export default menu;
+export default Menu;

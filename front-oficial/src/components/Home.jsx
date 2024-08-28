@@ -1,87 +1,87 @@
-"use client"; 
-import Image from "next/image"; 
+"use client";
 import { useState, useEffect } from "react";
 
 const images = [
-  'images/igreja.jpg',
-  'images/igreja-1.jpg',
+  "/images/slide.jpg",
+  "/images/slide2.jpg",
+  "/images/slide3.jpg",
+  "/images/slide4.jpg",
+  "/images/slide5.jpg",
+  "/images/slide6.jpg",
+  "/images/slide7.jpg",
+  "/images/slide8.jpg",
 ];
 
-const home = () => {
-
+const Home = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 8000); // Muda a imagem a cada 8 segundos
+    }, 5000); // Muda a imagem a cada 5 segundos
 
     return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
   }, []);
-
 
   return (
     <div>
       <main>
         <div className="text-center w-full h-screen overflow-hidden flex justify-center items-center relative">
-          <div className="absolute inset-0 w-full h-full z-[-1] flex">
+          <div className="absolute inset-0 w-full h-full z-[-1]">
             <div
-                className="absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-5000"
-                style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
-            > 
-            </div>
+              className="w-full h-full bg-cover bg-center transition-opacity duration-500"
+              style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
+            ></div>
           </div>
 
           <div>
-            <div className="flex-wrap font-roboto justify-center gap-2 grid grid-cols-4 ">
+            <div className="flex-wrap font-roboto justify-center gap-2 grid grid-cols-4">
               <button
-                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none"
+                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
                 id="cidadao"
               >
                 CIDADÃO
               </button>
 
               <button
-                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none"
+                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
                 id="empresa"
               >
                 EMPRESA
               </button>
 
               <button
-                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none"
+                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
                 id="servidor"
               >
                 SERVIDOR
               </button>
 
               <button
-                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none"
+                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
                 id="turista"
               >
                 TURISTA
               </button>
             </div>
 
-
-
             <div className="flex flex-wrap font-roboto justify-center gap-4">
               <button
-                className="bg-[#003476] text-white py-4 px-20 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none"
+                className="bg-[#003476] text-white py-4 px-20 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
                 id="portal"
               >
                 PORTAL DA TRANSPARÊNCIA
               </button>
 
               <button
-                className="bg-[#003476] text-white py-4 px-20 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none"
+                className="bg-[#003476] text-white py-4 px-20 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
                 id="carta"
               >
                 CARTA DE SERVIÇOS
               </button>
 
               <button
-                className="bg-[#003476] text-white py-4 px-20 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none"
+                className="bg-[#003476] text-white py-4 px-20 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
                 id="ppp"
               >
                 PPP - SAÚDE
@@ -104,8 +104,8 @@ const home = () => {
         <div className="mapas-cartaz mt-40 mb-40 flex items-center justify-center">
           <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180">
             <div
-              className=" h-[410px] border-r border-[#FFC719] bg-cover bg-center"
-              style={{ backgroundImage: "url('images/mapescola.jpg')" }}
+              className="h-[410px] border-r border-[#FFC719] bg-cover bg-center"
+              style={{ backgroundImage: "url('/images/mapescola.jpg')" }}
             ></div>
             <div className="absolute border-r border-[#FFC719] inset-0 h-[410px] flex items-center justify-center bg-[#003470] text-white text-xl font-bold opacity-0 transition-opacity duration-500 hover:opacity-100">
               MAPA ESCOLA
@@ -114,8 +114,8 @@ const home = () => {
 
           <a href="https://example.com/mapsaude" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180">
             <div
-              className=" h-[410px] border-r border-[#FFC719] bg-cover bg-center"
-              style={{ backgroundImage: "url('images/mapsaude.jpg')" }}
+              className="h-[410px] border-r border-[#FFC719] bg-cover bg-center"
+              style={{ backgroundImage: "url('/images/mapsaude.jpg')" }}
             ></div>
             <div className="absolute border-r border-[#FFC719] inset-0 h-[410px] flex items-center justify-center bg-[#003470] text-white text-xl font-bold opacity-0 transition-opacity duration-500 hover:opacity-100">
               MAPA SAÚDE
@@ -124,8 +124,8 @@ const home = () => {
 
           <a href="https://example.com/maprestaurante" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180">
             <div
-              className=" h-[410px] border-r border-[#FFC719] bg-cover bg-center"
-              style={{ backgroundImage: "url('images/maprestaurante.jpg')" }}
+              className="h-[410px] border-r border-[#FFC719] bg-cover bg-center"
+              style={{ backgroundImage: "url('/images/maprestaurante.jpg')" }}
             ></div>
             <div className="absolute border-r border-[#FFC719] inset-0 h-[410px] flex items-center justify-center bg-[#003470] text-white text-xl font-bold opacity-0 transition-opacity duration-500 hover:opacity-100">
               MAPA RESTAURANTE
@@ -134,8 +134,8 @@ const home = () => {
 
           <a href="https://example.com/mapmercado" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180">
             <div
-              className=" h-[410px] border-r border-[#FFC719] bg-cover bg-center"
-              style={{ backgroundImage: "url('images/mapmercado.jpg')" }}
+              className="h-[410px] border-r border-[#FFC719] bg-cover bg-center"
+              style={{ backgroundImage: "url('/images/mapmercado.jpg')" }}
             ></div>
             <div className="absolute border-r border-[#FFC719] inset-0 h-[410px] flex items-center justify-center bg-[#003470] text-white text-xl font-bold opacity-0 transition-opacity duration-500 hover:opacity-100">
               MAPA MERCADO
@@ -144,8 +144,8 @@ const home = () => {
 
           <a href="https://example.com/mapcras" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180">
             <div
-              className=" h-[410px] border-r border-[#FFC719] bg-cover bg-center"
-              style={{ backgroundImage: "url('images/mapcras.jpg')" }}
+              className="h-[410px] border-r border-[#FFC719] bg-cover bg-center"
+              style={{ backgroundImage: "url('/images/mapcras.jpg')" }}
             ></div>
             <div className="absolute border-r border-[#FFC719] inset-0 h-[410px] flex items-center justify-center bg-[#003470] text-white text-xl font-bold opacity-0 transition-opacity duration-500 hover:opacity-100">
               MAPA CRAS
@@ -157,4 +157,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;
