@@ -1,5 +1,5 @@
 import Menu from "../components/Menu";
-import Home from "../components/Home";
+import Home from "../components/HOME/Home";
 import Footer from "../components/FOOTER/Footer";
 
 
