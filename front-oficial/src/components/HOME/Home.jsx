@@ -87,8 +87,17 @@ const Home = () => {
                 PPP - SAÚDE
               </button>
             </div>
+            <div className="mapas">
+            <a href="/mapas"> 
+            <p className="text-white font-roboto font-semibold text-2xl flex justify-center p-1 transition-colors duration-300 hover:text-yellow-500 hover:animate-shake">
+            MAPAS
+            </p>
+            </a>
+            </div>
+
           </div>
         </div>
+
 
         <div className="mapas border-t border-[#FFC719] bg-[#003470]">
           <h1 className="text-white font-montserrat font-semibold text-4xl flex justify-center p-20">
