@@ -42,7 +42,8 @@ const Home = () => {
                 className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
                 id="cidadao"
               >
-                CIDADÃO
+                <a href="" target="_blank">CIDADÃO</a>
+                
               </button>
 
               <button
