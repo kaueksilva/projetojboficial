@@ -1,5 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faLocationDot, faMapLocationDot } from '@fortawesome/free-solid-svg-icons'; // Ícones sólidos
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'; // Ícones de marcas
 
 const images = [
   "/images/slide.jpg",
@@ -87,12 +90,16 @@ const Home = () => {
                 PPP - SAÚDE
               </button>
             </div>
-            <div className="mapas">
-            <a href="/mapas"> 
-            <p className="text-white font-roboto font-semibold text-2xl flex justify-center p-1 transition-colors duration-300 hover:text-yellow-500 hover:animate-shake">
-            MAPAS
-            </p>
-            </a>
+            <div className="mapas flex justify-center items-center">
+              <a href="/mapas" className="flex items-center group">
+                <FontAwesomeIcon 
+                  icon={faMapLocationDot} 
+                  className="text-white transition-colors duration-300 group-hover:text-yellow-500"
+                />
+                <p className="text-white font-roboto font-semibold text-base p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
+                  MAPAS
+                </p>
+              </a>
             </div>
 
           </div>
