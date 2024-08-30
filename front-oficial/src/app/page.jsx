@@ -1,6 +1,6 @@
-import Menu from "./components/Menu";
-import Home from "./components/Home";
-import Footer from "./components/Footer";
+import Menu from "../components/Menu";
+import Home from "../components/Home";
+import Footer from "../components/Footer";
 
 
 export default function config() {
