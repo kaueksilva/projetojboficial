@@ -1,6 +1,23 @@
+"use client";
 import Image from "next/image";
+import { useState } from "react";
 
 const Menu = () => {
+  const [dropdowns, setDropdowns] = useState({
+    institucional: false,
+    cidade: false,
+    secretarias: false,
+    orgaos: false,
+    servicos: false,
+  });
+
+  const toggleDropdown = (menu) => {
+    setDropdowns((prev) => ({
+      ...prev,
+      [menu]: !prev[menu],
+    }));
+  };
+
   return (
     <div>
       <header>
@@ -103,45 +120,156 @@ const Menu = () => {
                 />
               </a>
               <ul className="nav-menu list-none flex pr-6 md:flex text-[#224276] font-open-sans text-[14px]">
-                <li className="nav-item">
+                <li
+                  className="nav-item relative"
+                  onMouseEnter={() => toggleDropdown("institucional")}
+                  onMouseLeave={() => toggleDropdown("institucional")}
+                >
                   <a
                     href="#"
                     className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
                   >
                     INSTITUCIONAL
                   </a>
+                  {dropdowns.institucional && (
+                    <ul className="absolute left-0 w-48 bg-[#D4E4FF] text-[#224276] shadow-lg">
+                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          MAPA DA ESTRATÉGIA
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          ESTRUTURA ORGANIZACIONAL
+                        </a>
+                      </li>
+                    </ul>
+                  )}
                 </li>
-                <li className="nav-item">
+
+                <li
+                  className="nav-item relative"
+                  onMouseEnter={() => toggleDropdown("cidade")}
+                  onMouseLeave={() => toggleDropdown("cidade")}
+                >
                   <a
                     href="#"
                     className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
                   >
                     A CIDADE
                   </a>
+                  {dropdowns.cidade && (
+                    <ul className="absolute left-0 w-48 bg-[#D4E4FF] text-[#224276] shadow-lg">
+                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          Submenu 1
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          Submenu 2
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          Submenu 3
+                        </a>
+                      </li>
+                    </ul>
+                  )}
                 </li>
-                <li className="nav-item">
+                <li
+                  className="nav-item relative"
+                  onMouseEnter={() => toggleDropdown("secretarias")}
+                  onMouseLeave={() => toggleDropdown("secretarias")}
+                >
                   <a
                     href="#"
                     className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
                   >
                     SECRETARIAS
                   </a>
+                  {dropdowns.secretarias && (
+                    <ul className="absolute left-0 w-48 bg-[#D4E4FF] text-[#224276] shadow-lg">
+                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          Submenu 1
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          Submenu 2
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          Submenu 3
+                        </a>
+                      </li>
+                    </ul>
+                  )}
                 </li>
-                <li className="nav-item">
+                <li
+                  className="nav-item relative"
+                  onMouseEnter={() => toggleDropdown("orgaos")}
+                  onMouseLeave={() => toggleDropdown("orgaos")}
+                >
                   <a
                     href="#"
                     className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
                   >
                     ÓRGÃOS
                   </a>
+                  {dropdowns.orgaos && (
+                    <ul className="absolute left-0 w-48 bg-[#D4E4FF] text-[#224276] shadow-lg">
+                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          Submenu 1
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          Submenu 2
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          Submenu 3
+                        </a>
+                      </li>
+                    </ul>
+                  )}
                 </li>
-                <li className="nav-item">
+                <li
+                  className="nav-item relative"
+                  onMouseEnter={() => toggleDropdown("servicos")}
+                  onMouseLeave={() => toggleDropdown("servicos")}
+                >
                   <a
                     href="#"
                     className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
                   >
                     SERVIÇOS
                   </a>
+                  {dropdowns.servicos && (
+                    <ul className="absolute left-0 w-48 bg-[#D4E4FF] text-[#224276] shadow-lg">
+                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          Submenu 1
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          Submenu 2
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          Submenu 3
+                        </a>
+                      </li>
+                    </ul>
+                  )}
                 </li>
                 <li className="nav-item">
                   <a
@@ -160,11 +288,6 @@ const Menu = () => {
                   </a>
                 </li>
               </ul>
-              <div className="hamburguer md:hidden flex flex-col gap-1.5">
-                <span className="bar w-full h-0.5 bg-black"></span>
-                <span className="bar w-full h-0.5 bg-black"></span>
-                <span className="bar w-full h-0.5 bg-black"></span>
-              </div>
             </div>
           </div>
         </nav>

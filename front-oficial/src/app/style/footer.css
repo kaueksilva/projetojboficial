@@ -96,3 +96,56 @@
     text-align: center;
     padding: 5px;
 }
+
+
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+.footer-list a {
+    text-decoration: none; 
+    color: inherit; /* Herda a cor do texto do pai */
+    font-family: 'OpenSans', sans-serif; 
+}
+
+.footer-list a:hover {
+    text-decoration: underline; 
+}
+
+.footer-title {
+    font-weight: bold; 
+    font-size: 1.2rem; 
+    font-family: 'OpenSans', sans-serif; 
+}  
+.footer-column3 .footer-title a {
+    text-decoration: none;
+}
+
+.footer-column3 .footer-title a:hover {
+    text-decoration: underline; 
+}
+
+
+/* .footer-border {
+    display: inline-block; 
+    text-decoration: underline;
+    margin: 0.5rem 0; 
+}  */
+
+.icones-footer a i {
+    color: inherit; /* Mantém a cor original dos ícones */
+    transition: color 0.3s ease; /* Adiciona uma transição suave ao hover */
+}
+
+.icones-footer a i:hover {
+    color: #fff; /* Muda a cor do ícone para branco no hover */
+}
