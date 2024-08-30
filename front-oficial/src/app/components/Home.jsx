@@ -34,75 +34,84 @@ const Home = () => {
             <div
               className="w-full h-full bg-cover bg-center transition-opacity duration-500"
               style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
-            ></div>
+            >
+              <div 
+                className="absolute inset-0 bg-black opacity-40" // Adiciona um overlay escuro
+              ></div>
+            </div>
           </div>
 
-          <div>
-            <div className="flex-wrap font-roboto justify-center gap-2 grid grid-cols-4">
+          <div id="botoes" className="font-roboto justify-center max-w-[90%] mx-auto mt-11">
+            {/* Primeira linha de botões com tamanho limitado */}
+            <div className=" flex-wrap grid grid-cols-4 gap-2 max-w-[85%] mx-auto mb-7">
               <button
-                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
+                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
                 id="cidadao"
               >
                 CIDADÃO
               </button>
 
               <button
-                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
+                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
                 id="empresa"
               >
                 EMPRESA
               </button>
 
               <button
-                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
+                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
                 id="servidor"
               >
                 SERVIDOR
               </button>
 
               <button
-                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
+                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
                 id="turista"
               >
                 TURISTA
               </button>
             </div>
 
-            <div className="flex flex-wrap font-roboto justify-center gap-4">
+            {/* Segunda linha de botões */}
+            <div className="flex flex-wrap justify-center gap-4 mb-6">
               <button
-                className="bg-[#003476] text-white py-4 px-20 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
+                className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
                 id="portal"
               >
                 PORTAL DA TRANSPARÊNCIA
               </button>
 
               <button
-                className="bg-[#003476] text-white py-4 px-20 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
+                className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
                 id="carta"
               >
                 CARTA DE SERVIÇOS
               </button>
 
               <button
-                className="bg-[#003476] text-white py-4 px-20 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
+                className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-1"
                 id="ppp"
               >
                 PPP - SAÚDE
               </button>
             </div>
+
+            {/* Botão MAPAS */}
             <div className="mapas flex justify-center items-center">
               <a href="/mapas" className="flex items-center group">
                 <FontAwesomeIcon 
                   icon={faMapLocationDot} 
                   className="text-white transition-colors duration-300 group-hover:text-yellow-500"
                 />
-                <p className="text-white font-roboto font-semibold text-base p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
+                <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
                   MAPAS
                 </p>
               </a>
             </div>
-
           </div>
+
+          
         </div>
 
 
