@@ -108,10 +108,7 @@ const Home = () => {
               </a>
             </div>
           </div>
-
-          
         </div>
-
 
             {/* O MEIO E O TITULO MAPAS!!! */}
         <div className="mapas border-t border-[#FFC719] bg-[#003470]">
