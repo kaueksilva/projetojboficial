@@ -173,8 +173,4 @@ const Menu = () => {
   );
 };
 
-<<<<<<< HEAD
 export default Menu;
-=======
-export default Menu;
->>>>>>> lali
