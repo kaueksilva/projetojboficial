@@ -36,14 +36,14 @@ const Menu = () => {
           </div>
 
           {/* Top Menu */}
-          <div className="top-menu fixed top-0 w-full z-50 bg-[#003470] p-1.5 flex justify-center md:justify-between">
+          <div className="top-menu fixed top-0 w-full z-50 bg-[#003470] p-1.5 flex justify-center lg:justify-between">
             <div className="icones flex ml-10 gap-5">
               <i className="ri-twitter-x-line text-white text-[17px]"></i>
               <i className="ri-facebook-circle-fill text-white text-[17px]"></i>
               <i className="ri-instagram-line text-white text-[17px]"></i>
               <i className="ri-youtube-fill text-white text-[17px]"></i>
             </div>
-            <ul className="menu-topo hidden md:flex gap-3 mr-11 font-open-sans">
+            <ul className="menu-topo hidden lg:flex gap-3 mr-11 font-open-sans">
               <li className="nav-topo">
                 <a
                   href="#"
@@ -125,12 +125,14 @@ const Menu = () => {
                   className="w-[210px] h-auto"
                 />
               </a>
-              <div className="md:hidden pr-6">
+              
+              <div className="lg:hidden pr-6">
                 <button onClick={toggleMenu} className="text-[#224276]">
                   <i className="ri-menu-3-line text-[24px]"></i>
                 </button>
               </div>
-              <ul className="nav-menu hidden md:flex pr-6 md:flex text-[#224276] font-open-sans text-[14px]">
+
+              <ul className="nav-menu hidden lg:flex pr-6 text-[#224276] font-open-sans text-[14px]">
                 <li
                   className="nav-item relative"
                   onMouseEnter={() => toggleDropdown("institucional")}
