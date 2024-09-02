@@ -1,7 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCity, faHospital, faHouseChimney, faHouseChimneyUser, faHouseUser, faMapLocationDot, faSchool, faStore, faUtensils } from '@fortawesome/free-solid-svg-icons'; // Ícones sólidos
+import { FaSchool, FaHospital, FaHouseUser  } from "react-icons/fa";
+import { FaStore, FaMapLocationDot } from "react-icons/fa6";
+import { GiKnifeFork } from "react-icons/gi";
+
+
 
 const images = [
   "/images/slide.jpg",
@@ -40,11 +43,11 @@ const Home = () => {
             </div>
           </div>
 
-          <div id="botoes" className="font-roboto justify-center max-w-[90%] mx-auto mt-11 z-10">
+          <div id="botoes" className=" justify-center max-w-[90%] mx-auto mt-11 z-10">
             {/* Primeira linha de botões com tamanho limitado */}
             <div className=" flex-wrap grid grid-cols-4 gap-2 max-w-[85%] mx-auto mb-7">
               <button
-                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
                 id="cidadao"
               >
                 CIDADÃO
@@ -99,9 +102,8 @@ const Home = () => {
             {/* Botão MAPAS */}
             <div className="mapas flex justify-center items-center z-10">
               <a href="/mapas" className="flex items-center group">
-                <FontAwesomeIcon 
-                  icon={faMapLocationDot} 
-                  className="text-white transition-colors duration-300 group-hover:text-yellow-500"
+                <FaMapLocationDot
+                  className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl"
                 />
                 <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
                   MAPAS
@@ -131,13 +133,13 @@ const Home = () => {
 
 
         {/* MAPAS*/}
-        <div className="h-[320px] mapas-cartaz mt-20 flex items-center justify-center z-10 text-center text-white">
+        <div className="mapas-cartaz mt-20 flex items-center justify-center z-10 text-center text-white">
 
           
-        {/* MAPA ESCOLAS MUNICIPAIS */}
+        {/*ESCOLAS MUNICIPAIS */}
         <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group">
 
-          <div className="relative h-[320px] border-r border-[#FFC719] bg-cover bg-center" 
+          <div className="relative h-[25.625rem] border-r-2 border-[#FFC719] bg-cover bg-center" 
               style={{ backgroundImage: "url('/images/escolas.jpg')" }}>
             
             {/* Sobreposição de cor */}
@@ -145,11 +147,10 @@ const Home = () => {
 
             {/* Sobreposição de texto e ícone */}
             <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
-              <FontAwesomeIcon 
-                icon={faSchool} 
-                className="text-5xl text-white mb-2"
+              <FaSchool 
+                className="text-7xl text-white mb-2"
               />
-              <h3 className="text-white text-base font-bold">
+              <h3 className="text-white text-lg font-bold leading-none">
                 MAPA DAS <br /> ESCOLAS MUNICIPAIS
               </h3>
             </div>
@@ -163,10 +164,10 @@ const Home = () => {
 
 
 
-        {/* MAPA DAS UNIDADES DE SAUDE POR REGIONAIS */}
+        {/*UNIDADES DE SAUDE POR REGIONAIS */}
         <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group">
 
-        <div className="relative h-[320px] border-r border-[#FFC719] bg-cover bg-center" 
+        <div className="relative h-[25.625rem] border-r-2r border-[#FFC719] bg-cover bg-center" 
             style={{ backgroundImage: "url('/images/hospitais.jpg')" }}>
           
           {/* Sobreposição de cor */}
@@ -174,11 +175,10 @@ const Home = () => {
 
           {/* Sobreposição de texto e ícone */}
           <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
-            <FontAwesomeIcon 
-              icon={faHospital} 
-              className="text-5xl text-white mb-2"
+            <FaHospital
+              className="text-7xl text-white mb-2"
             />
-            <h3 className="text-white text-sm font-bold">
+            <h3 className="text-white text-lg font-bold leading-none">
               MAPA DAS UNIDADES DE SAUDE <br />POR REGIONAIS
             </h3>
           </div>
@@ -191,10 +191,10 @@ const Home = () => {
         </a>
 
 
-        {/* MAPA DOS BARES E RESTAURANTES */}
+        {/* BARES E RESTAURANTES */}
         <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group">
 
-          <div className="relative h-[320px] border-r border-[#FFC719] bg-cover bg-center" 
+          <div className="relative h-[25.625rem] border-l-2 border-[#FFC719] bg-cover bg-center" 
               style={{ backgroundImage: "url('/images/vinho.jpg')" }}>
             
             {/* Sobreposição de cor */}
@@ -202,11 +202,10 @@ const Home = () => {
 
             {/* Sobreposição de texto e ícone */}
             <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
-              <FontAwesomeIcon 
-                icon={faUtensils} 
-                className="text-5xl text-white mb-2"
+              <GiKnifeFork   
+                className="text-7xl text-white mb-2"
               />
-              <h3 className="text-white text-base font-bold">
+              <h3 className="text-white text-lg font-bold leading-none">
                 MAPA DOS BARES E <br /> RESTAURANTES
               </h3>
             </div>
@@ -220,10 +219,10 @@ const Home = () => {
 
 
 
-        {/* MAPA DOS MERCADOS PUBLICOS */}
+        {/*MERCADOS PUBLICOS */}
         <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group">
 
-        <div className="relative h-[320px] border-r border-[#FFC719] bg-cover bg-center" 
+        <div className="relative h-[25.625rem] border-l-2 border-[#FFC719] bg-cover bg-center" 
             style={{ backgroundImage: "url('/images/mercados.jpeg')" }}>
           
           {/* Sobreposição de cor */}
@@ -231,11 +230,10 @@ const Home = () => {
 
           {/* Sobreposição de texto e ícone */}
           <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
-            <FontAwesomeIcon 
-              icon={faStore} 
-              className="text-5xl text-white mb-2"
+            <FaStore  
+              className="text-7xl text-white mb-2"
             />
-            <h3 className="text-white text-base font-bold">
+            <h3 className="text-white text-lg font-bold leading-none">
               MAPA DOS MERCADOS <br /> PÚBLICOS
             </h3>
           </div>
@@ -249,10 +247,10 @@ const Home = () => {
 
 
         
-        {/* MAPA DAS UNIDADES DE SAUDE POR REGIONAIS */}
+        {/*  UNIDADES DO CRAS */}
         <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group">
 
-          <div className="relative h-[320px] border-r border-[#FFC719] bg-cover bg-center" 
+          <div className="relative h-[25.625rem] border-l-2 border-[#FFC719] bg-cover bg-center" 
               style={{ backgroundImage: "url('/images/cras.png')" }}>
             
             {/* Sobreposição de cor */}
@@ -260,11 +258,10 @@ const Home = () => {
 
             {/* Sobreposição de texto e ícone */}
             <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
-              <FontAwesomeIcon 
-                icon={faHouseChimneyUser} 
-                className="text-5xl text-white mb-2"
+              <FaHouseUser 
+                className="text-7xl text-white mb-2"
               />
-              <h3 className="text-white text-base font-bold">
+              <h3 className="text-white text-lg font-bold leading-none">
                 MAPA DAS UNIDADES DO <br /> CRAS E CREAS MUNICIPAIS
               </h3>
             </div>
