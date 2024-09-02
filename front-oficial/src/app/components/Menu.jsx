@@ -11,11 +11,17 @@ const Menu = () => {
     servicos: false,
   });
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const toggleDropdown = (menu) => {
     setDropdowns((prev) => ({
       ...prev,
       [menu]: !prev[menu],
     }));
+  };
+
+  const toggleMenu = () => {
+    setIsMenuOpen((prev) => !prev);
   };
 
   return (
@@ -30,14 +36,14 @@ const Menu = () => {
           </div>
 
           {/* Top Menu */}
-          <div className="top-menu fixed top-0 w-full z-50 bg-[#003470] p-1.5 flex justify-between">
-            <div className="icones ml-10 flex gap-5">
+          <div className="top-menu fixed top-0 w-full z-50 bg-[#003470] p-1.5 flex justify-center md:justify-between">
+            <div className="icones flex ml-10 gap-5">
               <i className="ri-twitter-x-line text-white text-[17px]"></i>
               <i className="ri-facebook-circle-fill text-white text-[17px]"></i>
               <i className="ri-instagram-line text-white text-[17px]"></i>
               <i className="ri-youtube-fill text-white text-[17px]"></i>
             </div>
-            <ul className="menu-topo flex gap-3 mr-11 font-open-sans">
+            <ul className="menu-topo hidden md:flex gap-3 mr-11 font-open-sans">
               <li className="nav-topo">
                 <a
                   href="#"
@@ -119,7 +125,12 @@ const Menu = () => {
                   className="w-[210px] h-auto"
                 />
               </a>
-              <ul className="nav-menu list-none flex pr-6 md:flex text-[#224276] font-open-sans text-[14px]">
+              <div className="md:hidden pr-6">
+                <button onClick={toggleMenu} className="text-[#224276]">
+                  <i className="ri-menu-3-line text-[24px]"></i>
+                </button>
+              </div>
+              <ul className="nav-menu hidden md:flex pr-6 md:flex text-[#224276] font-open-sans text-[14px]">
                 <li
                   className="nav-item relative"
                   onMouseEnter={() => toggleDropdown("institucional")}
@@ -146,7 +157,6 @@ const Menu = () => {
                     </ul>
                   )}
                 </li>
-
                 <li
                   className="nav-item relative"
                   onMouseEnter={() => toggleDropdown("cidade")}
@@ -290,6 +300,53 @@ const Menu = () => {
               </ul>
             </div>
           </div>
+
+          {/* Fullscreen Menu */}
+          {isMenuOpen && (
+            <div className="fixed inset-0 z-50 bg-[#003470] text-white flex flex-col items-center justify-center p-8">
+              <div className="icones flex gap-5 mb-10">
+                <i className="ri-twitter-x-line text-white text-[24px]"></i>
+                <i className="ri-facebook-circle-fill text-white text-[24px]"></i>
+                <i className="ri-instagram-line text-white text-[24px]"></i>
+                <i className="ri-youtube-fill text-white text-[24px]"></i>
+              </div>
+              <ul className="text-center text-[24px] font-bold">
+                <li className="mb-6">
+                  <a href="#" onClick={toggleMenu}>
+                    INSTITUCIONAL
+                  </a>
+                </li>
+                <li className="mb-6">
+                  <a href="#" onClick={toggleMenu}>
+                    A CIDADE
+                  </a>
+                </li>
+                <li className="mb-6">
+                  <a href="#" onClick={toggleMenu}>
+                    SECRETARIAS
+                  </a>
+                </li>
+                <li className="mb-6">
+                  <a href="#" onClick={toggleMenu}>
+                    ÓRGÃOS
+                  </a>
+                </li>
+                <li className="mb-6">
+                  <a href="#" onClick={toggleMenu}>
+                    SERVIÇOS
+                  </a>
+                </li>
+                <li className="mb-6">
+                  <a href="#" onClick={toggleMenu}>
+                    ACESSIBILIDADE
+                  </a>
+                </li>
+              </ul>
+              <button onClick={toggleMenu} className="mt-10 text-[24px]">
+                <i className="ri-close-line"></i>
+              </button>
+            </div>
+          )}
         </nav>
       </header>
     </div>
