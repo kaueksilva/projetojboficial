@@ -28,6 +28,16 @@ const Home = () => {
     return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
   }, []);
 
+
+  const handleScrollToMapas = (event) => {
+    event.preventDefault();
+    const target = document.getElementById("mapas");
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+
   return (
     <div>
       <main className="bg-[#dfdfdf] z-[-1]">
@@ -101,20 +111,20 @@ const Home = () => {
 
             {/* Botão MAPAS */}
             <div className="mapas flex justify-center items-center z-10">
-              <a href="/mapas" className="flex items-center group">
+              <button onClick={handleScrollToMapas} className="flex items-center group"> {/* faz rolar para baixo de forma suave com handleScrollToMapas*/}
                 <FaMapLocationDot
                   className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl"
                 />
                 <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
                   MAPAS
                 </p>
-              </a>
+              </button>
             </div>
           </div>
         </div>
 
         {/* O MEIO E O TITULO MAPAS!!! */}
-        <div className="mapas border-t border-[#FFC719] bg-[#003470]">
+        <div id="mapas" className=" mapas border-t border-[#FFC719] bg-[#003470]">
           <h1 className="text-white font-montserrat font-semibold text-4xl flex justify-center p-3 mt-28 z-10">
             MAPAS
           </h1>
@@ -135,11 +145,11 @@ const Home = () => {
         {/* MAPAS*/}
         <div className="mapas-cartaz mt-20 flex items-center justify-center z-10 text-center text-white">
 
-          
-        {/*ESCOLAS MUNICIPAIS */}
-        <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group">
 
-          <div className="relative h-[25.625rem] border-r-2 border-[#FFC719] bg-cover bg-center" 
+        {/*ESCOLAS MUNICIPAIS */}
+        <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-2 border-[#FFC719]">
+
+          <div className="relative h-[25.625rem] bg-cover bg-center" 
               style={{ backgroundImage: "url('/images/escolas.jpg')" }}>
             
             {/* Sobreposição de cor */}
@@ -151,23 +161,23 @@ const Home = () => {
                 className="text-7xl text-white mb-2"
               />
               <h3 className="text-white text-lg font-bold leading-none">
-                MAPA DAS <br /> ESCOLAS MUNICIPAIS
+                MAPA DAS ESCOLAS MUNICIPAIS
               </h3>
             </div>
           </div>
 
           {/* Sobreposição com gradiente e texto no hover */}
-          <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(circle_at_center,#009EE2,#003476)] text-white text-base font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-            MAPA ESCOLA
+          <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(circle_at_center,#009EE2,#003476)] text-white leading-none text-lg font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100 ">
+            MAPA DAS ESCOLAS MUNICIPAIS
           </div>
         </a>
 
 
 
         {/*UNIDADES DE SAUDE POR REGIONAIS */}
-        <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group">
+        <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-2 border-[#FFC719]">
 
-        <div className="relative h-[25.625rem] border-r-2r border-[#FFC719] bg-cover bg-center" 
+        <div className="relative h-[25.625rem] bg-cover bg-center" 
             style={{ backgroundImage: "url('/images/hospitais.jpg')" }}>
           
           {/* Sobreposição de cor */}
@@ -179,22 +189,22 @@ const Home = () => {
               className="text-7xl text-white mb-2"
             />
             <h3 className="text-white text-lg font-bold leading-none">
-              MAPA DAS UNIDADES DE SAUDE <br />POR REGIONAIS
+              MAPA DAS UNIDADES DE SAUDE <br/>POR REGIONAIS
             </h3>
           </div>
         </div>
 
         {/* Sobreposição com gradiente e texto no hover */}
-        <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(circle_at_center,#009EE2,#003476)] text-white text-base font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+        <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(circle_at_center,#009EE2,#003476)] text-white leading-none text-lg font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
         MAPA DAS UNIDADES DE SAUDE <br />POR REGIONAIS
         </div>
         </a>
 
 
         {/* BARES E RESTAURANTES */}
-        <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group">
+        <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-2 border-[#FFC719]">
 
-          <div className="relative h-[25.625rem] border-l-2 border-[#FFC719] bg-cover bg-center" 
+          <div className="relative h-[25.625rem] bg-cover bg-center" 
               style={{ backgroundImage: "url('/images/vinho.jpg')" }}>
             
             {/* Sobreposição de cor */}
@@ -212,7 +222,7 @@ const Home = () => {
           </div>
 
           {/* Sobreposição com gradiente e texto no hover */}
-          <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(circle_at_center,#009EE2,#003476)] text-white text-base font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+          <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(circle_at_center,#009EE2,#003476)] text-white leading-none text-lg font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
           MAPA DOS BARES E <br /> RESTAURANTES
           </div>
         </a>
@@ -220,9 +230,9 @@ const Home = () => {
 
 
         {/*MERCADOS PUBLICOS */}
-        <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group">
+        <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-2 border-[#FFC719]">
 
-        <div className="relative h-[25.625rem] border-l-2 border-[#FFC719] bg-cover bg-center" 
+        <div className="relative h-[25.625rem] bg-cover bg-center" 
             style={{ backgroundImage: "url('/images/mercados.jpeg')" }}>
           
           {/* Sobreposição de cor */}
@@ -240,7 +250,7 @@ const Home = () => {
         </div>
 
         {/* Sobreposição com gradiente e texto no hover */}
-        <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(circle_at_center,#009EE2,#003476)] text-white text-base font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+        <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(circle_at_center,#009EE2,#003476)] text-white leading-none text-lg font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
         MAPA DOS MERCADOS <br /> PÚBLICOS
         </div>
         </a>
@@ -248,9 +258,9 @@ const Home = () => {
 
         
         {/*  UNIDADES DO CRAS */}
-        <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group">
+        <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-2 border-[#FFC719]">
 
-          <div className="relative h-[25.625rem] border-l-2 border-[#FFC719] bg-cover bg-center" 
+          <div className="relative h-[25.625rem] bg-cover bg-center" 
               style={{ backgroundImage: "url('/images/cras.png')" }}>
             
             {/* Sobreposição de cor */}
@@ -268,7 +278,7 @@ const Home = () => {
           </div>
 
           {/* Sobreposição com gradiente e texto no hover */}
-          <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(circle_at_center,#009EE2,#003476)] text-white text-base font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+          <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(circle_at_center,#009EE2,#003476)] text-white leading-none text-lg font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
           MAPA DOS BARES E <br /> RESTAURANTES
           </div>
         </a>
