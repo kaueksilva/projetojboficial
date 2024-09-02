@@ -5,7 +5,6 @@ import { FaStore, FaMapLocationDot } from "react-icons/fa6";
 import { GiKnifeFork } from "react-icons/gi";
 
 
-
 const images = [
   "/images/slide.jpg",
   "/images/slide2.jpg",
@@ -16,6 +15,7 @@ const images = [
   "/images/slide7.jpg",
   "/images/slide8.jpg",
 ];
+
 
 const Home = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
