@@ -76,41 +76,56 @@ const Home = () => {
             {/* Primeira linha de botões com tamanho limitado */}
             <div className=" flex-wrap grid grid-cols-4 gap-2 max-w-[85%] mx-auto mb-7">
               <button
-                onClick={() =>
-                  (window.location.href =
-                    "https://www.youtube.com/watch?v=2vKuuZ3FOgk")
-                }
+                onClick={() => (window.location.href = "../cidadao")}
                 className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
               >
                 CIDADÃO
               </button>
 
-              
-
-              <button className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
+              <button
+                onClick={() => (window.location.href = "../empresa")}
+                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+              >
                 EMPRESA
               </button>
 
-              <button className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
+              <button
+                onClick={() => (window.location.href = "../servidor")}
+                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+              >
                 SERVIDOR
               </button>
 
-              <button className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
+              <button
+                onClick={() => (window.location.href = "../turista")}
+                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+              >
                 TURISTA
               </button>
             </div>
 
             {/* Segunda linha de botões */}
             <div className="flex flex-wrap justify-center gap-4 mb-6">
-              <button className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
+              <button
+                onClick={() =>
+                  (window.location.href = "../portal-transparencia")
+                }
+                className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+              >
                 PORTAL DA TRANSPARÊNCIA
               </button>
 
-              <button className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
+              <button
+                onClick={() => (window.location.href = "../carta-servico")}
+                className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+              >
                 CARTA DE SERVIÇOS
               </button>
 
-              <button className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
+              <button
+                onClick={() => (window.location.href = "../ppp")}
+                className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+              >
                 PPP - SAÚDE
               </button>
             </div>

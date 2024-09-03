@@ -1,14 +1,14 @@
 import Menu from "../components/Menu";
-import Cidadao from "../paginas/Cidadao";
+import PPP from "../paginas/ppp-saude";
 import Footer from "../components/Footer";
 
-
+ 
 export default function config() {
 return (
     <div>
     <Menu />
 
-    <Cidadao />
+    <PPP />
 
     <Footer/>
     </div>

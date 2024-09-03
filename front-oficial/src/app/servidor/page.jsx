@@ -1,5 +1,5 @@
 import Menu from "../components/Menu";
-import Cidadao from "../paginas/Cidadao";
+import Servidor from "../paginas/servidor";
 import Footer from "../components/Footer";
 
 
@@ -8,7 +8,7 @@ return (
     <div>
     <Menu />
 
-    <Cidadao />
+    <Servidor />
 
     <Footer/>
     </div>
