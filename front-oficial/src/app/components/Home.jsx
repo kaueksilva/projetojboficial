@@ -25,24 +25,26 @@ const images = [
 
 const Home = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [fade, setFade] = useState(true);
+  const [nextImageIndex, setNextImageIndex] = useState(1);
+  const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setFade(false); // Inicia a transição de fade-out
+      setFadeOut(true);
 
       setTimeout(() => {
-        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-        setFade(true); // Aplica o fade na nova imagem
-      }, 4500); // Tempo do fade-out
-    }, 5000); // Intervalo total (tempo do fade-out + tempo da imagem visível)
+        setCurrentImageIndex(nextImageIndex);
+        setNextImageIndex((nextImageIndex + 1) % images.length);
+        setFadeOut(false);
+      }, 1000); // Duração do fade-out
 
-    return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
-  }, []);
+    }, 5000); // Tempo total de exibição de cada imagem
 
+    return () => clearInterval(interval);
+  }, [nextImageIndex]);
 
   const currentImage = images[currentImageIndex];
-  const nextImage = images[(currentImageIndex + 1) % images.length];
+  const nextImage = images[nextImageIndex];
 
   return (
     <div>
@@ -51,21 +53,23 @@ const Home = () => {
           <div className="absolute inset-0 w-full h-full z-[-1]">
             {/* Camada de imagem atual */}
             <div
-              className={`absolute inset-0 w-full h-full bg-cover bg-center transition-opacity ${
-                fade ? "opacity-100" : "opacity-0"
+              className={`absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${
+                fadeOut ? "opacity-0" : "opacity-100"
               }`}
               style={{ backgroundImage: `url(${currentImage})` }}
             />
-            {/* Camada da próxima imagem */}
+            {/* Camada de próxima imagem */}
             <div
-              className={`absolute inset-0 w-full h-full bg-cover bg-center transition-opacity ${
-                fade ? "opacity-0" : "opacity-100"
+              className={`absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${
+                fadeOut ? "opacity-100" : "opacity-0"
               }`}
               style={{ backgroundImage: `url(${nextImage})` }}
             />
-
-            <div className="absolute inset-0 bg-black opacity-50" /> {/* Overlay escuro */} </div>
-
+            <div className="absolute inset-0 bg-black opacity-50" />
+            {/* Overlay escuro */}
+          </div>
+  
+          {/* Botões e outros elementos */}
           <div
             id="botoes"
             className=" justify-center max-w-[90%] mx-auto mt-11 z-10"
