@@ -24,6 +24,7 @@ const Menu = () => {
     setIsMenuOpen((prev) => !prev);
   };
 
+
   return (
     <div>
       <header>
@@ -305,7 +306,7 @@ const Menu = () => {
 
           {/* Fullscreen Menu */}
           {isMenuOpen && (
-            <div className="fixed inset-0 z-50 bg-[#003470] text-white flex flex-col items-center justify-center p-8">
+            <div className="fixed inset-0 z-50 bg-[#003470dc] text-white flex flex-col items-center justify-center p-8">
               <div className="icones flex gap-5 mb-10">
                 <i className="ri-twitter-x-line text-white text-[24px]"></i>
                 <i className="ri-facebook-circle-fill text-white text-[24px]"></i>
@@ -314,29 +315,119 @@ const Menu = () => {
               </div>
               <ul className="text-center text-[24px] font-bold">
                 <li className="mb-6">
-                  <a href="#" onClick={toggleMenu}>
+                  <a href="#" onClick={() => toggleDropdown('institucional')}>
                     INSTITUCIONAL
                   </a>
+                  {dropdowns.institucional && (
+                    <ul className="mt-2 mb-6 text-[12px] leading-3">
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                          - MAPA DA ESTRATÉGIA
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                          - ESTRUTURA ORGANIZACIONAL
+                        </a>
+                      </li>
+                    </ul>
+                  )}
                 </li>
                 <li className="mb-6">
-                  <a href="#" onClick={toggleMenu}>
+                  <a href="#" onClick={() => toggleDropdown('cidade')}>
                     A CIDADE
                   </a>
+                  {dropdowns.cidade && (
+                    <ul className="mt-2 mb-6 text-[12px] leading-3">
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                          - Submenu 1
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                          - Submenu 2
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                          - Submenu 3
+                        </a>
+                      </li>
+                    </ul>
+                  )}
                 </li>
                 <li className="mb-6">
-                  <a href="#" onClick={toggleMenu}>
+                  <a href="#" onClick={() => toggleDropdown('secretarias')}>
                     SECRETARIAS
                   </a>
+                  {dropdowns.secretarias && (
+                    <ul className="mt-2 mb-6 text-[12px] leading-3">
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                          - Submenu 1
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                          - Submenu 2
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                          - Submenu 3
+                        </a>
+                      </li>
+                    </ul>
+                  )}
                 </li>
                 <li className="mb-6">
-                  <a href="#" onClick={toggleMenu}>
+                  <a href="#" onClick={() => toggleDropdown('orgaos')}>
                     ÓRGÃOS
                   </a>
+                  {dropdowns.orgaos && (
+                    <ul className="mt-2 mb-6 text-[12px] leading-3">
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                          - Submenu 1
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                          - Submenu 2
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                          - Submenu 3
+                        </a>
+                      </li>
+                    </ul>
+                  )}
                 </li>
                 <li className="mb-6">
-                  <a href="#" onClick={toggleMenu}>
+                  <a href="#" onClick={() => toggleDropdown('servicos')}>
                     SERVIÇOS
                   </a>
+                  {dropdowns.servicos && (
+                    <ul className="mt-2 mb-6 text-[12px] leading-3">
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                          - Submenu 1
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                          - Submenu 2
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                          - Submenu 3
+                        </a>
+                      </li>
+                    </ul>
+                  )}
                 </li>
                 <li className="mb-6">
                   <a href="#" onClick={toggleMenu}>
