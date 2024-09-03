@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import { FaPlus } from "react-icons/fa";
 
 const Menu = () => {
   const [dropdowns, setDropdowns] = useState({
@@ -23,7 +24,6 @@ const Menu = () => {
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
   };
-
 
   return (
     <div>
@@ -126,7 +126,7 @@ const Menu = () => {
                   className="w-[210px] h-auto"
                 />
               </a>
-              
+
               <div className="lg:hidden pr-6">
                 <button onClick={toggleMenu} className="text-[#224276]">
                   <i className="ri-menu-3-line text-[24px]"></i>
@@ -315,11 +315,16 @@ const Menu = () => {
               </div>
               <ul className="text-center text-[24px] font-bold">
                 <li className="mb-6">
-                  <a href="#" onClick={() => toggleDropdown('institucional')}>
+                  <a
+                    href="#"
+                    onClick={() => toggleDropdown("institucional")}
+                    className="flex items-center justify-center"
+                  >
                     INSTITUCIONAL
+                    <FaPlus className="ml-2 text-[14px] text-white" />
                   </a>
                   {dropdowns.institucional && (
-                    <ul className="mt-2 mb-6 text-[12px] leading-3">
+                    <ul className="mt-2 mb-6 text-[16px] leading-3">
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
                           - MAPA DA ESTRATÉGIA
@@ -334,11 +339,12 @@ const Menu = () => {
                   )}
                 </li>
                 <li className="mb-6">
-                  <a href="#" onClick={() => toggleDropdown('cidade')}>
+                  <a href="#" onClick={() => toggleDropdown("cidade")} className="flex items-center justify-center">
                     A CIDADE
+                    <FaPlus className="ml-2 text-[14px] text-white" />
                   </a>
                   {dropdowns.cidade && (
-                    <ul className="mt-2 mb-6 text-[12px] leading-3">
+                    <ul className="mt-2 mb-6 text-[16px] leading-3">
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
                           - Submenu 1
@@ -358,11 +364,12 @@ const Menu = () => {
                   )}
                 </li>
                 <li className="mb-6">
-                  <a href="#" onClick={() => toggleDropdown('secretarias')}>
+                  <a href="#" onClick={() => toggleDropdown("secretarias")} className="flex items-center justify-center">
                     SECRETARIAS
+                    <FaPlus className="ml-2 text-[14px] text-white" />
                   </a>
                   {dropdowns.secretarias && (
-                    <ul className="mt-2 mb-6 text-[12px] leading-3">
+                    <ul className="mt-2 mb-6 text-[16px] leading-3">
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
                           - Submenu 1
@@ -382,11 +389,12 @@ const Menu = () => {
                   )}
                 </li>
                 <li className="mb-6">
-                  <a href="#" onClick={() => toggleDropdown('orgaos')}>
+                  <a href="#" onClick={() => toggleDropdown("orgaos")} className="flex items-center justify-center">
                     ÓRGÃOS
+                    <FaPlus className="ml-2 text-[14px] text-white" />
                   </a>
                   {dropdowns.orgaos && (
-                    <ul className="mt-2 mb-6 text-[12px] leading-3">
+                    <ul className="mt-2 mb-6 text-[16px] leading-3">
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
                           - Submenu 1
@@ -406,11 +414,12 @@ const Menu = () => {
                   )}
                 </li>
                 <li className="mb-6">
-                  <a href="#" onClick={() => toggleDropdown('servicos')}>
+                  <a href="#" onClick={() => toggleDropdown("servicos")} className="flex items-center justify-center">
                     SERVIÇOS
+                    <FaPlus className="ml-2 text-[14px] text-white" />
                   </a>
                   {dropdowns.servicos && (
-                    <ul className="mt-2 mb-6 text-[12px] leading-3">
+                    <ul className="mt-2 mb-6 text-[16px] leading-3">
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
                           - Submenu 1
