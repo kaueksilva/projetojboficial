@@ -37,7 +37,6 @@ const Home = () => {
         setNextImageIndex((nextImageIndex + 1) % images.length);
         setFadeOut(false);
       }, 1000); // Duração do fade-out
-
     }, 5000); // Tempo total de exibição de cada imagem
 
     return () => clearInterval(interval);
@@ -68,7 +67,7 @@ const Home = () => {
             <div className="absolute inset-0 bg-black opacity-50" />
             {/* Overlay escuro */}
           </div>
-  
+
           {/* Botões e outros elementos */}
           <div
             id="botoes"
@@ -77,54 +76,41 @@ const Home = () => {
             {/* Primeira linha de botões com tamanho limitado */}
             <div className=" flex-wrap grid grid-cols-4 gap-2 max-w-[85%] mx-auto mb-7">
               <button
+                onClick={() =>
+                  (window.location.href =
+                    "https://www.youtube.com/watch?v=2vKuuZ3FOgk")
+                }
                 className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
-                id="cidadao"
               >
                 CIDADÃO
               </button>
 
-              <button
-                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
-                id="empresa"
-              >
+              
+
+              <button className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
                 EMPRESA
               </button>
 
-              <button
-                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
-                id="servidor"
-              >
+              <button className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
                 SERVIDOR
               </button>
 
-              <button
-                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
-                id="turista"
-              >
+              <button className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
                 TURISTA
               </button>
             </div>
 
             {/* Segunda linha de botões */}
             <div className="flex flex-wrap justify-center gap-4 mb-6">
-              <button
-                className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
-                id="portal"
-              >
+              <button className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
                 PORTAL DA TRANSPARÊNCIA
               </button>
 
-              <button
-                className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
-                id="carta"
-              >
+              <button className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
                 CARTA DE SERVIÇOS
               </button>
 
-              <button
-                className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
-                id="ppp"
-              >
+              <button className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
                 PPP - SAÚDE
               </button>
             </div>
