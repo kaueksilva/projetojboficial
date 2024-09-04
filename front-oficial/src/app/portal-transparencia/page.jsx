@@ -1,5 +1,5 @@
 import Menu from "../components/Menu";
-import Portaltransparencia from "../paginas/portaltransparencia";
+import Portaltransparencia from "./portaltransparencia";
 import Footer from "../components/Footer";
 
 

@@ -1,17 +1,18 @@
 import Menu from "../components/Menu";
-import Cidadao from "../paginas/Cidadao";
+import Cidadao from "./cidadao";
 import Footer from "../components/Footer";
-
+import Model from "../1modelo-pagina/model-page";
 
 export default function config() {
-return (
+  return (
     <div>
-    <Menu />
+      <Menu />
 
-    <Cidadao />
+      <Model />
 
-    <Footer/>
+      <Cidadao />
+      
+      <Footer />
     </div>
-);
+  );
 }
-

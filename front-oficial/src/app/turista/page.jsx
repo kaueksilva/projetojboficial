@@ -1,5 +1,5 @@
 import Menu from "../components/Menu";
-import Turista from "../paginas/turista";
+import Turista from "./turista";
 import Footer from "../components/Footer";
 
 

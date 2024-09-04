@@ -1,7 +1,7 @@
-const Model = () => {
+const Cidadao = () => {
   return (
     <div>
-      <h1>Model Page</h1>
+      <h1>Cidadao</h1>
       <h1>Model Page</h1>
       <h1>Model Page</h1>
       <h1>Model Page</h1>
@@ -10,4 +10,4 @@ const Model = () => {
     </div>
   );
 };
-export default Model;
+export default Cidadao;

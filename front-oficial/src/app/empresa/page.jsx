@@ -1,5 +1,5 @@
 import Menu from "../components/Menu";
-import Empresa from "../paginas/Empresa";
+import Empresa from "./empresa";
 import Footer from "../components/Footer";
 
 

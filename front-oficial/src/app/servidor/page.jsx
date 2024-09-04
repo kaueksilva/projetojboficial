@@ -1,5 +1,5 @@
 import Menu from "../components/Menu";
-import Servidor from "../paginas/servidor";
+import Servidor from "./servidor";
 import Footer from "../components/Footer";
 
 

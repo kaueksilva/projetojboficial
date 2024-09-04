@@ -1,5 +1,5 @@
 import Menu from "../components/Menu";
-import PPP from "../paginas/ppp-saude";
+import PPP from "./ppp-saude";
 import Footer from "../components/Footer";
 
  
