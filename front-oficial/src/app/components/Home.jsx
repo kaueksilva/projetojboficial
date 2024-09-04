@@ -160,7 +160,7 @@ const Home = () => {
         {/* DIVISOR DE FORMA*/}
         <div className="relative w-full">
           <svg
-            width="2000"
+            width="100%"
             height="96"
             viewBox="0 0 2000 96"
             fill="none"
