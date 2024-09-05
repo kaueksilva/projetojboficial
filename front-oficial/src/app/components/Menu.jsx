@@ -116,7 +116,7 @@ const Menu = () => {
 
           {/* Navbar */}
           <div className="menus">
-            <div className="navbar fixed top-[38px] w-full z-40 bg-[#ffffffed] flex justify-between items-center p-[13px] pl-[20px] pr-[10px]">
+            <div className="navbar fixed top-[38px] w-full z-40 bg-[#ffffffda] flex justify-between items-center p-[13px] pl-[20px] pr-[10px]">
               <a onClick={() => (window.location.href = "/")}
               href="#" className="logo pl-7">
                 <Image
