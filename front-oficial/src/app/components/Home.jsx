@@ -136,7 +136,6 @@ const Home = () => {
                 onClick={handleScrollToMapas}
                 className="flex items-center group"
               >
-                {" "}
                 {/* faz rolar para baixo de forma suave com handleScrollToMapas*/}
                 <FaMapLocationDot className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
                 <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
