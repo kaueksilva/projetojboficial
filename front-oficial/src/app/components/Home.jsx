@@ -71,60 +71,60 @@ const Home = () => {
           {/* Botões e outros elementos */}
           <div
             id="botoes"
-            className=" justify-center max-w-[90%] mx-auto mt-11 z-10"
+            className="justify-center max-w-[90%] mx-auto mt-11 z-10"
           >
             {/* Primeira linha de botões com tamanho limitado */}
-            <div className=" flex-wrap grid grid-cols-4 gap-2 max-w-[85%] mx-auto mb-7">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 max-w-[100%] mx-auto mb-7">
               <button
                 onClick={() => (window.location.href = "../cidadao")}
-                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
+                className="bg-[#003476] text-white py-4 px-8 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
               >
                 CIDADÃO
               </button>
 
               <button
                 onClick={() => (window.location.href = "../empresa")}
-                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+                className="bg-[#003476] text-white py-4 px-8 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
               >
                 EMPRESA
               </button>
 
               <button
                 onClick={() => (window.location.href = "../servidor")}
-                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+                className="bg-[#003476] text-white py-4 px-8 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
               >
                 SERVIDOR
               </button>
 
               <button
                 onClick={() => (window.location.href = "../turista")}
-                className="bg-[#003476] text-white py-4 px-8 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+                className="bg-[#003476] text-white py-4 px-8 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
               >
                 TURISTA
               </button>
             </div>
 
             {/* Segunda linha de botões */}
-            <div className="flex flex-wrap justify-center gap-4 mb-6">
+            <div className="flex flex-col sm:flex-row justify-center gap-4 mb-6">
               <button
                 onClick={() =>
                   (window.location.href = "../portal-transparencia")
                 }
-                className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+                className="bg-[#003476] text-white py-4 px-8 sm:px-20 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
               >
                 PORTAL DA TRANSPARÊNCIA
               </button>
 
               <button
                 onClick={() => (window.location.href = "../carta-servico")}
-                className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+                className="bg-[#003476] text-white py-4 px-8 sm:px-20 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
               >
                 CARTA DE SERVIÇOS
               </button>
 
               <button
                 onClick={() => (window.location.href = "../ppp")}
-                className="bg-[#003476] text-white py-4 px-20 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+                className="bg-[#003476] text-white py-4 px-8 sm:px-20 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
               >
                 PPP - SAÚDE
               </button>
@@ -136,7 +136,6 @@ const Home = () => {
                 onClick={handleScrollToMapas}
                 className="flex items-center group"
               >
-                {/* faz rolar para baixo de forma suave com handleScrollToMapas*/}
                 <FaMapLocationDot className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
                 <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
                   MAPAS
@@ -149,7 +148,7 @@ const Home = () => {
         {/* O MEIO E O TITULO MAPAS!!! */}
         <div
           id="mapas"
-          className=" mapas border-t border-[#FFC719] bg-[#003470]"
+          className="mapas border-t border-[#FFC719] bg-[#003470]"
         >
           <h1 className="text-white font-montserrat font-semibold text-4xl flex justify-center p-3 mt-28 z-10">
             MAPAS
@@ -182,14 +181,14 @@ const Home = () => {
         </div>
 
         {/* MAPAS*/}
-        <div className="mapas-cartaz mt-20 flex items-center justify-center z-10 text-center text-white">
+        <div className="mapas-cartaz mt-20 flex flex-col md:flex-row items-center justify-center z-10 text-center text-white">
           {/*ESCOLAS MUNICIPAIS */}
           <a
             href="https://example.com/mapescola"
-            className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-2 border-[#FFC719]"
+            className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto"
           >
             <div
-              className="relative h-[24rem] bg-cover bg-center"
+              className="relative h-[16rem] md:h-[24rem] bg-cover bg-center"
               style={{ backgroundImage: "url('/images/escolas.jpg')" }}
             >
               {/* Sobreposição de cor */}
@@ -197,7 +196,7 @@ const Home = () => {
 
               {/* Sobreposição de texto e ícone */}
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
-                <FaSchool className="text-7xl text-white mb-2" />
+                <FaSchool className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
                   MAPA DAS ESCOLAS MUNICIPAIS
                 </h3>
@@ -213,10 +212,10 @@ const Home = () => {
           {/*UNIDADES DE SAUDE POR REGIONAIS */}
           <a
             href="https://example.com/mapescola"
-            className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-2 border-[#FFC719]"
+            className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto"
           >
             <div
-              className="relative h-[24rem] bg-cover bg-center"
+              className="relative h-[16rem] md:h-[24rem] bg-cover bg-center"
               style={{ backgroundImage: "url('/images/hospitais.jpg')" }}
             >
               {/* Sobreposição de cor */}
@@ -224,7 +223,7 @@ const Home = () => {
 
               {/* Sobreposição de texto e ícone */}
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
-                <FaHospital className="text-7xl text-white mb-2" />
+                <FaHospital className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
                   MAPA DAS UNIDADES DE SAUDE <br />
                   POR REGIONAIS
@@ -242,10 +241,10 @@ const Home = () => {
           {/* BARES E RESTAURANTES */}
           <a
             href="https://example.com/mapescola"
-            className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-2 border-[#FFC719]"
+            className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto"
           >
             <div
-              className="relative h-[24rem] bg-cover bg-center"
+              className="relative h-[16rem] md:h-[24rem] bg-cover bg-center"
               style={{ backgroundImage: "url('/images/vinho.jpg')" }}
             >
               {/* Sobreposição de cor */}
@@ -253,7 +252,7 @@ const Home = () => {
 
               {/* Sobreposição de texto e ícone */}
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
-                <GiKnifeFork className="text-7xl text-white mb-2" />
+                <GiKnifeFork className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
                   MAPA DOS BARES E <br /> RESTAURANTES
                 </h3>
@@ -269,10 +268,10 @@ const Home = () => {
           {/*MERCADOS PUBLICOS */}
           <a
             href="https://example.com/mapescola"
-            className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-2 border-[#FFC719]"
+            className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto"
           >
             <div
-              className="relative h-[24rem] bg-cover bg-center"
+              className="relative h-[16rem] md:h-[24rem] bg-cover bg-center"
               style={{ backgroundImage: "url('/images/mercados.jpeg')" }}
             >
               {/* Sobreposição de cor */}
@@ -280,7 +279,7 @@ const Home = () => {
 
               {/* Sobreposição de texto e ícone */}
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
-                <FaStore className="text-7xl text-white mb-2" />
+                <FaStore className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
                   MAPA DOS MERCADOS <br /> PÚBLICOS
                 </h3>
@@ -296,10 +295,10 @@ const Home = () => {
           {/*  UNIDADES DO CRAS */}
           <a
             href="https://example.com/mapescola"
-            className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-2 border-[#FFC719]"
+            className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group w-full md:w-auto"
           >
             <div
-              className="relative h-[24rem] bg-cover bg-center"
+              className="relative h-[16rem] md:h-[24rem] bg-cover bg-center"
               style={{ backgroundImage: "url('/images/cras.png')" }}
             >
               {/* Sobreposição de cor */}
@@ -307,7 +306,7 @@ const Home = () => {
 
               {/* Sobreposição de texto e ícone */}
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
-                <FaHouseUser className="text-7xl text-white mb-2" />
+                <FaHouseUser className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
                   MAPA DAS UNIDADES DO <br /> CRAS E CREAS MUNICIPAIS
                 </h3>
@@ -316,7 +315,7 @@ const Home = () => {
 
             {/* Sobreposição com gradiente e texto no hover */}
             <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(circle_at_center,#009EE2,#003476)] text-white leading-none text-lg font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-              MAPA DOS BARES E <br /> RESTAURANTES
+              MAPA DAS UNIDADES DO <br /> CRAS E CREAS MUNICIPAIS
             </div>
           </a>
         </div>
