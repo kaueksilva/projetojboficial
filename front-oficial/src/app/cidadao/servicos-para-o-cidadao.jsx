@@ -37,7 +37,7 @@ const Cidadao = () => {
             <div className="relative h-full w-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaInfoCircle className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   PORTAL DA TRANSPARÊNCIA
                 </h3>
               </div>
@@ -58,7 +58,7 @@ const Cidadao = () => {
             <div className="relative h-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaUsers className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   PORTAL DO CONTRIBUINTE
                 </h3>
               </div>
@@ -78,7 +78,7 @@ const Cidadao = () => {
             <div className="relative h-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <IoDocumentTextOutline className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   CRÉDITO NFS-E
                 </h3>
               </div>
@@ -98,7 +98,7 @@ const Cidadao = () => {
             <div className="relative h-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaPassport className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   EMISSÃO CTPS
                 </h3>
               </div>
@@ -119,7 +119,7 @@ const Cidadao = () => {
             <div className="relative h-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaUserGraduate className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   PROGRAMA JABOATÃO APRENDIZ
                 </h3>
               </div>
@@ -142,7 +142,7 @@ const Cidadao = () => {
             <div className="relative h-full w-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaNewspaper className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   DIÁRIO OFICIAL
                 </h3>
               </div>
@@ -162,7 +162,7 @@ const Cidadao = () => {
             <div className="relative h-full w-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaDigitalTachograph className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold text-center leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   AGENDAMENTO DOS SERVIÇOS <br /> DO INSS
                 </h3>
               </div>
@@ -183,7 +183,7 @@ const Cidadao = () => {
             <div className="relative h-full w-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaPhoneSquareAlt className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   DENÚNCIAS PROCON
                 </h3>
               </div>
@@ -203,7 +203,7 @@ const Cidadao = () => {
             <div className="relative h-full w-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaEye className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   DE OLHO NA CONSULTA
                 </h3>
               </div>
@@ -223,7 +223,7 @@ const Cidadao = () => {
             <div className="relative h-full w-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaHome className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   PAGUE SEUS TRIBUTOS
                 </h3>
               </div>
@@ -245,7 +245,7 @@ const Cidadao = () => {
             <div className="relative h-full w-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaFileMedical className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   RESULTADO DE EXAMES
                 </h3>
               </div>
@@ -264,7 +264,7 @@ const Cidadao = () => {
             <div className="relative h-full w-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaMoneyCheckAlt className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold text-center leading-none mt-2">
+                <h3 className="text-white text-lg font-bold text-center leading-none mt-2 text-center">
                   PESQUISAS DE PREÇO
                 </h3>
               </div>
@@ -324,7 +324,7 @@ const Cidadao = () => {
             <div className="relative h-full w-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaWeixin className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   OUVIDORIA MUNICIPAL
                 </h3>
               </div>
@@ -344,7 +344,7 @@ const Cidadao = () => {
             <div className="relative h-full w-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaWeixin className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   LICENCIAMENTO INTEGRADO
                 </h3>
               </div>
@@ -367,7 +367,7 @@ const Cidadao = () => {
             <div className="relative h-full w-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaPuzzlePiece className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   CIPTEA
                 </h3>
               </div>
@@ -403,7 +403,7 @@ const Cidadao = () => {
             <div className="relative h-full w-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaSearch className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   ACESSO AO SINDEC
                 </h3>
               </div>
@@ -423,7 +423,7 @@ const Cidadao = () => {
             <div className="relative h-full w-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaViruses className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold leading-none mt-2">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   JABOATÃO EM AÇÃO
                 </h3>
               </div>
