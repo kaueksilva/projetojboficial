@@ -25,8 +25,6 @@ const Cidadao = () => {
     <div className="w-full flex ">
       {/* TODOS OS BOTOES */}
       <div className="flex flex-col gap-2 pt-1 pb-8 w-full ml-8 mr-8">
-
-
         {/* 1ª Fileira de botões */}
         <div className="flex gap-2 h-36">
           {/* PORTAL DA TRANSPARÊNCIA */}
@@ -264,7 +262,7 @@ const Cidadao = () => {
             <div className="relative h-full w-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
                 <FaMoneyCheckAlt className="text-4xl text-white" />
-                <h3 className="text-white text-lg font-bold text-center leading-none mt-2 text-center">
+                <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                   PESQUISAS DE PREÇO
                 </h3>
               </div>
