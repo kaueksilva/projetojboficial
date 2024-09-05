@@ -160,7 +160,6 @@ const Home = () => {
         <div className="relative w-full">
           <svg
             width="100%"
-            height="96"
             viewBox="0 0 2000 96"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

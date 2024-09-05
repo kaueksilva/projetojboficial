@@ -5,7 +5,7 @@ import "./style/footer.css"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Projeto Jaboatão dos Guararapes",
+  title: "Jaboatão dos Guararapes",
   description: "Desenvolvido por Kauê Nascimento e Larissa Machado",
 };
 
