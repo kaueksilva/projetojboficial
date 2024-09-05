@@ -117,8 +117,11 @@ const Menu = () => {
           {/* Navbar */}
           <div className="menus">
             <div className="navbar fixed top-[38px] w-full z-40 bg-[#ffffffda] flex justify-between items-center p-[13px] pl-[20px] pr-[10px]">
-              <a onClick={() => (window.location.href = "/")}
-              href="#" className="logo pl-7">
+              <a
+                onClick={() => (window.location.href = "/")}
+                href="#"
+                className="logo pl-7"
+              >
                 <Image
                   src="/images/logo.png"
                   alt="Logo do Menu"
@@ -340,7 +343,11 @@ const Menu = () => {
                   )}
                 </li>
                 <li className="mb-6">
-                  <a href="#" onClick={() => toggleDropdown("cidade")} className="flex items-center justify-center">
+                  <a
+                    href="#"
+                    onClick={() => toggleDropdown("cidade")}
+                    className="flex items-center justify-center"
+                  >
                     A CIDADE
                     <FaPlus className="ml-2 text-[14px] text-white" />
                   </a>
@@ -365,7 +372,11 @@ const Menu = () => {
                   )}
                 </li>
                 <li className="mb-6">
-                  <a href="#" onClick={() => toggleDropdown("secretarias")} className="flex items-center justify-center">
+                  <a
+                    href="#"
+                    onClick={() => toggleDropdown("secretarias")}
+                    className="flex items-center justify-center"
+                  >
                     SECRETARIAS
                     <FaPlus className="ml-2 text-[14px] text-white" />
                   </a>
@@ -390,7 +401,11 @@ const Menu = () => {
                   )}
                 </li>
                 <li className="mb-6">
-                  <a href="#" onClick={() => toggleDropdown("orgaos")} className="flex items-center justify-center">
+                  <a
+                    href="#"
+                    onClick={() => toggleDropdown("orgaos")}
+                    className="flex items-center justify-center"
+                  >
                     ÓRGÃOS
                     <FaPlus className="ml-2 text-[14px] text-white" />
                   </a>
@@ -415,7 +430,11 @@ const Menu = () => {
                   )}
                 </li>
                 <li className="mb-6">
-                  <a href="#" onClick={() => toggleDropdown("servicos")} className="flex items-center justify-center">
+                  <a
+                    href="#"
+                    onClick={() => toggleDropdown("servicos")}
+                    className="flex items-center justify-center"
+                  >
                     SERVIÇOS
                     <FaPlus className="ml-2 text-[14px] text-white" />
                   </a>
