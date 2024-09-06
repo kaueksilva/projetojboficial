@@ -19,12 +19,15 @@ import {
 } from "react-icons/fa";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { FaUserGraduate } from "react-icons/fa6";
-
 const Cidadao = () => {
   return (
     <div className="w-full flex ">
+
+
       {/* TODOS OS BOTOES */}
       <div className="flex flex-col gap-2 pt-1 pb-8 w-full ml-8 mr-8">
+
+
         {/* 1ª Fileira de botões */}
         <div className="flex gap-2 h-36">
           {/* PORTAL DA TRANSPARÊNCIA */}
@@ -130,6 +133,7 @@ const Cidadao = () => {
           </a>
         </div>
 
+
         {/* 2ª Fileira de botões */}
         <div className="flex gap-2 h-36">
           {/* DIÁRIO OFICIAL */}
@@ -232,6 +236,7 @@ const Cidadao = () => {
             </div>
           </a>
         </div>
+
 
         {/* 3ª Fileira de botões */}
         <div className="flex gap-2 h-36">
@@ -355,6 +360,7 @@ const Cidadao = () => {
           </a>
         </div>
 
+
         {/* 4ª Fileira de botões */}
         <div className="flex gap-2 h-36">
           {/* CIPTEA */}
@@ -433,6 +439,8 @@ const Cidadao = () => {
             </div>
           </a>
         </div>
+
+
       </div>
     </div>
   );
