@@ -1,19 +1,16 @@
-import Menu from "../components/Menu";
 import Empresa from "./empresa";
-import Footer from "../components/Footer";
 import Model from "../0modelo-pagina/model-page";
 
 export default function config() {
-return (
-    <div>
-    <Menu />
-
-    <Model />
-
-    <Empresa />
-
-    <Footer/>
+  return (
+    <div >
+      <Model
+        caminhoImagem={"/images/empresa.jpg"}
+        titulo={"SERVIÇOS PARA A EMPRESA"}
+        subtitulo={"HOME » SERVIÇOS PARA A EMPRESA"}
+      >
+        <Empresa />
+      </Model>
     </div>
-);
+  );
 }
-

@@ -6,7 +6,7 @@ export default function config() {
     <div>
       <Model
         caminhoImagem={"/images/servicos-cidadao.jpg"}
-        title={"SERVIÇOS PARA O CIDADÃO"}
+        titulo={"SERVIÇOS PARA O CIDADÃO"}
         subtitulo={"HOME » SERVIÇOS PARA O CIDADÃO"}
       >
         <Cidadao />
