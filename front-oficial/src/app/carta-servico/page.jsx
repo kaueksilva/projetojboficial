@@ -1,17 +1,19 @@
-import Menu from "../components/Menu";
 import Cartaservico from "./carta-servicos";
-import Footer from "../components/Footer";
+import Model from "../0modelo-pagina/model-page";
 
- 
 export default function config() {
 return (
-    <div>
-    <Menu />
-
-    <Cartaservico />
-
-    <Footer/>
+    <div >
+    <Model
+        caminhoImagem={"/images/cartaservicos.jpg"}
+        titulo={"Carta de Serviços"}
+        subtitulo={"HOME » SCarta de Serviços"}
+    >
+        <Cartaservico />
+    </Model>
     </div>
 );
 }
+
+
 
