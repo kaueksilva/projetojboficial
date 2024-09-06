@@ -1,15 +1,4 @@
-const PPP = () => {
-    return (
-        <div
-        className="w-full flex"
-        style={{
-            background: "radial-gradient(circle, #003476, #6EC1E4)",
-            }} >
-
-            <div className="flex-1 flex-col mx-80">
-
-        <div className="flex flex-col bg-white mt-36 pb-20 pt-14 pl-20 pr-20 rounded-tl-[100px] rounded-br-[100px]">
-        <p>
+<p>
             O MUNICÍPIO DO JABOATÃO DOS GUARARAPES, por intermédio da SECRETARIA
             DE SAÚDE, comunica a ABERTURA DE CONSULTA PÚBLICA e a REALIZAÇÃO DE
             AUDIÊNCIA PÚBLICA referentes às minutas de edital e contratação de
@@ -50,24 +39,3 @@ const PPP = () => {
             mediante agendamento a ser solicitado até o dia 05/01/2024, por meio
             do endereço eletrônico: pppsaude@jaboatao.pe.gov.br.
         </p>
-        <img
-        src= {"/images/usf-ppp.png"}
-        className="mt-8 w-auto h-auto mx-20 rounded-tl-[100px] rounded-br-[100px]"
-        />
-        </div>
-
-        <div className="flex flex-col">
-
-            <h2 className="text-3xl font-bold text-center text-[#FAC41B]">
-            EDITAL DE CONCORRÊNCIA PÚBLICA INTERNACIONAL N.º [●]/20[●] 
-            </h2>
-        </div>
-
-            </div>
-
-
-        </div>
-);
-};
-
-export default PPP;

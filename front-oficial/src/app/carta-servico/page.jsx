@@ -7,7 +7,7 @@ return (
     <Model
         caminhoImagem={"/images/cartaservicos.jpg"}
         titulo={"Carta de Serviços"}
-        subtitulo={"HOME » SCarta de Serviços"}
+        subtitulo={"HOME » Carta de Serviços"}
     >
         <Cartaservico />
     </Model>
