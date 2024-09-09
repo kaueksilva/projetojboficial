@@ -1,4 +1,5 @@
 import '../style/globals.css'
+import { FaPlus } from "react-icons/fa6";
 
 const PPP = () => {
     return (
@@ -11,7 +12,7 @@ const PPP = () => {
             <div className="flex-1 flex-col mx-80">
 
         <div className="flex flex-col bg-white mt-36 pb-20 pt-14 pl-20 pr-20 rounded-tl-[100px] rounded-br-[100px]">
-        <p>
+        <p className='montserrat-medium'>
             O MUNICÍPIO DO JABOATÃO DOS GUARARAPES, por intermédio da SECRETARIA
             DE SAÚDE, comunica a ABERTURA DE CONSULTA PÚBLICA e a REALIZAÇÃO DE
             AUDIÊNCIA PÚBLICA referentes às minutas de edital e contratação de
@@ -29,8 +30,8 @@ const PPP = () => {
             <br/> 
             A AUDIÊNCIA PÚBLICA será realizada em ambiente virtual, através de
             VIDEOCONFERÊNCIA, com transmissão ao vivo, no dia 20/12/2023, das 9h
-            às 11h. Os interessados em participar deverão acessar o link GOOGLE
-            MEETS. Na ocasião, serão apresentados os principais aspectos que
+            às 11h. Os interessados em participar deverão acessar o link <b>GOOGLE
+            MEETS</b>. Na ocasião, serão apresentados os principais aspectos que
             compõem o projeto e, respeitadas as limitações de tempo e ordem de
             inscrições, coletadas as contribuições e dúvidas dos participantes.<br/> 
             <br/> 
@@ -59,12 +60,17 @@ const PPP = () => {
         </div>
 
         <div className="flex flex-col mt-24 mb-4">
-
             <h2 className="barlow-condensed-bold text-4xl font-bold text-center text-[#FAC41B] drop-shadow-[0_4px_6px_rgba(0,0,0,0.9)]">
             EDITAL DE CONCORRÊNCIA PÚBLICA INTERNACIONAL N.º [●]/20[●] 
             </h2>
 
-                
+        </div>
+
+        <div className="flex flex-col mb-4">
+            <button className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'> 
+                <h3>EDITAL</h3>
+                <FaPlus className='mr-6'/>
+            </button>
 
         </div>
 

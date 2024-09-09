@@ -4,34 +4,67 @@
 
 
 @font-face {
-    font-family: 'Barlow Condensed Bold';
+    font-family: 'Barlow-Condensed-Bold';
     src: url('/fontes/BarlowCondensed-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Montserrat SemiBold';
+    font-family: 'Open-Sans-Hebrew-Condensed';
+    src: url('/fontes/OpenSans-HebrewCondensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('/fontes/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
     src: url('/fontes/Montserrat-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Open Sans Hebrew Condensed';
-    src: url('/fontes/OpenSans-HebrewCondensed.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'montserrat-medium';
+    src: url('/fontes/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-light';
+    src: url('/fontes/montserrat-light.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
 }
 
 .barlow-condensed-bold {
-    font-family: 'Barlow Condensed Bold', sans-serif;
-}
-
-.Montserrat-SemiBold{
-    font-family: 'Montserrat SemiBold', sans-serif;
+    font-family: 'Barlow-Condensed-Bold', sans-serif;
 }
 
 .open-sans-hebrew-condensed {
-    font-family: 'Open Sans Hebrew Condensed', sans-serif;
+    font-family: 'Open-Sans-Hebrew-Condensed', sans-serif;
+}
+
+.montserrat-bold{
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.Montserrat-SemiBold{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+}
+
+.montserrat-medium {
+    font-family: 'montserrat-medium', sans-serif;
+}
+
+.montserrat-light {
+    font-family: 'montserrat-light', sans-serif;
 }
