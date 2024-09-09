@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { FaSchool, FaHospital, FaHouseUser } from "react-icons/fa";
 import { FaStore, FaMapLocationDot } from "react-icons/fa6";
 import { GiKnifeFork } from "react-icons/gi";
-import '../style/globals.css'
+import "../style/globals.css";
 
 const handleScrollToMapas = (event) => {
   event.preventDefault();
@@ -182,12 +182,13 @@ const Home = () => {
         </div>
 
         {/* MAPAS*/}
-        <div className="mapas-cartaz mt-20 flex flex-col md:flex-row items-center justify-center z-10 text-center text-white">
+        <div
+          className="mapas-cartaz mt-20 flex flex-col md:flex-row items-center justify-center z-10 text-center text-white cursor-pointer"
+        >
           {/*ESCOLAS MUNICIPAIS */}
-          <a
-            href="https://example.com/mapescola"
-            className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto"
-          >
+          <a 
+          onClick={() => (window.location.href = "../mapaescolas")}
+          className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto">
             <div
               className="relative h-[16rem] md:h-[24rem] bg-cover bg-center"
               style={{ backgroundImage: "url('/images/escolas.jpg')" }}
@@ -212,7 +213,7 @@ const Home = () => {
 
           {/*UNIDADES DE SAUDE POR REGIONAIS */}
           <a
-            href="https://example.com/mapescola"
+            onClick={() => (window.location.href = "../mapaunidadessaude")}
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto"
           >
             <div
@@ -241,7 +242,7 @@ const Home = () => {
 
           {/* BARES E RESTAURANTES */}
           <a
-            href="https://example.com/mapescola"
+            onClick={() => (window.location.href = "../maparestaurantes")}
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto"
           >
             <div
@@ -268,7 +269,7 @@ const Home = () => {
 
           {/*MERCADOS PUBLICOS */}
           <a
-            href="https://example.com/mapescola"
+            onClick={() => (window.location.href = "../mapamercados")}
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto"
           >
             <div
@@ -295,7 +296,7 @@ const Home = () => {
 
           {/*  UNIDADES DO CRAS */}
           <a
-            href="https://example.com/mapescola"
+            onClick={() => (window.location.href = "../mapacrascreas")}
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group w-full md:w-auto"
           >
             <div
