@@ -19,11 +19,13 @@ const PPP = () => {
             background: "radial-gradient(circle, #003476, #6EC1E4)",
             }} >
 
+
             {/* Começo da div pai */}
-        <div className="flex-1 flex-col mx-80">
+            <div className="flex-1 flex-col mx-80">
+
             {/* texto e imagem */}
-            <div className="flex flex-col bg-white mt-36 pb-20 pt-14 pl-20 pr-20 rounded-tl-[100px] rounded-br-[100px]">
-                <p className='montserrat-regular'>
+                <div className="flex flex-col bg-white mt-36 pb-20 pt-14 pl-20 pr-20 rounded-tl-[100px] rounded-br-[100px]">
+                    <p className='montserrat-regular'>
                     O MUNICÍPIO DO JABOATÃO DOS GUARARAPES, por intermédio da SECRETARIA
                     DE SAÚDE, comunica a ABERTURA DE CONSULTA PÚBLICA e a REALIZAÇÃO DE
                     AUDIÊNCIA PÚBLICA referentes às minutas de edital e contratação de
@@ -63,127 +65,155 @@ const PPP = () => {
                     hora, a serem realizadas entre os dias 08/01/2024 a 19/01/2024,
                     mediante agendamento a ser solicitado até o dia 05/01/2024, por meio
                     do endereço eletrônico: pppsaude@jaboatao.pe.gov.br.
-                </p>
+                    </p>
                     <img
                     src= {"/images/usf-ppp.png"}
                     className="mt-8 w-auto h-auto mx-20 rounded-tl-[100px] rounded-br-[100px]"
                     />
             </div>
-                
-                {/* Titulo */}
+
+                {/* Titulo 1 */}
             <div className="flex flex-col mt-24 mb-4">
                 <h2 className="barlow-condensed-bold text-4xl font-bold text-center text-[#FAC41B] drop-shadow-[0_4px_6px_rgba(0,0,0,0.9)]">
                 EDITAL DE CONCORRÊNCIA PÚBLICA INTERNACIONAL N.º [●]/20[●] 
                 </h2>
             </div>
-
-
-
+                
                 {/* Acordeão */}
-        <div className="flex flex-col">
+            <div className="flex flex-col">
+                {/* 1.EDITAL */}
+                <div className="flex flex-col mb-4">
+                    <button 
+                        onClick={() => toggleAccordion('1')} 
+                        className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
+                    >
+                    <h3>EDITAL</h3>
+                    {openAccordion === '1' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
+                    </button>
+                {/* Abre o acordeão */}
+                {openAccordion === '1' && (
+                <div className="pl-6 bg-white p-5 rounded-lg overflow-hidden transition-[max-height] duration-500">
+                    <a 
+                    href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/EDITAL.pdf" 
+                    className="montserrat-regular no-underline hover:underline"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    >
+                    FAÇA DOWNLOAD DO EDITAL
+                    </a>
+                </div>
+                )}
+                </div>
 
-            {/* 1.EDITAL */}
-            <div className="flex flex-col mb-4">
-                <button 
-                    onClick={() => toggleAccordion('1')} 
+                {/* 2. ANEXO 04.1 - APÊNDICE 1 - PROGRAMA DE NECESSIDADES */}
+                <div className="flex flex-col mb-4">
+                    <button 
+                    onClick={() => toggleAccordion('2')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
-                >
-                <h3>EDITAL</h3>
-                {openAccordion === '1' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
-                </button>
-            {/* Abre o acordeão */}
-            {openAccordion === '1' && (
-            <div className="mt-4 pl-6 bg-white p-5 rounded-lg -mt-1">
-                <a 
-                href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/EDITAL.pdf" 
-                className="montserrat-regular no-underline hover:underline"
-                target="_blank" 
-                rel="noopener noreferrer"
-                >
-                FAÇA DOWNLOAD DO EDITAL
-                </a>
-            </div>
-            )}
+                    >
+                        <h3>ANEXO 04.1 - APÊNDICE 1 - PROGRAMA DE NECESSIDADES</h3>
+                        {openAccordion === '2' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
+                    </button>
+
+                {/* Abre o acordeão */}
+                {openAccordion === '2' && (
+                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    <a 
+                    href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-04.1-APENDICE-1-PROGRAMA-DE-NECESSIDADES.pdf" 
+                    className="montserrat-regular no-underline hover:underline"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    >
+                    ANEXO 04.1 - APÊNDICE 1 - PROGRAMA DE NECESSIDADES
+                    </a>
+                </div>
+                )}
+                </div>
+
+                {/* 3.ANEXO 04.1 - APÊNDICE 3 - MEMORIAL DESCRITIVO  */}
+                <div className="flex flex-col mb-4">
+                    <button 
+                    onClick={() => toggleAccordion('3')} 
+                    className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
+                    >
+                        <h3>ANEXO 04.1 - APÊNDICE 3 - MEMORIAL DESCRITIVO</h3>
+                        {openAccordion === '3' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
+                    </button>
+                {/* Abre o acordeão */}
+                {openAccordion === '3' && (
+                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    <a 
+                    href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-04.1-APENDICE-3-MEMORIAL-DESCRITIVO.xlsx" 
+                    className="montserrat-regular no-underline hover:underline"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    >
+                    ANEXO 04.1 - APÊNDICE 3 - MEMORIAL DESCRITIVO
+                    </a>
+                </div>
+                )}
+                </div>
+
+                {/* 4.ANEXO 04.1 - DIRETRIZES MÍNIMAS DE PROJETOS E OBRAS */}
+                <div className="flex flex-col mb-4">
+                    <button 
+                    onClick={() => toggleAccordion('4')} 
+                    className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
+                    >
+                        <h3>ANEXO 04.1 - DIRETRIZES MÍNIMAS DE PROJETOS E OBRASO</h3>
+                        {openAccordion === '4' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
+                    </button>
+                {/* Abre o acordeão */}
+                {openAccordion === '4' && (
+                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    <a 
+                    href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-04.1-DIRETRIZES-MINIMAS-DE-PROJETOS-E-OBRAS.pdf" 
+                    className="montserrat-regular no-underline hover:underline"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    >
+                    ANEXO 04.1 - DIRETRIZES MÍNIMAS DE PROJETOS E OBRAS
+                    </a>
+                </div>
+                )}
+                </div>
+
+
             </div>
 
-            {/* 2. ANEXO 04.1 - APÊNDICE 1 - PROGRAMA DE NECESSIDADES */}
+            {/* Titulo2 - ANEXO 04.1 - APÊNDICE 2 - PROJETOS BÁSICOS REFERENCIAIS */}
+            <div className="flex flex-col mt-24 mb-4">
+                <h2 className="barlow-condensed-bold text-4xl font-bold text-center text-[#FAC41B] drop-shadow-[0_4px_6px_rgba(0,0,0,0.6)]">
+                ANEXO 04.1 - APÊNDICE 2 - PROJETOS BÁSICOS REFERENCIAIS 
+                </h2>
+            </div>
+
+
+            {/* BOTAO DE REGULAMENTO DA AUDIÊNCIA */}
             <div className="flex flex-col mb-4">
-                <button 
-                onClick={() => toggleAccordion('2')} 
-                className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
-                >
-                    <h3>ANEXO 04.1 - APÊNDICE 1 - PROGRAMA DE NECESSIDADES</h3>
-                    {openAccordion === '2' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
-                </button>
-
-            {/* Abre o acordeão */}
-            {openAccordion === '2' && (
-                <div className="mt-4 pl-6 bg-white p-5 rounded-lg -mt-1">
-                <a 
-                href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-04.1-APENDICE-1-PROGRAMA-DE-NECESSIDADES.pdf" 
-                className="montserrat-regular no-underline hover:underline"
-                target="_blank" 
+            <a
+                href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/REGULAMENTO-DA-AUDIENCIA-PUBLICA-PPP-SAUDE.pdf"
+                target="_blank"
                 rel="noopener noreferrer"
-                >
-                ANEXO 04.1 - APÊNDICE 1 - PROGRAMA DE NECESSIDADES
-                </a>
-            </div>
-            )}
-            </div>
+                className='flex justify-center items-center montserrat-bold text-white text-xl pt-3 pb-3 pl-6 rounded-full border-2 border-white hover:border-[#003476] bg-[#2257AE] hover:bg-white hover:text-[#003476]'
+            >
+                <h3>REGULAMENTO DA AUDIÊNCIA PÚBLICA PPP - SAÚDE</h3>
+            </a>
 
-            {/* 3.ANEXO 04.1 - APÊNDICE 3 - MEMORIAL DESCRITIVO  */}
-            <div className="flex flex-col mb-4">
-                <button 
-                onClick={() => toggleAccordion('3')} 
-                className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
-                >
-                    <h3>ANEXO 04.1 - APÊNDICE 3 - MEMORIAL DESCRITIVO</h3>
-                    {openAccordion === '3' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
-                </button>
-            {/* Abre o acordeão */}
-            {openAccordion === '3' && (
-                <div className="mt-4 pl-6 bg-white p-5 rounded-lg -mt-1">
-                <a 
-                href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-04.1-APENDICE-3-MEMORIAL-DESCRITIVO.xlsx" 
-                className="montserrat-regular no-underline hover:underline"
-                target="_blank" 
-                rel="noopener noreferrer"
-                >
-                ANEXO 04.1 - APÊNDICE 3 - MEMORIAL DESCRITIVO
-                </a>
+            
             </div>
-            )}
+            
+            
+            <div>
+                
             </div>
 
-            {/* 4.ANEXO 04.1 - DIRETRIZES MÍNIMAS DE PROJETOS E OBRAS */}
-            <div className="flex flex-col mb-4">
-                <button 
-                onClick={() => toggleAccordion('4')} 
-                className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
-                >
-                    <h3>ANEXO 04.1 - DIRETRIZES MÍNIMAS DE PROJETOS E OBRASO</h3>
-                    {openAccordion === '4' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
-                </button>
-            {/* Abre o acordeão */}
-            {openAccordion === '4' && (
-                <div className="mt-4 pl-6 bg-white p-5 rounded-lg -mt-1">
-                <a 
-                href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-04.1-DIRETRIZES-MINIMAS-DE-PROJETOS-E-OBRAS.pdf" 
-                className="montserrat-regular no-underline hover:underline"
-                target="_blank" 
-                rel="noopener noreferrer"
-                >
-                ANEXO 04.1 - DIRETRIZES MÍNIMAS DE PROJETOS E OBRAS
-                </a>
+            {/* Titulo3 - data room */}
+            <div className="flex flex-col mt-24 mb-4">
+                <h2 className="barlow-condensed-bold text-4xl font-bold text-center text-[#FAC41B] drop-shadow-[0_4px_6px_rgba(0,0,0,0.3)]">
+                DATA ROOM 
+                </h2>
             </div>
-            )}
-            </div>
-
-
-        </div>
-
-
-
         </div>
         </div>
 );
