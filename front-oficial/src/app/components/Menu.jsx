@@ -2,14 +2,12 @@
 import Image from "next/image";
 import { useState } from "react";
 import { FaPlus } from "react-icons/fa";
+import { FaMinus } from "react-icons/fa";
+import { IoIosArrowForward } from "react-icons/io";
 
 const Menu = () => {
   const [dropdowns, setDropdowns] = useState({
-    institucional: false,
-    cidade: false,
-    secretarias: false,
-    orgaos: false,
-    servicos: false,
+    
   });
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -145,18 +143,18 @@ const Menu = () => {
                 >
                   <a
                     href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                    className="nav-link hover:underline hover:decoration-[#224276] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#c8c8c87c] hover:before:z-[-1]"
                   >
                     INSTITUCIONAL
                   </a>
                   {dropdowns.institucional && (
-                    <ul className="absolute left-0 w-48 bg-[#D4E4FF] text-[#224276] shadow-lg">
-                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                    <ul className="absolute left-0 w-48 mt-3 bg-[#1e73be] text-[#ffffff] text-[12px] shadow-lg">
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                         <a href="#" className="block px-4 py-4">
                           MAPA DA ESTRATÉGIA
                         </a>
                       </li>
-                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200">
                         <a href="#" className="block px-4 py-4">
                           ESTRUTURA ORGANIZACIONAL
                         </a>
@@ -171,25 +169,30 @@ const Menu = () => {
                 >
                   <a
                     href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#c8c8c87c] hover:before:z-[-1]"
                   >
                     A CIDADE
                   </a>
                   {dropdowns.cidade && (
-                    <ul className="absolute left-0 w-48 bg-[#D4E4FF] text-[#224276] shadow-lg">
-                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                    <ul className="absolute left-0 mt-3 w-48 bg-[#1e73be] text-[#ffffff] text-[12px] shadow-lg">
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                         <a href="#" className="block px-4 py-4">
-                          Submenu 1
+                          JABOATÃO DOS GUARARAPES
                         </a>
                       </li>
-                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                         <a href="#" className="block px-4 py-4">
-                          Submenu 2
+                          YAPOATAN
                         </a>
                       </li>
-                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                         <a href="#" className="block px-4 py-4">
-                          Submenu 3
+                          SÍMBOLOS DA CIDADE
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          FERIADOS MUNICIPAIS
                         </a>
                       </li>
                     </ul>
@@ -202,25 +205,122 @@ const Menu = () => {
                 >
                   <a
                     href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#c8c8c87c] hover:before:z-[-1]"
                   >
                     SECRETARIAS
                   </a>
                   {dropdowns.secretarias && (
-                    <ul className="absolute left-0 w-48 bg-[#D4E4FF] text-[#224276] shadow-lg">
-                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                    <ul className="absolute left-0 mt-3 w-48 bg-[#1e73be] text-[#ffffff] text-[12px] shadow-lg">
+                      <li
+                        className="relative hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]"
+                        onMouseEnter={() => toggleDropdown("secretariaASC")}
+                        onMouseLeave={() => toggleDropdown("secretariaASC")}
+                      >
+                        <a
+                          href="#"
+                          className="px-4 py-4 flex items-center justify-between"
+                        >
+                          SECRETARIA DE ASSISTÊNCIA SOCIAL <br /> E CIDADANIA
+                          <IoIosArrowForward className="ml-2 text-[14px] text-white" />
+                        </a>
+
+                        {/* Submenu drop-right */}
+                        {dropdowns.secretariaASC && (
+                          <ul className="absolute top-0 left-full mt-0 w-48 bg-[#1e73be] text-white shadow-lg">
+                            <li className="hover:bg-[#224276] transition duration-200 border-b-[1px] border-[#c8c8c87c]">
+                              <a
+                                href="#"
+                                target="_blank"
+                                className="block px-4 py-4"
+                              >
+                                ENDEREÇOS DOS EQUIPAMENTOS DA SAS
+                              </a>
+                            </li>
+                          </ul>
+                        )}
+                      </li>
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                         <a href="#" className="block px-4 py-4">
-                          Submenu 1
+                          DESENVOLVIMENTO URBANO E MEIO AMBIENTE
                         </a>
                       </li>
-                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                         <a href="#" className="block px-4 py-4">
-                          Submenu 2
+                          CONTROLADORIA
                         </a>
                       </li>
-                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                      <li
+                        className="relative hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]"
+                        onMouseEnter={() =>
+                          toggleDropdown("desenvolvimentoEconomico")
+                        }
+                        onMouseLeave={() =>
+                          toggleDropdown("desenvolvimentoEconomico")
+                        }
+                      >
+                        <a
+                          href="#"
+                          className="px-4 py-4 flex items-center justify-between"
+                        >
+                          DESENVOLVIMENTO ECONÔMICO
+                          <IoIosArrowForward className="ml-2 text-[14px] text-white" />
+                        </a>
+
+                        {/* Submenu drop-right */}
+                        {dropdowns.desenvolvimentoEconomico && (
+                          <ul className="absolute top-0 left-full mt-0 w-48 bg-[#1e73be] text-white shadow-lg">
+                            <li className="hover:bg-[#224276] transition duration-200 border-b-[1px] border-[#c8c8c87c]">
+                              <a
+                                href="https://desenvolvimento.jaboatao.pe.gov.br/"
+                                target="_blank"
+                                className="block px-4 py-4"
+                              >
+                                DESENVOLVIMENTO ECONÔMICO E TURISMO
+                              </a>
+                            </li>
+                            <li className="hover:bg-[#224276] transition duration-200 border-b-[1px] border-[#c8c8c87c]">
+                              <a
+                                href="https://economiacriativa.jaboatao.pe.gov.br"
+                                target="_blank"
+                                className="block px-4 py-4"
+                              >
+                                ECONOMIA CRIATIVA
+                              </a>
+                            </li>
+                            <li className="hover:bg-[#224276] transition duration-200">
+                              <a
+                                href="https://trabalho.jaboatao.pe.gov.br"
+                                target="_blank"
+                                className="block px-4 py-4"
+                              >
+                                TRABALHO
+                              </a>
+                            </li>
+                          </ul>
+                        )}
+                      </li>
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                         <a href="#" className="block px-4 py-4">
-                          Submenu 3
+                          DESENVOLVIMENTO INSTITUCIONAL
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
+                        <a
+                          href="https://educacao.jaboatao.pe.gov.br/"
+                          target="_blank"
+                          className="block px-4 py-4"
+                        >
+                          EDUCAÇÃO
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
+                        <a href="#" className="block px-4 py-4">
+                          MULHER
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200">
+                        <a href="#" className="block px-4 py-4">
+                          SAÚDE
                         </a>
                       </li>
                     </ul>
@@ -233,25 +333,37 @@ const Menu = () => {
                 >
                   <a
                     href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#c8c8c87c] hover:before:z-[-1]"
                   >
                     ÓRGÃOS
                   </a>
                   {dropdowns.orgaos && (
-                    <ul className="absolute left-0 w-48 bg-[#D4E4FF] text-[#224276] shadow-lg">
-                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
-                        <a href="#" className="block px-4 py-4">
-                          Submenu 1
+                    <ul className="absolute left-0 mt-3 w-48 bg-[#1e73be] text-[#ffffff] text-[12px] shadow-lg">
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
+                        <a
+                          href="https://emlume.com.br"
+                          target="_blank"
+                          className="block px-4 py-4"
+                        >
+                          EMLUME
                         </a>
                       </li>
-                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
-                        <a href="#" className="block px-4 py-4">
-                          Submenu 2
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
+                        <a
+                          href="https://jaboataoprev.jaboatao.pe.gov.br/"
+                          target="_blank"
+                          className="block px-4 py-4"
+                        >
+                          JABOATÃOPREV
                         </a>
                       </li>
-                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
-                        <a href="#" className="block px-4 py-4">
-                          Submenu 3
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200">
+                        <a
+                          href="https://procon.jaboatao.pe.gov.br/"
+                          target="_blank"
+                          className="block px-4 py-4"
+                        >
+                          PROCON
                         </a>
                       </li>
                     </ul>
@@ -264,25 +376,58 @@ const Menu = () => {
                 >
                   <a
                     href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#c8c8c87c] hover:before:z-[-1]"
                   >
                     SERVIÇOS
                   </a>
                   {dropdowns.servicos && (
-                    <ul className="absolute left-0 w-48 bg-[#D4E4FF] text-[#224276] shadow-lg">
-                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                    <ul className="absolute left-0 mt-3 w-48 bg-[#1e73be] text-[#ffffff] text-[12px] shadow-lg">
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                         <a href="#" className="block px-4 py-4">
-                          Submenu 1
+                          PPP - SAÚDE
                         </a>
                       </li>
-                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
-                        <a href="#" className="block px-4 py-4">
-                          Submenu 2
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
+                        <a
+                          href="https://ouvidoria.jaboatao.pe.gov.br/perguntas-frequentes/"
+                          target="_blank"
+                          className="block px-4 py-4"
+                        >
+                          PERGUNTAS FREQUENTES
                         </a>
                       </li>
-                      <li className="hover:bg-[#1E73BE] hover:text-white transition duration-200">
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                         <a href="#" className="block px-4 py-4">
-                          Submenu 3
+                          COLETA PÚBLICA DE ORÇAMENTO
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
+                        <a href="#" className="block px-4 py-4">
+                          CARTA DE SERVIÇOS
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
+                        <a href="#" className="block px-4 py-4">
+                          CIDADÃO
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
+                        <a href="#" className="block px-4 py-4">
+                          EMPRESA
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
+                        <a href="#" className="block px-4 py-4">
+                          TURISTA
+                        </a>
+                      </li>
+                      <li className="hover:bg-[#224276] hover:text-white transition duration-200">
+                        <a
+                          href="https://servidor.jaboatao.pe.gov.br/"
+                          target="_blank"
+                          className="block px-4 py-4"
+                        >
+                          SERVIDOR
                         </a>
                       </li>
                     </ul>
@@ -291,7 +436,7 @@ const Menu = () => {
                 <li className="nav-item">
                   <a
                     href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#c8c8c87c] hover:before:z-[-1]"
                   >
                     ACESSIBILIDADE
                   </a>
@@ -299,7 +444,7 @@ const Menu = () => {
                 <li className="nav-item">
                   <a
                     href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#c8c8c87c] hover:before:z-[-1]"
                   >
                     <i className="ri-search-line"></i>
                   </a>
@@ -310,33 +455,41 @@ const Menu = () => {
 
           {/* Fullscreen Menu */}
           {isMenuOpen && (
-            <div className="fixed inset-0 z-50 bg-[#003470dc] text-white flex flex-col items-center justify-center p-8">
+            <div className="fixed inset-0 z-50 bg-[#003470dc] text-white flex flex-col items-center justify-center p-8 lg:hidden">
+              {" "}
+              {/* Adiciona lg:hidden */}
               <div className="icones flex gap-5 mb-10">
                 <i className="ri-twitter-x-line text-white text-[24px]"></i>
                 <i className="ri-facebook-circle-fill text-white text-[24px]"></i>
                 <i className="ri-instagram-line text-white text-[24px]"></i>
                 <i className="ri-youtube-fill text-white text-[24px]"></i>
               </div>
-              <ul className="text-center text-[24px] font-bold">
+              <ul className="text-center text-[20px] font-bold">
                 <li className="mb-6">
                   <a
                     href="#"
                     onClick={() => toggleDropdown("institucional")}
-                    className="flex items-center justify-center"
+                    className={`flex items-center justify-center ${
+                      dropdowns.institucional ? "border-[1px] border-[#ffffff7c]" : ""
+                    }`}
                   >
                     INSTITUCIONAL
-                    <FaPlus className="ml-2 text-[14px] text-white" />
+                    {dropdowns.institucional ? (
+                      <FaMinus className="ml-2 text-[14px] text-white" />
+                    ) : (
+                      <FaPlus className="ml-2 text-[14px] text-white" />
+                    )}
                   </a>
                   {dropdowns.institucional && (
-                    <ul className="mt-2 mb-6 text-[16px] leading-3">
+                    <ul className="mt-2 mb-6 text-[14px] leading-3">
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
-                          - MAPA DA ESTRATÉGIA
+                          MAPA DA ESTRATÉGIA
                         </a>
                       </li>
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
-                          - ESTRUTURA ORGANIZACIONAL
+                          ESTRUTURA ORGANIZACIONAL
                         </a>
                       </li>
                     </ul>
@@ -346,26 +499,37 @@ const Menu = () => {
                   <a
                     href="#"
                     onClick={() => toggleDropdown("cidade")}
-                    className="flex items-center justify-center"
+                    className={`flex items-center justify-center ${
+                      dropdowns.cidade ? "border-[1px] border-[#ffffff7c]" : ""
+                    }`}
                   >
                     A CIDADE
-                    <FaPlus className="ml-2 text-[14px] text-white" />
+                    {dropdowns.cidade ? (
+                      <FaMinus className="ml-2 text-[14px] text-white" />
+                    ) : (
+                      <FaPlus className="ml-2 text-[14px] text-white" />
+                    )}
                   </a>
                   {dropdowns.cidade && (
-                    <ul className="mt-2 mb-6 text-[16px] leading-3">
+                    <ul className="mt-2 mb-6 text-[14px] leading-3">
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
-                          - Submenu 1
+                        JABOATÃO DOS GUARARAPES
                         </a>
                       </li>
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
-                          - Submenu 2
+                        YAPOATAN
                         </a>
                       </li>
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
-                          - Submenu 3
+                        SÍMBOLOS DA CIDADE
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                        FERIADOS MUNICIPAIS
                         </a>
                       </li>
                     </ul>
@@ -375,26 +539,57 @@ const Menu = () => {
                   <a
                     href="#"
                     onClick={() => toggleDropdown("secretarias")}
-                    className="flex items-center justify-center"
+                    className={`flex items-center justify-center ${
+                      dropdowns.secretarias ? "border-[1px] border-[#ffffff7c]" : ""
+                    }`}
                   >
                     SECRETARIAS
-                    <FaPlus className="ml-2 text-[14px] text-white" />
+                    {dropdowns.secretarias ? (
+                      <FaMinus className="ml-2 text-[14px] text-white" />
+                    ) : (
+                      <FaPlus className="ml-2 text-[14px] text-white" />
+                    )}
                   </a>
                   {dropdowns.secretarias && (
-                    <ul className="mt-2 mb-6 text-[16px] leading-3">
+                    <ul className="mt-2 mb-6 text-[14px] leading-3">
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
-                          - Submenu 1
+                        SECRETARIA DE ASSISTÊNCIA SOCIAL <br /> E CIDADANIA
                         </a>
                       </li>
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
-                          - Submenu 2
+                        DESENVOLVIMENTO URBANO E MEIO AMBIENTE
                         </a>
                       </li>
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
-                          - Submenu 3
+                        CONTROLADORIA
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                        DESENVOLVIMENTO ECONÔMICO
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                        DESENVOLVIMENTO INSTITUCIONAL
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                        EDUCAÇÃO
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                        MULHER
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                        SAÚDE
                         </a>
                       </li>
                     </ul>
@@ -404,26 +599,35 @@ const Menu = () => {
                   <a
                     href="#"
                     onClick={() => toggleDropdown("orgaos")}
-                    className="flex items-center justify-center"
+                    className={`flex items-center justify-center ${
+                      dropdowns.orgaos ? "border-[1px] border-[#ffffff7c]" : ""
+                    }`}
                   >
                     ÓRGÃOS
-                    <FaPlus className="ml-2 text-[14px] text-white" />
+                    {dropdowns.orgaos ? (
+                      <FaMinus className="ml-2 text-[14px] text-white" />
+                    ) : (
+                      <FaPlus className="ml-2 text-[14px] text-white" />
+                    )}
                   </a>
                   {dropdowns.orgaos && (
-                    <ul className="mt-2 mb-6 text-[16px] leading-3">
+                    <ul className="mt-2 mb-6 text-[14px] leading-3">
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                          - Submenu 1
+                        <a href="https://emlume.com.br"
+                          target="_blank" onClick={toggleMenu}>
+                          EMLUME
                         </a>
                       </li>
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                          - Submenu 2
+                        <a href="https://jaboataoprev.jaboatao.pe.gov.br/"
+                          target="_blank" onClick={toggleMenu}>
+                        JABOATÃOPREV
                         </a>
                       </li>
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                          - Submenu 3
+                        <a href="https://procon.jaboatao.pe.gov.br/"
+                          target="_blank" onClick={toggleMenu}>
+                        PROCON
                         </a>
                       </li>
                     </ul>
@@ -433,26 +637,57 @@ const Menu = () => {
                   <a
                     href="#"
                     onClick={() => toggleDropdown("servicos")}
-                    className="flex items-center justify-center"
+                    className={`flex items-center justify-center ${
+                      dropdowns.servicos ? "border-[1px] border-[#ffffff7c]" : ""
+                    }`}
                   >
                     SERVIÇOS
-                    <FaPlus className="ml-2 text-[14px] text-white" />
+                    {dropdowns.servicos ? (
+                      <FaMinus className="ml-2 text-[14px] text-white" />
+                    ) : (
+                      <FaPlus className="ml-2 text-[14px] text-white" />
+                    )}
                   </a>
                   {dropdowns.servicos && (
-                    <ul className="mt-2 mb-6 text-[16px] leading-3">
+                    <ul className="mt-2 mb-6 text-[14px] leading-3">
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
-                          - Submenu 1
+                          PPP - SAÚDE
                         </a>
                       </li>
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
-                          - Submenu 2
+                          PERGUNTAS FREQUENTES
                         </a>
                       </li>
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
-                          - Submenu 3
+                          COLETA PÚBLICA DE ORÇAMENTO
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                        CARTA DE SERVIÇOS
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                        CIDADÃO
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                        EMPRESA
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                        TURISTA
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                        SERVIDOR
                         </a>
                       </li>
                     </ul>
