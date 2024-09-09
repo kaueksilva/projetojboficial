@@ -1,3 +1,5 @@
+import '../style/globals.css'
+
 const PPP = () => {
     return (
         <div
@@ -56,11 +58,14 @@ const PPP = () => {
         />
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-24 mb-4">
 
-            <h2 className="text-3xl font-bold text-center text-[#FAC41B]">
+            <h2 className="barlow-condensed-bold text-4xl font-bold text-center text-[#FAC41B] drop-shadow-[0_4px_6px_rgba(0,0,0,0.9)]">
             EDITAL DE CONCORRÊNCIA PÚBLICA INTERNACIONAL N.º [●]/20[●] 
             </h2>
+
+                
+
         </div>
 
             </div>
