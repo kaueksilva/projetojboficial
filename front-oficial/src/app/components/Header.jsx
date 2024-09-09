@@ -2,7 +2,6 @@ import Title from "./Title";
 import SubTitle from "./SubTitle";
 
 const Header = ({ caminhoImagem, titulo, subtitulo }) => {
- 
 
   return (
     <div style={{ height: "260px", width: "100%" }}>

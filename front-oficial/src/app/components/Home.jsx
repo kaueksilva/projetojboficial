@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { FaSchool, FaHospital, FaHouseUser } from "react-icons/fa";
 import { FaStore, FaMapLocationDot } from "react-icons/fa6";
 import { GiKnifeFork } from "react-icons/gi";
+import '../style/globals.css'
 
 const handleScrollToMapas = (event) => {
   event.preventDefault();
@@ -150,7 +151,7 @@ const Home = () => {
           id="mapas"
           className="mapas border-t border-[#FFC719] bg-[#003470]"
         >
-          <h1 className="text-white font-montserrat font-semibold text-4xl flex justify-center p-3 mt-28 z-10">
+          <h1 className="Montserrat-SemiBold text-white font-montserrat font-semibold text-4xl flex justify-center p-3 mt-28 z-10 ">
             MAPAS
           </h1>
         </div>
