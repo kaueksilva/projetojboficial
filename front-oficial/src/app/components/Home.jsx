@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { FaSchool, FaHospital, FaHouseUser } from "react-icons/fa";
 import { FaStore, FaMapLocationDot } from "react-icons/fa6";
 import { GiKnifeFork } from "react-icons/gi";
-import '../style/globals.css'
+import "../style/globals.css";
 
 const handleScrollToMapas = (event) => {
   event.preventDefault();
@@ -91,10 +91,10 @@ const Home = () => {
               </button>
 
               <button
-                onClick={() => (window.location.href = "../servidor")}
                 className="bg-[#003476] text-white py-4 px-8 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
               >
-                SERVIDOR
+                <a href="https://servidor.jaboatao.pe.gov.br/" target="_blank">SERVIDOR</a>
+                
               </button>
 
               <button
@@ -108,12 +108,10 @@ const Home = () => {
             {/* Segunda linha de botões */}
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-6">
               <button
-                onClick={() =>
-                  (window.location.href = "../portal-transparencia")
-                }
                 className="bg-[#003476] text-white py-4 px-8 sm:px-20 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
               >
-                PORTAL DA TRANSPARÊNCIA
+                <a href="https://portaldatransparencia.jaboatao.pe.gov.br/" target="_blank">PORTAL DA TRANSPARÊNCIA</a>
+                
               </button>
 
               <button
@@ -182,12 +180,13 @@ const Home = () => {
         </div>
 
         {/* MAPAS*/}
-        <div className="mapas-cartaz mt-20 flex flex-col md:flex-row items-center justify-center z-10 text-center text-white">
+        <div
+          className="mapas-cartaz mt-20 flex flex-col md:flex-row items-center justify-center z-10 text-center text-white cursor-pointer"
+        >
           {/*ESCOLAS MUNICIPAIS */}
-          <a
-            href="https://example.com/mapescola"
-            className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto"
-          >
+          <a 
+          onClick={() => (window.location.href = "../mapaescolas")}
+          className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto">
             <div
               className="relative h-[16rem] md:h-[24rem] bg-cover bg-center"
               style={{ backgroundImage: "url('/images/escolas.jpg')" }}
@@ -212,7 +211,7 @@ const Home = () => {
 
           {/*UNIDADES DE SAUDE POR REGIONAIS */}
           <a
-            href="https://example.com/mapescola"
+            onClick={() => (window.location.href = "../mapaunidadessaude")}
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto"
           >
             <div
@@ -241,7 +240,7 @@ const Home = () => {
 
           {/* BARES E RESTAURANTES */}
           <a
-            href="https://example.com/mapescola"
+            onClick={() => (window.location.href = "../maparestaurantes")}
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto"
           >
             <div
@@ -268,7 +267,7 @@ const Home = () => {
 
           {/*MERCADOS PUBLICOS */}
           <a
-            href="https://example.com/mapescola"
+            onClick={() => (window.location.href = "../mapamercados")}
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto"
           >
             <div
@@ -295,7 +294,7 @@ const Home = () => {
 
           {/*  UNIDADES DO CRAS */}
           <a
-            href="https://example.com/mapescola"
+            onClick={() => (window.location.href = "../mapacrascreas")}
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group w-full md:w-auto"
           >
             <div
