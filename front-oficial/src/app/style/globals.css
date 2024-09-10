@@ -4,17 +4,26 @@
 
 
 @font-face {
-    font-family: 'Barlow-Condensed-Bold';
+    font-family: 'BarlowCondensed-Bold';
     src: url('/fontes/BarlowCondensed-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
+
+.Barlow-Condensed-Bold {
+    font-family: 'BarlowCondensed-Bold', sans-serif;
+}
+
 
 @font-face {
     font-family: 'Open-Sans-Hebrew-Condensed';
     src: url('/fontes/OpenSans-HebrewCondensed.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+.open-sans-hebrew-condensed {
+    font-family: 'Open-Sans-Hebrew-Condensed', sans-serif;
 }
 
 @font-face {
@@ -24,11 +33,20 @@
     font-style: normal;
 }
 
+.roboto-bold {
+    font-family: 'Roboto-Bold', sans-serif;
+}
+
+
 @font-face {
     font-family: 'Montserrat-SemiBold';
     src: url('/fontes/Montserrat-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
+}
+
+.Montserrat-SemiBold{
+    font-family: 'Montserrat-SemiBold', sans-serif;
 }
 
 @font-face {
@@ -38,6 +56,11 @@
     font-style: normal;
 }
 
+.roboto-medium {
+    font-family: 'Roboto-Medium', sans-serif;
+}
+
+
 @font-face {
     font-family: 'montserrat-regular';
     src: url('/fontes/montserrat-regular.ttf') format('truetype');
@@ -45,26 +68,49 @@
     font-style: normal;
 }
 
-.barlow-condensed-bold {
-    font-family: 'Barlow-Condensed-Bold', sans-serif;
+.montserrat-regular {
+    font-family: 'montserrat-regular', sans-serif;
 }
 
-.open-sans-hebrew-condensed {
-    font-family: 'Open-Sans-Hebrew-Condensed', sans-serif;
-}
 
-.montserrat-bold{
-    font-family: 'Montserrat-Bold', sans-serif;
-}
-
-.Montserrat-SemiBold{
-    font-family: 'Montserrat-SemiBold', sans-serif;
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('/fontes/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
 }
 
 .montserrat-medium {
     font-family: 'montserrat-medium', sans-serif;
 }
 
-.montserrat-regular {
-    font-family: 'montserrat-regular', sans-serif;
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('/fontes/Roboto-Medium.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
 }
+
+.montserrat-bold{
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('/fontes/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: 'Roboto-Black', sans-serif;
+}
+
+
+
+
+
+
+
+
