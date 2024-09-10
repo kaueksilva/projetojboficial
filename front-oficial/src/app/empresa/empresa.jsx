@@ -8,9 +8,10 @@ const Empresa = () => {
 
         {/* 1ª Fileira de botões */}
         <div className="flex -2 h-24 justify-center">
-          {/* PORTAL DA TRANSPARÊNCIA */}
+          {/* PORTAL DO CONTRIBUINTE */}
           <a
-            href="https://example.com/mapescola"
+            href="https://www.tinus.com.br/csp/JABOATAO/portal/index.csp"
+            target="_blank"
             className="flex-1 transition-transform duration-500 group"
           >
             <div className="flex flex-col items-center justify-center">
@@ -23,7 +24,8 @@ const Empresa = () => {
 
           {/* ACESSO AO SINDEC */}
           <a
-            href="https://example.com/mapescola"
+            href="http://www.sindec.pe.gov.br/sindecconsulta2/public/consumidor/acesso"
+            target="_blank"
             className="flex-1 transition-transform duration-500 group"
           >
             <div className="flex flex-col items-center justify-center">
@@ -39,7 +41,8 @@ const Empresa = () => {
 
           {/* PAGUE SEUS TRIBUTOS */}
           <a
-            href="https://example.com/mapescola"
+            href="https://www.tinus.com.br/csp/JABOATAO/portal/index.csp?013BRbO9665ucenl65822KgEX3536ip=thiI20Reu800ZoY88426XYvVh464PlHXw6122B3064267RNfv404&CHATELA=opcoes.csp-WLILEV1=14-WLILEV2=-248jbfo7211DWLlv96379tXwD7604kJ=RsvX08trY698mdu47175KFjsr919FvleI2332c7400927jkRx844"
+            target="_blank"
             className="flex-1 transition-transform duration-500 group"
           >
             <div className="flex flex-col items-center justify-center">
@@ -55,7 +58,8 @@ const Empresa = () => {
         <div className="flex  h-24 justify-center">
           {/* EDITAIS E LICITAÇÕES */}
           <a
-            href="https://example.com/mapescola"
+            href="http://licitacoes.jaboatao.pe.gov.br/"
+            target="_blank"
             className="flex-1 transition-transform duration-500 group"
           >
             <div className="flex flex-col items-center justify-center">
@@ -68,7 +72,8 @@ const Empresa = () => {
 
           {/* DIÁRIO OFICIAL */}
           <a
-            href="https://example.com/mapescola"
+            href="https://diariooficial.jaboatao.pe.gov.br/"
+            target="_blank"
             className="flex-1 transition-transform duration-500 group"
           >
             <div className="flex flex-col items-center justify-center">
@@ -84,7 +89,8 @@ const Empresa = () => {
 
           {/* NOTA FISCAL ELETRÔNICO (NFS-E) */}
           <a
-            href="https://example.com/mapescola"
+            href="https://www.tinus.com.br/csp/JABOATAO/portal/index.csp?013BRbO9665ucenl65822KgEX3536ip=thiI20Reu800ZoY88426XYvVh464PlHXw6122B3064267RNfv404&CHATELA=opcoes.csp-WLILEV1=5-WLILEV2=-316mXky5286qHoiZ32178KMoZ4010Yh=Zach31RQT794tNL00153KxWXY442citfi0175S8361346NZBK128"
+            target="_blank"
             className="flex-1 transition-transform duration-500 group"
           >
             <div className="flex flex-col items-center justify-center">
@@ -101,7 +107,8 @@ const Empresa = () => {
 
           {/* LICENCIAMENTO INTEGRADO */}
           <a
-            href="https://example.com/mapescola"
+            href="https://cidadao-jaboatao.sissofia.com.br/login"
+            target="_blank"
             className="flex-1 transition-transform duration-500 group"
           >
             <div className="flex flex-col items-center justify-center">

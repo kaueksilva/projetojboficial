@@ -17,7 +17,8 @@ return (
         <div className="flex -2 h-24 justify-center">
           {/* TURISMO.JG */}
         <a
-            href="https://example.com/mapescola"
+            href="https://viver.jaboatao.pe.gov.br/turismo/"
+            target="_blank"
             className="flex-1 transition-transform duration-500 group"
         >
             <div className="flex flex-col items-center justify-center">
@@ -30,7 +31,8 @@ return (
 
           {/* CONHEÇA JABOATÃO */}
         <a
-            href="https://example.com/mapescola"
+            href="https://viver.jaboatao.pe.gov.br/turismo/onde-ir/"
+            target="_blank"
             className="flex-1 transition-transform duration-500 group"
         >
             <div div className="flex flex-col items-center justify-center">
@@ -46,7 +48,8 @@ return (
 
           {/* SHOPPINGS */}
         <a
-            href="https://example.com/mapescola"
+            href="https://viver.jaboatao.pe.gov.br/turismo/onde-ir/compras/"
+            target="_blank"
             className="flex-1 transition-transform duration-500 group"
         >
             <div className="flex flex-col items-center justify-center">
@@ -59,7 +62,8 @@ return (
 
           {/* PONTOS TURÍSTICOS */}
         <a
-            href="https://example.com/mapescola"
+            href="https://viver.jaboatao.pe.gov.br/turismo/onde-ir/pontos-turisticos/"
+            target="_blank"
             className="flex-1 transition-transform duration-500 group"
         >
             <div className="flex flex-col items-center justify-center">
@@ -75,7 +79,8 @@ return (
         <div className="flex  h-24 justify-center">
           {/*GASTRONOMIA */}
         <a
-            href="https://example.com/mapescola"
+            href="https://viver.jaboatao.pe.gov.br/turismo/gastronomia/"
+            target="_blank"
             className="flex-1 transition-transform duration-500 group"
         >
             <div className="flex flex-col items-center justify-center">
@@ -88,7 +93,8 @@ return (
 
           {/* ROTEIROS */}
         <a
-            href="https://example.com/mapescola"
+            href="https://viver.jaboatao.pe.gov.br/turismo/onde-ir/roteiros"
+            target="_blank"
             className="flex-1 transition-transform duration-500 group"
         >
             <div className="flex flex-col items-center justify-center">
@@ -104,7 +110,8 @@ return (
 
           {/* HOTELARIA */}
         <a
-            href="https://example.com/mapescola"
+            href="https://viver.jaboatao.pe.gov.br/turismo/hotelaria/"
+            target="_blank"
             className="flex-1 transition-transform duration-500 group"
         >
             <div className="flex flex-col items-center justify-center">

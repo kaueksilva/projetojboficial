@@ -91,10 +91,10 @@ const Home = () => {
               </button>
 
               <button
-                onClick={() => (window.location.href = "../servidor")}
                 className="bg-[#003476] text-white py-4 px-8 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
               >
-                SERVIDOR
+                <a href="https://servidor.jaboatao.pe.gov.br/" target="_blank">SERVIDOR</a>
+                
               </button>
 
               <button
@@ -108,12 +108,10 @@ const Home = () => {
             {/* Segunda linha de botões */}
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-6">
               <button
-                onClick={() =>
-                  (window.location.href = "../portal-transparencia")
-                }
                 className="bg-[#003476] text-white py-4 px-8 sm:px-20 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
               >
-                PORTAL DA TRANSPARÊNCIA
+                <a href="https://portaldatransparencia.jaboatao.pe.gov.br/" target="_blank">PORTAL DA TRANSPARÊNCIA</a>
+                
               </button>
 
               <button
