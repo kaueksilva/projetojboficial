@@ -175,7 +175,7 @@ const tabs = [
                     src= {"/images/usf-ppp.png"}
                     className="mt-8 w-auto h-auto mx-20 rounded-tl-[100px] rounded-br-[100px]"
                     />
-            </div>
+                </div>
 
                 {/* Titulo 1 */}
             <div className="flex flex-col mt-24 mb-4">
@@ -183,33 +183,39 @@ const tabs = [
                 EDITAL DE CONCORRÊNCIA PÚBLICA INTERNACIONAL N.º [●]/20[●] 
                 </h2>
             </div>
-                
+
                 {/* ACORDEÃO */}
             <div className="flex flex-col">
 
+                
+
                 {/* 1.EDITAL */}
-                <div className="flex flex-col mb-4">
-                    <button 
-                        onClick={() => toggleAccordion('1')} 
-                        className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
-                    >
+            <div className="flex flex-col">
+                <button 
+                    onClick={() => toggleAccordion('1')} 
+                    className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
+                >
                     <h3>EDITAL</h3>
                     {openAccordion === '1' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
-                    </button>
+                </button>
+
                 {/* Abre o acordeão */}
-                {openAccordion === '1' && (
-                <div className="pl-6 bg-white p-5 rounded-lg overflow-hidden transition-[max-height] duration-500">
+                <div 
+                    className={`pl-6 bg-white rounded-lg overflow-hidden transition-transform duration-500 ease-in-out origin-top ${openAccordion === '1' ? 'scale-y-100 p-5' : 'scale-y-0 p-0'}`}
+                    style={{ transitionProperty: 'transform, padding' }}
+                >
                     <a 
-                    href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/EDITAL.pdf" 
-                    className="montserrat-regular no-underline hover:underline"
-                    target="_blank" 
-                    rel="noopener noreferrer"
+                        href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/EDITAL.pdf" 
+                        className="montserrat-regular no-underline hover:underline"
+                        target="_blank" 
+                        rel="noopener noreferrer"
                     >
-                    FAÇA DOWNLOAD DO EDITAL
+                        FAÇA DOWNLOAD DO EDITAL
                     </a>
                 </div>
-                )}
-                </div>
+            </div>
+
+
 
                 {/* 2. ANEXO 04.1 - APÊNDICE 1 - PROGRAMA DE NECESSIDADES */}
                 <div className="flex flex-col mb-4">
