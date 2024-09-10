@@ -1,7 +1,0 @@
-TITULOS: montserat semibold 600
-
-CONTEÚDOS:
-
-BOTÕES: roboto medio 500
-
-FOOTER: Open Sans Hebrew Condensed
