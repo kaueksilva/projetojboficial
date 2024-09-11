@@ -60,25 +60,28 @@ const tabs = [
     ) 
     },
     { id: 3, label: "TIPOLOGIA 3A", content:(
-        <ul style={{ listStyleType: "disc" }}>
-        <li>
-            <a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-16-USF-001-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'>
-            <strong>ESTUDO DE IMPLANTAÇÃO - (TIPOLOGIA 2B)</strong>
-            </a>
-        </li>
+        <ul>
+            <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-001-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>IMPLANTAÇÃO COM COBERTURA - (TIPOLOGIA 3A)</strong></a></li>
+            <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-002-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE CIVIL - (TIPOLOGIA 3A)</strong></a></li>
+            <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-003-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE LAYOUT - (TIPOLOGIA 3A)</strong></a></li>
+            <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-004-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE PISO E ACABAMENTOS - (TIPOLOGIA 3A)</strong></a></li>
+            <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-005-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE FORRO / TETO - (TIPOLOGIA 3A)</strong></a></li>
+            <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-006-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE CORTES - (TIPOLOGIA 3A)</strong></a></li>
+            <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-007-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE ELEVAÇÕES - (TIPOLOGIA 3A)</strong></a></li>
         </ul>
     ) 
     },
     { id: 4, label: "TIPOLOGIA 3B", content: ( 
-    <ul style={{ listStyleType: "disc" }}>
-        <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-001-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>IMPLANTAÇÃO COM COBERTURA - (TIPOLOGIA 3A)</strong></a></li>
-        <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-002-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE CIVIL - (TIPOLOGIA 3A)</strong></a></li>
-        <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-003-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE LAYOUT - (TIPOLOGIA 3A)</strong></a></li>
-        <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-004-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE PISO E ACABAMENTOS - (TIPOLOGIA 3A)</strong></a></li>
-        <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-005-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE FORRO / TETO - (TIPOLOGIA 3A)</strong></a></li>
-        <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-006-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE CORTES - (TIPOLOGIA 3A)</strong></a></li>
-        <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-007-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE ELEVAÇÕES - (TIPOLOGIA 3A)</strong></a></li>
-    </ul> ) 
+        <ul>
+            <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-23-USF-001-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>IMPLANTAÇÃO COM COBERTURA - (TIPOLOGIA 3B)</strong></a></li>
+            <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-23-USF-002-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE CIVIL - (TIPOLOGIA 3B)</strong></a></li>
+            <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-23-USF-003-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE LAYOUT - (TIPOLOGIA 3B)</strong></a></li>
+            <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-23-USF-004-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE PISO E ACABAMENTOS - (TIPOLOGIA 3B)</strong></a></li>
+            <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-23-USF-005-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE FORRO / TETO - (TIPOLOGIA 3B)</strong></a></li>
+            <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-23-USF-006-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE CORTES - (TIPOLOGIA 3B)</strong></a></li>
+            <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-23-USF-007-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE ELEVAÇÕES - (TIPOLOGIA 3B)</strong></a></li>
+        </ul>
+    ) 
     },
     { id: 5, label: "TIPOLOGIA 3C", content: (
     <ul style={{ listStyleType: "disc" }}>
@@ -121,12 +124,12 @@ const tabs = [
         <div
         className="w-full flex"
         style={{
-            background: "radial-gradient(circle, #003476, #6EC1E4)",
+            background: "radial-gradient(circle at center, #003476, #6EC1E4)",
             }} >
 
 
             {/* Começo da div pai */}
-            <div className="flex-1 flex-col mx-80 mb-52">
+            <div className="flex-1 flex-col mx-80 mb-56">
 
             {/* texto e imagem */}
                 <div className="flex flex-col bg-white mt-36 pb-20 pt-14 pl-20 pr-20 rounded-tl-[100px] rounded-br-[100px]">
@@ -179,7 +182,7 @@ const tabs = [
 
                 {/* Titulo 1 */}
             <div className="flex flex-col mt-24 mb-4">
-                <h2 className="barlow-condensed-bold text-4xl font-bold text-center text-[#FAC41B] drop-shadow-[0_4px_6px_rgba(0,0,0,0.9)]">
+                <h2 className="Barlow-Condensed-Bold text-4xl font-bold text-center text-[#FAC41B] drop-shadow-[0_4px_6px_rgba(0,0,0,0.6)] ">
                 EDITAL DE CONCORRÊNCIA PÚBLICA INTERNACIONAL N.º [●]/20[●] 
                 </h2>
             </div>
@@ -190,32 +193,30 @@ const tabs = [
                 
 
                 {/* 1.EDITAL */}
-            <div className="flex flex-col">
-                <button 
-                    onClick={() => toggleAccordion('1')} 
-                    className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
-                >
-                    <h3>EDITAL</h3>
-                    {openAccordion === '1' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
-                </button>
-
-                {/* Abre o acordeão */}
-                <div 
-                    className={`pl-6 bg-white rounded-lg overflow-hidden transition-transform duration-500 ease-in-out origin-top ${openAccordion === '1' ? 'scale-y-100 p-5' : 'scale-y-0 p-0'}`}
-                    style={{ transitionProperty: 'transform, padding' }}
-                >
-                    <a 
-                        href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/EDITAL.pdf" 
-                        className="montserrat-regular no-underline hover:underline"
-                        target="_blank" 
-                        rel="noopener noreferrer"
+                <div className="flex flex-col mb-4">
+                    <button 
+                        onClick={() => toggleAccordion('1')} 
+                        className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        FAÇA DOWNLOAD DO EDITAL
-                    </a>
+                        <h3>EDITAL</h3>
+                        {openAccordion === '1' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
+                    </button>
+
+                    {/* Abre o acordeão */}
+                    <div 
+                        className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '1' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                        style={{ transitionProperty: 'max-height, padding' }}
+                    >
+                        <a 
+                            href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/EDITAL.pdf" 
+                            className="montserrat-regular no-underline hover:underline"
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            FAÇA DOWNLOAD DO EDITAL
+                        </a>
+                    </div>
                 </div>
-            </div>
-
-
 
                 {/* 2. ANEXO 04.1 - APÊNDICE 1 - PROGRAMA DE NECESSIDADES */}
                 <div className="flex flex-col mb-4">
@@ -228,8 +229,10 @@ const tabs = [
                     </button>
 
                 {/* Abre o acordeão */}
-                {openAccordion === '2' && (
-                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    <div 
+                        className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '2' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                        style={{ transitionProperty: 'max-height, padding' }}
+                    >
                     <a 
                     href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-04.1-APENDICE-1-PROGRAMA-DE-NECESSIDADES.pdf" 
                     className="montserrat-regular no-underline hover:underline"
@@ -239,7 +242,7 @@ const tabs = [
                     ANEXO 04.1 - APÊNDICE 1 - PROGRAMA DE NECESSIDADES
                     </a>
                 </div>
-                )}
+                
                 </div>
 
                 {/* 3.ANEXO 04.1 - APÊNDICE 3 - MEMORIAL DESCRITIVO  */}
@@ -252,8 +255,10 @@ const tabs = [
                         {openAccordion === '3' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
-                {openAccordion === '3' && (
-                    <div className="pl-6 bg-white p-5 rounded-lg">
+                <div 
+                    className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '3' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                    style={{ transitionProperty: 'max-height, padding' }}
+                    >
                     <a 
                     href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-04.1-APENDICE-3-MEMORIAL-DESCRITIVO.xlsx" 
                     className="montserrat-regular no-underline hover:underline"
@@ -263,7 +268,7 @@ const tabs = [
                     ANEXO 04.1 - APÊNDICE 3 - MEMORIAL DESCRITIVO
                     </a>
                 </div>
-                )}
+                
                 </div>
 
                 {/* 4.ANEXO 04.1 - DIRETRIZES MÍNIMAS DE PROJETOS E OBRAS */}
@@ -275,9 +280,11 @@ const tabs = [
                         <h3>ANEXO 04.1 - DIRETRIZES MÍNIMAS DE PROJETOS E OBRASO</h3>
                         {openAccordion === '4' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
-                {/* Abre o acordeão */}
-                {openAccordion === '4' && (
-                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    {/* Abre o acordeão */}
+                    <div 
+                        className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '4' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                        style={{ transitionProperty: 'max-height, padding' }}
+                    >
                     <a 
                     href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-04.1-DIRETRIZES-MINIMAS-DE-PROJETOS-E-OBRAS.pdf" 
                     className="montserrat-regular no-underline hover:underline"
@@ -287,7 +294,7 @@ const tabs = [
                     ANEXO 04.1 - DIRETRIZES MÍNIMAS DE PROJETOS E OBRAS
                     </a>
                 </div>
-                )}
+                
                 </div>
 
                 {/* 5.ANEXO 04.2 - APÊNDICE 1 - MOBILIÁRIOS */}
@@ -300,8 +307,10 @@ const tabs = [
                         {openAccordion === '5' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
-                {openAccordion === '5' && (
-                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    <div 
+                        className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '5' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                        style={{ transitionProperty: 'max-height, padding' }}
+                    >
                     <a 
                     href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-04.2-APENDICE-1-MOBILIARIOS.xlsx" 
                     className="montserrat-regular no-underline hover:underline"
@@ -311,7 +320,6 @@ const tabs = [
                     ANEXO 04.2 - APÊNDICE 1 - MOBILIÁRIOS
                     </a>
                 </div>
-                )}
                 </div>
 
                 {/* 6. ANEXO 04.2 - APÊNDICE 2 - EQUIPAMENTOS MÉDICO ASSISTENCIAIS */}
@@ -324,8 +332,10 @@ const tabs = [
                         {openAccordion === '6' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
-                {openAccordion === '6' && (
-                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    <div 
+                        className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '6' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                        style={{ transitionProperty: 'max-height, padding' }}
+                    >
                     <a 
                     href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-04.2-APENDICE-1-MOBILIARIOS.xlsx" 
                     className="montserrat-regular no-underline hover:underline"
@@ -335,7 +345,6 @@ const tabs = [
                     ANEXO 04.2 - APÊNDICE 2 - EQUIPAMENTOS MÉDICO ASSISTENCIAIS
                     </a>
                 </div>
-                )}
                 </div>
 
                 {/* 7. ANEXO 04.2 - MOBILIÁRIO E EQUIPAMENTOS MÉDICO-ASSISTENCIAIS */}
@@ -348,8 +357,10 @@ const tabs = [
                         {openAccordion === '7' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
-                {openAccordion === '7' && (
-                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    <div 
+                        className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '7' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                        style={{ transitionProperty: 'max-height, padding' }}
+                    >
                     <a 
                     href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-04.2-MOBILIARIO-E-EQUIPAMENTOS-MEDICO-ASSISTENCIAIS.pdf" 
                     className="montserrat-regular no-underline hover:underline"
@@ -359,7 +370,6 @@ const tabs = [
                     ANEXO 04.2 - MOBILIÁRIO E EQUIPAMENTOS MÉDICO-ASSISTENCIAIS
                     </a>
                 </div>
-                )}
                 </div>
 
                 {/* 8. ANEXO 04.3 - SELEÇÃO DE TERRENOS E CONDICIONANTES */}
@@ -372,8 +382,10 @@ const tabs = [
                         {openAccordion === '8' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
-                {openAccordion === '8' && (
-                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    <div 
+                        className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '8' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                        style={{ transitionProperty: 'max-height, padding' }}
+                    >
                     <a 
                     href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-04.3-SELECAO-DE-TERRENOS-E-CONDICIONANTES.pdf" 
                     className="montserrat-regular no-underline hover:underline"
@@ -383,7 +395,6 @@ const tabs = [
                     ANEXO 04.3 - SELEÇÃO DE TERRENOS E CONDICIONANTES
                     </a>
                 </div>
-                )}
                 </div>
 
                 {/* 9. ANEXO 05 - CADERNO DE ENCARGOS */}
@@ -396,8 +407,10 @@ const tabs = [
                         {openAccordion === '9' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
-                {openAccordion === '9' && (
-                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    <div 
+                        className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '9' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                        style={{ transitionProperty: 'max-height, padding' }}
+                    >
                     <a 
                     href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-05-CADERNO-DE-ENCARGOS.pdf" 
                     className="montserrat-regular no-underline hover:underline"
@@ -407,7 +420,6 @@ const tabs = [
                     ANEXO 05 - CADERNO DE ENCARGOS
                     </a>
                 </div>
-                )}
                 </div>
 
                 {/* 10. ANEXO 06 - FASE DE TRANSIÇÃO */}
@@ -420,8 +432,10 @@ const tabs = [
                         {openAccordion === '10' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
-                {openAccordion === '10' && (
-                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    <div 
+                        className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '10' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                        style={{ transitionProperty: 'max-height, padding' }}
+                    >
                     <a 
                     href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-06-FASE-DE-TRANSICAO.pdf" 
                     className="montserrat-regular no-underline hover:underline"
@@ -430,8 +444,7 @@ const tabs = [
                     >
                     ANEXO 06 - FASE DE TRANSIÇÃO
                     </a>
-                </div>
-                )}
+                </div> 
                 </div>
 
                 {/* 11. ANEXO 07 - DIRETRIZES MÍNIMAS SOCIOAMBIENTAIS */}
@@ -468,8 +481,10 @@ const tabs = [
                         {openAccordion === '12' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
-                {openAccordion === '12' && (
-                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    <div 
+                        className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '12' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                        style={{ transitionProperty: 'max-height, padding' }}
+                    >
                     <a 
                     href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-08-SISTEMA-DE-MENSURACAO-DE-DESEMPENHO.pdf" 
                     className="montserrat-regular no-underline hover:underline"
@@ -478,8 +493,7 @@ const tabs = [
                     >
                     ANEXO 08 - SISTEMA DE MENSURAÇÃO DE DESEMPENHO
                     </a>
-                </div>
-                )}
+                </div> 
                 </div>
 
                 {/* 13. ANEXO 09 - MECANISMO DE PAGAMENTO*/}
@@ -492,8 +506,10 @@ const tabs = [
                         {openAccordion === '13' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
-                {openAccordion === '13' && (
-                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    <div 
+                        className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '13' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                        style={{ transitionProperty: 'max-height, padding' }}
+                    >
                     <a 
                     href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-08-SISTEMA-DE-MENSURACAO-DE-DESEMPENHO.pdf" 
                     className="montserrat-regular no-underline hover:underline"
@@ -503,7 +519,6 @@ const tabs = [
                     ANEXO 09 - MECANISMO DE PAGAMENTO
                     </a>
                 </div>
-                )}
                 </div>
 
                 {/* 14. ANEXO 10 - CONDIÇÕES GERAIS DA APÓLICE DE SEGUROS */}
@@ -540,8 +555,10 @@ const tabs = [
                         {openAccordion === '15' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
-                {openAccordion === '15' && (
-                    <div className="pl-6 bg-white p-5 rounded-lg">
+                <div 
+                        className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '15' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                        style={{ transitionProperty: 'max-height, padding' }}
+                    >
                     <a 
                     href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-11-DIRETRIZES-PARA-O-CONTRATO-DE-NOMEACAO-DA-INSTITUICAO-FINANCEIRA-DEPOSITARIA.pdf" 
                     className="montserrat-regular no-underline hover:underline"
@@ -551,7 +568,6 @@ const tabs = [
                     ANEXO 11 - DIRETRIZES PARA O CONTRATO DE NOMEAÇÃO DA INSTITUIÇÃO FINANCEIRA DEPOSITÁRIA
                     </a>
                 </div>
-                )}
                 </div>
 
                 {/* 16. ANEXO 12 - VERIFICADOR INDEPENDENTE */}
@@ -564,8 +580,10 @@ const tabs = [
                         {openAccordion === '16' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
-                {openAccordion === '16' && (
-                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    <div 
+                        className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '16' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                        style={{ transitionProperty: 'max-height, padding' }}
+                    >
                     <a 
                     href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-12-VERIFICADOR-INDEPENDENTE.pdf" 
                     className="montserrat-regular no-underline hover:underline"
@@ -575,7 +593,6 @@ const tabs = [
                     ANEXO 12 - VERIFICADOR INDEPENDENTE
                     </a>
                 </div>
-                )}
                 </div>
 
                 {/* 17. ANEXO 13 - DEFINIÇÕES DO CONTRATO E SEUS ANEXOS */}
@@ -588,8 +605,10 @@ const tabs = [
                         {openAccordion === '17' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
-                {openAccordion === '17' && (
-                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    <div 
+                        className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '17' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                        style={{ transitionProperty: 'max-height, padding' }}
+                    >
                     <a 
                     href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/ANEXO-13-DEFINICOES-DO-CONTRATO-E-SEUS-ANEXOS.pdf" 
                     className="montserrat-regular no-underline hover:underline"
@@ -599,7 +618,6 @@ const tabs = [
                     ANEXO 13 - DEFINIÇÕES DO CONTRATO E SEUS ANEXOS
                     </a>
                 </div>
-                )}
                 </div>
 
                 {/* 18. MINUTA DE CONTRATO */}
@@ -612,8 +630,10 @@ const tabs = [
                         {openAccordion === '18' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
-                {openAccordion === '18' && (
-                    <div className="pl-6 bg-white p-5 rounded-lg">
+                    <div 
+                        className={`pl-6 bg-white rounded-lg overflow-hidden transition-all duration-500 ease-in-out ${openAccordion === '18' ? 'max-h-[500px] p-5' : 'max-h-0 p-0'}`}
+                        style={{ transitionProperty: 'max-height, padding' }}
+                    >
                     <a 
                     href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/MINUTA-DE-CONTRATO.pdf" 
                     className="montserrat-regular no-underline hover:underline"
@@ -622,15 +642,14 @@ const tabs = [
                     >
                     MINUTA DE CONTRATO
                     </a>
-                </div>
-                )}
+                </div> 
                 </div>
             </div>
 
 
             {/* Titulo2 - ANEXO 04.1 - APÊNDICE 2 - PROJETOS BÁSICOS REFERENCIAIS */}
             <div className="flex flex-col mt-24 mb-4">
-                <h2 className="Barlow-Condensed-Bold text-4xl font-bold text-center text-[#FAC41B] drop-shadow-[0_4px_6px_rgba(0,0,0,0.6)] tracking-tighter">
+                <h2 className="Barlow-Condensed-Bold text-4xl font-bold text-center text-[#FAC41B] drop-shadow-[0_4px_6px_rgba(0,0,0,0.6)]">
                 ANEXO 04.1 - APÊNDICE 2 - PROJETOS BÁSICOS REFERENCIAIS 
                 </h2>
             </div>
@@ -685,13 +704,12 @@ const tabs = [
                     )
                 )}
             </div>
-        </div>
-
+            </div>
 
 
             {/* Titulo3 - data room */}
             <div className="flex flex-col mt-24 mb-4">
-                <h2 className="barlow-condensed-bold text-4xl font-bold text-center text-[#FAC41B] drop-shadow-[0_4px_6px_rgba(0,0,0,0.3)]">
+                <h2 className="Barlow-Condensed-Bold text-4xl font-bold text-center text-[#FAC41B] drop-shadow-[0_4px_6px_rgba(0,0,0,0.3)]">
                 DATA ROOM 
                 </h2>
             </div>
