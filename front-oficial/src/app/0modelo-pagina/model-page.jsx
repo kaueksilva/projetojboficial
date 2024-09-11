@@ -5,7 +5,7 @@ export default function Model({ children, caminhoImagem, titulo, subtitulo }) {
   return (
     <div>
       <Menu />
-      <div className="relative w-full h-[250px] flex items-end justify-center">
+      <div className="relative w-full h-[250px] flex items-end justify-center bg-[#2365f3]">
         {/* Imagem de fundo */}
         <img
           src={caminhoImagem}

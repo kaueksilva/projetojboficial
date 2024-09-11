@@ -740,7 +740,7 @@ const tabs = [
 
                     {/* PLANO DE NEGÓCIOS REFERENCIAL (PNR) */}
                     <button
-                        onClick={() => window.open("hhttps://jaboatao.pe.gov.br/wp-content/uploads/2023/12/PLANO-DE-NEGOCIOS-REFERENCIAL-PNR.pdf", "_blank", "noopener noreferrer")}
+                        onClick={() => window.open("https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/PLANO-DE-NEGOCIOS-REFERENCIAL-PNR.pdf", "_blank", "noopener noreferrer")}
                         className=' flex justify-center items-center text-white text-xl pt-3 pb-3 pl-6 rounded-full border-2 border-white hover:border-[#003476] bg-[#2257AE] hover:bg-white hover:text-[#003476] mb-4'
                     >
                         <h3 className="roboto-medium">
