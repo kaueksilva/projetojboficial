@@ -30,9 +30,11 @@ const Cidadao = () => {
 
         {/* 1ª Fileira de botões */}
         <div className="flex gap-2 h-36">
+
           {/* PORTAL DA TRANSPARÊNCIA */}
           <a
-            href="https://example.com/mapescola"
+            href="http://portaldatransparencia.jaboatao.pe.gov.br"
+            target="_blank"
             className="relative flex-1 w-64 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -53,7 +55,8 @@ const Cidadao = () => {
 
           {/* PORTAL DO CONTRIBUINTE */}
           <a
-            href="https://example.com/mapescola"
+            href="https://www.tinus.com.br/csp/JABOATAO/portal/index.csp"
+            target="_blank" 
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -73,7 +76,8 @@ const Cidadao = () => {
 
           {/* CRÉDITO NFS-E */}
           <a
-            href="https://example.com/mapescola"
+            href="https://www.tinus.com.br/csp/JABOATAO/portal/index.csp?013BRbO9665ucenl65822KgEX3536ip=thiI20Reu800ZoY88426XYvVh464PlHXw6122B3064267RNfv404&amp;CHATELA=opcoes.csp-WLILEV1=8-WLILEV2=-577xSKV0388fqxLr54345EOJu1776QL=muDM92PHp015sGt89160eANUs679gFqex7038s9133882kqXr914"
+            target="_blank" 
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -93,7 +97,8 @@ const Cidadao = () => {
 
           {/* EMISSÃO CTPS */}
           <a
-            href="https://example.com/mapescola"
+            href=" https://trabalho.jaboatao.pe.gov.br/agendamento-ctps/"
+            target="_blank" 
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -114,7 +119,8 @@ const Cidadao = () => {
 
           {/* PROGRAMA JABOATÃO APRENDIZ */}
           <a
-            href="https://example.com/mapescola"
+            href="https://trabalho.jaboatao.pe.gov.br/aprendiz/"
+            target="_blank" 
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -138,7 +144,8 @@ const Cidadao = () => {
         <div className="flex gap-2 h-36">
           {/* DIÁRIO OFICIAL */}
           <a
-            href="https://example.com/mapescola"
+            href="https://diariooficial.jaboatao.pe.gov.br"
+            target="_blank" 
             className="relative flex-1 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -158,7 +165,8 @@ const Cidadao = () => {
 
           {/* AGENDAMENTO DOS SERVIÇOS DO INSS */}
           <a
-            href="https://example.com/mapescola"
+            href="https://desenvolvimento.jaboatao.pe.gov.br/agendamento-inss/"
+            target="_blank" 
             className="relative flex-1 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -179,7 +187,8 @@ const Cidadao = () => {
 
           {/* DENÚNCIAS PROCON */}
           <a
-            href="https://example.com/mapescola"
+            href="https://procon.jaboatao.pe.gov.br/denuncias/"
+            target="_blank" 
             className="relative flex-1 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -199,7 +208,8 @@ const Cidadao = () => {
 
           {/* DE OLHO NA CONSULTA */}
           <a
-            href="https://example.com/mapescola"
+            href="https://deolhonaconsulta.jaboatao.pe.gov.br/"
+            target="_blank" 
             className="relative flex-1 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -219,7 +229,8 @@ const Cidadao = () => {
 
           {/* PAGUE SEUS TRIBUTOS */}
           <a
-            href="https://example.com/mapescola"
+            href="https://www.tinus.com.br/csp/JABOATAO/portal/index.csp?013BRbO9665ucenl65822KgEX3536ip=thiI20Reu800ZoY88426XYvVh464PlHXw6122B3064267RNfv404&amp;CHATELA=opcoes.csp-WLILEV1=14-WLILEV2=-248jbfo7211DWLlv96379tXwD7604kJ=RsvX08trY698mdu47175KFjsr919FvleI2332c7400927jkRx844"
+            target="_blank" 
             className="relative flex-1 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -242,7 +253,8 @@ const Cidadao = () => {
         <div className="flex gap-2 h-36">
           {/* RESULTADO DE EXAMESL */}
           <a
-            href="https://example.com/mapescola"
+            href="https://jaboatao.pe.gov.br/resultado-de-exames/"
+            target="_blank" 
             className="relative flex-1 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -261,7 +273,8 @@ const Cidadao = () => {
 
           {/* PESQUISAS DE PREÇO */}
           <a
-            href="https://example.com/mapescola"
+            href="hhttps://procon.jaboatao.pe.gov.br/pesquisas-de-preco/"
+            target="_blank" 
             className="relative flex-1 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -281,7 +294,8 @@ const Cidadao = () => {
 
           {/*RELAÇÃO DAS ESCOLAS MUNICIPAIS */}
           <a
-            href="https://example.com/mapescola"
+            href="https://jaboatao.pe.gov.br/mapa-das-escolas/"
+            target="_blank"
             className="relative flex-1 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -301,7 +315,8 @@ const Cidadao = () => {
 
           {/* LISTA DE MEDICAMENTO (REMUME) */}
           <a
-            href="https://example.com/mapescola"
+            href="https://jaboatao.pe.gov.br/wp-content/uploads/2018/11/REMUME-2018.pdf"
+            target="_blank"
             className="relative flex-1 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -321,7 +336,8 @@ const Cidadao = () => {
 
           {/* OUVIDORIA MUNICIPAL */}
           <a
-            href="https://example.com/mapescola"
+            href="https://ouvidoria.jaboatao.pe.gov.br"
+            target="_blank"
             className="relative flex-1 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -341,7 +357,8 @@ const Cidadao = () => {
 
           {/* LICENCIAMENTO INTEGRADO */}
           <a
-            href="https://example.com/mapescola"
+            href="https://cidadao-jaboatao.sissofia.com.br/"
+            target="_blank"
             className="relative flex-1 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -365,7 +382,8 @@ const Cidadao = () => {
         <div className="flex gap-2 h-36">
           {/* CIPTEA */}
           <a
-            href="https://example.com/mapescola"
+            href="https://jaboatao.pe.gov.br/cadastro-da-carteira-de-identificacao-da-pessoa-com-transtorno-do-espectro-do-autismo/"
+            target="_blank"
             className="relative flex-1 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -383,7 +401,8 @@ const Cidadao = () => {
 
           {/* SISTEMAS DE RECURSOS HUMANOS (SARH) */}
           <a
-            href="https://example.com/mapescola"
+            href="https://sarh.jaboatao.pe.gov.br/PORTAL_TRANSPARENCIA-0.0.1-SNAPSHOT"
+            target="_blank"
             className="relative flex-1 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -401,7 +420,8 @@ const Cidadao = () => {
 
           {/* ACESSO AO SINDEC */}
           <a
-            href="https://example.com/mapescola"
+            href="http://www.sindec.pe.gov.br/sindecconsulta2/public/consumidor/acesso"
+            target="_blank"
             className="relative flex-1 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -421,7 +441,8 @@ const Cidadao = () => {
 
           {/* JABOATÃO EM AÇÃO */}
           <a
-            href="https://example.com/mapescola"
+            href="https://jaboataoemacao.jaboatao.pe.gov.br/"
+            target="_blank"
             className="relative flex-1 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">

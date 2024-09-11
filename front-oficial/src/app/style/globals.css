@@ -4,32 +4,56 @@
 
 
 @font-face {
-    font-family: 'Barlow-Condensed-Bold';
-    src: url('/fontes/BarlowCondensed-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-family: 'BarlowCondensed-Medium';
+    src: url('/fontes/BarlowCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
     font-style: normal;
 }
 
+.Barlow-Condensed-Medium {
+    font-family: 'BarlowCondensed-Medium', sans-serif;
+}
+
+
+
 @font-face {
-    font-family: 'Open-Sans-Hebrew-Condensed';
-    src: url('/fontes/OpenSans-HebrewCondensed.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'BarlowCondensed-SemiBold';
+    src: url('/fontes/BarlowCondensed-SemiBold.ttf') format('truetype');
+    font-weight: 600;
     font-style: normal;
 }
+
+.Barlow-condensed-SemiBold {
+    font-family: 'BarlowCondensed-SemiBold', sans-serif;
+}
+
+
+
+@font-face {
+    font-family: 'BarlowCondensed-Bold';
+    src: url('/fontes/BarlowCondensed-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: bold;
+}
+
+.Barlow-Condensed-Bold {
+    font-family: 'BarlowCondensed-Bold', sans-serif;
+}
+
+
 
 @font-face {
     font-family: 'Montserrat-Bold';
     src: url('/fontes/Montserrat-SemiBold.ttf') format('truetype');
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
 }
 
-@font-face {
-    font-family: 'Montserrat-SemiBold';
-    src: url('/fontes/Montserrat-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
+.montserrat-bold{
+    font-family: 'Montserrat-Bold', sans-serif;
 }
+
+
 
 @font-face {
     font-family: 'montserrat-medium';
@@ -38,6 +62,24 @@
     font-style: normal;
 }
 
+.montserrat-medium {
+    font-family: 'montserrat-medium', sans-serif;
+}
+
+
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('/fontes/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.Montserrat-SemiBold{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+}
+
+
 @font-face {
     font-family: 'montserrat-regular';
     src: url('/fontes/montserrat-regular.ttf') format('truetype');
@@ -45,26 +87,98 @@
     font-style: normal;
 }
 
-.barlow-condensed-bold {
-    font-family: 'Barlow-Condensed-Bold', sans-serif;
-}
-
-.open-sans-hebrew-condensed {
-    font-family: 'Open-Sans-Hebrew-Condensed', sans-serif;
-}
-
-.montserrat-bold{
-    font-family: 'Montserrat-Bold', sans-serif;
-}
-
-.Montserrat-SemiBold{
-    font-family: 'Montserrat-SemiBold', sans-serif;
-}
-
-.montserrat-medium {
-    font-family: 'montserrat-medium', sans-serif;
-}
-
 .montserrat-regular {
     font-family: 'montserrat-regular', sans-serif;
+}
+
+
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('/fontes/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.roboto-medium {
+    font-family: 'Roboto-Medium', sans-serif;
+}
+
+
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('/fontes/Roboto-Medium.ttf') format('truetype');
+    font-weight: 700;
+    font-style: bold;
+}
+
+.roboto-bold {
+    font-family: 'Roboto-Bold', sans-serif;
+}
+
+
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('/fontes/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: black;
+}
+
+.roboto-black {
+    font-family: 'Roboto-Black', sans-serif;
+}
+
+
+
+@font-face {
+    font-family: 'OpenSansHebrewCondensed-Bold';
+    src: url('/fontes/OpenSansHebrewCondensed-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+.opensanshebrewcondensed-bold {
+    font-family: 'OpenSansHebrewCondensed-Bold';
+}
+
+
+
+@font-face {
+    font-family: 'OpenSansHebrewCondensed-Regular';
+    src: url('/fontes/OpenSansHebrewCondensed-Regular.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.opensanshebrewcondensed-regular {
+    font-family: 'OpenSansHebrewCondensed-Regular';
+}
+
+
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('/fontes/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.opensams-regular {
+    font-family: 'OpenSans-Regular';
+}
+
+
+
+@font-face {
+    font-family: 'OpenSans-Medium';
+    src: url('/fontes/OpenSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.opensams-medium {
+    font-family: 'OpenSans-Medium';
 }

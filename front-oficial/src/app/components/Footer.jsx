@@ -6,11 +6,11 @@ const Footer = () => {
       <footer className="footer-principal">
         <div className="footer">
           <div className="footer-column1">
-            <h3 className="footer-title">MAPA DO SITE</h3>
+            <h3 className="footer-title opensanshebrewcondensed-bold text-xl">MAPA DO SITE</h3>
             <h4 className="footer-border"></h4>
-            <ul className="footer-list">
+            <ul className="footer-list opensanshebrewcondensed-regular text-base">
               <li>
-                <a href="http://example.com/mapa-estrategia">
+                <a href="http://example.com/mapa-estrategia" >
                   MAPA DA ESTRATÉGIA
                 </a>
               </li>
@@ -78,9 +78,9 @@ const Footer = () => {
           </div>
 
           <div className="footer-column2">
-            <h3 className="footer-title">SITES RELACIONADOS</h3>
+            <h3 className="footer-title opensanshebrewcondensed-bold text-xl">SITES RELACIONADOS</h3>
             <h4 className="footer-border"></h4>
-            <ul className="footer-list">
+            <ul className="footer-list opensanshebrewcondensed-regular text-base">
               <li>
                 <a href="http://example.com/amor-jaboatao">AMOR JABOATÃO</a>
               </li>
@@ -161,31 +161,31 @@ const Footer = () => {
           </div>
 
           <div className="footer-column3">
-            <h3 className="footer-title">OUVIDORIA</h3>
-            <h4 className="footer-border"></h4>
-            <p>OUVIDORIA GERAL: 0800 081 8999</p>
-            <p>(81) 9.9422-5177</p>
-            <p>ATENDIMENTO DE SEGUNDA A SEXTA-FEIRA, DAS 8H ÀS 14H</p>
-            <p>E-MAIL: ouvidoria@jaboatao.pe.gov.br</p>
+            <h3 className="footer-title opensanshebrewcondensed-bold text-xl">OUVIDORIA</h3>
+            <h4 className="footer-border "></h4>
+            <p className="opensanshebrewcondensed-regular text-base">OUVIDORIA GERAL: 0800 081 8999</p>
+            <p className="opensanshebrewcondensed-regular text-base">(81) 9.9422-5177</p>
+            <p className="opensanshebrewcondensed-regular text-base">ATENDIMENTO DE SEGUNDA A SEXTA-FEIRA, DAS 8H ÀS 14H</p>
+            <p className="opensanshebrewcondensed-regular text-base">E-MAIL: ouvidoria@jaboatao.pe.gov.br</p>
 
-            <h3 className="footer-title">ACESSIBILIDADE</h3>
+            <h3 className="footer-title opensanshebrewcondensed-bold text-xl"><br/>ACESSIBILIDADE</h3>
             <h4 className="footer-border"></h4>
             <ul className="footer-list">
               <li>
-                <a href="http://example.com/informacoes">INFORMAÇÕES</a>
+                <a href="http://example.com/informacoes" className="opensanshebrewcondensed-regular text-base">INFORMAÇÕES</a>
               </li>
             </ul>
 
-            <h3 className="footer-title">NAVEGABILIDADE</h3>
+            <h3 className="footer-title opensanshebrewcondensed-bold text-xl"><br/>NAVEGABILIDADE</h3>
             <h4 className="footer-border"></h4>
 
             <ul className="footer-list">
               <li>
-                <a href="http://example.com/glossario">GLOSSÁRIO</a>
+                <a href="http://example.com/glossario" className="opensanshebrewcondensed-regular text-base" >GLOSSÁRIO</a>
               </li>
             </ul>
 
-            <h3 className="footer-title">ACOMPANHE-NOS</h3>
+            <h3 className="footer-title opensanshebrewcondensed-bold text-xl"><br/>ACOMPANHE-NOS</h3>
             <h4 className="footer-border"></h4>
             <div className="icones-footer">
               <a href="https://twitter.com/">
@@ -213,7 +213,7 @@ const Footer = () => {
               height={100}
             />
           </div>
-          <div className="details1">
+          <div className="details1 opensans-regular italic">
             <p>
               <strong>Palácio da Batalha</strong>
               <br />
@@ -221,7 +221,7 @@ const Footer = () => {
               Jaboatão dos Guararapes – PE, CEP 54.310-310
             </p>
           </div>
-          <div className="details2">
+          <div className="details2 opensans-regular italic">
             <p>
               <strong>Complexo Administrativo</strong>
               <br />
@@ -232,7 +232,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="credits">
+        <div className="credits opensans-regular">
           Desenvolvido por: Secretaria Executiva de Governo Digital | SEGD
         </div>
       </footer>
