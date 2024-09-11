@@ -1,4 +1,4 @@
-const Mapaescola = () => {
+const Mapamercados = () => {
     return (
         <div>
             <iframe src="https://www.google.com/maps/d/embed?mid=1yotPd2nfZB1186hfOHpPmz96_awxsX0&ehbc=2E312F&noprof=1" 
@@ -12,4 +12,4 @@ const Mapaescola = () => {
     );
 };
 
-export default Mapaescola;
+export default Mapamercados;

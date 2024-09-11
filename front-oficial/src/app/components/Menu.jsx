@@ -150,7 +150,7 @@ const Menu = () => {
                   {dropdowns.institucional && (
                     <ul className="absolute left-0 w-48 mt-3 bg-[#1e73be] text-[#ffffff] text-[12px] shadow-lg">
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="../mapaestrategia" className="block px-4 py-4">
+                        <a href="../mapa-da-estrategia" className="block px-4 py-4">
                           MAPA DA ESTRATÉGIA
                         </a>
                       </li>
@@ -176,22 +176,22 @@ const Menu = () => {
                   {dropdowns.cidade && (
                     <ul className="absolute left-0 mt-3 w-48 bg-[#1e73be] text-[#ffffff] text-[12px] shadow-lg">
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="../jbdoguararapes" className="block px-4 py-4">
+                        <a href="../jaboatao-dos-guararapes" className="block px-4 py-4">
                           JABOATÃO DOS GUARARAPES
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="../yapoatan" className="block px-4 py-4">
                           YAPOATAN
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="../simbolos-da-cidade" className="block px-4 py-4">
                           SÍMBOLOS DA CIDADE
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="../feriados-municipais" className="block px-4 py-4">
                           FERIADOS MUNICIPAIS
                         </a>
                       </li>

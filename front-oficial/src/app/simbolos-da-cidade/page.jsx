@@ -1,4 +1,4 @@
-import Jbdosguararapes from "./jb-dos-guararapes";
+import Simbolos from "./simbolos-da-cidade";
 import Model from "../0modelo-pagina/model-page";
 
 export default function config() {
@@ -6,10 +6,10 @@ export default function config() {
     <div >
       <Model
         // caminhoImagem={"/images/empresa.jpg"}
-        titulo={"JABOATÃO DOS GUARARAPES"}
-        subtitulo={"HOME » JABOATÃO DOS GUARARAPES"}
+        titulo={"SÍMBOLOS DA CIDADE"}
+        subtitulo={"HOME » Símbolos da Cidade"}
       >
-        <Jbdosguararapes />
+        <Simbolos />
       </Model>
     </div>
   );

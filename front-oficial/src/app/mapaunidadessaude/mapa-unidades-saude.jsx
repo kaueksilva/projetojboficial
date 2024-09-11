@@ -9,7 +9,7 @@ import prazeres from '../../../public/images/regionais/regional-5.png';
 import praias from '../../../public/images/regionais/regional-6.png';
 import guararapes from '../../../public/images/regionais/regional-7.png';
 
-const Home = () => {
+const Mapasaude = () => {
     const regions = [
         { name: 'JABOATÃO CENTRO', region: 'REGIONAL 01', imgSrc: jaboataoCentro, link: '../maparegional1' },
         { name: 'CAVALEIRO', region: 'REGIONAL 02', imgSrc: cavaleiro, link: '../maparegional2' },
@@ -82,4 +82,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Mapasaude;

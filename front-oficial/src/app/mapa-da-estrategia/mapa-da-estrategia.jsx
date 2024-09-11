@@ -2,7 +2,7 @@
 
 import PdfViewer from '../components/PdfViewer';
 
-const Maparegiona1 = () => {
+const Mapaestrategia = () => {
   return (
     <div>
       <div className="p-20">
@@ -19,4 +19,4 @@ const Maparegiona1 = () => {
   );
 };
 
-export default Maparegiona1;
+export default Mapaestrategia;
