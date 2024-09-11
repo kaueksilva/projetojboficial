@@ -150,12 +150,12 @@ const Menu = () => {
                   {dropdowns.institucional && (
                     <ul className="absolute left-0 w-48 mt-3 bg-[#1e73be] text-[#ffffff] text-[12px] shadow-lg">
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="../mapaestrategia" className="block px-4 py-4">
                           MAPA DA ESTRATÉGIA
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="https://portaldatransparencia.jaboatao.pe.gov.br/estrutura-organizacional/" target="_blank" className="block px-4 py-4">
                           ESTRUTURA ORGANIZACIONAL
                         </a>
                       </li>
@@ -176,7 +176,7 @@ const Menu = () => {
                   {dropdowns.cidade && (
                     <ul className="absolute left-0 mt-3 w-48 bg-[#1e73be] text-[#ffffff] text-[12px] shadow-lg">
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="../jbdoguararapes" className="block px-4 py-4">
                           JABOATÃO DOS GUARARAPES
                         </a>
                       </li>
@@ -483,7 +483,7 @@ const Menu = () => {
                   {dropdowns.institucional && (
                     <ul className="mt-2 mb-6 text-[14px] leading-3">
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
+                        <a href="../mapaestrategia">
                           MAPA DA ESTRATÉGIA
                         </a>
                       </li>
