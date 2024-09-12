@@ -296,7 +296,7 @@ const Menu = () => {
                         )}
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="../desenvolvimento-institucional" className="block px-4 py-4">
                           DESENVOLVIMENTO INSTITUCIONAL
                         </a>
                       </li>
@@ -569,7 +569,7 @@ const Menu = () => {
                         </a>
                       </li>
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
+                        <a href="../desenvolvimento-institucional" onClick={toggleMenu}>
                         DESENVOLVIMENTO INSTITUCIONAL
                         </a>
                       </li>
