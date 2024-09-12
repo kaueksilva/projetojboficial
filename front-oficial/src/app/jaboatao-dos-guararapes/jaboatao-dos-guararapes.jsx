@@ -2,10 +2,10 @@ const Jbguararapes = () => {
   return (
     <div>
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <h1 className="text-center text-4xl font-bold mb-6 text-[#003476]">
+        <h1 className="text-center text-4xl mb-6 text-[#003476] montserrat-medium">
           CONHEÇA NOSSA RICA HISTÓRIA
         </h1>
-        <p className="text-justify leading-relaxed space-y-6 px-10">
+        <p className="text-justify leading-relaxed space-y-6 px-10 text-lg">
           Surgida durante o final do século XVI na confluência de dois rios – O
           rio Jaboatão e o rio Duas Unas – o povoado de Jaboatão cresceu através
           de doações de terras realizadas pelo terceiro proprietário do Engenho
@@ -87,7 +87,7 @@ const Jbguararapes = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <p className="text-justify leading-relaxed space-y-6 px-10">
+        <p className="text-justify leading-relaxed space-y-6 px-10 text-lg">
           Montes Guararapes, é um conjunto de três elevações, separadas por
           grotões estreitos. A primeira elevação está situada ao norte e
           denomina-se Morro do Telegráfo; a segunda, Morro do Oitizeiro,
@@ -161,7 +161,7 @@ const Jbguararapes = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <p className="text-justify leading-relaxed space-y-6 px-10">
+        <p className="text-justify leading-relaxed space-y-6 px-10 text-lg">
           As batalhas dos Guararapes representam a última consequência no Brasil
           colônia de um conflito de interesses entre Portugal e Holanda, surgido
           de forma mais aguda ainda no século XVI, em consequência do controle
@@ -183,7 +183,7 @@ const Jbguararapes = () => {
           CONJUNTO HISTÓRICO JABOATÃO CENTRO:
         </h1>
         <br />
-        <p className="text-justify leading-relaxed space-y-6 px-10">
+        <p className="text-justify leading-relaxed space-y-6 px-10 text-lg">
           É composto por dois grandes conjuntos antigos de interesse histórico.
           Em um deles, encontram-se A Igreja Matriz de Santo Amaro, a atual é de
           1691 e fica localizada no ponto mais alto destacando-se na paisagem.
@@ -220,7 +220,7 @@ const Jbguararapes = () => {
         </h1>
 
         <br />
-        <p className="text-justify leading-relaxed space-y-6 px-10">
+        <p className="text-justify leading-relaxed space-y-6 px-10 text-lg">
           Situada na Colônia dos Padres Salesianos, sua construção data de pelo
           padre italiano Antônio Vilar, a pedido de Dom Bosco. Seu estilo
           romântico, com fachada bizantina, abriga a imagem de Nossa Senhora

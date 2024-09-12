@@ -21,11 +21,11 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 import { FaUserGraduate } from "react-icons/fa6";
 const Cidadao = () => {
   return (
-    <div className="w-full flex ">
+    <div className="w-full flex bg-slate-100">
 
 
       {/* TODOS OS BOTOES */}
-      <div className="flex flex-col gap-2 pt-1 pb-8 w-full ml-8 mr-8">
+      <div className="flex flex-col gap-2 pt-12 pb-20 w-full ml-8 mr-8 ">
 
 
         {/* 1ª Fileira de botões */}

@@ -1,11 +1,11 @@
 const Yapoatan = () => {
   return (
     <div>
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        <h1 className="text-center text-4xl font-bold mb-6 text-[#003476]">
+      <div className="max-w-7xl mx-auto px-4 py-10">
+        <h2 className="Montserrat-Bold text-center text-3xl font-bold mb-6 text-[#003476]">
           UM BREVE HISTÓRICO DO MUNICÍPIO DE YAPOATAN
-        </h1>
-        <p className="text-justify leading-relaxed space-y-6 px-10">
+        </h2>
+        <p className="roboto-regular text-justify leading-relaxed space-y-6 px-10 text-lg">
           Para desenvolver a produtividade das terras, os donatários de
           capitanias concediam, em regime de sesmarias, lotes para o plantio. E
           foi neste regime que, em 1566, Duarte Coelho concedeu uma légua de
@@ -49,11 +49,11 @@ const Yapoatan = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <h1 className="text-center text-4xl font-bold mb-6 text-[#003476]">
+        <h2 className="Montserrat-Bold text-center text-3xl font-bold mb-6 text-[#003476]">
           PRINCIPAIS CARACTERÍSTICAS DO MUNICÍPIO
-        </h1>
+        </h2>
         <div className="px-10">
-          <p className="text-justify leading-relaxed space-y-6 mb-8">
+          <p className="roboto-regular text-justify leading-relaxed space-y-6 mb-8 text-lg">
             O município do Jaboatão dos Guararapes está situado no litoral do
             Estado de Pernambuco. Tem extensão territorial de 256 quilômetros
             quadrados. Limita-se ao Norte com a capital pernambucana e o município

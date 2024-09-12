@@ -5,7 +5,7 @@ export default function config() {
   return (
     <div >
       <Model
-        // caminhoImagem={"/images/empresa.jpg"}
+        caminhoImagem={"/images/calendar.jpg"}
         titulo={"FERIADOS MUNICIPAIS"}
         subtitulo={"HOME » FERIADOS MUNICIPAIS"}
       >

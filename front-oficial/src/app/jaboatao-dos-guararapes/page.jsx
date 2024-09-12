@@ -5,7 +5,7 @@ export default function config() {
   return (
     <div >
       <Model
-        // caminhoImagem={"/images/empresa.jpg"}
+        caminhoImagem={"/images/jaboatao.jpg"}
         titulo={"JABOATÃO DOS GUARARAPES"}
         subtitulo={"HOME » JABOATÃO DOS GUARARAPES"}
       >

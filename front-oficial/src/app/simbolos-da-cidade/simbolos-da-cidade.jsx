@@ -32,12 +32,12 @@ const HinoJaboatao = () => {
       </div>
 
       {/* Seção do Hino */}
-      <div className="text-center">
+      <div className="text-center Montserrat-Bold">
         <h2 className="text-3xl font-bold text-[#003476] mb-6">
           Hino da Jaboatão dos Guararapes
         </h2>
         <div className="grid grid-cols-2">
-          <div>
+          <div className='text-right mr-8'>
             <h3 className="text-2xl font-semibold mb-4">Parte I</h3>
             <p className="leading-relaxed text-lg">
               Jaboatão<br />
@@ -51,7 +51,8 @@ const HinoJaboatao = () => {
               linda terra da promissão
             </p>
           </div>
-          <div>
+          
+          <div className='text-left'>
             <h3 className="text-2xl font-semibold mb-4">Parte II</h3>
             <p className="leading-relaxed text-lg">
               Eu amo o teu cruzeiro,<br />

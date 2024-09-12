@@ -60,7 +60,7 @@ const tabs = [
     ) 
     },
     { id: 3, label: "TIPOLOGIA 3A", content:(
-        <ul>
+        <ul style={{ listStyleType: "disc" }}>
             <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-001-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>IMPLANTAÇÃO COM COBERTURA - (TIPOLOGIA 3A)</strong></a></li>
             <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-002-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE CIVIL - (TIPOLOGIA 3A)</strong></a></li>
             <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-05-USF-003-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE LAYOUT - (TIPOLOGIA 3A)</strong></a></li>
@@ -72,7 +72,7 @@ const tabs = [
     ) 
     },
     { id: 4, label: "TIPOLOGIA 3B", content: ( 
-        <ul>
+        <ul style={{ listStyleType: "disc" }}>
             <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-23-USF-001-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>IMPLANTAÇÃO COM COBERTURA - (TIPOLOGIA 3B)</strong></a></li>
             <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-23-USF-002-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE CIVIL - (TIPOLOGIA 3B)</strong></a></li>
             <li><a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/DES-ARQ-JAB-23-USF-003-RE.pdf" target="_blank" rel="noopener" className='hover:text-[#1DB2F1] transition-colors duration-300'><strong>PLANTA DE LAYOUT - (TIPOLOGIA 3B)</strong></a></li>
@@ -120,20 +120,25 @@ const tabs = [
         setOpenAccordion(openAccordion === id ? null : id);
     };
 
+
+
     return (
         <div
-        className="w-full flex"
+        className="flex pb-20"
         style={{
             background: "radial-gradient(circle at center, #003476, #6EC1E4)",
             }} >
 
 
             {/* Começo da div pai */}
-            <div className="flex-1 flex-col mx-80 mb-56">
+            <div className="flex-1 flex-col mx-4 md:mx-20 md:mb-24 lg:mx-40 lg:mb-40 xl:mx-80 xl:mb-56">
+
+
 
             {/* texto e imagem */}
-                <div className="flex flex-col bg-white mt-36 pb-20 pt-14 pl-20 pr-20 rounded-tl-[100px] rounded-br-[100px]">
-                    <p className='montserrat-regular'>
+            <div className="flex flex-col bg-white mt-10 md:mt-20 lg:mt-36 pb-10 md:pb-16 lg:pb-20 pt-8 md:pt-10 lg:pt-14 pl-8 md:pl-16 lg:pl-20 pr-8 md:pr-16 lg:pr-20 rounded-tl-[50px] md:rounded-tl-[75px] lg:rounded-tl-[100px] rounded-br-[50px] md:rounded-br-[75px] lg:rounded-br-[100px]">
+
+                <p className='montserrat-regular'>
                     O MUNICÍPIO DO JABOATÃO DOS GUARARAPES, por intermédio da SECRETARIA
                     DE SAÚDE, comunica a ABERTURA DE CONSULTA PÚBLICA e a REALIZAÇÃO DE
                     AUDIÊNCIA PÚBLICA referentes às minutas de edital e contratação de
@@ -173,24 +178,27 @@ const tabs = [
                     hora, a serem realizadas entre os dias 08/01/2024 a 19/01/2024,
                     mediante agendamento a ser solicitado até o dia 05/01/2024, por meio
                     do endereço eletrônico: pppsaude@jaboatao.pe.gov.br.
-                    </p>
-                    <img
+                </p>
+                <img
                     src= {"/images/usf-ppp.png"}
-                    className="mt-8 w-auto h-auto mx-20 rounded-tl-[100px] rounded-br-[100px]"
-                    />
-                </div>
+                    className="mt-4 md:mt-6 lg:mt-8 md:w-auto h-auto mx-8 md:mx-16 lg:mx-20 rounded-tl-[50px] md:rounded-tl-[75px] lg:rounded-tl-[100px] rounded-br-[50px] md:rounded-br-[75px] lg:rounded-br-[100px]"
+                />
+            </div>
 
-                {/* Titulo 1 */}
+
+
+            {/* Titulo 1 */}
             <div className="flex flex-col mt-24 mb-4">
                 <h2 className="Barlow-Condensed-Bold text-4xl font-bold text-center text-[#FAC41B] drop-shadow-[0_4px_6px_rgba(0,0,0,0.6)] ">
                 EDITAL DE CONCORRÊNCIA PÚBLICA INTERNACIONAL N.º [●]/20[●] 
                 </h2>
             </div>
 
-                {/* ACORDEÃO */}
-            <div className="flex flex-col">
 
-                
+
+            {/* ACORDEÃO */}
+            <div className="flex flex-col ">
+
 
                 {/* 1.EDITAL */}
                 <div className="flex flex-col mb-4">
@@ -198,7 +206,7 @@ const tabs = [
                         onClick={() => toggleAccordion('1')} 
                         className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>EDITAL</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">EDITAL</h3>
                         {openAccordion === '1' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
 
@@ -224,7 +232,7 @@ const tabs = [
                     onClick={() => toggleAccordion('2')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 04.1 - APÊNDICE 1 - PROGRAMA DE NECESSIDADES</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 04.1 - APÊNDICE 1 - PROGRAMA DE NECESSIDADES</h3>
                         {openAccordion === '2' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
 
@@ -251,7 +259,7 @@ const tabs = [
                     onClick={() => toggleAccordion('3')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 04.1 - APÊNDICE 3 - MEMORIAL DESCRITIVO</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 04.1 - APÊNDICE 3 - MEMORIAL DESCRITIVO</h3>
                         {openAccordion === '3' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
@@ -277,7 +285,7 @@ const tabs = [
                     onClick={() => toggleAccordion('4')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 04.1 - DIRETRIZES MÍNIMAS DE PROJETOS E OBRASO</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 04.1 - DIRETRIZES MÍNIMAS DE PROJETOS E OBRASO</h3>
                         {openAccordion === '4' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                     {/* Abre o acordeão */}
@@ -303,7 +311,7 @@ const tabs = [
                     onClick={() => toggleAccordion('5')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 04.2 - APÊNDICE 1 - MOBILIÁRIOS</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 04.2 - APÊNDICE 1 - MOBILIÁRIOS</h3>
                         {openAccordion === '5' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
@@ -328,7 +336,7 @@ const tabs = [
                     onClick={() => toggleAccordion('6')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 04.2 - APÊNDICE 2 - EQUIPAMENTOS MÉDICO ASSISTENCIAIS</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 04.2 - APÊNDICE 2 - EQUIPAMENTOS MÉDICO ASSISTENCIAIS</h3>
                         {openAccordion === '6' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
@@ -353,7 +361,7 @@ const tabs = [
                     onClick={() => toggleAccordion('7')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 04.2 - MOBILIÁRIO E EQUIPAMENTOS MÉDICO-ASSISTENCIAIS</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 04.2 - MOBILIÁRIO E EQUIPAMENTOS MÉDICO-ASSISTENCIAIS</h3>
                         {openAccordion === '7' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
@@ -378,7 +386,7 @@ const tabs = [
                     onClick={() => toggleAccordion('8')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 04.3 - SELEÇÃO DE TERRENOS E CONDICIONANTES</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 04.3 - SELEÇÃO DE TERRENOS E CONDICIONANTES</h3>
                         {openAccordion === '8' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
@@ -403,7 +411,7 @@ const tabs = [
                     onClick={() => toggleAccordion('9')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 05 - CADERNO DE ENCARGOS</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 05 - CADERNO DE ENCARGOS</h3>
                         {openAccordion === '9' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
@@ -428,7 +436,7 @@ const tabs = [
                     onClick={() => toggleAccordion('10')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 06 - FASE DE TRANSIÇÃO</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 06 - FASE DE TRANSIÇÃO</h3>
                         {openAccordion === '10' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
@@ -453,7 +461,7 @@ const tabs = [
                     onClick={() => toggleAccordion('11')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 07 - DIRETRIZES MÍNIMAS SOCIOAMBIENTAIS</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 07 - DIRETRIZES MÍNIMAS SOCIOAMBIENTAIS</h3>
                         {openAccordion === '11' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
@@ -477,7 +485,7 @@ const tabs = [
                     onClick={() => toggleAccordion('12')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 08 - SISTEMA DE MENSURAÇÃO DE DESEMPENHO</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 08 - SISTEMA DE MENSURAÇÃO DE DESEMPENHO</h3>
                         {openAccordion === '12' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
@@ -502,7 +510,7 @@ const tabs = [
                     onClick={() => toggleAccordion('13')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 09 - MECANISMO DE PAGAMENTO</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 09 - MECANISMO DE PAGAMENTO</h3>
                         {openAccordion === '13' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
@@ -527,7 +535,7 @@ const tabs = [
                     onClick={() => toggleAccordion('14')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 10 - CONDIÇÕES GERAIS DA APÓLICE DE SEGUROS</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 10 - CONDIÇÕES GERAIS DA APÓLICE DE SEGUROS</h3>
                         {openAccordion === '14' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
@@ -551,7 +559,7 @@ const tabs = [
                     onClick={() => toggleAccordion('15')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 11 - DIRETRIZES PARA O CONTRATO DE NOMEAÇÃO DA INSTITUIÇÃO FINANCEIRA DEPOSITÁRIA</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 11 - DIRETRIZES PARA O CONTRATO DE NOMEAÇÃO DA INSTITUIÇÃO FINANCEIRA DEPOSITÁRIA</h3>
                         {openAccordion === '15' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
@@ -576,7 +584,7 @@ const tabs = [
                     onClick={() => toggleAccordion('16')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 12 - VERIFICADOR INDEPENDENTE</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 12 - VERIFICADOR INDEPENDENTE</h3>
                         {openAccordion === '16' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
@@ -601,7 +609,7 @@ const tabs = [
                     onClick={() => toggleAccordion('17')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>ANEXO 13 - DEFINIÇÕES DO CONTRATO E SEUS ANEXOS</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">ANEXO 13 - DEFINIÇÕES DO CONTRATO E SEUS ANEXOS</h3>
                         {openAccordion === '17' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
@@ -626,7 +634,7 @@ const tabs = [
                     onClick={() => toggleAccordion('18')} 
                     className='flex justify-between items-center montserrat-bold bg-[#00183f] text-white text-xl pt-3 pb-3 pl-6 rounded-full'
                     >
-                        <h3>MINUTA DE CONTRATO</h3>
+                        <h3 className="text-sm sm:text-base lg:text-lg">MINUTA DE CONTRATO</h3>
                         {openAccordion === '18' ? <FaMinus className='mr-6' /> : <FaPlus className='mr-6' />}
                     </button>
                 {/* Abre o acordeão */}
@@ -647,6 +655,7 @@ const tabs = [
             </div>
 
 
+
             {/* Titulo2 - ANEXO 04.1 - APÊNDICE 2 - PROJETOS BÁSICOS REFERENCIAIS */}
             <div className="flex flex-col mt-24 mb-4">
                 <h2 className="Barlow-Condensed-Bold text-4xl font-bold text-center text-[#FAC41B] drop-shadow-[0_4px_6px_rgba(0,0,0,0.6)]">
@@ -655,28 +664,29 @@ const tabs = [
             </div>
 
 
-                {/* BOTAO DE REGULAMENTO DA AUDIÊNCIA */}
-                <div className="flex flex-col mb-4">
+            {/* BOTAO DE REGULAMENTO DA AUDIÊNCIA */}
+            <div className="flex flex-col mb-4">
                     <button
                         onClick={() => window.open("https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/REGULAMENTO-DA-AUDIENCIA-PUBLICA-PPP-SAUDE.pdf", "_blank", "noopener noreferrer")}
                         className='roboto-medium flex justify-center items-center text-white text-xl pt-3 pb-3 pl-6 rounded-full border-2 border-white hover:border-[#003476] bg-[#2257AE] hover:bg-white hover:text-[#003476]'
                     >
-                        <h3 className="font-barlow-condensed-bold">
+                        <h3 className="font-barlow-condensed-bold text-sm sm:text-base lg:text-lg">
                             REGULAMENTO DA AUDIÊNCIA PÚBLICA PPP - SAÚDE
                         </h3>
                     </button>
-                </div>
+            </div>
                 
-                
+
+
             {/* !!!ABAS!!! */}
-            <div className="container mx-auto bg-white">
+            <div className="container mx-auto bg-white ">
             
             {/* Header das Abas */}
-            <div className="flex mb-4 bg-[#E4E4E4]">
+            <div className="flex flex-wrap sm:flex-nowrap mb-4 bg-[#E4E4E4]">
                 {tabs.map((tab) => (
                 <button
                     key={tab.id}
-                    className={`roboto-black text-lg pt-3 px-5 text-start ${
+                    className={`roboto-black text-sm sm:text-base lg:text-lg pt-2 sm:pt-3 px-4 sm:px-5 text-start  ${
                     activeTab === tab.id
                         ? "text-[#61AACE] bg-white"
                         : "text-[#003476]"
@@ -695,7 +705,7 @@ const tabs = [
                     activeTab === tab.id && (
                     <div
                         key={tab.id}
-                        className="text-[#333333] ml-9 pb-10 text-lg"
+                        className="text-[#333333] ml-0 sm:ml-4 lg:ml-6 pb-6 pl-3 sm:pb-8 lg:pb-10 text-sm sm:text-base lg:text-lg"
                     >
                         {tab.content}
                         
@@ -714,65 +724,69 @@ const tabs = [
                 </h2>
             </div>
 
+
+
             {/* BOTÕES */}
-            <div className="flex justify-center items-center">
-                <div className="flex flex-col w-5/6">
+            <div className="flex flex-col items-center px-4 sm:px-6 lg:px-8">
 
-                    {/* APRESENTAÇÃO DO PROJETO */}
-                    <button
-                        onClick={() => window.open("https://jaboatao.pe.gov.br/wp-content/uploads/2024/01/PPP_SAUDA_DA_FAMILIA_JABOATAO___Apresentacao_do_Projeto.pdf", "_blank", "noopener noreferrer")}
-                        className='roboto-medium flex justify-center items-center text-white text-xl pt-3 pb-3 pl-6 rounded-full border-2 border-white hover:border-[#003476] bg-[#2257AE] hover:bg-white hover:text-[#003476] mb-4'
-                    >
-                        <h3 className="font-barlow-condensed-bold">
+            <div className="flex flex-col w-full max-w-md sm:max-w-lg lg:max-w-3xl">
+
+                {/* APRESENTAÇÃO DO PROJETO */}
+                <button
+                    onClick={() => window.open("https://jaboatao.pe.gov.br/wp-content/uploads/2024/01/PPP_SAUDA_DA_FAMILIA_JABOATAO___Apresentacao_do_Projeto.pdf", "_blank", "noopener noreferrer")}
+                    className='roboto-medium flex justify-center items-center text-white text-base sm:text-lg lg:text-xl pt-3 pb-3 px-6 rounded-full border-2 border-white hover:border-[#003476] bg-[#2257AE] hover:bg-white hover:text-[#003476] mb-4'
+                >
+                    <h3 className="font-barlow-condensed-bold text-sm sm:text-base lg:text-lg">
                         APRESENTAÇÃO DO PROJETO
-                        </h3>
-                    </button>
+                    </h3>
+                </button>
 
-                    {/* FORMULÁRIO PARA PEDIDO DE ESCLARECIMENTOS E APRESENTAÇÃO DE SUGESTÕES */}
-                    <button
-                        onClick={() => window.open("https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/FORMULARIO-PARA-PEDIDO-DE-ESCLARECIMENTOS-E-APRESENTACAO-DE-SUGESTOES.xlsx", "_blank", "noopener noreferrer")}
-                        className='roboto-medium flex justify-center items-center text-white text-xl pt-3 pb-3 pl-6 rounded-full border-2 border-white hover:border-[#003476] bg-[#2257AE] hover:bg-white hover:text-[#003476] mb-4'
-                    >
-                        <h3 className="font-barlow-condensed-bold">
+                {/* FORMULÁRIO PARA PEDIDO DE ESCLARECIMENTOS E APRESENTAÇÃO DE SUGESTÕES */}
+                <button
+                    onClick={() => window.open("https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/FORMULARIO-PARA-PEDIDO-DE-ESCLARECIMENTOS-E-APRESENTACAO-DE-SUGESTOES.xlsx", "_blank", "noopener noreferrer")}
+                    className='roboto-medium flex justify-center items-center text-white text-base sm:text-lg lg:text-xl pt-3 pb-3 px-6 rounded-full border-2 border-white hover:border-[#003476] bg-[#2257AE] hover:bg-white hover:text-[#003476] mb-4'
+                >
+                    <h3 className="font-barlow-condensed-bold text-sm sm:text-base lg:text-lg">
                         FORMULÁRIO PARA PEDIDO DE ESCLARECIMENTOS E APRESENTAÇÃO DE SUGESTÕES
-                        </h3>
-                    </button>
+                    </h3>
+                </button>
 
-                    {/* PLANO DE NEGÓCIOS REFERENCIAL (PNR) */}
-                    <button
-                        onClick={() => window.open("https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/PLANO-DE-NEGOCIOS-REFERENCIAL-PNR.pdf", "_blank", "noopener noreferrer")}
-                        className=' flex justify-center items-center text-white text-xl pt-3 pb-3 pl-6 rounded-full border-2 border-white hover:border-[#003476] bg-[#2257AE] hover:bg-white hover:text-[#003476] mb-4'
-                    >
-                        <h3 className="roboto-medium">
+                {/* PLANO DE NEGÓCIOS REFERENCIAL (PNR) */}
+                <button
+                    onClick={() => window.open("https://jaboatao.pe.gov.br/wp-content/uploads/2023/12/PLANO-DE-NEGOCIOS-REFERENCIAL-PNR.pdf", "_blank", "noopener noreferrer")}
+                    className='roboto-medium flex justify-center items-center text-white text-base sm:text-lg lg:text-xl pt-3 pb-3 px-6 rounded-full border-2 border-white hover:border-[#003476] bg-[#2257AE] hover:bg-white hover:text-[#003476] mb-4'
+                >
+                    <h3 className="text-sm sm:text-base lg:text-lg">
                         PLANO DE NEGÓCIOS REFERENCIAL (PNR)
-                        </h3>
-                    </button>
+                    </h3>
+                </button>
 
-                    {/* ATA DA AUDIÊNCIA PÚBLICA PPP SAÚDE PARA FAMÍLIA */}
-                    <button
-                        onClick={() => window.open("https://jaboatao.pe.gov.br/wp-content/uploads/2024/02/Ata_e_Apresentacao_da_Audiencia_Publica_JAB_vf.pdf", "_blank", "noopener noreferrer")}
-                        className='flex justify-center items-center text-white text-xl pt-3 pb-3 pl-6 rounded-full border-2 border-white hover:border-[#003476] bg-[#2257AE] hover:bg-white hover:text-[#003476] mb-4'
-                    >
-                        <h3 className="roboto-medium">
+                {/* ATA DA AUDIÊNCIA PÚBLICA PPP SAÚDE PARA FAMÍLIA */}
+                <button
+                    onClick={() => window.open("https://jaboatao.pe.gov.br/wp-content/uploads/2024/02/Ata_e_Apresentacao_da_Audiencia_Publica_JAB_vf.pdf", "_blank", "noopener noreferrer")}
+                    className='roboto-medium flex justify-center items-center text-white text-base sm:text-lg lg:text-xl pt-3 pb-3 px-6 rounded-full border-2 border-white hover:border-[#003476] bg-[#2257AE] hover:bg-white hover:text-[#003476] mb-4'
+                >
+                    <h3 className="text-sm sm:text-base lg:text-lg">
                         ATA DA AUDIÊNCIA PÚBLICA PPP SAÚDE PARA FAMÍLIA
-                        </h3>
-                    </button>
+                    </h3>
+                </button>
 
-                    {/* APRESENTAÇÃO POWERPOINT DA  AUDIÊNCIA PÚBLICA PPP SAÚDE PARA FAMÍLIA  */}
-                    <button
-                        onClick={() => window.open("https://jaboatao.pe.gov.br/wp-content/uploads/2024/02/Apresentacao-do-PPP-Saude-Familia.pdf", "_blank", "noopener noreferrer")}
-                        className='flex justify-center items-center text-white text-xl pt-3 pb-3 pl-6 rounded-full border-2 border-white hover:border-[#003476] bg-[#2257AE] hover:bg-white hover:text-[#003476] mb-4'
-                    >
-                        <h3 className="roboto-medium">
-                        APRESENTAÇÃO POWERPOINT DA  AUDIÊNCIA PÚBLICA PPP SAÚDE PARA FAMÍLIA 
-                        </h3>
-                    </button>
+                {/* APRESENTAÇÃO POWERPOINT DA AUDIÊNCIA PÚBLICA PPP SAÚDE PARA FAMÍLIA */}
+                <button
+                    onClick={() => window.open("https://jaboatao.pe.gov.br/wp-content/uploads/2024/02/Apresentacao-do-PPP-Saude-Familia.pdf", "_blank", "noopener noreferrer")}
+                    className='roboto-medium flex justify-center items-center text-white text-base sm:text-lg lg:text-xl pt-3 pb-3 px-6 rounded-full border-2 border-white hover:border-[#003476] bg-[#2257AE] hover:bg-white hover:text-[#003476] mb-4'
+                >
+                    <h3 className="text-sm sm:text-base lg:text-lg">
+                        APRESENTAÇÃO POWERPOINT DA AUDIÊNCIA PÚBLICA PPP SAÚDE PARA FAMÍLIA
+                    </h3>
+                </button>
 
-
-                </div>
-
-                
             </div>
+
+            </div>
+
+
+
 
         </div>
         </div>

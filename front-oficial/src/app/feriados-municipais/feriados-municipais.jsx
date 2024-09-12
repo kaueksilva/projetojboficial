@@ -1,16 +1,16 @@
 const Feriados = () => {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <div className="max-w-7xl mx-auto px-4 py-8">
       {/* Título em destaque */}
-      <div className="bg-[#003476] rounded-lg p-4 mb-6">
-        <h1 className="text-white text-3xl font-bold text-center">
+      <div className="bg-[#003476] rounded-[30px] p-4 mb-10">
+        <h1 className="text-white text-5xl font-bold text-center pb-3 pt-3">
           Lei n.º 1247/2015
         </h1>
       </div>
 
       {/* Conteúdo da Lei */}
-      <div className="text-left">
-        <h2 className="text-xl font-semibold text-[#003476] mb-2">
+      <div className="text-left text-[#003476] max-w-5xl mx-auto">
+        <h2 className="text-xl font-semibold mb-2">
           Lei n.º 1247/2015
         </h2>
 
