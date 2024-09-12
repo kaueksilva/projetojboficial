@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className="footer-principal">
         <div className="footer">
           <div className="footer-column1">
-            <h3 className="footer-title opensanshebrewcondensed-bold text-xl">MAPA DO SITE</h3> 
+            <h3 className="footer-title opensanshebrewcondensed-bold text-xl">MAPA DO SITE</h3>
             <h4 className="footer-border"></h4>
             <ul className="footer-list opensanshebrewcondensed-regular text-base">
               <li>
