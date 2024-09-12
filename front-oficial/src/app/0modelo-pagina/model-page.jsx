@@ -1,7 +1,7 @@
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 
-export default function Model({ children, caminhoImagem, titulo, subtitulo }) {
+export default function Model({children, caminhoImagem, titulo, subtitulo }) {
   return (
     <div>
       <Menu />

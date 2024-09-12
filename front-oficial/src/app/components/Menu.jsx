@@ -228,24 +228,20 @@ const Menu = () => {
                         {dropdowns.secretariaASC && (
                           <ul className="absolute top-0 left-full mt-0 w-48 bg-[#1e73be] text-white shadow-lg">
                             <li className="hover:bg-[#224276] transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                              <a
-                                href="#"
-                                target="_blank"
-                                className="block px-4 py-4"
-                              >
-                                ENDEREÇOS DOS EQUIPAMENTOS DA SAS
-                              </a>
+                            <a href="../endereco-dos-equipamentos-da-sas" className="block px-4 py-4">
+                          ENDEREÇOS DOS EQUIPAMENTOS DA SAS
+                        </a>
                             </li>
                           </ul>
                         )}
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="https://sdu.jaboatao.pe.gov.br/" target="_blank" className="block px-4 py-4">
                           DESENVOLVIMENTO URBANO E MEIO AMBIENTE
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="../controladoria" className="block px-4 py-4">
                           CONTROLADORIA
                         </a>
                       </li>
@@ -278,7 +274,7 @@ const Menu = () => {
                                 DESENVOLVIMENTO ECONÔMICO E TURISMO
                               </a>
                             </li>
-                            <li className="hover:bg-[#224276] transition duration-200 border-b-[1px] border-[#c8c8c87c]">
+                            {/* <li className="hover:bg-[#224276] transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                               <a
                                 href="https://economiacriativa.jaboatao.pe.gov.br"
                                 target="_blank"
@@ -286,7 +282,7 @@ const Menu = () => {
                               >
                                 ECONOMIA CRIATIVA
                               </a>
-                            </li>
+                            </li> */}
                             <li className="hover:bg-[#224276] transition duration-200">
                               <a
                                 href="https://trabalho.jaboatao.pe.gov.br"
@@ -383,7 +379,7 @@ const Menu = () => {
                   {dropdowns.servicos && (
                     <ul className="absolute left-0 mt-3 w-48 bg-[#1e73be] text-[#ffffff] text-[12px] shadow-lg">
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="../ppp" className="block px-4 py-4">
                           PPP - SAÚDE
                         </a>
                       </li>
@@ -397,27 +393,27 @@ const Menu = () => {
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="../coleta-publica-de-orcamento" className="block px-4 py-4">
                           COLETA PÚBLICA DE ORÇAMENTO
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="../carta-de-servico" className="block px-4 py-4">
                           CARTA DE SERVIÇOS
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="../cidadao" className="block px-4 py-4">
                           CIDADÃO
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="../empresa" className="block px-4 py-4">
                           EMPRESA
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="../turista" className="block px-4 py-4">
                           TURISTA
                         </a>
                       </li>
