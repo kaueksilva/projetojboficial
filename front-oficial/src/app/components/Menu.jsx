@@ -6,11 +6,26 @@ import { FaMinus } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 
 const Menu = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [dropdowns, setDropdowns] = useState({
-    
+    institucional: false,
+    cidade: false,
+    secretarias: false,
+    orgaos: false,
+    servicos: false,
   });
 
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [subMenuSocial, setSubMenuSocial] = useState(false);
+  const [subMenuEconomico, setSubMenuEconomico] = useState(false);
+
+  // Funções para controlar os submenus
+  const toggleSubMenuSocial = () => {
+    setSubMenuSocial(!subMenuSocial);
+  };
+
+  const toggleSubMenuEconomico = () => {
+    setSubMenuEconomico(!subMenuEconomico);
+  };
 
   const toggleDropdown = (menu) => {
     setDropdowns((prev) => ({
@@ -150,12 +165,19 @@ const Menu = () => {
                   {dropdowns.institucional && (
                     <ul className="absolute left-0 w-48 mt-3 bg-[#1e73be] text-[#ffffff] text-[12px] shadow-lg">
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="../mapa-da-estrategia" className="block px-4 py-4">
+                        <a
+                          href="../mapa-da-estrategia"
+                          className="block px-4 py-4"
+                        >
                           MAPA DA ESTRATÉGIA
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200">
-                        <a href="https://portaldatransparencia.jaboatao.pe.gov.br/estrutura-organizacional/" target="_blank" className="block px-4 py-4">
+                        <a
+                          href="https://portaldatransparencia.jaboatao.pe.gov.br/estrutura-organizacional/"
+                          target="_blank"
+                          className="block px-4 py-4"
+                        >
                           ESTRUTURA ORGANIZACIONAL
                         </a>
                       </li>
@@ -176,7 +198,10 @@ const Menu = () => {
                   {dropdowns.cidade && (
                     <ul className="absolute left-0 mt-3 w-48 bg-[#1e73be] text-[#ffffff] text-[12px] shadow-lg">
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="../jaboatao-dos-guararapes" className="block px-4 py-4">
+                        <a
+                          href="../jaboatao-dos-guararapes"
+                          className="block px-4 py-4"
+                        >
                           JABOATÃO DOS GUARARAPES
                         </a>
                       </li>
@@ -186,12 +211,18 @@ const Menu = () => {
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="../simbolos-da-cidade" className="block px-4 py-4">
+                        <a
+                          href="../simbolos-da-cidade"
+                          className="block px-4 py-4"
+                        >
                           SÍMBOLOS DA CIDADE
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200">
-                        <a href="../feriados-municipais" className="block px-4 py-4">
+                        <a
+                          href="../feriados-municipais"
+                          className="block px-4 py-4"
+                        >
                           FERIADOS MUNICIPAIS
                         </a>
                       </li>
@@ -228,15 +259,22 @@ const Menu = () => {
                         {dropdowns.secretariaASC && (
                           <ul className="absolute top-0 left-full mt-0 w-48 bg-[#1e73be] text-white shadow-lg">
                             <li className="hover:bg-[#224276] transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                            <a href="../endereco-dos-equipamentos-da-sas" className="block px-4 py-4">
-                          ENDEREÇOS DOS EQUIPAMENTOS DA SAS
-                        </a>
+                              <a
+                                href="../endereco-dos-equipamentos-da-sas"
+                                className="block px-4 py-4"
+                              >
+                                ENDEREÇOS DOS EQUIPAMENTOS DA SAS
+                              </a>
                             </li>
                           </ul>
                         )}
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="https://sdu.jaboatao.pe.gov.br/" target="_blank" className="block px-4 py-4">
+                        <a
+                          href="https://sdu.jaboatao.pe.gov.br/"
+                          target="_blank"
+                          className="block px-4 py-4"
+                        >
                           DESENVOLVIMENTO URBANO E MEIO AMBIENTE
                         </a>
                       </li>
@@ -393,12 +431,18 @@ const Menu = () => {
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="../coleta-publica-de-orcamento" className="block px-4 py-4">
+                        <a
+                          href="../coleta-publica-de-orcamento"
+                          className="block px-4 py-4"
+                        >
                           COLETA PÚBLICA DE ORÇAMENTO
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="../carta-de-servico" className="block px-4 py-4">
+                        <a
+                          href="../carta-de-servico"
+                          className="block px-4 py-4"
+                        >
                           CARTA DE SERVIÇOS
                         </a>
                       </li>
@@ -466,7 +510,9 @@ const Menu = () => {
                     href="#"
                     onClick={() => toggleDropdown("institucional")}
                     className={`flex items-center justify-center ${
-                      dropdowns.institucional ? "border-[1px] border-[#ffffff7c]" : ""
+                      dropdowns.institucional
+                        ? "border-[1px] border-[#ffffff7c]"
+                        : ""
                     }`}
                   >
                     INSTITUCIONAL
@@ -479,18 +525,20 @@ const Menu = () => {
                   {dropdowns.institucional && (
                     <ul className="mt-2 mb-6 text-[14px] leading-3">
                       <li className="mb-3">
-                        <a href="../mapaestrategia">
-                          MAPA DA ESTRATÉGIA
-                        </a>
+                        <a href="../mapa-da-estrategia">MAPA DA ESTRATÉGIA</a>
                       </li>
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
+                        <a
+                          href="https://portaldatransparencia.jaboatao.pe.gov.br/estrutura-organizacional/"
+                          target="_blank"
+                        >
                           ESTRUTURA ORGANIZACIONAL
                         </a>
                       </li>
                     </ul>
                   )}
                 </li>
+
                 <li className="mb-6">
                   <a
                     href="#"
@@ -509,34 +557,31 @@ const Menu = () => {
                   {dropdowns.cidade && (
                     <ul className="mt-2 mb-6 text-[14px] leading-3">
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                        JABOATÃO DOS GUARARAPES
+                        <a href="../jaboatao-dos-guararapes">
+                          JABOATÃO DOS GUARARAPES
                         </a>
                       </li>
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                        YAPOATAN
-                        </a>
+                        <a href="../yapoatan">YAPOATAN</a>
                       </li>
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                        SÍMBOLOS DA CIDADE
-                        </a>
+                        <a href="../simbolos-da-cidade">SÍMBOLOS DA CIDADE</a>
                       </li>
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                        FERIADOS MUNICIPAIS
-                        </a>
+                        <a href="../feriados-municipais">FERIADOS MUNICIPAIS</a>
                       </li>
                     </ul>
                   )}
                 </li>
+
                 <li className="mb-6">
                   <a
                     href="#"
                     onClick={() => toggleDropdown("secretarias")}
                     className={`flex items-center justify-center ${
-                      dropdowns.secretarias ? "border-[1px] border-[#ffffff7c]" : ""
+                      dropdowns.secretarias
+                        ? "border-[1px] border-[#ffffff7c]"
+                        : ""
                     }`}
                   >
                     SECRETARIAS
@@ -548,44 +593,94 @@ const Menu = () => {
                   </a>
                   {dropdowns.secretarias && (
                     <ul className="mt-2 mb-6 text-[14px] leading-3">
+                      {/* SECRETARIA DE ASSISTÊNCIA SOCIAL E CIDADANIA */}
+                      <li className="mb-3">
+                        <a
+                          href="#"
+                          onClick={toggleSubMenuSocial}
+                          className={`flex items-center justify-center"
+                    }`}
+                        >
+                          SECRETARIA DE ASSISTÊNCIA SOCIAL <br /> E CIDADANIA
+                          {subMenuSocial ? (
+                            <FaMinus className="ml-2 text-[14px] text-white" />
+                          ) : (
+                            <FaPlus className="ml-2 text-[14px] text-white" />
+                          )}
+                        </a>
+
+                        {/* Dropdown da SECRETARIA DE ASSISTÊNCIA SOCIAL */}
+                        {subMenuSocial && (
+                          <ul className="ml-4 mt-2 text-[14px]">
+                            <li className="mb-2">
+                              <a href="../endereco-dos-equipamentos-da-sas">ENDEREÇOS DOS EQUIPAMENTOS DA SAS</a>
+                            </li>
+                          </ul>
+                        )}
+                      </li>
+
+                      <li className="mb-3">
+                        <a href="https://sdu.jaboatao.pe.gov.br/" target="_blank">
+                          DESENVOLVIMENTO URBANO E MEIO AMBIENTE
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="../controladoria">
+                          CONTROLADORIA
+                        </a>
+                      </li>
+
+                      {/* DESENVOLVIMENTO ECONÔMICO */}
+                      <li className="mb-3">
+                        <a
+                          href="#"
+                          onClick={toggleSubMenuEconomico}
+                          className={`flex items-center justify-center"
+                    }`}
+                        >
+                          DESENVOLVIMENTO ECONÔMICO
+                          {subMenuEconomico ? (
+                            <FaMinus className="ml-2 text-[14px] text-white" />
+                          ) : (
+                            <FaPlus className="ml-2 text-[14px] text-white" />
+                          )}
+                        </a>
+
+                        {/* Dropdown de DESENVOLVIMENTO ECONÔMICO */}
+                        {subMenuEconomico && (
+                          <ul className="ml-4 mt-2 text-[14px]">
+                            <li className="mb-2">
+                              <a href="https://desenvolvimento.jaboatao.pe.gov.br/" target="_blank">
+                                DESENVOLVIMENTO ECONÔMICO E TURISMO
+                              </a>
+                            </li>
+                            <li className="mb-2">
+                              <a href="https://trabalho.jaboatao.pe.gov.br/" target="_blank">TRABALHO</a>
+                            </li>
+                          </ul>
+                        )}
+                      </li>
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
-                        SECRETARIA DE ASSISTÊNCIA SOCIAL <br /> E CIDADANIA
+                          DESENVOLVIMENTO INSTITUCIONAL
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a
+                          href="https://educacao.jaboatao.pe.gov.br/"
+                          target="_blank"
+                        >
+                          EDUCAÇÃO
                         </a>
                       </li>
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
-                        DESENVOLVIMENTO URBANO E MEIO AMBIENTE
+                          MULHER
                         </a>
                       </li>
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
-                        CONTROLADORIA
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                        DESENVOLVIMENTO ECONÔMICO
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                        DESENVOLVIMENTO INSTITUCIONAL
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                        EDUCAÇÃO
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                        MULHER
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                        SAÚDE
+                          SAÚDE
                         </a>
                       </li>
                     </ul>
@@ -609,21 +704,24 @@ const Menu = () => {
                   {dropdowns.orgaos && (
                     <ul className="mt-2 mb-6 text-[14px] leading-3">
                       <li className="mb-3">
-                        <a href="https://emlume.com.br"
-                          target="_blank" onClick={toggleMenu}>
+                        <a href="https://emlume.com.br" target="_blank">
                           EMLUME
                         </a>
                       </li>
                       <li className="mb-3">
-                        <a href="https://jaboataoprev.jaboatao.pe.gov.br/"
-                          target="_blank" onClick={toggleMenu}>
-                        JABOATÃOPREV
+                        <a
+                          href="https://jaboataoprev.jaboatao.pe.gov.br/"
+                          target="_blank"
+                        >
+                          JABOATÃOPREV
                         </a>
                       </li>
                       <li className="mb-3">
-                        <a href="https://procon.jaboatao.pe.gov.br/"
-                          target="_blank" onClick={toggleMenu}>
-                        PROCON
+                        <a
+                          href="https://procon.jaboatao.pe.gov.br/"
+                          target="_blank"
+                        >
+                          PROCON
                         </a>
                       </li>
                     </ul>
@@ -634,7 +732,9 @@ const Menu = () => {
                     href="#"
                     onClick={() => toggleDropdown("servicos")}
                     className={`flex items-center justify-center ${
-                      dropdowns.servicos ? "border-[1px] border-[#ffffff7c]" : ""
+                      dropdowns.servicos
+                        ? "border-[1px] border-[#ffffff7c]"
+                        : ""
                     }`}
                   >
                     SERVIÇOS
@@ -647,43 +747,49 @@ const Menu = () => {
                   {dropdowns.servicos && (
                     <ul className="mt-2 mb-6 text-[14px] leading-3">
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
+                        <a href="../ppp" onClick={toggleMenu}>
                           PPP - SAÚDE
                         </a>
                       </li>
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
+                        <a
+                          href="https://ouvidoria.jaboatao.pe.gov.br/perguntas-frequentes/"
+                          target="_blank"
+                        >
                           PERGUNTAS FREQUENTES
                         </a>
                       </li>
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
+                        <a
+                          href="../coleta-publica-de-orcamento"
+                          onClick={toggleMenu}
+                        >
                           COLETA PÚBLICA DE ORÇAMENTO
                         </a>
                       </li>
+
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                        CARTA DE SERVIÇOS
-                        </a>
+                        <a href="../carta-de-servico">CARTA DE SERVIÇOS</a>
                       </li>
+
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                        CIDADÃO
-                        </a>
+                        <a href="../cidadao">CIDADÃO</a>
                       </li>
+
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                        EMPRESA
-                        </a>
+                        <a href="../empresa">EMPRESA</a>
                       </li>
+
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                        TURISTA
-                        </a>
+                        <a href="../turista">TURISTA</a>
                       </li>
+
                       <li className="mb-3">
-                        <a href="#" onClick={toggleMenu}>
-                        SERVIDOR
+                        <a
+                          href="https://servidor.jaboatao.pe.gov.br/"
+                          target="_blank"
+                        >
+                          SERVIDOR
                         </a>
                       </li>
                     </ul>

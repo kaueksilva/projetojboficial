@@ -22,7 +22,7 @@ const Controladoria = () => {
         {/* Imagem de fundo */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/controladoria/controladoria.jpeg" // Caminho da sua imagem
+            src="/images/controladoria/controladoria.jpeg"
             alt="Background"
             layout="fill"
             objectFit="cover"
@@ -33,22 +33,26 @@ const Controladoria = () => {
         <div className="bg-[#0075B4] opacity-60 absolute inset-0"></div>
 
         {/* Conteúdo */}
-        <div className="relative z-10 text-center text-white">
-          <h1 className="text-[90px] font-bold mb-5">CONTROLADORIA</h1>
+        <div className="relative z-10 text-center text-white px-4">
+          {/* Ajuste responsivo do título */}
+          <h1 className="text-[40px] sm:text-[50px] md:text-[70px] lg:text-[90px] font-bold mb-5">
+            CONTROLADORIA
+          </h1>
 
-          <div className="flex gap-4 justify-center">
+          {/* Ajuste responsivo dos botões */}
+          <div className="flex flex-wrap gap-4 justify-center">
             <button
               onClick={handleScrollToCGM}
-              className="bg-[#003476] text-white py-4 px-8 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
+              className="bg-[#003476] text-white py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base md:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
             >
               CONHEÇA A CGM
             </button>
 
-            <button className="bg-[#003476] text-white py-4 px-8 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10">
+            <button className="bg-[#003476] text-white py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base md:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10">
               NOTÍCIAS
             </button>
 
-            <button className="bg-[#003476] text-white py-4 px-8 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10">
+            <button className="bg-[#003476] text-white py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base md:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10">
               FALE CONOSCO
             </button>
           </div>
