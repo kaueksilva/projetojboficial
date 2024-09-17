@@ -197,3 +197,13 @@
 .opensams-medium {
     font-family: 'OpenSans-Medium';
 }
+
+
+@font-face {
+    font-family: 'Futura-PT-Heavy';
+    src: url('/fontes/Futura-PT-Heavy.ttf') format('truetype');
+}
+
+.futura-pt-heavy {
+    font-family: 'Futura-PT-Heavy';
+}

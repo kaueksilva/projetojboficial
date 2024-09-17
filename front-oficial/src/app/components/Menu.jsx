@@ -334,7 +334,7 @@ const Menu = () => {
                         )}
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="../desenvolvimento-institucional" className="block px-4 py-4">
                           DESENVOLVIMENTO INSTITUCIONAL
                         </a>
                       </li>
@@ -680,7 +680,36 @@ const Menu = () => {
                       </li>
                       <li className="mb-3">
                         <a href="#" onClick={toggleMenu}>
+<<<<<<< HEAD
                           SAÚDE
+=======
+                        CONTROLADORIA
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                        DESENVOLVIMENTO ECONÔMICO
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="../desenvolvimento-institucional" onClick={toggleMenu}>
+                        DESENVOLVIMENTO INSTITUCIONAL
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                        EDUCAÇÃO
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                        MULHER
+                        </a>
+                      </li>
+                      <li className="mb-3">
+                        <a href="#" onClick={toggleMenu}>
+                        SAÚDE
+>>>>>>> lali
                         </a>
                       </li>
                     </ul>
