@@ -1,15 +1,13 @@
 import Institucional from "./desenvolvimento-institucional";
-import Model from "../0modelo-pagina/model-page2";
+import Menu from "../components/Menu";
+import Footer from "../components/Footer";
 
 export default function config() {
   return (
     <div >
-      <Model
-        caminhoImagem={"/images/desenvolvimentoinstitucional.jpeg"}
-        titulo={"Secretaria Municipal de Desenvolvimento Institucional"}
-      >
+        <Menu />
         <Institucional />
-      </Model>
+        <Footer/>
     </div>
   );
 }
