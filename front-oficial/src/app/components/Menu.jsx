@@ -334,7 +334,7 @@ const Menu = () => {
                         )}
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="../desenvolvimento_institucional" className="block px-4 py-4">
+                        <a href="#" className="block px-4 py-4">
                           DESENVOLVIMENTO INSTITUCIONAL
                         </a>
                       </li>
@@ -348,12 +348,12 @@ const Menu = () => {
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="../mulher" className="block px-4 py-4">
+                        <a href="#" className="block px-4 py-4">
                           MULHER
                         </a>
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200">
-                        <a href="../saude" className="block px-4 py-4">
+                        <a href="#" className="block px-4 py-4">
                           SAÚDE
                         </a>
                       </li>
@@ -661,7 +661,7 @@ const Menu = () => {
                         )}
                       </li>
                       <li className="mb-3">
-                        <a href="../desenvolvimento_institucional" onClick={toggleMenu}>
+                        <a href="#" onClick={toggleMenu}>
                           DESENVOLVIMENTO INSTITUCIONAL
                         </a>
                       </li>
@@ -674,12 +674,12 @@ const Menu = () => {
                         </a>
                       </li>
                       <li className="mb-3">
-                        <a href="../mulher" onClick={toggleMenu}>
+                        <a href="#" onClick={toggleMenu}>
                           MULHER
                         </a>
                       </li>
                       <li className="mb-3">
-                        <a href="../saude" onClick={toggleMenu}>
+                        <a href="#" onClick={toggleMenu}>
                           SAÚDE
                         </a>
                       </li>
