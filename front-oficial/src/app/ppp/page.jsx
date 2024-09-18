@@ -11,7 +11,7 @@ return (
         subtitulo={
             <span>
                 <Link href="../" className="text-white hover:underline hover:text-yellow-500 hover:brightness-125 transition-all">
-                Início
+                INÍCIO
                 </Link>
                 &nbsp;» <span className="brightness-125">PPP – SAÚDE</span>
             </span>

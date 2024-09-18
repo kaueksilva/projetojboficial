@@ -11,7 +11,7 @@ export default function config() {
         subtitulo={
           <span>
               <Link href="../" className="text-white hover:underline hover:text-yellow-500 hover:brightness-125 transition-all">
-              Início
+              INÍCIO
               </Link>
               &nbsp;» <span className="brightness-125">MAPAS DAS UNIDADES DE SAÚDE DA REGIONAL 6</span>
           </span>
