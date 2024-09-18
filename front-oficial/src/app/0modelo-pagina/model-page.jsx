@@ -20,7 +20,7 @@ export default function Model({ children, caminhoImagem, titulo, subtitulo }) {
         <h1 className=" text-[40px] leading-[40px] pb-[5px] font-bold drop-shadow-[0_4px_6px_rgba(0,0,0,0.9)]">{titulo}</h1>
 
           {/* Aumenta o subtítulo */}
-          <p className="text-[14px]">{subtitulo}</p>
+          <p className="text-[14px] font-bold	">{subtitulo}</p>
         </div>
       </div>
 
