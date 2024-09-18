@@ -101,7 +101,7 @@ const Saude = () => {
         </div>
   
   
-        <section className="relative h-64 bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/images/desenvolvimentoinstitucional2.jpg')" }} />
+        <section className="relative h-64 bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/images/fundosaude.jpg')" }} />
   
         <div className="bg-[radial-gradient(circle_at_center,#6EC1E4,#003476)] text-center w-full h-[46rem] text-white flex items-center justify-center flex-col">
           <h2 className="Montserrat-Bold text-4xl font-bold">EQUIPE</h2>
