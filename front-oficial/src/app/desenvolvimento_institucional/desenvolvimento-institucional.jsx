@@ -29,7 +29,7 @@ const DesenvolvimentoInstitucional = () => {
           <h2 className="Montserrat-Bold text-4xl font-bold text-center">QUEM SOMOS</h2>
           <div className="border-t-2 border-white my-4 w-40 mx-auto"/>
 
-          <p className="text-lg montserrat-medium">
+          <p className="text-justify text-lg montserrat-medium">
             A SDI – Secretaria de Municipal de Desenvolvimento Institucional do município de Jaboatão dos Guararapes – é a secretaria responsável por coordenar a gestão da ação governamental, promovendo a integração e a articulação das políticas públicas, de maneira a garantir o cumprimento da missão institucional do Governo Municipal. É composta pelas seguintes secretarias executivas:<br/><br/>
             Secretaria Executiva de Desenvolvimento Institucional, Monitoramento e Avaliação<br/>
             Secretaria Executiva de Licitações, Compras corporativas e Contratos<br/>
@@ -37,17 +37,17 @@ const DesenvolvimentoInstitucional = () => {
           </p>
 
           <h3 className="Montserrat-Bold text-3xl font-semibold text-center py-7">MISSÃO</h3>
-          <p className="text-lg montserrat-medium">
+          <p className="text-justify text-lg montserrat-medium">
             Proporcionar o desenvolvimento da Administração Municipal promovendo uma gestão integrada e inovadora na busca da melhoria contínua dos serviços aos cidadãos.
           </p>
 
           <h3 className="Montserrat-Bold text-3xl font-semibold text-center py-7">VISÃO</h3>
-          <p className="text-lg montserrat-medium">
+          <p className="text-justify text-lg montserrat-medium">
             Ser referência em governança, inovação e integração entre os entes da gestão municipal para garantir a efetividade das políticas públicas.
           </p>
 
           <h3 className="Montserrat-Bold text-3xl font-semibold text-center py-7">VALORES</h3>
-          <p className="text-lg montserrat-medium">
+          <p className="text-justify text-lg montserrat-medium">
             Competência – Transparência – Equilíbrio Fiscal – Inovação – Dinamismo – Determinação – Humanização – Integridade – Visão Sistêmica – Eficiência.
           </p>
 

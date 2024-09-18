@@ -29,7 +29,7 @@ const Saude = () => {
             </div>
         </div>
   
-        <section className="relative h-64 bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/images/desenvolvimentoinstitucional2.jpg')" }}/>
+        <section className="relative h-64 bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/images/fundosaude.jpg')" }}/>
   
   
         <div className="bg-[radial-gradient(circle_at_center,#6EC1E4,#003476)] w-full pt-20 pb-28 text-white">
@@ -37,22 +37,22 @@ const Saude = () => {
             <div className=" max-w-7xl mx-auto px-4">
 
             <h3 className="Montserrat-Bold text-4xl font-semibold text-center py-7">MISSÃO</h3>
-            <p className="text-lg montserrat-medium">
+            <p className="text-justify text-lg montserrat-medium">
             Planejar e promover ações estratégicas e serviços de saúde organizados e integrados de forma regionalizada, com transparência e participação social, de forma humanizada, eficiente e resolutiva, com paixão por fazer a diferença na vida da população.
             </p>
   
             <h3 className="Montserrat-Bold text-4xl font-semibold text-center py-7">MODELO DE ATENÇÃO</h3>
-            <p className="text-lg montserrat-medium">
+            <p className="text-justify text-lg montserrat-medium">
             Modelo de atenção pautado na ordenação do cuidado pela atenção básica e desenvolvido em redes de atenção – RAS, com base em linhas de cuidado integradas e organizadas, por meio de planejamento estratégico e regulação, reconhecendo as potencialidades, entraves e dinamicidade do território.
             </p>
 
             <h3 className="Montserrat-Bold text-4xl font-semibold text-center py-7">VISÃO</h3>
-            <p className="text-lg montserrat-medium">
+            <p className="text-justify text-lg montserrat-medium">
             Ampliar o acesso e melhorar a qualidade da atenção, nos diferentes níveis de complexidade, com a prestação de serviço público de saúde à população, a partir do reconhecimento das necessidades em saúde, estabelecendo fluxos e protocolos de referência e contrarreferência, para um trabalho organizado e equânime em redes de atenção, de modo eficaz, reconhecido pela qualidade por usuários, trabalhadores e gestores.
             </p>
   
             <h3 className="Montserrat-Bold text-4xl font-semibold text-center py-7">VALORES</h3>
-            <p className="text-lg montserrat-medium">
+            <p className="text-justify text-lg montserrat-medium">
             Ética – Conhecimento – Evidências científicas – Eficiência – Humanização – Compromisso – Respeito – Satisfação – Participação – Transparência – Desenvolvimento Científico e Tecnológico.protocolos de referência e contrarreferência, para um trabalho organizado e equânime em redes de atenção, de modo eficaz, reconhecido pela qualidade por usuários, trabalhadores e gestores.
             </p>
   
@@ -60,7 +60,7 @@ const Saude = () => {
   
         </div>
 
-        <section className="relative h-64 bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/images/desenvolvimentoinstitucional2.jpg')" }} />
+        <section className="relative h-64 bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/images/fundosaude.jpg')" }} />
 
 
         <div className="bg-[radial-gradient(circle_at_center,#003476,#6EC1E4)] text-center w-full h-[46rem] text-white items-center justify-center flex flex-col">

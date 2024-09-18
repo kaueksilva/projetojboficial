@@ -29,22 +29,22 @@ const Mulher = () => {
         <div className=" max-w-7xl mx-auto px-4">
 
           <h3 className="text-4xl font-semibold text-center py-7 Montserrat-Bold">MISSÃO</h3>
-          <p className="text-lg montserrat-medium">
+          <p className="text-justify text-lg montserrat-medium">
             Planejar e promover a igualdade de Gênero e combater a violência Domestica familiar, como também o empoderamento feminino e a inserção no mercado de trabalho através da qualificação profissional, tendo como desafio o fortalecimento e a participação das mulheres.
           </p>
 
           <h3 className="text-4xl font-semibold text-center py-7 Montserrat-Bold">MODELO DE ATENÇÃO</h3>
-          <p className="text-lg montserrat-medium">
+          <p className="text-justify text-lg montserrat-medium">
           Modelo de atenção pautado na ordenação do cuidado pela atenção básica e desenvolvido em redes de atenção – RAS, com base em linhas de cuidado integradas e organizadas, por meio de planejamento estratégico e regulação, reconhecendo as potencialidades, entraves e dinamicidade do território.
           </p>
 
           <h3 className="text-4xl font-semibold text-center py-7 Montserrat-Bold">VISÃO</h3>
-          <p className="text-lg montserrat-medium">
+          <p className="text-justify text-lg montserrat-medium">
             Formular, implementar, coordenar, acompanhar, supervisionar, avaliar e desenvolver politicas publicas, programas, projetos e ações voltadas para o emponderamento sócio-econômico da mulher, inserindo-as no mercado de trabalho e assim promovendo a melhoria da sua auto estima e autonomia financeira.
           </p>
 
           <h3 className="text-4xl font-semibold text-center py-7 Montserrat-Bold">VALORES</h3>
-          <p className="text-lg montserrat-medium">
+          <p className="text-justify text-lg montserrat-medium">
           Ética – Conhecimento – Evidências científicas – Eficiência – Humanização – Compromisso – Respeito – Satisfação – Participação – Transparência – Desenvolvimento Científico e Tecnológico.protocolos de referência e contrarreferência, para um trabalho organizado e equânime em redes de atenção, de modo eficaz, reconhecido pela qualidade por usuários, trabalhadores e gestores.
           </p>
         </div>
