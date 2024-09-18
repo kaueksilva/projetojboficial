@@ -7,13 +7,13 @@ return (
     <div >
     <Model
         caminhoImagem={"/images/cartaservicos.jpg"}
-        titulo={"Carta de Serviços"}
+        titulo={"CARTA DE SERVIÇOS"}
         subtitulo={
             <span>
                 <Link href="../" className="text-white hover:underline hover:text-yellow-500 hover:brightness-125 transition-all">
-                Início
+                INÍCIO
                 </Link>
-                &nbsp;» <span className="brightness-125">Carta de Serviços</span>
+                &nbsp;» <span className="brightness-125">CARTA DE SERVIÇOS</span>
             </span>
         }
         >
