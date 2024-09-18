@@ -475,7 +475,7 @@ const Menu = () => {
                 </li>
                 <li className="nav-item">
                   <a
-                    href="#"
+                    href="../acessibilidade"
                     className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#c8c8c87c] hover:before:z-[-1]"
                   >
                     ACESSIBILIDADE
@@ -796,7 +796,7 @@ const Menu = () => {
                   )}
                 </li>
                 <li className="mb-6">
-                  <a href="#" onClick={toggleMenu}>
+                  <a href="../acessibilidade" onClick={toggleMenu}>
                     ACESSIBILIDADE
                   </a>
                 </li>
