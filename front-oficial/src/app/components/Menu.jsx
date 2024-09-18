@@ -166,7 +166,7 @@ const Menu = () => {
                     <ul className="absolute left-0 w-48 mt-3 bg-[#1e73be] text-[#ffffff] text-[12px] shadow-lg">
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                         <a
-                          href="../mapa-da-estrategia"
+                          href="../mapa_da_estrategia"
                           className="block px-4 py-4"
                         >
                           MAPA DA ESTRATÉGIA
@@ -199,7 +199,7 @@ const Menu = () => {
                     <ul className="absolute left-0 mt-3 w-48 bg-[#1e73be] text-[#ffffff] text-[12px] shadow-lg">
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                         <a
-                          href="../jaboatao-dos-guararapes"
+                          href="../jaboatao_dos_guararapes"
                           className="block px-4 py-4"
                         >
                           JABOATÃO DOS GUARARAPES
@@ -212,7 +212,7 @@ const Menu = () => {
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                         <a
-                          href="../simbolos-da-cidade"
+                          href="../simbolos_da_cidade"
                           className="block px-4 py-4"
                         >
                           SÍMBOLOS DA CIDADE
@@ -220,7 +220,7 @@ const Menu = () => {
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200">
                         <a
-                          href="../feriados-municipais"
+                          href="../feriados_municipais"
                           className="block px-4 py-4"
                         >
                           FERIADOS MUNICIPAIS
@@ -260,7 +260,7 @@ const Menu = () => {
                           <ul className="absolute top-0 left-full mt-0 w-48 bg-[#1e73be] text-white shadow-lg">
                             <li className="hover:bg-[#224276] transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                               <a
-                                href="../endereco-dos-equipamentos-da-sas"
+                                href="../endereco_dos_equipamentos_da_sas"
                                 className="block px-4 py-4"
                               >
                                 ENDEREÇOS DOS EQUIPAMENTOS DA SAS
@@ -432,7 +432,7 @@ const Menu = () => {
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                         <a
-                          href="../coleta-publica-de-orcamento"
+                          href="../coleta_publica_de_orcamento"
                           className="block px-4 py-4"
                         >
                           COLETA PÚBLICA DE ORÇAMENTO
@@ -440,7 +440,7 @@ const Menu = () => {
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
                         <a
-                          href="../carta-de-servico"
+                          href="../carta_de_servico"
                           className="block px-4 py-4"
                         >
                           CARTA DE SERVIÇOS
@@ -525,7 +525,7 @@ const Menu = () => {
                   {dropdowns.institucional && (
                     <ul className="mt-2 mb-6 text-[14px] leading-3">
                       <li className="mb-3">
-                        <a href="../mapa-da-estrategia">MAPA DA ESTRATÉGIA</a>
+                        <a href="../mapa_da_estrategia">MAPA DA ESTRATÉGIA</a>
                       </li>
                       <li className="mb-3">
                         <a
@@ -557,7 +557,7 @@ const Menu = () => {
                   {dropdowns.cidade && (
                     <ul className="mt-2 mb-6 text-[14px] leading-3">
                       <li className="mb-3">
-                        <a href="../jaboatao-dos-guararapes">
+                        <a href="../jaboatao_dos_guararapes">
                           JABOATÃO DOS GUARARAPES
                         </a>
                       </li>
@@ -565,10 +565,10 @@ const Menu = () => {
                         <a href="../yapoatan">YAPOATAN</a>
                       </li>
                       <li className="mb-3">
-                        <a href="../simbolos-da-cidade">SÍMBOLOS DA CIDADE</a>
+                        <a href="../simbolos_da_cidade">SÍMBOLOS DA CIDADE</a>
                       </li>
                       <li className="mb-3">
-                        <a href="../feriados-municipais">FERIADOS MUNICIPAIS</a>
+                        <a href="../feriados_municipais">FERIADOS MUNICIPAIS</a>
                       </li>
                     </ul>
                   )}
@@ -613,7 +613,7 @@ const Menu = () => {
                         {subMenuSocial && (
                           <ul className="ml-4 mt-2 text-[14px]">
                             <li className="mb-2">
-                              <a href="../endereco-dos-equipamentos-da-sas">ENDEREÇOS DOS EQUIPAMENTOS DA SAS</a>
+                              <a href="../endereco_dos_equipamentos_da_sas">ENDEREÇOS DOS EQUIPAMENTOS DA SAS</a>
                             </li>
                           </ul>
                         )}
@@ -761,7 +761,7 @@ const Menu = () => {
                       </li>
                       <li className="mb-3">
                         <a
-                          href="../coleta-publica-de-orcamento"
+                          href="../coleta_publica_de_orcamento"
                           onClick={toggleMenu}
                         >
                           COLETA PÚBLICA DE ORÇAMENTO
@@ -769,7 +769,7 @@ const Menu = () => {
                       </li>
 
                       <li className="mb-3">
-                        <a href="../carta-de-servico">CARTA DE SERVIÇOS</a>
+                        <a href="../carta_de_servico">CARTA DE SERVIÇOS</a>
                       </li>
 
                       <li className="mb-3">
