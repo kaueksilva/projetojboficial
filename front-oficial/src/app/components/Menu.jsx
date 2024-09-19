@@ -6,6 +6,7 @@ import { FaMinus } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 
 const Menu = () => {
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [dropdowns, setDropdowns] = useState({
     institucional: false,
@@ -17,6 +18,22 @@ const Menu = () => {
 
   const [subMenuSocial, setSubMenuSocial] = useState(false);
   const [subMenuEconomico, setSubMenuEconomico] = useState(false);
+
+  const handleSearchClick = () => {
+    setIsSearchOpen(true);
+  };
+
+  const handleCloseClick = () => {
+    setIsSearchOpen(false);
+  };
+
+  const handleKeyPress = (event) => {
+    if (event.key === "Enter") {
+      // Lógica de pesquisa ao pressionar Enter
+      console.log("Pesquisando:", event.target.value);
+      setIsSearchOpen(false); // Fechar o modal após pesquisar
+    }
+  };
 
   // Funções para controlar os submenus
   const toggleSubMenuSocial = () => {
@@ -334,7 +351,10 @@ const Menu = () => {
                         )}
                       </li>
                       <li className="hover:bg-[#224276] hover:text-white transition duration-200 border-b-[1px] border-[#c8c8c87c]">
-                        <a href="../desenvolvimento_institucional" className="block px-4 py-4">
+                        <a
+                          href="../desenvolvimento_institucional"
+                          className="block px-4 py-4"
+                        >
                           DESENVOLVIMENTO INSTITUCIONAL
                         </a>
                       </li>
@@ -481,14 +501,40 @@ const Menu = () => {
                     ACESSIBILIDADE
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a
-                    href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#c8c8c87c] hover:before:z-[-1]"
-                  >
-                    <i className="ri-search-line"></i>
-                  </a>
-                </li>
+                <div>
+                  <li className="nav-item">
+                    <a
+                      href="#"
+                      className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#c8c8c87c] hover:before:z-[-1]"
+                      onClick={handleSearchClick}
+                    >
+                      <i className="ri-search-line"></i>
+                    </a>
+                  </li>
+
+                  {isSearchOpen && (
+                    <div className="fixed inset-0 bg-[#003376c0] flex items-center justify-center z-50">
+                      <div className="relative w-full max-w-xl">
+                        {/* Botão de fechar centralizado */}
+                        <button
+                          className="absolute top-[-50px] left-1/2 transform -translate-x-1/2 text-white text-4xl"
+                          onClick={handleCloseClick}
+                        >
+                          &times;
+                        </button>
+
+                        {/* Campo de busca transparente */}
+                        <input
+                          type="text"
+                          placeholder="DIGITE E PRESSIONE ENTER PARA PESQUISAR"
+                          className="bg-transparent text-white text-[20px] text-center px-4 py-2 w-full border-b-2 border-gray-300 rounded-lg placeholder-white"
+                          onKeyPress={handleKeyPress}
+                        />
+                      </div>
+                    </div>
+                  )}
+                </div>
+
               </ul>
             </div>
           </div>
@@ -613,21 +659,24 @@ const Menu = () => {
                         {subMenuSocial && (
                           <ul className="ml-4 mt-2 text-[14px]">
                             <li className="mb-2">
-                              <a href="../endereco_dos_equipamentos_da_sas">ENDEREÇOS DOS EQUIPAMENTOS DA SAS</a>
+                              <a href="../endereco_dos_equipamentos_da_sas">
+                                ENDEREÇOS DOS EQUIPAMENTOS DA SAS
+                              </a>
                             </li>
                           </ul>
                         )}
                       </li>
 
                       <li className="mb-3">
-                        <a href="https://sdu.jaboatao.pe.gov.br/" target="_blank">
+                        <a
+                          href="https://sdu.jaboatao.pe.gov.br/"
+                          target="_blank"
+                        >
                           DESENVOLVIMENTO URBANO E MEIO AMBIENTE
                         </a>
                       </li>
                       <li className="mb-3">
-                        <a href="../controladoria">
-                          CONTROLADORIA
-                        </a>
+                        <a href="../controladoria">CONTROLADORIA</a>
                       </li>
 
                       {/* DESENVOLVIMENTO ECONÔMICO */}
@@ -650,18 +699,29 @@ const Menu = () => {
                         {subMenuEconomico && (
                           <ul className="ml-4 mt-2 text-[14px]">
                             <li className="mb-2">
-                              <a href="https://desenvolvimento.jaboatao.pe.gov.br/" target="_blank">
+                              <a
+                                href="https://desenvolvimento.jaboatao.pe.gov.br/"
+                                target="_blank"
+                              >
                                 DESENVOLVIMENTO ECONÔMICO E TURISMO
                               </a>
                             </li>
                             <li className="mb-2">
-                              <a href="https://trabalho.jaboatao.pe.gov.br/" target="_blank">TRABALHO</a>
+                              <a
+                                href="https://trabalho.jaboatao.pe.gov.br/"
+                                target="_blank"
+                              >
+                                TRABALHO
+                              </a>
                             </li>
                           </ul>
                         )}
                       </li>
                       <li className="mb-3">
-                        <a href="../desenvolvimento_institucional" onClick={toggleMenu}>
+                        <a
+                          href="../desenvolvimento_institucional"
+                          onClick={toggleMenu}
+                        >
                           DESENVOLVIMENTO INSTITUCIONAL
                         </a>
                       </li>
