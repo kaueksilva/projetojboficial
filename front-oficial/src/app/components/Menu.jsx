@@ -80,7 +80,7 @@ const Menu = () => {
                   href="#"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
-                  DIÁRIO OFICIAL
+                  Diário Oficial
                 </a>
               </li>
               <li className="nav-topo">
@@ -88,7 +88,7 @@ const Menu = () => {
                   href="#"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
-                  PORTAL DA TRANSPARÊNCIA
+                  Portal da Transparência
                 </a>
               </li>
               <li className="nav-topo">
@@ -96,7 +96,7 @@ const Menu = () => {
                   href="#"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
-                  OUVIDORIA
+                  Ouvidoria
                 </a>
               </li>
               <li className="nav-topo">
@@ -104,7 +104,7 @@ const Menu = () => {
                   href="#"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
-                  PORTAL DO CONTRIBUINTE
+                  Portal do Contribuinte
                 </a>
               </li>
               <li className="nav-topo">
@@ -112,7 +112,7 @@ const Menu = () => {
                   href="#"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
-                  PORTAL DO SERVIDOR
+                  Portal do Servidor
                 </a>
               </li>
               <li className="nav-topo">
@@ -128,7 +128,7 @@ const Menu = () => {
                   href="#"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
-                  RADAR DA TRANSPARÊNCIA
+                  Radar da Transparência
                 </a>
               </li>
               <li>
