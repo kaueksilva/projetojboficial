@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
-import Menu from "./components/Menu";
-import ScrollToTop from "./components/ScrollToTop";
-import Footer from "./components/Footer";
+import Menu from "../components/Menu";
+import ScrollToTop from "../components/ScrollToTop";
+import Footer from "../components/Footer";
 import "./style/globals.css";
 import "./style/footer.css";
 

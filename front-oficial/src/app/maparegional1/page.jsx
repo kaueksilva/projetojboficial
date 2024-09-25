@@ -1,5 +1,5 @@
 import Maparegional1 from "./mapa-regional1";
-import Model from "../components/model-page";
+import Model from "../../components/model-page";
 import Link from "next/link";
 
 export default function config() {

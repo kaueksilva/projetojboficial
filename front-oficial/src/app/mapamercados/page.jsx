@@ -1,5 +1,5 @@
 import Mapamercados from "./mapa-mercados";
-import Model from "../components/model-page";
+import Model from "../../components/model-page";
 import Link from "next/link";
 
 export default function config() {

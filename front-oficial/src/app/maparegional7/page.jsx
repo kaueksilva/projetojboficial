@@ -1,6 +1,6 @@
 "use client";
 import Maparegional7 from "./mapa-regional7";
-import Model from "../components/model-page";
+import Model from "../../components/model-page";
 import Link from "next/link";
 
 export default function config() {

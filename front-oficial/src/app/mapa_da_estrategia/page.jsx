@@ -1,5 +1,5 @@
 import Mapaestrategia from "./mapa-da-estrategia";
-import Model from "../components/model-page";
+import Model from "../../components/model-page";
 import Link from "next/link";
 
 export default function config() {
