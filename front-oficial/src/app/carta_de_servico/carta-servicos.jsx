@@ -15,7 +15,7 @@ const Cartaservico = () => {
     
           {/* GESTÃO URBANA */}
           <a
-            href=" "
+            href="../gestao_urbana"
             className="relative flex-1 w-64 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
