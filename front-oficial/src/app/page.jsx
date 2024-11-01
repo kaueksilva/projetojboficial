@@ -1,20 +1,9 @@
-import Menu from "./components/Menu";
-import Home from "./components/Home";
-import Footer from "./components/Footer";
-import ScrollToTop from "./components/ScrollToTop";
-
+import Home from "./Home";
 
 export default function config() {
   return (
     <div>
-      <Menu />
-
       <Home />
-
-      <ScrollToTop/>
-
-      <Footer/>
     </div>
   );
 }
-

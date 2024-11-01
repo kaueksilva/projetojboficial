@@ -1,6 +1,6 @@
 "use client";
 
-import PdfViewer2 from "../components/PdfViewer2";
+import PdfViewer2 from "../../components/PdfViewer2";
 
 const Equipamentosas = () => {
   return (

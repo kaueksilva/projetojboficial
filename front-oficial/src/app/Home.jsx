@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { FaSchool, FaHospital, FaHouseUser } from "react-icons/fa";
 import { FaStore, FaMapLocationDot } from "react-icons/fa6";
 import { GiKnifeFork } from "react-icons/gi";
-import "../style/globals.css";
+import "./style/globals.css";
 
 const handleScrollToMapas = (event) => {
   event.preventDefault();

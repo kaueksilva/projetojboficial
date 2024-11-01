@@ -1,5 +1,5 @@
 import Cidadao from "./servicos-para-o-cidadao";
-import Model from "../0modelo-pagina/model-page";
+import Model from "../../components/model-page";
 import Link from "next/link";
 
 export default function config() {
@@ -10,12 +10,16 @@ export default function config() {
         titulo={"SERVIÇOS PARA O CIDADÃO"}
         subtitulo={
           <span>
-              <Link href="../" className="text-white hover:underline hover:text-yellow-500 hover:brightness-125 transition-all">
+            <Link
+              href="../"
+              className="text-white hover:underline hover:text-yellow-500 hover:brightness-125 transition-all"
+            >
               Início
-              </Link>
-              &nbsp;» <span className="brightness-125">SERVIÇOS PARA O CIDADÃO</span>
+            </Link>
+            &nbsp;»{" "}
+            <span className="brightness-125">SERVIÇOS PARA O CIDADÃO</span>
           </span>
-      }
+        }
       >
         <Cidadao />
       </Model>

@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className="footer-principal">
         <div className="footer">
           <div className="footer-column1">
-            <h3 className="footer-title opensanshebrewcondensed-bold text-xl">MAPA DO SITE</h3>
+            <h3 className="footer-title opensanshebrewcondensed-bold text-xl">MAPA DO SITE</h3> 
             <h4 className="footer-border"></h4>
             <ul className="footer-list opensanshebrewcondensed-regular text-base">
               <li>
@@ -188,17 +188,29 @@ const Footer = () => {
             <h3 className="footer-title opensanshebrewcondensed-bold text-xl"><br/>ACOMPANHE-NOS</h3>
             <h4 className="footer-border"></h4>
             <div className="icones-footer">
-              <a href="https://twitter.com/">
-                <i className="ri-twitter-x-line"></i>
+              <a
+                href="https://twitter.com/jaboataoonline"
+                className="group flex items-center justify-center w-8 h-8 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
+              >
+                <i className="ri-twitter-x-line text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
               </a>
-              <a href="https://facebook.com/">
-                <i className="ri-facebook-circle-fill"></i>
+              <a
+                href="https://www.facebook.com/PrefeituradoJaboatao"
+                className="group flex items-center justify-center w-8 h-8 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
+              >
+                <i className="ri-facebook-circle-fill text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
               </a>
-              <a href="https://instagram.com/">
-                <i className="ri-instagram-line"></i>
+              <a
+                href="https://www.instagram.com/prefjaboatao/"
+                className="group flex items-center justify-center w-8 h-8 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
+              >
+                <i className="ri-instagram-line text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
               </a>
-              <a href="https://youtube.com/">
-                <i className="ri-youtube-fill"></i>
+              <a
+                href="https://www.youtube.com/user/prefeiturajaboatao/videos"
+                className="group flex items-center justify-center w-8 h-8 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
+              >
+                <i className="ri-youtube-fill text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
               </a>
             </div>
           </div>
