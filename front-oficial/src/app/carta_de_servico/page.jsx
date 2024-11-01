@@ -11,7 +11,7 @@ export default function config() {
         subtitulo={
           <span>
             <Link
-              href="../"
+              href="../" 
               className="text-white hover:underline hover:text-yellow-500 hover:brightness-125 transition-all"
             >
               INÍCIO

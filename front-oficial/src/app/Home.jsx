@@ -115,7 +115,7 @@ const Home = () => {
               </button>
 
               <button
-                onClick={() => (window.location.href = "../carta-servico")}
+                onClick={() => (window.location.href = "../carta_de_servico")}
                 className="bg-[#003476] text-white py-4 px-8 sm:px-20 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
               >
                 CARTA DE SERVIÇOS
