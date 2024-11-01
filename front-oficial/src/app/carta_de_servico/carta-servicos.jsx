@@ -1,4 +1,4 @@
-import { FaCity, FaPaw, FaHandsHelping, FaUserTie, FaCross, FaLightbulb, FaTree, FaBusAlt, FaBullhorn, FaPiggyBank, FaBalanceScaleLef, FaBriefcaseMedical, FaHammer,FaEye } from "react-icons/fa";
+import { FaCity, FaPaw, FaHandsHelping, FaUserTie, FaCross, FaLightbulb, FaTree, FaBusAlt, FaBullhorn, FaPiggyBank, FaBalanceScale, FaBriefcaseMedical, FaHammer,FaEye,FaExclamationTriangle } from "react-icons/fa";
 import { PiBookOpenTextFill } from "react-icons/pi";
 import { IoSchool, IoWoman } from "react-icons/io5";
 import { MdFamilyRestroom } from "react-icons/md";
@@ -385,7 +385,7 @@ const Cartaservico = () => {
           >
             <div className="relative h-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
-                <FaBalanceScaleLef className="text-4xl text-white" />
+                <FaBalanceScale className="text-4xl text-white" />
                 <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                 PROCURADORIA
                 </h3>
@@ -466,24 +466,24 @@ const Cartaservico = () => {
             </div>
           </a>
 
-          {/*   */}
+          {/*DEFESA CIVIL*/}
           <a
             href=" "
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
-                <IoWoman  className="text-4xl text-white" />
+                <FaExclamationTriangle className="text-4xl text-white" />
                 <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
-                MULHER
+                DEFESA CIVIL
                 </h3>
                 <p className="text-white bg-[#3a5498] bg-opacity-70 rounded-full px-3 py-1 my-2 transition-colors duration-300">
                   
-                  2 Servicos
+                  7 Servicos
                 </p>
               </div>
               <div className="absolute inset-0 flex items-center text-center justify-center hover:bg-gradient-to-br hover:from-[#002A66] hover:to-[#377BB5] text-white text-xs opacity-0 transition-opacity duration-500 group-hover:opacity-100 p-2">
-              Promove igualdade de gênero e combate à violência contra a mulher.
+              Promover ações de prevenção e redução de riscos de desastres
               </div>
             </div>
           </a>
