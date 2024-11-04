@@ -9,7 +9,24 @@ const menuItems = [
   { name: 'Animais', href: '/carta_de_servico/animais' },
   { name: 'Defesa do Consumidor', href: '/carta_de_servico/defesa-do-consumidor' },
   { name: 'Serviços de Direitos Humanos', href: '/carta_de_servico/servicos-direitos-humanos' },
-  // Adicione os demais itens do menu aqui com suas respectivas rotas...
+  { name: 'Educação', href: '/carta_de_servico/educacao' },
+  { name: 'Feiras e Mercados Públicos', href: '/carta_de_servico/feiras-mercados' },
+  { name: 'Funerário', href: '/carta_de_servico/funerario' },
+  { name: 'Iluminação', href: '/carta_de_servico/iluminacao' },
+  { name: 'Impostos e Taxas', href: '/carta_de_servico/impostos-taxas' },
+  { name: 'Meio Ambiente', href: '/carta_de_servico/meio-ambiente' },
+  { name: 'Mulher', href: '/carta_de_servico/mulher' },
+  { name: 'Ouvidoria', href: '/carta_de_servico/ouvidoria' },
+  { name: 'Previdência', href: '/carta_de_servico/previdencia' },
+  { name: 'Procuradoria', href: '/carta_de_servico/procuradoria' },
+  { name: 'Saúde', href: '/carta_de_servico/saude' },
+  { name: 'Trabalho e Emprego', href: '/carta_de_servico/trabalho-emprego' },
+  { name: 'Trânsito e Transporte', href: '/carta_de_servico/transito-transporte' },
+  { name: 'Serviços Urbanos', href: '/carta_de_servico/servicos-urbanos' },
+  { name: 'Vigilância Sanitária', href: '/carta_de_servico/vigilancia-sanitaria' },
+  { name: 'Defesa Civil', href: '/carta_de_servico/defesa-civil' },
+  { name: 'Assistência Social', href: '/carta_de_servico/assistencia-social' },
+
 ];
 
 // Carrega este componente dinamicamente para garantir que só é renderizado no cliente
