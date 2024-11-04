@@ -4,10 +4,10 @@ import React from 'react';
 import SideMenu from '../../../components/SideMenu';
 import { FaHandshake } from "react-icons/fa6";
 
-const Animais = () => {
+const ServicosDeDireitosHumanos = () => {
   return (
     <div className="flex mx-72 my-10">
-      <SideMenu activeItem="animais" />
+      <SideMenu activeItem="Serviços de Direitos Humanos" />
       <div className="w-3/4 p-4">        
         {/* Conteúdo principal */}
         <div className="mt-4">
@@ -67,4 +67,4 @@ const Animais = () => {
   );
 };
 
-export default Animais;
+export default ServicosDeDireitosHumanos;

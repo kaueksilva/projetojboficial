@@ -4,10 +4,10 @@ import React from 'react';
 import SideMenu from '../../../components/SideMenu';
 import { IoSchoolSharp } from "react-icons/io5";
 
-const Animais = () => {
+const educacao = () => {
   return (
     <div className="flex mx-72 my-10">
-      <SideMenu activeItem="animais" />
+      <SideMenu activeItem="educacao" />
       <div className="w-3/4 p-4">        
         {/* Conteúdo principal */}
         <div className="mt-4">
@@ -151,4 +151,4 @@ const Animais = () => {
   );
 };
 
-export default Animais;
+export default educacao;

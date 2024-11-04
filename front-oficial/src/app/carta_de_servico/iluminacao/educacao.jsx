@@ -2,27 +2,26 @@
 
 import React from 'react';
 import SideMenu from '../../../components/SideMenu';
-import { FaCartFlatbed } from "react-icons/fa6";
+import { FaLightbulb } from "react-icons/fa";
 
-const Defesa = () => {
+const educacao = () => {
   return (
     <div className="flex mx-72 my-10">
-      <SideMenu activeItem="Defesa do Consumidor" />
+      <SideMenu activeItem="educacao" />
       <div className="w-3/4 p-4">        
         {/* Conteúdo principal */}
         <div className="mt-4">
           {[
             {
-              title: 'Abertura de Reclamação – Defesa do Consumidor',
+              title: 'Serviços de iluminação',
               description:
-                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO O Procon do Município do Jaboatão dos Guararapes está à disposição dos consumidores, auxiliando o cidadão na',
+                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO REQUISITOS Para solicitar serviços de iluminação pública, o município deverá fazer solicitação exclusivamente através do  0800 444',
               link: '#'
             }
-            
           ].map((item, index) => (
             <div key={index} className="flex items-start mb-4 border-b pb-4">
               <div className="w-16 h-16 text-[#003476] text-9xl flex items-center justify-center rounded">
-                <FaCartFlatbed />
+                <FaLightbulb />
               </div>
               <div className="ml-4">
                 <a href={item.link}>
@@ -38,4 +37,4 @@ const Defesa = () => {
   );
 };
 
-export default Defesa;
+export default educacao;

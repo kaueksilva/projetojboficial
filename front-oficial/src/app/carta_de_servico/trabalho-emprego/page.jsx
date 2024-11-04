@@ -1,13 +1,13 @@
-import ServicosDeDireitosHumanos from "./servicos-direitos-humanos";
+import TrabalhoEmprego from "./trabalho-emprego";
 import Model from "../../../components/model-page";
-import Link from "next/link";
+import Link from "next/link"; 
 
 export default function config() {
   return (
     <div>
       <Model
-        caminhoImagem={"/images/animais.jpg"}
-        titulo={"Serviços de Direitos Humanos"}
+        caminhoImagem={"/images/ambiente.Jpg"}
+        titulo={"Serviços de Trabalho e Emprego"}
         subtitulo={
           <span>
             <Link
@@ -16,11 +16,11 @@ export default function config() {
             >
               INÍCIO
             </Link>
-            &nbsp;» <span className="brightness-125">Serviços de Direitos Humanos</span>
+            &nbsp;» <span className="brightness-125">Serviços de Trabalho e Emprego</span>
           </span>
         }
       >
-        <ServicosDeDireitosHumanos />
+        <TrabalhoEmprego />
       </Model>
     </div>
   );

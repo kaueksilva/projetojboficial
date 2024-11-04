@@ -1,4 +1,4 @@
-import ServicosDeDireitosHumanos from "./servicos-direitos-humanos";
+import ServicosDeFeiras from "./feiras-mercados";
 import Model from "../../../components/model-page";
 import Link from "next/link";
 
@@ -6,8 +6,8 @@ export default function config() {
   return (
     <div>
       <Model
-        caminhoImagem={"/images/animais.jpg"}
-        titulo={"Serviços de Direitos Humanos"}
+        caminhoImagem={"/images/mercado.jpg"}
+        titulo={"Serviços de Feiras e Mercados Públicos"}
         subtitulo={
           <span>
             <Link
@@ -16,11 +16,11 @@ export default function config() {
             >
               INÍCIO
             </Link>
-            &nbsp;» <span className="brightness-125">Serviços de Direitos Humanos</span>
+            &nbsp;» <span className="brightness-125">Serviços de Feiras e Mercados Públicos</span>
           </span>
         }
       >
-        <ServicosDeDireitosHumanos />
+        <ServicosDeFeiras />
       </Model>
     </div>
   );

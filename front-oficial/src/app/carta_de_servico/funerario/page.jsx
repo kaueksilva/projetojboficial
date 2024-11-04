@@ -1,4 +1,4 @@
-import ServicosDeDireitosHumanos from "./educacao";
+import Funeral from "./funerario";
 import Model from "../../../components/model-page";
 import Link from "next/link";
 
@@ -6,8 +6,8 @@ export default function config() {
   return (
     <div>
       <Model
-        caminhoImagem={"/images/educacao.jpg"}
-        titulo={"Serviços de Direitos Humanos"}
+        caminhoImagem={"/images/funerario.Jpg"}
+        titulo={"Serviços Funerários"}
         subtitulo={
           <span>
             <Link
@@ -16,11 +16,11 @@ export default function config() {
             >
               INÍCIO
             </Link>
-            &nbsp;» <span className="brightness-125">Serviços de Direitos Humanos</span>
+            &nbsp;» <span className="brightness-125">Serviços Funerários</span>
           </span>
         }
       >
-        <ServicosDeDireitosHumanos />
+        <Funeral />
       </Model>
     </div>
   );

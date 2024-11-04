@@ -2,27 +2,33 @@
 
 import React from 'react';
 import SideMenu from '../../../components/SideMenu';
-import { FaCartFlatbed } from "react-icons/fa6";
+import { IoMegaphone } from "react-icons/io5";
 
-const Defesa = () => {
+const ambiente = () => {
   return (
     <div className="flex mx-72 my-10">
-      <SideMenu activeItem="Defesa do Consumidor" />
+      <SideMenu activeItem="Ouvidoria" />
       <div className="w-3/4 p-4">        
         {/* Conteúdo principal */}
         <div className="mt-4">
           {[
             {
-              title: 'Abertura de Reclamação – Defesa do Consumidor',
+              title: 'Registro de reclamações, denúncias, solicitações, elogios e sugestões',
               description:
-                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO O Procon do Município do Jaboatão dos Guararapes está à disposição dos consumidores, auxiliando o cidadão na',
+                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Ouvidoria Geral do município do Jaboatão dos Guararapes é um espaço de comunicação entre o cidadão',
+              link: '#'
+            },
+            
+            {
+              title: 'Pedido de Acesso à Informação',
+              description:
+                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Ouvidoria disponibiliza o Serviço de Atendimento ao Cidadão – SIC, onde o usuário poderá solicitar acesso',
               link: '#'
             }
-            
           ].map((item, index) => (
             <div key={index} className="flex items-start mb-4 border-b pb-4">
               <div className="w-16 h-16 text-[#003476] text-9xl flex items-center justify-center rounded">
-                <FaCartFlatbed />
+                <IoMegaphone />
               </div>
               <div className="ml-4">
                 <a href={item.link}>
@@ -38,4 +44,4 @@ const Defesa = () => {
   );
 };
 
-export default Defesa;
+export default ambiente;
