@@ -1,7 +1,8 @@
 "use client";
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 
 const menuItems = [
   { name: 'Gestão Urbana', href: '/carta_de_servico/gestao-urbana' },
@@ -11,9 +12,17 @@ const menuItems = [
   // Adicione os demais itens do menu aqui com suas respectivas rotas...
 ];
 
-const SideMenu = ({ activeItem }) => {
+// Carrega este componente dinamicamente para garantir que só é renderizado no cliente
+const SideMenu = () => {
+  const [activeItem, setActiveItem] = useState(null);
+
+  useEffect(() => {
+    const { pathname } = window.location;
+    setActiveItem(menuItems.find(item => item.href === pathname)?.name);
+  }, []);
+
   return (
-    <div className="w-1/3 bg-gray-100 p-4 ">
+    <div className="w-1/3 bg-gray-100 p-4">
       <ul className="space-y-2">
         {menuItems.map((item, index) => (
           <li
@@ -32,4 +41,4 @@ const SideMenu = ({ activeItem }) => {
   );
 };
 
-export default SideMenu;
+export default dynamic(() => Promise.resolve(SideMenu), { ssr: false });

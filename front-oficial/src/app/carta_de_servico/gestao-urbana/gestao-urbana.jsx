@@ -2,6 +2,7 @@
 
 import React from 'react';
 import SideMenu from '../../../components/SideMenu';
+import { FaFileCircleCheck } from "react-icons/fa6";
 
 const GestaoUrbana = () => {
   return (
@@ -14,26 +15,30 @@ const GestaoUrbana = () => {
             {
               title: 'Fiscalização Urbana',
               description:
-                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Denúncia de Obra Irregular; Ocupação de Espaço Público; Alvarás de Funcionamento para atividades irregulares; Publicidade Irregular. REQUISITOS'
+                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Denúncia de Obra Irregular; Ocupação de Espaço Público; Alvarás de Funcionamento para atividades irregulares; Publicidade Irregular. REQUISITOS',
+              link: '#'
             },
             {
               title: 'Cadastro Multifinalitário',
               description:
-                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO: Inscrição imobiliária para fins de tributação REQUISITOS: Cadastramento territorial e/ou predial urbano Para abertura do processo de cadastro'
+                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO: Inscrição imobiliária para fins de tributação REQUISITOS: Cadastramento territorial e/ou predial urbano Para abertura do processo de cadastro',
+              link: '#'
             },
             {
               title: 'Licenciamento Urbano',
               description:
-                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Abertura e análise de processos de terrenos, obras e reformas, alvará de localização e funcionamento, autorizações eventuais.'
+                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Abertura e análise de processos de terrenos, obras e reformas, alvará de localização e funcionamento, autorizações eventuais.',
+              link: '#'
             }
           ].map((item, index) => (
             <div key={index} className="flex items-start mb-4 border-b pb-4">
-              <div className="w-16 h-16 bg-blue-700 text-white flex items-center justify-center rounded">
-                {/* Ícone substituto */}
-                <span className="text-4xl">🏅</span>
+              <div className="w-16 h-16 text-[#003476] text-9xl flex items-center justify-center rounded">
+                <FaFileCircleCheck />
               </div>
               <div className="ml-4">
-                <h2 className="font-bold text-lg">{item.title}</h2>
+                <a href={item.link}>
+                  <h2 className="font-bold text-2xl hover:text-[#003476] hover:underline">{item.title}</h2>
+                </a>
                 <p className="text-gray-600">{item.description}</p>
               </div>
             </div>
