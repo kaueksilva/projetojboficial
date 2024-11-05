@@ -1,4 +1,4 @@
-import TrabalhoEmprego from "./trabalho-emprego";
+import ServicosUrbanos from "./servicos-urbanos";
 import Model from "../../../components/model-page";
 import Link from "next/link"; 
 
@@ -6,8 +6,8 @@ export default function config() {
   return (
     <div>
       <Model
-        caminhoImagem={"/images/trabalho.Jpg"}
-        titulo={"Serviços de Trabalho e Emprego"}
+        caminhoImagem={"/images/urbano.Jpg"}
+        titulo={"Serviços Urbanos"}
         subtitulo={
           <span>
             <Link
@@ -16,11 +16,11 @@ export default function config() {
             >
               INÍCIO
             </Link>
-            &nbsp;» <span className="brightness-125">Serviços de Trabalho e Emprego</span>
+            &nbsp;» <span className="brightness-125">Serviços Urbanos</span>
           </span>
         }
       >
-        <TrabalhoEmprego />
+        <ServicosUrbanos />
       </Model>
     </div>
   );

@@ -1,4 +1,4 @@
-import TrabalhoEmprego from "./trabalho-emprego";
+import Saude from "./assistencia-social";
 import Model from "../../../components/model-page";
 import Link from "next/link"; 
 
@@ -6,8 +6,8 @@ export default function config() {
   return (
     <div>
       <Model
-        caminhoImagem={"/images/trabalho.Jpg"}
-        titulo={"Serviços de Trabalho e Emprego"}
+        caminhoImagem={"/images/assistencia.jpg"}
+        titulo={"SERVIÇOS DE ASSISTÊNCIA SOCIAL"}
         subtitulo={
           <span>
             <Link
@@ -16,11 +16,11 @@ export default function config() {
             >
               INÍCIO
             </Link>
-            &nbsp;» <span className="brightness-125">Serviços de Trabalho e Emprego</span>
+            &nbsp;» <span className="brightness-125">SERVIÇOS DE ASSISTÊNCIA SOCIAL</span>
           </span>
         }
       >
-        <TrabalhoEmprego />
+        <Saude />
       </Model>
     </div>
   );

@@ -20,15 +20,51 @@ const ambiente = () => {
             },
             
             {
-              title: 'Educação Ambiental',
+              title: 'Programa Jovem Mais Jaboatão',
               description:
-                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Coordenação de Educação Ambiental – CEA realiza palestras de Sensibilização ambiental com foco em um tema',
+                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Programa Jovem Mais Jaboatão. Por meio da Coordenação, o projeto procura atender juventude de 15 a 29',
               link: '#'
             },
             {
-              title: 'Plantio ou Erradicação de Árvores',
+              title: 'Economia Solidária',
               description:
-                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Coordenação de Arborização, Praças e Jardins (CAPJ) é encarregada de coordenar e executar as ações de',
+                'DADOS GERAIS SETORES PÚEconomia SolidáriBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Economia Solidária. Fomento as ações dos empreendimentos econômicos solidários do município do Jaboatão dos Guararapes. Por meio',
+              link: '#'
+            },
+            {
+              title: 'Economia Criativa',
+              description:
+                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Economia Criativa. Fomento as ações dos empreendimentos econômicos criativos do município do Jaboatão dos Guararapes. A gestão municipal',
+              link: '#'
+            },
+            {
+              title: 'Serviços ao Empregador',
+              description:
+                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Serviços ao Empregador. A Agência do Trabalhador do Jaboatão dispõe ainda de um banco de talentos qualificado',
+              link: '#'
+            },
+            {
+              title: 'Seguro Desemprego',
+              description:
+                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO O Seguro Desemprego é um dos benefícios da Seguridade Social e tem a finalidade de garantir assistência financeira',
+              link: '#'
+            },
+            {
+              title: 'Oferta de Vagas',
+              description:
+                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Ofertas de vagas. O trabalhador que estiver procurando emprego poderá realizar buscas e cadastrar seu currículo no',
+              link: '#'
+            },
+            {
+              title: 'Intermediação de Mão de Obra',
+              description:
+                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A intermediação de mão-de-obra é um serviço ofertado pela Secretaria Executiva de Trabalho, Qualificação e Empreendedorismo, através',
+              link: '#'
+            },
+            {
+              title: 'Emissão da Carteira de Trabalho (CTPS)',
+              description:
+                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Carteira de Trabalho e Previdência Social (CTPS) é um documento obrigatório para toda pessoa que venha',
               link: '#'
             }
           ].map((item, index) => (
