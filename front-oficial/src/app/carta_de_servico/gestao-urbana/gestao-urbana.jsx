@@ -16,7 +16,7 @@ const GestaoUrbana = () => {
               title: 'Fiscalização Urbana',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Denúncia de Obra Irregular; Ocupação de Espaço Público; Alvarás de Funcionamento para atividades irregulares; Publicidade Irregular. REQUISITOS',
-              link: '#'
+              link: '/carta_de_servico/gestao-urbana/fiscalizacao'
             },
             {
               title: 'Cadastro Multifinalitário',

@@ -7,7 +7,7 @@ import { FaPeopleRoof } from "react-icons/fa6";
 const ambiente = () => {
   return (
     <div className="flex mx-72 my-10">
-      <SideMenu activeItem="Saude" />
+      <SideMenu activeItem="Assistência Social" />
       <div className="w-3/4 p-4">        
         {/* Conteúdo principal */}
         <div className="mt-4">
