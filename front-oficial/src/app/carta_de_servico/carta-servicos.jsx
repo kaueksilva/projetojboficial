@@ -38,7 +38,7 @@ const Cartaservico = () => {
 
           {/* ANIMAIS */}
           <a
-            href=" "
+            href="/carta_de_servico/animais"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -61,7 +61,7 @@ const Cartaservico = () => {
 
           {/* DEFESA DO CONSUMIDOR */}
           <a
-            href=" "
+            href="/carta_de_servico/defesa-do-consumidor"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -83,7 +83,7 @@ const Cartaservico = () => {
 
           {/* DIREITOS HUMANOS */}
           <a
-            href=" "
+            href="/carta_de_servico/servicos-direitos-humanos"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -106,7 +106,7 @@ const Cartaservico = () => {
 
           {/* EDUCAÇÃO */}
           <a
-            href=" "
+            href="/carta_de_servico/educacao"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -129,7 +129,7 @@ const Cartaservico = () => {
 
           {/* TRABALHO E EMPREGO */}
           <a
-            href=" "
+            href="/carta_de_servico/trabalho-emprego"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -151,7 +151,7 @@ const Cartaservico = () => {
 
           {/* ASSISTÊNCIA SOCIAL */}
           <a
-            href=" "
+            href="/carta_de_servico/assistencia-social"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -179,7 +179,7 @@ const Cartaservico = () => {
     
           {/* FEIRAS E MERCADOS PÚBLICOS */}
           <a
-            href=" "
+            href="/carta_de_servico/feiras-mercados"
             className="relative flex-1 w-64 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -200,7 +200,7 @@ const Cartaservico = () => {
 
           {/* FUNERÁRIO */}
           <a
-            href=" "
+            href="/carta_de_servico/funerario"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -222,7 +222,7 @@ const Cartaservico = () => {
 
           {/* ILUMINAÇÃO */}
           <a
-            href=" "
+            href="/carta_de_servico/iluminacao"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -244,7 +244,7 @@ const Cartaservico = () => {
 
           {/* IMPOSTOS E TAXAS */}
           <a
-            href=" "
+            href="/carta_de_servico/impostos-taxas"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -266,7 +266,7 @@ const Cartaservico = () => {
 
           {/* MEIO AMBIENTE */}
           <a
-            href=" "
+            href="/carta_de_servico/meio-ambiente"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -288,7 +288,7 @@ const Cartaservico = () => {
 
           {/* TRÂNSITO E TRANSPORTE */}
           <a
-            href=" "
+            href="/carta_de_servico/transito-transporte"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -310,7 +310,7 @@ const Cartaservico = () => {
 
           {/* MULHER */}
           <a
-            href=" "
+            href="/carta_de_servico/mulher"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -337,7 +337,7 @@ const Cartaservico = () => {
     
           {/* OUVIDORIA */}
           <a
-            href=" "
+            href="/carta_de_servico/ouvidoria"
             className="relative flex-1 w-64 transition-transform duration-500 group"
           >
             <div className="relative h-full w-full bg-[#003476] bg-center">
@@ -358,7 +358,7 @@ const Cartaservico = () => {
 
           {/* PREVIDÊNCIA */}
           <a
-            href=" "
+            href="/carta_de_servico/previdencia"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -380,7 +380,7 @@ const Cartaservico = () => {
 
           {/* PROCURADORIA */}
           <a
-            href=" "
+            href="/carta_de_servico/procuradoria"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -402,7 +402,7 @@ const Cartaservico = () => {
 
           {/* SAÚDE */}
           <a
-            href=" "
+            href="/carta_de_servico/saude"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -424,7 +424,7 @@ const Cartaservico = () => {
 
           {/* SERVIÇOS URBANOS  */}
           <a
-            href=" "
+            href="/carta_de_servico/servicos-urbanos"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -446,7 +446,7 @@ const Cartaservico = () => {
 
           {/*VIGILÂNCIA SANITÁRIA*/}
           <a
-            href=" "
+            href="/carta_de_servico/vigilancia-sanitaria"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -468,7 +468,7 @@ const Cartaservico = () => {
 
           {/*DEFESA CIVIL*/}
           <a
-            href=" "
+            href="/carta_de_servico/defesa-civil"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
