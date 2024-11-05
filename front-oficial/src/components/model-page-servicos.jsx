@@ -7,7 +7,7 @@ export default function Model({ children,caminhoImagem, titulo, subtitulo }) {
             src={caminhoImagem} 
             width={60}
             height={60}
-            className="mr-12 mb-7"
+            className="mr-10 mb-7"
           />
         <div className="z-10 text-left text-white pb-4 ">
           <p className="text-[13px] mb-2">{subtitulo}</p>

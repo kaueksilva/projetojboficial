@@ -5,7 +5,7 @@ export default function config() {
   return (
     <div>
       <Model
-        caminhoImagem={"/images/GestaoUrbanas.jpg"}
+        caminhoImagem={"/images/bandeiradacidade.png"}
         titulo={"FISCALIZAÇÃO URBANA"}
         subtitulo={
           <span>
