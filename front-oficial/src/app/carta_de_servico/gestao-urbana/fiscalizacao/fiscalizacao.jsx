@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const GestaoUrbana = () => {
+const Fiscalizacao = () => {
   return (
     <div className="flex mx-72 my-10">
       
@@ -10,4 +10,4 @@ const GestaoUrbana = () => {
   );
 };
 
-export default GestaoUrbana;
+export default Fiscalizacao;
