@@ -2,7 +2,7 @@
 
 import React from 'react';
 import SideMenu from '../../../components/SideMenu';
-import { MdOutlinePets } from "react-icons/md";
+import { MdOutlinePets } from "react-icons/md"; 
 
 const Animais = () => {
   return (
@@ -16,7 +16,7 @@ const Animais = () => {
               title: 'UBS PET',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO: A Unidade Básica de Saúde Animal possui os seguintes serviços a população: Consultas e Vacina Antirrábica, avaliação',
-              link: '#'
+              link: '/carta_de_servico/animais/ubs-pet'
             },
             {
               title: 'Vacinação Antirrábica Animal',
