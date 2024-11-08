@@ -14,34 +14,99 @@ const Fiscalizacao = () => {
               <div className="pr-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
                 <ul className="list-disc pl-5 mb-4">
-                  <li>Denúncia de Obra Irregular;</li>
-                  <li>Ocupação de Espaço Público;</li>
-                  <li>Alvarás de Funcionamento para atividades irregulares;</li>
-                  <li>Publicidade Irregular.</li>
+                  <li>Inscrição imobiliária para fins de tributação</li>
                 </ul>
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
                 <p className="mb-4">
-                  Endereço completo do local denunciado com ponto de referência.
+                  Cadastramento territorial e/ou predial urbano Para abertura do
+                  processo de cadastro de imóvel solicitamos anexar as seguintes
+                  documentaçõe.
                   <br />
-                  Etapas do Serviço: Vistoria no local para verificação.
+                  – Documento que comprove a propriedade do imóvel (contrato de
+                  compra e venda, RGI,escritura);
+                  <br />
+                  – RG e CPF com a data de nascimento expressa;
+                  <br />
+                  – Comprovante de residência (celpe ou compesa);
+                  <br />
+                  – Foto da fachada;
+                  <br />
+                  – Planta de locação e coberta e planta arquitetônica com
+                  assinatura do responsável técnico com art ou rrt;
+                  <br />– Foto do google maps da localização.
                 </p>
                 <h2 className="font-bold text-blue-800 mt-4">
-                  PRINCIPAIS ETAPAS
+                  REVISÃO CADASTRAL:
                 </h2>
-                <p className="mb-4">Vistoria no local para verificação.</p>
-                <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
                 <p className="mb-4">
-                  Tempo médio de atendimento: 08 dias úteis
+                  Para abertura do processo de revisão cadastral solicitamos
+                  anexar as seguintes documentações:
+                  <br />
+                  – Documento que comprove a propriedade do imóvel (contrato de
+                  compra e venda, RGI, escritura);
+                  <br />
+                  – Sequencial ou n° da inscrição imobiliária do imóvel;
+                  <br />
+                  – RG e CPF com a data de nascimento expressa;
+                  <br />
+                  – Comprovante de residência (celpe ou compesa);
+                  <br />
+                  – Foto da fachada;
+                  <br />
+                  – Planta de locação e coberta e planta arquitetônica com
+                  assinatura do responsável técnico com art ou rrt;
+                  <br />– Foto do google maps da localização.
+                </p>
+                <h2 className="font-bold text-blue-800 mt-4">
+                  CERTIDÃO NARRATIVA
+                </h2>
+                <p className="mb-4">
+                  Para abertura do processo de certidão narrativa solicitamos
+                  anexar as seguintes documentações:
+                  <br />
+                  – Documento que comprove a propriedade do imóvel (contrato de
+                  compra e venda, RGI, escritura);
+                  <br />
+                  – Sequencial ou n° da inscrição imobiliária do imóvel;
+                  <br />
+                  – RG e CPF com a data de nascimento expressa;
+                  <br />– Comprovante de residência (celpe ou compesa)
+                </p>
+                <h2 className="font-bold text-blue-800 mt-4">
+                  ETAPAS DO SERVIÇO:
+                </h2>
+                <p className="mb-4">
+                  Visita técnica, análise de processos, atualização de planta
+                  quadra, georreferenciamento, digitação, tributação, emissão de
+                  certidão.
+                  <br />
+                  <br />
+                  OBS: Para solicitação de revisão cadastral e certidão
+                  narrativa de endereço faz-se necessário informar sequencial ou
+                  n° da inscrição imobiliária do imóvel.
+                  <br />– Comprovante de residência (celpe ou compesa)
                 </p>
               </div>
 
               <div className="pl-10 w-full">
-                <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO</h2>
-                <p className="mb-4">Cidadão</p>
+                <h2 className="font-bold text-blue-800 mt-4">PREVISÃO:</h2>
+                <p className="mb-4">
+                  Tempo médio de atendimento: 08 dias úteis
+                </p>
+                <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO:</h2>
+                <p className="mb-4">Cidadãos</p>
                 <h2 className="font-bold text-blue-800 mt-4">
-                  PRESTAÇÃO DO SERVIÇO/FORMA
+                  PRESTAÇÃO DO SERVIÇO/FORMA:
                 </h2>
-                <p className="mb-4">Presencial ou telefone</p>
+                <p className="mb-4">
+                  E-Mail: cadastroimobiliario@jaboatao.pe.gov.br /{" "}
+                  <a
+                    href="mailto:nlcpjg@gmail.com"
+                    className="text-blue-800 hover:underline"
+                  >
+                    nlcpjg@gmail.com
+                  </a>
+                </p>
                 <h2 className="font-bold text-blue-800 mt-4">TAXAS</h2>
                 <p className="mb-4">Não há cobranças de taxas</p>
               </div>
@@ -51,25 +116,29 @@ const Fiscalizacao = () => {
         setorPublico={
           <>
             <p>
-              Av. Estrada da Batalha, 1200, Galpão N – Jardim Jordão, Jaboatão
-              dos Guararapes – PE
+              Atendimento presencial para consultas e dúvidas do processo –
+              terças e quintas por agendamento. <br />
+              Horário de atendimento: 08h às 14h
               <br />
-              Telefone: (81) 99975-2561
+              Telefone:(81) 9 99975 – 2403
               <br />
-              E-mail: gefuape@gmail.com
-              <br />
-              Horário de atendimento: 08h às 14h <br />
+              Endereço: Av. Estrada da Batalha, 1200, Galpão N – Jardim Jordão,
+              Jaboatão dos Guararapes – PE <br />
             </p>
           </>
         }
         duvidas={
           <>
             <div className="p-4 bg-gray-50 rounded-lg shadow-lg">
-              <h2 className="font-bold text-blue-800 text-lg mb-4 text-left">
-                CANAIS DE ATENDIMENTO
-              </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
                 <div className="md:pr-8">
+                  <h2 className="font-bold text-blue-800 text-lg mb-4 text-left">
+                    CANAIS DE ATENDIMENTO
+                  </h2>
+                  <p className="mb-3 text-justify">
+                    Disponibilizamos alguns mecanismos para realização de
+                    manifestações:
+                  </p>
                   <h2 className="font-bold text-blue-800 text-lg mb-2">
                     VIA INTERNET
                   </h2>

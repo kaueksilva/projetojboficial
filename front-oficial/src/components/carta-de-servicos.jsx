@@ -4,7 +4,8 @@ const CartaDeServico = ({ dadosGerais, setorPublico, duvidas }) => {
   const [activeTab, setActiveTab] = useState("dados-gerais");
 
   return (
-    <div className="container mx-auto my-10 p-5 border rounded shadow-lg">
+    <div className="container mx-auto my-10 p-5 border rounded shadow-lg max-w-7xl">
+
       {/* Tabs */}
       <div className="flex border-b mb-4">
         <button 
@@ -27,7 +28,7 @@ const CartaDeServico = ({ dadosGerais, setorPublico, duvidas }) => {
       {/* Conteúdo das abas */}
       <div className="tab-content">
         {activeTab === "dados-gerais" && (
-          <div className="grid grid-cols-2 gap-8">
+          <div>
             <div>
               {dadosGerais}
             </div>
@@ -40,7 +41,7 @@ const CartaDeServico = ({ dadosGerais, setorPublico, duvidas }) => {
           </div>
         )}
         {activeTab === "duvidas" && (
-          <div className="grid grid-cols-2 gap-8">
+          <div>
             <div>
               {duvidas}
             </div>

@@ -22,13 +22,13 @@ const GestaoUrbana = () => {
               title: 'Cadastro Multifinalitário',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO: Inscrição imobiliária para fins de tributação REQUISITOS: Cadastramento territorial e/ou predial urbano Para abertura do processo de cadastro',
-              link: '#'
+              link: '/carta_de_servico/gestao-urbana/cadastro-multifinalitario'
             },
             {
               title: 'Licenciamento Urbano',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Abertura e análise de processos de terrenos, obras e reformas, alvará de localização e funcionamento, autorizações eventuais.',
-              link: '#'
+              link: '/carta_de_servico/gestao-urbana/licenciamento-urbano'
             }
           ].map((item, index) => (
             <div key={index} className="flex items-start mb-4 border-b pb-4">

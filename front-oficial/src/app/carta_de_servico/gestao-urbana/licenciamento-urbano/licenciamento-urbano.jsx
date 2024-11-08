@@ -14,36 +14,73 @@ const Fiscalizacao = () => {
               <div className="pr-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
                 <ul className="list-disc pl-5 mb-4">
-                  <li>Denúncia de Obra Irregular;</li>
-                  <li>Ocupação de Espaço Público;</li>
-                  <li>Alvarás de Funcionamento para atividades irregulares;</li>
-                  <li>Publicidade Irregular.</li>
+                  <p>
+                    Abertura e análise de processos de terrenos, obras e
+                    reformas, alvará de localização e funcionamento,
+                    autorizações eventuais, alvará de publicidade, alvará de
+                    serviços especiais, certidões/consultas e cópias de plantas.
+                  </p>
                 </ul>
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
                 <p className="mb-4">
-                  Endereço completo do local denunciado com ponto de referência.
-                  <br />
-                  Etapas do Serviço: Vistoria no local para verificação.
+                  A documentação para abertura de processos de licenciamento
+                  urbanístico é solicitada de acordo com a especificidade de
+                  cada processo, podendo ser verificada no ato da abertura do
+                  mesmo através do Portal de Licenciamento Integrado
+                  <a href="https://cidadao-jaboatao.sissofia.com.br/login" className="text-blue-800 hover:underline"> (https://cidadao-jaboatao.sissofia.com.br/login.) </a>
+                   Salientamos
+                  que mediante a análise dos processos, documentos
+                  complementares podem ser solicitados.
                 </p>
                 <h2 className="font-bold text-blue-800 mt-4">
-                  PRINCIPAIS ETAPAS
+                  Principais Etapas:
                 </h2>
-                <p className="mb-4">Vistoria no local para verificação.</p>
-                <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
                 <p className="mb-4">
-                  Tempo médio de atendimento: 08 dias úteis
+                  – Abertura do Processo <br />
+                  – Pagamento da Taxa de Licenciamento
+                  <br />
+                  – Urbanístico
+                  <br />
+                  – Análise de Documentos
+                  <br />
+                  – Solicitação de Documentos Complementares ou Correção dos
+                  Documentos Entregues (Se necessário)
+                  <br />
+                  – Emissão do Alvará
+                  <br />– Deferimento/ Indeferimento do Processo.
                 </p>
               </div>
 
               <div className="pl-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO</h2>
-                <p className="mb-4">Cidadão</p>
-                <h2 className="font-bold text-blue-800 mt-4">
-                  PRESTAÇÃO DO SERVIÇO/FORMA
-                </h2>
-                <p className="mb-4">Presencial ou telefone</p>
+                <p className="mb-4">Cidadão e empresas</p>
+                <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO:</h2>
+                <p className="mb-4">Online:</p>
+
+                <a
+                  className="mt-2 w-full md:w-auto bg-[#004376] text-white py-2 px-6 rounded-lg text-sm md:text-base hover:bg-[#00ACED] transition-colors"
+                  href="https://cidadao-jaboatao.sissofia.com.br/login"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                >
+                  SITES
+                </a> <br/> <br/>
+                <a
+                  className="mt-2 w-full md:w-auto bg-[#004376] text-white py-2 px-6 rounded-lg text-sm md:text-base hover:bg-[#00ACED] transition-colors"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSe_T437VLuFM9fpI6jlk1XZkmlFR0_juqrpF1DLlB_juuUIRA/viewform"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                >
+                  FORMULARIO DE SOLICITAÇÃO
+                </a>
+
+
                 <h2 className="font-bold text-blue-800 mt-4">TAXAS</h2>
-                <p className="mb-4">Não há cobranças de taxas</p>
+                <p className="mb-4">
+                  As taxas são baseadas conforme previsto no Anexo IV da Lei
+                  1.246/15,sendo atualizada anualmente com base no art. 185
+                  desta Lei.
+                </p>
               </div>
             </div>
           </>
@@ -51,25 +88,29 @@ const Fiscalizacao = () => {
         setorPublico={
           <>
             <p>
-              Av. Estrada da Batalha, 1200, Galpão N – Jardim Jordão, Jaboatão
-              dos Guararapes – PE
+              Atendimento presencial para consultas e dúvidas do processo –
+              terças e quintas por agendamento. <br />
+              Horário de atendimento: 08h às 14h
               <br />
-              Telefone: (81) 99975-2561
+              Telefone:(81) 9 99975 – 2403
               <br />
-              E-mail: gefuape@gmail.com
-              <br />
-              Horário de atendimento: 08h às 14h <br />
+              Endereço: Av. Estrada da Batalha, 1200, Galpão N – Jardim Jordão,
+              Jaboatão dos Guararapes – PE <br />
             </p>
           </>
         }
         duvidas={
           <>
             <div className="p-4 bg-gray-50 rounded-lg shadow-lg">
-              <h2 className="font-bold text-blue-800 text-lg mb-4 text-left">
-                CANAIS DE ATENDIMENTO
-              </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
                 <div className="md:pr-8">
+                  <h2 className="font-bold text-blue-800 text-lg mb-4 text-left">
+                    CANAIS DE ATENDIMENTO
+                  </h2>
+                  <p className="mb-3 text-justify">
+                    Disponibilizamos alguns mecanismos para realização de
+                    manifestações:
+                  </p>
                   <h2 className="font-bold text-blue-800 text-lg mb-2">
                     VIA INTERNET
                   </h2>
