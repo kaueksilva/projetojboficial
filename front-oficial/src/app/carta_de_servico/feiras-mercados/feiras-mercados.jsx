@@ -16,7 +16,7 @@ const ServicosDeFeiras = () => {
               title: 'Mercados Públicos',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO É um local onde se reúnem diferentes estabelecimentos comerciais, oferecendo uma variedade de produtos e serviços aos consumidores.',
-              link: '#'
+              link: '/carta_de_servico/feiras-mercados/mercados-publicos'
             }
             
           ].map((item, index) => (
