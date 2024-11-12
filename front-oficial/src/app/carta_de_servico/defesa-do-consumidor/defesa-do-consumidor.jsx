@@ -16,7 +16,7 @@ const Defesa = () => {
               title: 'Abertura de Reclamação – Defesa do Consumidor',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO O Procon do Município do Jaboatão dos Guararapes está à disposição dos consumidores, auxiliando o cidadão na',
-              link: '#'
+              link: '/carta_de_servico/defesa-do-consumidor/abertura-de-reclamacao'
             }
             
           ].map((item, index) => (
