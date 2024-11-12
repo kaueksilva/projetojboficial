@@ -4,6 +4,7 @@ import ScrollToTop from "../components/ScrollToTop";
 import Footer from "../components/Footer";
 import "./style/globals.css";
 import "./style/footer.css";
+import VLibras from "../components/Vlibras";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,9 +20,8 @@ export default function RootLayout({ children }) {
         <Menu />
 
         {children}
-
+        <VLibras/>
         <ScrollToTop />
-
         <Footer />
       </body>
     </html>
