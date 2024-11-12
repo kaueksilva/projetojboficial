@@ -1,3 +1,4 @@
+'use client';
 import VLibras from 'vlibras-nextjs';
 
 function Vlibras() {
