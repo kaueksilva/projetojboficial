@@ -1,4 +1,4 @@
-import Ubs from "./mercados-publicos";
+import MercadosPublicos from "./mercados-publicos";
 import Model from "../../../../components/model-page-servicos";
 
 export default function config() {
@@ -13,7 +13,7 @@ export default function config() {
           </span>
         }
       >
-        <Ubs />
+        <MercadosPublicos />
       </Model>
     </div>
   );
