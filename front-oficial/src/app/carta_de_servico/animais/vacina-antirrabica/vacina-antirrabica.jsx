@@ -12,16 +12,25 @@ const Pet = () => {
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
               <div className="pr-10 w-full">
-                <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2><br/>
+                <h2 className="font-bold text-blue-800 mt-4 mb-4">DESCRIÇÃO</h2>
                   <p>
-                  A Unidade Básica de Saúde Animal possui os seguintes serviços a população: Consultas e Vacina Antirrábica, avaliação para castração e exames laboratoriais.
+                  A Vigilância Ambiental em Saúde oferece vacinação contra raiva para cães e gatos. A vacinação é anual e pode ser realizada em cães e gatos saudáveis a partir dos três (03) meses de idade.
                   </p>
-                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2><br/>
-                <p className="mb-4">
-                Identificação do usuário: nome, endereço e telefone de contato.
-                NIS/Cartão do Bolsa Família, comprovante de residência e RG (original e cópia )
+                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
+                <p className="mb-4 mt-4">
+                Carteira de Vacina
                 </p>
-                
+
+                <h2 className="font-bold text-blue-800 mt-4">PRINCIPAIS ETAPAS</h2>
+                <p className="mb-4 mt-4">
+                Para vacinação de animais, o usuário deverá se dirigir ao Centro de Vigilância Ambiental – CVA, localizado na Avenida Eixo de Integração, – Muribeca, portando a carteira de vacinação.
+                </p>
+
+                <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
+                <p className="mb-4 mt-4">
+                Imediato
+                </p> 
+
               </div>
 
               <div className="pl-10 w-full">
@@ -40,11 +49,12 @@ const Pet = () => {
         }
         setorPublico={
           <>
+          <h2 className="font-bold text-blue-800 mt-4 mb-4">ENDEREÇO</h2>
             <p>
-            Av. Zequinha Barreto, 380 – Piedade, Jaboatão dos Guararapes – PE<br/>
-              Praça Murilo Braga, Cavaleiro – Das 8h às 15h.<br/><br/>
-              Atendimento de Segunda a Sexta de 8h às 14h<br/>
-              Telefone: (81) 99939-9652 – Apenas Whatsapp
+            Avenida Eixo de Integração – Muribeca, <br/>
+            Telefone: (81) 3379-5784 <br/>
+            (81) 99975-4361 <br/>
+            Horário de Atendimento: 8h às 17h
             </p>
           </>
         }

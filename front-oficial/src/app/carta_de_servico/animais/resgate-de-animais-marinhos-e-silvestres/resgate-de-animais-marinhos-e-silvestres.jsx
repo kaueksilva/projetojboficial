@@ -14,12 +14,19 @@ const Pet = () => {
               <div className="pr-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2><br/>
                   <p>
-                  A Unidade Básica de Saúde Animal possui os seguintes serviços a população: Consultas e Vacina Antirrábica, avaliação para castração e exames laboratoriais.
+                  A solicitação também poderá ser realizada nas Regionais de Serviço ou na Ouvidoria Geral do município. O resgate conta com o apoio do GAMA (Guarda Ambiental) ou DEPOMA (Delegacia do Meio Ambiente).
                   </p>
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2><br/>
                 <p className="mb-4">
-                Identificação do usuário: nome, endereço e telefone de contato.
-                NIS/Cartão do Bolsa Família, comprovante de residência e RG (original e cópia )
+                Identificação do usuário: nome, endereço e telefone de contato;<br/>
+                Identificação da reclamação, dados sobre a ocorrência;<br/>
+                É necessária a indicação correta do endereço;<br/>
+                Solicitações com numerações não localizadas serão encerradas por falta de dados necessários.
+                </p>
+
+              <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
+                <p className="mb-4">
+                Atendimento imediato
                 </p>
                 
               </div>
@@ -28,7 +35,7 @@ const Pet = () => {
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO</h2>
                 <p className="mb-4">Cidadão</p>
                 <h2 className="font-bold text-blue-800 mt-4">PRESTAÇÃO DO SERVIÇO/FORMA</h2>
-                <p className="mb-4">Presencial</p>
+                <p className="mb-4">Telefone</p>
 
                 <h2 className="font-bold text-blue-800 mt-4">TAXAS</h2>
                 <p className="mb-4">
@@ -40,12 +47,11 @@ const Pet = () => {
         }
         setorPublico={
           <>
-          <h2 className="font-bold text-blue-800 mt-4 mb-4">ENDEREÇO</h2>
+          <h2 className="font-bold text-blue-800 mt-4 mb-4">Coordenação de Proteção e Defesa Animal</h2>
             <p>
-            Av. Zequinha Barreto, 380 – Piedade, Jaboatão dos Guararapes – PE<br/>
-              Praça Murilo Braga, Cavaleiro – Das 8h às 15h.<br/><br/>
-              Atendimento de Segunda a Sexta de 8h às 14h<br/>
-              Telefone: (81) 99939-9652 – Apenas Whatsapp
+            Telefone: (81) 999975-5886 (Grupamento de Apoio ao Meio Ambiente – GAMA)<br/>
+            Email: cpda.pmjg@gmail.com <br/>
+            Horário de atendimento: De segunda a sexta feira, das 8h às 15h
             </p>
           </>
         }

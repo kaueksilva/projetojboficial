@@ -12,23 +12,35 @@ const Pet = () => {
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
               <div className="pr-10 w-full">
-                <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2><br/>
+                <h2 className="font-bold text-blue-800 mt-4 mb-4">DESCRIÇÃO</h2>
                   <p>
-                  A Unidade Básica de Saúde Animal possui os seguintes serviços a população: Consultas e Vacina Antirrábica, avaliação para castração e exames laboratoriais.
+                  A Secretaria Executiva de Bem-Estar Animal possui um canal para atendimento de denúncias de maus-tratos a equinos e para recolhimento de equinos em via pública ou em situação de abandono. Para solicitar o serviço o munícipe poderá entrar em contato com o canal de denúncias por meio de mensagem para o número: (81) 99229-3837 (WhatsApp), para que se forneça as demais informações necessárias.
                   </p>
-                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2><br/>
-                <p className="mb-4">
-                Identificação do usuário: nome, endereço e telefone de contato.
-                NIS/Cartão do Bolsa Família, comprovante de residência e RG (original e cópia )
+                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
+                <p className="mb-4 mt-4">
+                – Solicitação deve pertencer à região de Jaboatão dos Guararapes;<br/>
+                – Endereço completo do local;<br/>
+                – Imagem do animal;
                 </p>
-                
+
+                <h2 className="font-bold text-blue-800 mt-4">PRINCIPAIS ETAPAS
+                </h2>
+                <p className="mb-4 mt-4">
+                Ordem de recebimento
+                </p> 
+
+                <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
+                <p className="mb-4 mt-4">
+                Imediato
+                </p>
+
               </div>
 
               <div className="pl-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO</h2>
                 <p className="mb-4">Cidadão</p>
                 <h2 className="font-bold text-blue-800 mt-4">PRESTAÇÃO DO SERVIÇO/FORMA</h2>
-                <p className="mb-4">Presencial</p>
+                <p className="mb-4">Online (mensagem via WhatsApp)</p>
 
                 <h2 className="font-bold text-blue-800 mt-4">TAXAS</h2>
                 <p className="mb-4">
@@ -40,12 +52,13 @@ const Pet = () => {
         }
         setorPublico={
           <>
-          <h2 className="font-bold text-blue-800 mt-4 mb-4">ENDEREÇO</h2>
+            <h2 className="font-bold text-blue-800 mt-4 mb-2">COORDENAÇÃO DE ANIMAIS DE GRANDE PORTE</h2>
             <p>
-            Av. Zequinha Barreto, 380 – Piedade, Jaboatão dos Guararapes – PE<br/>
-              Praça Murilo Braga, Cavaleiro – Das 8h às 15h.<br/><br/>
-              Atendimento de Segunda a Sexta de 8h às 14h<br/>
-              Telefone: (81) 99939-9652 – Apenas Whatsapp
+            Endereço: Estrada da Batalha 1200, galpão N, Jardim Jordão, Jaboatão dos <br/>
+            Guararapes – PE <br/>
+            Telefone: (81) 99229-3837 <br/>
+            Email:bemestaranimal@jaboatao.pe.gov.br <br/>
+            Horário de atendimento: De segunda a sexta feira, das 8h às 15h
             </p>
           </>
         }

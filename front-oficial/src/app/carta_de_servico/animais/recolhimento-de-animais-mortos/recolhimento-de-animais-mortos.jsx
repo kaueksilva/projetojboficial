@@ -12,16 +12,16 @@ const Pet = () => {
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
               <div className="pr-10 w-full">
-                <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2><br/>
+                <h2 className="font-bold text-blue-800 mt-4 mb-4">DESCRIÇÃO</h2>
                   <p>
-                  A Unidade Básica de Saúde Animal possui os seguintes serviços a população: Consultas e Vacina Antirrábica, avaliação para castração e exames laboratoriais.
+                  A Secretaria Executiva de Serviços Urbanos é responsável pelo recolhimento de animais mortos em vias públicas. Para solicitar a remoção o munícipio poderá entrar em contato com a Gerência de Limpeza Urbana através do tele atendimento pelos números 81- 3134-9258 ou 81-3462-8776, de segunda-feira a sexta-feira, no horário de 8h às 12h e 13h às 17h. Ou ainda, se dirigindo presencialmente a qualquer uma das Regionais de Serviço.
                   </p>
-                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2><br/>
-                <p className="mb-4">
-                Identificação do usuário: nome, endereço e telefone de contato.
-                NIS/Cartão do Bolsa Família, comprovante de residência e RG (original e cópia )
+                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
+                <p className="mb-4 mt-4">
+                Informar dados pessoais (nome completo, telefone, endereço).<br/>
+                Endereço da ocorrência.
                 </p>
-                
+
               </div>
 
               <div className="pl-10 w-full">
@@ -40,13 +40,62 @@ const Pet = () => {
         }
         setorPublico={
           <>
-          <h2 className="font-bold text-blue-800 mt-4 mb-4">ENDEREÇO</h2>
-            <p>
-            Av. Zequinha Barreto, 380 – Piedade, Jaboatão dos Guararapes – PE<br/>
-              Praça Murilo Braga, Cavaleiro – Das 8h às 15h.<br/><br/>
-              Atendimento de Segunda a Sexta de 8h às 14h<br/>
-              Telefone: (81) 99939-9652 – Apenas Whatsapp
-            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
+              <div className="pr-10 w-full">
+                <h2 className="font-bold text-blue-800 mt-4 mb-4">ENDEREÇO:</h2>
+                <h2 className="font-bold text-blue-800 mt-4 mb-4">REGIONAL 1 – JABOATÃO CENTRO</h2>
+                  <p>
+                  E-mail Institucional: regional1@jaboatao.pe.gov.br / regional01pjg@gmail.com <br/>
+                  Rua Barão de Lucena, S/N – Centro – Jaboatão dos Guararapes-PE – CEP:54110-000<br/>
+                  Fone: (81)3482-8236 / 99226-0329
+                  </p>
+
+                  <h2 className="font-bold text-blue-800 mt-4 mb-4">REGIONAL 2 – CAVALEIRO</h2>
+                  <p>
+                  E-mail Institucional: regional2@jaboatao.pe.gov.br / regional02pjg@gmail.com<br/>
+                  Rua Severino Monteiro, S/N – Cavaleiro – Jaboatão dos Guararapes-PE – CEP:54250-538<br/>
+                  Fone: (81)3455-8498/ 99529-9658
+                  </p>
+
+                  <h2 className="font-bold text-blue-800 mt-4 mb-4">REGIONAL 3 – CURADO</h2>
+                  <p>
+                  E-mail Institucional: regional3@jaboatao.pe.gov.br/ regional3pjg@gmail.com<br/>
+                  Rua Leonardo da Vinci, 28 – Curado – Jaboatão dos Guararapes-PE – CEP:54220-000<br/>
+                  Fone: (81) 3255-2412/ 99401-3707
+                  </p>
+
+                  <h2 className="font-bold text-blue-800 mt-4 mb-4">REGIONAL 4 – MURIBECA</h2>
+                  <p>
+                  E-mail Institucional: regional4@jaboatao.pe.gov.br / regional4pjg@gmail.com<br/>
+                  Eixo da Integração da Muribeca, 3033 – Muribeca – Jaboatão dos Guararapes-PE – CEP:54350-000<br/>
+                  Fone: (81) 3377-5517/ 99939-5969
+                  </p>
+
+              </div>
+
+              <div className="pl-10 w-full">
+              <h2 className="font-bold text-blue-800 mt-4 mb-4">REGIONAL 5 – PRAZERES</h2>
+                  <p>
+                    E-mail Institucional: regional5@jaboatao.pe.gov.br / regional5@jaboatao.pe.gov.br<br/>
+                    Mercado das Mangueiras – Rua Dr. Luiz Regueira, 85 – 1º andar – Prazeres – Jaboatão dos Guararapes – PE – CEP: 54335-160<br/>
+                    Fone: (81) 3476-2946/ 99388-9786
+                    </p>
+
+                <h2 className="font-bold text-blue-800 mt-4 mb-4">REGIONAL 6 – PRAIAS</h2>
+                  <p>
+                  E-mail Institucional: regional6@jaboatao.pe.gov.br / regional6pjg@gmail.com<br/>
+                  Av. Pres. Kennedy, 578 – Piedade – Jaboatão dos Guararapes-PE – CEP:54430-030<br/>
+                  Fone: (81) 3469-4280/ 99975-4230
+                  </p>
+
+                <h2 className="font-bold text-blue-800 mt-4 mb-4">REGIONAL 7 – GUARARAPES</h2>
+                  <p>
+                  E-mail Institucional: regional7@jaboatao.pe.gov.br / regional7pjg@gmail.com<br/>
+                  Mercado das Mangueiras – Rua Dr. Luiz Regueira, 85 – 1º Andar – Prazeres – Jaboatão dos Guararapes – PE – CEP: 54335-160<br/>
+                  Fone: (81) 3476-4174/ 99128-4762
+                  </p>
+              </div>
+            </div>
           </>
         }
         duvidas={

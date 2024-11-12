@@ -12,16 +12,23 @@ const Pet = () => {
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
               <div className="pr-10 w-full">
-                <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2><br/>
+                <h2 className="font-bold text-blue-800 mt-4 mb-4">DESCRIÇÃO</h2>
                   <p>
-                  A Unidade Básica de Saúde Animal possui os seguintes serviços a população: Consultas e Vacina Antirrábica, avaliação para castração e exames laboratoriais.
+                  A coordenação de proteção e defesa animal realiza atendimento clínico-veterinário e vacinação. O serviço é realizado de forma itinerante, ficando 30 dias em cada Regional (Jaboatão Centro, Cavaleiro, Curado, Muribeca, Prazeres, Praias e Guararapes). Para saber a localização, o usuário deverá ligar para o telefone (81) 9.9187-1118.
                   </p>
-                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2><br/>
-                <p className="mb-4">
-                Identificação do usuário: nome, endereço e telefone de contato.
-                NIS/Cartão do Bolsa Família, comprovante de residência e RG (original e cópia )
+                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
+                <p className="mb-4 mt-4">
+                – Comprovação que se enquadra em população de baixa renda;<br/>
+                – Comprovante de residência;<br/>
+                – Documento de identificação RG;<br/>
+                – Número de identificação social (originais e xerox).
                 </p>
-                
+
+                <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
+                <p className="mb-4 mt-4">
+                São distribuídas 20 fichas para atendimento diário por ordem de chegada.
+                </p> 
+
               </div>
 
               <div className="pl-10 w-full">
@@ -40,12 +47,15 @@ const Pet = () => {
         }
         setorPublico={
           <>
-          <h2 className="font-bold text-blue-800 mt-4 mb-4">ENDEREÇO</h2>
+            <h2 className="font-bold text-blue-800 mt-4 mb-2">COORDENAÇÃO DE ANIMAIS DE GRANDE PORTE</h2>
             <p>
-            Av. Zequinha Barreto, 380 – Piedade, Jaboatão dos Guararapes – PE<br/>
-              Praça Murilo Braga, Cavaleiro – Das 8h às 15h.<br/><br/>
-              Atendimento de Segunda a Sexta de 8h às 14h<br/>
-              Telefone: (81) 99939-9652 – Apenas Whatsapp
+            Endereço: UBS Pet Massagana (Localizada na Av. Zequinha Barreto, 380, Praça de <br/>
+            Terminal de ônibus Brigadeiro Ivo Borges) ou UBS- PET Cavaleiro (Localizada na Praça <br/>
+            Murilo Braga, ao lado da estação de Metrô de cavaleiro).<br/><br/>
+
+            Telefone: (81) 99939-9652<br/>
+            E-mail: ubspet.pmjg@gmail.com<br/>
+            Horário de atendimento: De segunda a sexta feira, das 8h às 15h
             </p>
           </>
         }

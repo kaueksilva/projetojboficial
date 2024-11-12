@@ -28,37 +28,37 @@ const Animais = () => {
               title: 'Atendimento Clínico de Cães e Gatos',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Abertura e análise de processos de terrenos, obras e reformas, alvará de localização e funcionamento, autorizações eventuais.',
-              link: '#'
+              link: '/carta_de_servico/animais/atendimento-clinico-de-caes-e-gatos'
             },
             {
               title: 'Cadastro para Cirurgia de Castração de Cães e Gatos',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO O serviço de castração de cães e gatos é disponibilizado aos animais pertencentes aos munícipes de baixa',
-              link: '#'
+              link: '/carta_de_servico/animais/castracao-de-caes-e-gatos'
             },
             {
               title: 'Maus Tratos de Animais de Grande Porte – Denúncia',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Secretaria Executiva de Bem-Estar Animal possui um canal para atendimento de denúncias de maus-tratos a equinos.',
-              link: '#'
+              link: '/carta_de_servico/animais/maus-tratos-de-animais-de-grande-porte-denuncia'
             },
             {
               title: 'Maus Tratos de Cães e Gatos – Denúncia',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Secretaria Executiva de Bem-Estar Animal atua na averiguação de denúncias relacionadas a maus-tratos de cães e',
-              link: '#'
+              link: '/carta_de_servico/animais/maus-tratos-de-caes-e-gatos-denuncia'
             },
             {
               title: 'Recolhimento de Animais Mortos',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Secretaria Executiva de Serviços Urbanos é responsável pelo recolhimento de animais mortos em vias públicas.',
-              link: '#'
+              link: '/carta_de_servico/animais/recolhimento-de-animais-mortos'
             },
             {
               title: 'Resgate de Animais Marinhos e Silvestres',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A solicitação também poderá ser realizada nas Regionais de Serviço ou na Ouvidoria Geral do município.',
-              link: '#'
+              link: '/carta_de_servico/animais/resgate-de-animais-marinhos-e-silvestres'
             }
           ].map((item, index) => (
             <div key={index} className="flex items-start mb-4 border-b pb-4">

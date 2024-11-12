@@ -12,16 +12,23 @@ const Pet = () => {
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
               <div className="pr-10 w-full">
-                <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2><br/>
+                <h2 className="font-bold text-blue-800 mt-4 mb-4">DESCRIÇÃO</h2>
                   <p>
-                  A Unidade Básica de Saúde Animal possui os seguintes serviços a população: Consultas e Vacina Antirrábica, avaliação para castração e exames laboratoriais.
+                  O serviço de castração de cães e gatos é disponibilizado aos animais pertencentes aos munícipes de baixa renda do município de Jaboatão dos Guararapes. O usuário interessado em realizar a castração de seu animal necessita realizar um cadastro prévio. Após o cadastro, o usuário entrará na fila de espera e aguardará o agendamento para a cirurgia. Ao surgir a vaga para realização da cirurgia, a Secretaria Executiva de Bem-Estar Animal entrará em contato para marcar a data e horário do procedimento. São realizados 20 agendamentos por dia.
                   </p>
-                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2><br/>
-                <p className="mb-4">
-                Identificação do usuário: nome, endereço e telefone de contato.
-                NIS/Cartão do Bolsa Família, comprovante de residência e RG (original e cópia )
+                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
+                <p className="mb-4 mt-4">
+                – Comprovação que se enquadra em população de baixa renda;<br/>
+                – Comprovante de residência;<br/>
+                – Documento de identificação RG;<br/>
+                – Número de identificação social (originais e xerox).
                 </p>
-                
+
+                <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
+                <p className="mb-4 mt-4">
+                Até 6 meses
+                </p> 
+
               </div>
 
               <div className="pl-10 w-full">
@@ -40,12 +47,18 @@ const Pet = () => {
         }
         setorPublico={
           <>
-          <h2 className="font-bold text-blue-800 mt-4 mb-4">ENDEREÇO</h2>
+            <h2 className="font-bold text-blue-800 mt-4 mb-2">COORDENAÇÃO DE ANIMAIS DE GRANDE PORTE</h2>
             <p>
-            Av. Zequinha Barreto, 380 – Piedade, Jaboatão dos Guararapes – PE<br/>
-              Praça Murilo Braga, Cavaleiro – Das 8h às 15h.<br/><br/>
-              Atendimento de Segunda a Sexta de 8h às 14h<br/>
-              Telefone: (81) 99939-9652 – Apenas Whatsapp
+            Telefone: (81) 99379-4612 (Agendamento de Castração)<br/>
+            E-mail: formulariocastra@gmail.com <br/>
+            Horário de atendimento: De segunda a sexta feira, das 8h às 15h
+            </p>
+
+            <h2 className="font-bold text-blue-800 mt-4 mb-2">ENDEREÇO:</h2>
+            <p>
+            Endereço: UBS Pet Massagana (Localizada na Av. Zequinha Barreto, 380, Praça de<br/>
+            Terminal de ônibus Brigadeiro Ivo Borges) ou UBS- PET Cavaleiro (Localizada na Praça<br/>
+            Murilo Braga, ao lado da estação de Metrô de cavaleiro).
             </p>
           </>
         }

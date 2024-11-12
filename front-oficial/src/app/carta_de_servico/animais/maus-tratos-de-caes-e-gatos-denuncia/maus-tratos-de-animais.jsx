@@ -12,23 +12,36 @@ const Pet = () => {
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
               <div className="pr-10 w-full">
-                <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2><br/>
+                <h2 className="font-bold text-blue-800 mt-4 mb-4">DESCRIÇÃO</h2>
                   <p>
-                  A Unidade Básica de Saúde Animal possui os seguintes serviços a população: Consultas e Vacina Antirrábica, avaliação para castração e exames laboratoriais.
+                  A Secretaria Executiva de Bem-Estar Animal atua na averiguação de denúncias relacionadas a maus-tratos de cães e gatos. A fiscalização ocorre após o registro da denúncia na Secretaria de Bem-Estar Animal, Núcleo de Serviço ao Cidadão das Regionais, Ouvidoria Municipal ou Ministério Público. O trabalho é desenvolvido com o apoio do GAMA (Guarda Ambiental) ou DEPOMA (Delegacia do Meio Ambiente).
                   </p>
-                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2><br/>
-                <p className="mb-4">
-                Identificação do usuário: nome, endereço e telefone de contato.
-                NIS/Cartão do Bolsa Família, comprovante de residência e RG (original e cópia )
+                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
+                <p className="mb-4 mt-4">
+                A denúncia poderá ser registrada com identificação ou anônima.<br/>
+                Identificação do usuário: nome, endereço e telefone de contato.<br/>
+                Identificação da reclamação, dados sobre a ocorrência. É necessária a indicação correta do endereço.<br/>
+                Solicitações com numerações não localizadas são encerradas por falta de dados necessários.
                 </p>
-                
+
+                <h2 className="font-bold text-blue-800 mt-4">PRINCIPAIS ETAPAS
+                </h2>
+                <p className="mb-4 mt-4">
+                Ordem de recebimento
+                </p> 
+
+                <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
+                <p className="mb-4 mt-4">
+                As demandas são classificadas a partir das informações que constam nos protocolos e são realizadas em até 30 dias após a abertura do protocolo
+                </p>
+
               </div>
 
               <div className="pl-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO</h2>
                 <p className="mb-4">Cidadão</p>
                 <h2 className="font-bold text-blue-800 mt-4">PRESTAÇÃO DO SERVIÇO/FORMA</h2>
-                <p className="mb-4">Presencial</p>
+                <p className="mb-4">Online (mensagem via WhatsApp)</p>
 
                 <h2 className="font-bold text-blue-800 mt-4">TAXAS</h2>
                 <p className="mb-4">
@@ -40,12 +53,13 @@ const Pet = () => {
         }
         setorPublico={
           <>
-          <h2 className="font-bold text-blue-800 mt-4 mb-4">ENDEREÇO</h2>
+            <h2 className="font-bold text-blue-800 mt-4 mb-2">COORDENAÇÃO DE ANIMAIS DE GRANDE PORTE</h2>
             <p>
-            Av. Zequinha Barreto, 380 – Piedade, Jaboatão dos Guararapes – PE<br/>
-              Praça Murilo Braga, Cavaleiro – Das 8h às 15h.<br/><br/>
-              Atendimento de Segunda a Sexta de 8h às 14h<br/>
-              Telefone: (81) 99939-9652 – Apenas Whatsapp
+            Endereço: Estrada da Batalha 1200, galpão N, Jardim Jordão, Jaboatão dos <br/>
+            Guararapes – PE <br/>
+            Telefone: (81) 99229-3837 <br/>
+            Email:bemestaranimal@jaboatao.pe.gov.br <br/>
+            Horário de atendimento: De segunda a sexta feira, das 8h às 15h
             </p>
           </>
         }

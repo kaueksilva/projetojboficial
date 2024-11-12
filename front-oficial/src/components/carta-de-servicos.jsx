@@ -36,7 +36,6 @@ const CartaDeServico = ({ dadosGerais, setorPublico, duvidas }) => {
         )}
         {activeTab === "setor-publico" && (
           <div>
-            <h2 className="font-bold text-blue-800">ENDEREÇO</h2>
             {setorPublico}
           </div>
         )}
