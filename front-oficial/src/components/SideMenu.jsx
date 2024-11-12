@@ -39,7 +39,7 @@ const SideMenu = () => {
   }, []);
 
   return (
-    <div className="w-1/3 bg-gray-100 p-4">
+    <div className="bg-gray-100 p-4">
       <ul className="space-y-2">
         {menuItems.map((item, index) => (
           <li

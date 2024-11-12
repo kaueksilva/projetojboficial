@@ -1,4 +1,4 @@
-import Ubs from "./ubs-pet";
+import Pet from "./vacina-antirrabica";
 import Model from "../../../../components/model-page-servicos";
 
 export default function config() {
@@ -6,14 +6,15 @@ export default function config() {
     <div>
       <Model
         caminhoImagem={"/images/pet.png"}
-        titulo={"UBS PET"}
+        titulo={"Vacinação Antirrábica Animal"}
         subtitulo={
           <span>
-            <span className="brightness-125">Serviços de Animais</span>
+            <span className="brightness-125">Serviços de Animais
+            </span>
           </span>
         }
       >
-        <Ubs />
+        <Pet />
       </Model>
     </div>
   );

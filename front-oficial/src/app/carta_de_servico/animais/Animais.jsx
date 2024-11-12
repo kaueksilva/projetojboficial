@@ -6,7 +6,7 @@ import { MdOutlinePets } from "react-icons/md";
 
 const Animais = () => {
   return (
-    <div className="flex mx-72 my-10">
+    <div className="flex mx-4 sm:mx-10 md:mx-20 lg:mx-36 xl:mx-72 my-10">
       <SideMenu activeItem="animais" />
       <div className="w-3/4 p-4">        
         {/* Conteúdo principal */}
@@ -22,7 +22,7 @@ const Animais = () => {
               title: 'Vacinação Antirrábica Animal',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Vigilância Ambiental em Saúde oferece vacinação contra raiva para cães e gatos. A vacinação é anual',
-              link: '#'
+              link: '/carta_de_servico/animais/vacina-antirrabica'
             },
             {
               title: 'Atendimento Clínico de Cães e Gatos',

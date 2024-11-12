@@ -1,4 +1,4 @@
-import Animais from "./ubs-pet";
+import Animais from "./Animais";
 import Model from "../../../components/model-page";
 import Link from "next/link";
 

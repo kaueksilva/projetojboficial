@@ -6,7 +6,7 @@ import { FaBusAlt } from "react-icons/fa";
 
 const ambiente = () => {
   return (
-    <div className="flex mx-72 my-10">
+    <div className="flex mx-4 sm:mx-10 md:mx-20 lg:mx-36 xl:mx-72 my-10">
       <SideMenu activeItem="Trânsito e Transporte" />
       <div className="w-3/4 p-4">        
         {/* Conteúdo principal */}
