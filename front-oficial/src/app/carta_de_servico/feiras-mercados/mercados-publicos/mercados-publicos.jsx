@@ -92,26 +92,56 @@ const MercadosPublicos = () => {
 
               <div className="pl-10 w-full">
 
-                <h2 className="font-bold text-blue-800 mt-4">.</h2><br/>
-                <p className="mb-4">.</p>
+                <h2 className="font-bold text-blue-800 mt-4">CAMELÓDROMO DE JABOATÃO CENTRO</h2>
+                <p className="mb-4">Segunda a Sábado das 7h às 17h e Domingo das 7h às 12h<br/>
+                Endereço:<br/>
+                Av. Barão de Lucena, S/N – Jaboatão Centro<br/>
+                Serviços:<br/>
+                Lanchonetes, confecção, acessórios, barbearia e serviços diversos.</p>
 
-                <h2 className="font-bold text-blue-800 mt-4">.</h2><br/>
-                <p className="mb-4">.</p>
+                <h2 className="font-bold text-blue-800 mt-4">FEIRA CURADO II</h2>
+                <p className="mb-4">Segunda a Sábado 7:30h às 17h<br/>
+                  Endereço:<br/>
+                  Rua Miguel Gustavo, S/N – Curado II<br/>
+                  Serviços:<br/>
+                  Comercialização de fruta e verdura, lanchonete, acessórios, peixe e serviços diversos.</p>
 
-                <h2 className="font-bold text-blue-800 mt-4">.</h2><br/>
-                <p className="mb-4">.</p>
+                <h2 className="font-bold text-blue-800 mt-4">FEIRA CURADO IV</h2>
+                <p className="mb-4">Segunda a Sábado 7:30h às 17h<br/>
+                  Endereço:<br/>
+                  Rua 04, S/N – Curado IV<br/>
+                  Serviços:<br/>
+                  Comercialização de fruta e verdura, lanchonete, acessórios, peixe e serviços diversos.</p>
 
-                <h2 className="font-bold text-blue-800 mt-4">.</h2><br/>
-                <p className="mb-4">.</p>
+                <h2 className="font-bold text-blue-800 mt-4">CANDEIASFEIRAS AGROECOLÓGICAS</h2>
+                <h2 className="font-bold text-blue-800 mt-4">CANDEIAS</h2>
+                <p className="mb-4">Quarta Feira das 05h às 12h<br/>
+                  Endereço:<br/>
+                  Rua Anibal Ribeira Varejão, s/n – Candeias</p>
 
-                <h2 className="font-bold text-blue-800 mt-4">.</h2><br/>
-                <p className="mb-4">.</p>
+                <h2 className="font-bold text-blue-800 mt-4">MASSANGANA</h2>
+                <p className="mb-4">Sexta Feira das 05h às 12h<br/>
+                  Endereço:<br/>
+                  Avenida 4 de Outubro, 404-488 – Piedade</p>
 
-                <h2 className="font-bold text-blue-800 mt-4">.</h2><br/>
-                <p className="mb-4">.</p>
+                <h2 className="font-bold text-blue-800 mt-4">SEDE PREFEITURA</h2>
+                <p className="mb-4">Sexta Feira das 7h às 12h<br/>
+                  Endereço:<br/>
+                  Av. Barreto de Menezes, 1648 – Prazeres</p>
+
+                <h2 className="font-bold text-blue-800 mt-4">CAJUEIRO SECO</h2>
+                <p className="mb-4">Quinta Feira das 05h às 12h<br/>
+                    Endereço:<br/>
+                    Rua Santo Elias, 14 – Cajueiro Seco</p>
+
+                <h2 className="font-bold text-blue-800 mt-4">ABDO CABUS</h2>
+                <p className="mb-4">Sábado das 05h às 12h<br/>
+                  Endereço:<br/>
+                  Av. Abdo Cabus, s/n – Candeias<br/><br/>
+
+                  Obs: Caso o usuário deseje se tornar um permissionário, o mesmo deverá procurar a administração de cada mercado e verificar a disponibilidade de vaga.</p>
 
 
-                
                 <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
                 <p className="mb-4">Atendimento imediato</p>
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO</h2>
