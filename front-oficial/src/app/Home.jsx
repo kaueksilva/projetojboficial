@@ -1,8 +1,9 @@
-"use client";
+'use client';
 import { useState, useEffect } from "react";
 import { FaSchool, FaHospital, FaHouseUser } from "react-icons/fa";
 import { FaStore, FaMapLocationDot } from "react-icons/fa6";
 import { GiKnifeFork } from "react-icons/gi";
+import AccessibilityButton from "../components/AccessibilityButton";
 import "./style/globals.css";
 
 const handleScrollToMapas = (event) => {
@@ -49,6 +50,7 @@ const Home = () => {
   return (
     <div>
       <main className="bg-[#dfdfdf] z-[-1]">
+        <AccessibilityButton />
         <div className="text-center w-full h-screen overflow-hidden flex justify-center items-center relative z-20">
           <div className="absolute inset-0 w-full h-full z-[-1]">
             {/* Camada de imagem atual */}
