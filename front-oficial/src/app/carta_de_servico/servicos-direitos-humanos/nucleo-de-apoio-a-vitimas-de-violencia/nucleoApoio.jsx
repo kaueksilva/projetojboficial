@@ -2,7 +2,7 @@
 
 import React from "react";
 import CartaDeServico from "../../../../components/carta-de-servicos";
-import PesquisaSatisfacao from "../../../../components/PesquisaSatisfacao";
+
 
 const Fiscalizacao = () => {
   return (
@@ -14,9 +14,7 @@ const Fiscalizacao = () => {
               <div className="pr-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
                 <ul className="  mb-4">
-                  <li>O Núcleo de Apoio às Vítimas de Violência (NAVV) está vinculado à Secretaria Executiva de Direitos Humanos, da Família e Políticas sobre Drogas, da Secretaria Municipal de Assistência Social e Cidadania do Jaboatão dos Guararapes. Funciona como principal porta de entrada de denúncias de supostas violações dos direitos humanos relativas às pessoas idosas, às pessoas com deficiência, à população negra e aos povos tradicionais e à população LGBTQIAPN+. O serviço recebe as denúncias e realiza visitas domiciliares, registrando as informações em bancos de dados (PMAVV), prestando orientações às vítimas e seus familiares, quanto aos seus direitos e realizando os encaminhamentos necessários junto a rede municipal e Estadual de promoção dos Direitos Humanos.
-                <br className="mt-4" />
-                Conta com 03 (três) equipes de técnicos e agentes redutores de vulnerabilidade social que atendem as 07 (sete) Regionais do Município do Jaboatão dos Guararapes. </li>
+                  <li>O Núcleo de Apoio às Vítimas de Violência (NAVV) está vinculado à Secretaria Executiva de Direitos Humanos, da Família e Políticas sobre Drogas, da Secretaria Municipal de Assistência Social e Cidadania do Jaboatão dos Guararapes. Funciona como principal porta de entrada de denúncias de supostas violações dos direitos humanos relativas às pessoas idosas, às pessoas com deficiência, à população negra e aos povos tradicionais e à população LGBTQIAPN+. O serviço recebe as denúncias e realiza visitas domiciliares, registrando as informações em bancos de dados (PMAVV), prestando orientações às vítimas e seus familiares, quanto aos seus direitos e realizando os encaminhamentos necessários junto a rede municipal e Estadual de promoção dos Direitos Humanos.</li>
                 </ul>
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
                 
@@ -58,18 +56,49 @@ const Fiscalizacao = () => {
         }
         setorPublico={
           <>
-          <h2 className="font-bold text-blue-800 mt-4">ENDEREÇO:</h2>
+          <h2 className="font-bold text-blue-800 mt-4">COMO DENUNCIAR</h2>
             <p className="mt-4">
-            Complexo Administrativo, Estrada da Batalha, nº 1200, Galpão N, Jardim Jordão – Jaboatão dos Guararapes/PE
+            *Disque 100 
             </p>
             <p className="mt-4">
-            Horário de atendimento: das 08h às 15h.
+            *Ministério Público de Pernambuco – Promotoria de Justiça de Jaboatão dos Guararapes 
             </p>
             <p className="mt-4">
-            Telefones: (81)  9.9899-5216 e 9.8604-5965
+            (81) 3182-3335/3182-3642
             </p>
             <p className="mt-4">
-            E-mail: <a href="mailto:superitendenciadireitospcdsjab@gmail.com" className="hover:underline">superitendenciadireitospcdsjab@gmail.com</a>
+            *Disque Denúncia da Secretaria de Defesa Social de PE (81) 3421-9595 ou <a href="https://www.disquedenunciape.com.br" className="hover:underline">www.disquedenunciape.com.br</a>
+            </p>
+            <p className="mt-4">
+            *Núcleo de Apoio às Vítimas de Violência (NAVV):
+            </p>
+            <p className="mt-4">
+            Telefones: (81) 9.9400-3280 ou 9.9477-3061
+            </p>
+            <p className="mt-4">
+            Horário de atendimento:  das 08h às 15h, de segunda a sexta-feira.
+            </p>
+            <p className="mt-4">
+            E-mail: <a href="mailto:nav.jaboatao@gmail.com" className="hover:underline">nav.jaboatao@gmail.com</a>
+            </p>
+            <h2 className="font-bold text-blue-800 mt-4">DENÚCIA:</h2>
+            <p className="mt-4">
+            Disque 100 (24 horas)
+            </p>
+            <h2 className="font-bold text-blue-800 mt-4">TELEFONE:</h2>
+            <p className="mt-4">
+            (081) 9.9400-3280 ou 9.9894-1852
+            </p>
+            <p className="mt-4">
+            Horário de atendimento:  8h às 17h.
+            </p>
+            <h2 className="font-bold text-blue-800 mt-4">E-MAIL:</h2>
+            <p className="mt-4">
+            <a href="mailto:nav.jaboatao@gmail.com" className="hover:underline">nav.jaboatao@gmail.com</a>
+            </p>
+            <h2 className="font-bold text-blue-800 mt-4">ENDEREÇO:</h2>
+            <p className="mt-4">
+            Rua Almirante Dias Fernandes, nº 271-A – Prazeres – Jaboatão dos Guararapes/PE.
             </p>
 
           </>
