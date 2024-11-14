@@ -16,7 +16,7 @@ const ServicosDeDireitosHumanos = () => {
               title: 'INTEGRA',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO GERAL: O Programa INTEGRA está vinculado à Secretaria Executiva de Direitos humanos, da Família e de Política',
-              link: '#'
+              link: '/carta_de_servico/servicos-direitos-humanos/integra'
             },
             {
               title: 'FORTALECENDO LAÇOS',
