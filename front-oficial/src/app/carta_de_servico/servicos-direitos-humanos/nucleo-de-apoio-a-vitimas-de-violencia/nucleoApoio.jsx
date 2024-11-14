@@ -4,7 +4,7 @@ import React from "react";
 import CartaDeServico from "../../../../components/carta-de-servicos";
 
 
-const Fiscalizacao = () => {
+const Nucleo = () => {
   return (
     <div>
       <CartaDeServico
@@ -204,4 +204,4 @@ const Fiscalizacao = () => {
   );
 };
 
-export default Fiscalizacao;
+export default Nucleo;

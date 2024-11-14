@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import CartaDeServico from "../../../../components/carta-de-servicos";
 import PesquisaSatisfacao from "../../../../components/PesquisaSatisfacao";
 
-const Fiscalizacao = () => {
+const Servicos = () => {
 
   // Exemplo de URLs ou caminhos das imagens
   const images = [
@@ -243,4 +243,4 @@ const Fiscalizacao = () => {
   );
 };
 
-export default Fiscalizacao;
+export default Servicos;
