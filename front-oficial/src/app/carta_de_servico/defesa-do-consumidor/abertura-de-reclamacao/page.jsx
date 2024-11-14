@@ -5,7 +5,7 @@ export default function config() {
   return (
     <div>
       <Model
-        caminhoImagem={"/images/pet.png"}
+        caminhoImagem={"/images/carrinhos-de-compras.png"}
         titulo={"Abertura de Reclamação – Defesa do Consumidor"}
         subtitulo={
           <span>
