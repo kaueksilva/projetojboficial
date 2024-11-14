@@ -6,6 +6,7 @@ import "./style/globals.css";
 import "./style/footer.css";
 import VLibras from "../components/Vlibras";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

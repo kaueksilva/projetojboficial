@@ -1,7 +1,8 @@
+import AccessibilityButton from "../components/AccessibilityButton";
 export default function Model({ children, caminhoImagem, titulo, subtitulo }) {
   return (
     <div>
-      
+      <AccessibilityButton />
       <div className="relative w-full h-[250px] flex items-end justify-center bg-[#2365f3]">
         {/* Imagem de fundo */}
         <img
