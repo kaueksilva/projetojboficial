@@ -1,6 +1,8 @@
+import AccessibilityButton from "./AccessibilityButton";
 export default function Model({ children, caminhoImagem, titulo, subtitulo }) {
   return (
     <div>
+      <AccessibilityButton />
       <div className="relative w-full h-[250px] flex items-end bg-[#172C4E] px-6 md:px-20 lg:px-80">
         <img
           src={caminhoImagem}
