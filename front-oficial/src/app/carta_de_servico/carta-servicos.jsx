@@ -293,7 +293,7 @@ const Cartaservico = () => {
           >
             <div className="relative h-full bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
-                <FaBusAlt  Tie className="text-4xl text-white" />
+                <FaBusAlt className="text-4xl text-white" />
                 <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
                 TRÂNSITO E TRANSPORTE
                 </h3>
