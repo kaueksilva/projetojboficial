@@ -2,6 +2,10 @@ import Empresa from "./empresa";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Serviços para a Empresa - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

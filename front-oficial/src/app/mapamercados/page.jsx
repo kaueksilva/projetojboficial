@@ -2,6 +2,10 @@ import Mapamercados from "./mapa-mercados";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Mapa dos Mercados Públicos - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

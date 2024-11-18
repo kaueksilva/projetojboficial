@@ -2,6 +2,10 @@ import PPP from "./ppp-saude";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "PPP - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

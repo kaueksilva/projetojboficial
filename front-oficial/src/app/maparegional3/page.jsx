@@ -2,6 +2,10 @@ import Maparegional3 from "./mapa-regional3";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Mapa da Regional 3 - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

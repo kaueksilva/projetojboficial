@@ -2,6 +2,10 @@ import ColetaPublica from "./coleta-publica";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Coleta Pública de Orçamento - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

@@ -2,6 +2,10 @@ import Yapoatan from "./yapoatan";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Yapoatan - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>
