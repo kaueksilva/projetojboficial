@@ -7,7 +7,7 @@ import { GiHealthNormal } from "react-icons/gi";
 const ambiente = () => {
   return (
     <div className="flex mx-4 sm:mx-10 md:mx-20 lg:mx-36 xl:mx-72 my-10">
-      <SideMenu activeItem="Saude" />
+      <SideMenu activeItem="saude-servico" />
       <div className="w-3/4 p-4">        
         {/* Conteúdo principal */}
         <div className="mt-4">
@@ -16,74 +16,74 @@ const ambiente = () => {
               title: 'Marcação de Consultas e Exames – Central de Regulação na Carta de Serviço da Saúde',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A regulação é o mecanismo de gestão que possibilita que o usuário seja atendidopelos diferentes serviços de saúde especializados da rede própria e conveniada noSUS. A organização, controle, gerenciamento e priorização de acesso',
-              link: '/carta_de_servico/saude/marcacao-de-consultas-e-exames-central-de-regulacao-na-carta-de-servico-da-saude' 
+              link: '/carta_de_servico/saude-servico/marcacao-de-consultas-e-exames-central-de-regulacao-na-carta-de-servico-da-saude-servico' 
             },
             
             {
               title: 'Centro de Vigilância Ambiental (CVA)',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Centro de Vigilância Ambiental (CVA) – Jaboatão é o primeiro município do estado a contar com um CVA equipado com área isolada para análise de zoonoses. O equipamento, responsável por atuar na observação,',
-              link: '/carta_de_servico/saude/centro-de-vigilancia'
+              link: '/carta_de_servico/saude-servico/centro-de-vigilancia'
             },
             {
               title: 'Centro de Referência em Saúde do Trabalhador (CEREST)',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Centro de Referência em Saúde do Trabalhador (CEREST) – É um local de atendimento especializado em Saúde do Trabalhador. Além de atender diretamente o trabalhador, serve como uma fonte geradora de conhecimento, ou',
-              link: '/carta_de_servico/saude/centro-de-referencia-em-saude-do-trabalhador'
+              link: '/carta_de_servico/saude-servico/centro-de-referencia-em-saude-servico-do-trabalhador'
             },
             {
               title: 'Central de informações Estratégicas de Vigilância em Saúde (CIEVS-PE))',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Central de informações Estratégicas de Vigilância em Saúde (CIEVS-PE) – É uma unidade componente da Rede Nacional de Monitoramento e Respostas às Emergências em Saúde Pública, que tem por objetivos a articulação de',
-              link: '/carta_de_servico/saude/central-de-informacoes-estrategicas-de-vigilancia-em-saude'
+              link: '/carta_de_servico/saude-servico/central-de-informacoes-estrategicas-de-vigilancia-em-saude-servico'
             },
             {
               title: 'UBS',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO UBS – Unidade Básica de Saúde – O que é uma UBS? De acordo com a PNAB (Política Nacional de Atenção Básica) todos os estabelecimentos de saúde que prestem ações e serviços de',
-              link: '/carta_de_servico/saude/ubs'
+              link: '/carta_de_servico/saude-servico/ubs'
             },
             {
               title: 'Ouvidoria SUS',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Ouvidoria – É canal democrático de comunicação e articulação com a Gestão Municipal no sentido de melhorar a qualidade dos serviços de saúde prestados. O (a) cidadão (ã) pode procurar o atendimento da',
-              link: '/carta_de_servico/saude/ouvidoria-sus'
+              link: '/carta_de_servico/saude-servico/ouvidoria-sus'
             },
             {
               title: 'Laboratório Municipal',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Laboratório Municipal – Possui a missão de usar de excelência técnica nas análises laboratoriais, a fim de atender de forma adequada e completa as necessidades da população atendidas nas unidades da Rede Municipal',
-              link: '/carta_de_servico/saude/laboratorio-municipal'
+              link: '/carta_de_servico/saude-servico/laboratorio-municipal'
             },
             {
               title: 'Centro de Tratamento e Abordagem a Fumantes',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Centro de Tratamento e Abordagem ao Fumante – Conta com equipe multidisciplinar composta por: médico, assistente social, psicólogo, auxiliares de enfermagem e auxiliar administrativo. O serviço atende por demanda espontânea, sendo realizadas atividades',
-              link: '/carta_de_servico/saude/centro-de-tratamento-e-abordagem-a-fumantes'
+              link: '/carta_de_servico/saude-servico/centro-de-tratamento-e-abordagem-a-fumantes'
             },
             {
               title: 'Centro de Testagem e Aconselhamento em IST/AIDS – CTA',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Centro de Testagem e Aconselhamento em IST/AIDS – CTA – Atende a população realizando testes de HIV, sífilis e hepatite B, além de ser uma referência no atendimento às doenças sexualmente transmissíveis (DST).',
-              link: '/carta_de_servico/saude/centro-de-testagem-e-aconselhamento-em-ist-aids-cta'
+              link: '/carta_de_servico/saude-servico/centro-de-testagem-e-aconselhamento-em-ist-aids-cta'
             },
             {
               title: 'Centro de Referência em Saúde da Mulher (CRSM)',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Centro de Referência da Mulher – Presta assistência de média complexidade às mulheres do município. Serviços oferecidos: – Tratamento de Lesões;– Colposcopia;– Ultrassonografia;– Atendimento ginecológico;– Mastologia;– Climatério;– Planejamento Reprodutivo;– Pré-natal de alto risco;',
-              link: '/carta_de_servico/saude/centro-de-referencia-em-saude-da-mulher'
+              link: '/carta_de_servico/saude-servico/crsm'
             },
             {
               title: 'Academia da Saúde',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Academia de Saúde. É uma estratégia de promoção e produção do cuidado com a saúde, a partir da implantação de espaços públicos. Contam com infraestrutura apropriada, equipamentos e profissionais qualificados. As academias da',
-              link: '#'
+              link: '/carta_de_servico/saude-servico/academia-da-saude'
             },
             {
               title: 'Centro de Especialidades Odontológicas (CEO)',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO  Centro de Especialidades Odontológicas (CEO) visa suprir a necessidade da população em reabilitação oral. Realizam diagnóstico bucal, com ênfase no diagnóstico e detecção do câncer bucal, periodontia especializada, cirurgia oral menor dos tecidos',
-              link: '#'
+              link: '/carta_de_servico/saude-servico/centro-de-especialidades-odontologicas-ceo'
             },
             {
               title: 'Serviço de Atendimento Domiciliar (SAD)',

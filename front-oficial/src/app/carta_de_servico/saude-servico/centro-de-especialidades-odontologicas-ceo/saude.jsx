@@ -15,38 +15,14 @@ const Saude = () => {
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
                 <br />
                 <p>
-                  UBS – Unidade Básica de Saúde – O que é uma UBS? De acordo com
-                  a PNAB (Política Nacional de Atenção Básica) todos os
-                  estabelecimentos de saúde que prestem ações e serviços de
-                  Atenção Básica (AB), no âmbito do SUS, serão denominados
-                  Unidade Básica de Saúde. Todos os municípios de áreas cobertas
-                  pela AB deverão se cadastrar em suas respectivas UBS’s para
-                  ter garantido seu acesso ao serviço
+                Centro de Especialidades Odontológicas (CEO) visa suprir a necessidade da população em reabilitação oral. Realizam diagnóstico bucal, com ênfase no diagnóstico e detecção do câncer bucal, periodontia especializada, cirurgia oral menor dos tecidos moles e duros, endodontia, e atendimento aos portadores de necessidades especiais.<br/><br/>
+
+                O município de Jaboatão dos Guararapes conta com serviços de 04 Centros de Atendimento Odontológico localizados nas Policlínicas:<br/><br/>
+
+                Policlínica José Carneiro Lins; Policlínica Mariinha Melo; Policlínica Manuel Calheiros; Policlínica Cônego Pedro Souza Leão
                 </p>
 
-                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
-                <p className="mb-4 mt-4">
-                  RG, Cartão do SUS, Comprovante de residência
-                </p>
-
-                <h2 className="font-bold text-blue-800 mt-4 mb-4">
-                  PRINCIPAIS ETAPAS
-                </h2>
-                <p>
-                  Os Usuários dos municípios de Jaboatão cadastrados podem ter
-                  acesso a ações de promoção, prevenção e tratamento
-                  relacionadas a saúde da mulher, da criança, saúde mental,
-                  planejamento familiar, prevenção do câncer, pré-natal e
-                  cuidado de doenças crônicas como diabete e hipertensão, fazer
-                  curativos, fazer inalações, tomar vacinas, coletar exames
-                  laboratoriais, ter tratamento odontológico, receber medicação
-                  básica, ser encaminhado para atendimentos com especialistas.{" "}
-                  <br />
-                  <br />
-                  Localiza-se próxima da sua Residência, sendo a principal porta
-                  de entrada para atendimento e comunicação com toda Rede de
-                  Atenção a Saúde disponível no município
-                </p>
+                
               </div>
 
               <div className="pl-10 w-full">
@@ -65,25 +41,34 @@ const Saude = () => {
         }
         setorPublico={
           <>
-            <h2 className="font-bold text-blue-800 mt-4 mb-4">
-              SECRETARIA MUNICIPAL DE SAÚDE
-            </h2>
-            <p>
-              Av. Barreto de Menezes, S/N – Prazeres, <br />
-              Jaboatão dos Guararapes – PE.
-            </p>
+             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
+              <div className="pr-10 w-full">
+                <h2 className="font-bold text-blue-800 mt-4 mb-4">SECRETARIA MUNICIPAL DE SAÚDE</h2>
+                <p className="mb-5">
+                Av. Barreto de Menezes, S/N – Prazeres, <br/>
+                Jaboatão dos Guararapes – PE<br/><br/>
 
-            <a
-              className="roboto-medium inline-block bg-[#004376] text-white py-2 px-6 my-4 rounded-2xl text-center text-sm md:text-base hover:bg-[#00AEF9] transition-colors"
+                O município de Jaboatão dos Guararapes conta com serviços de 04 Centros de Atendimento Odontológico localizados nas Policlínicas:
+                </p>
 
-              href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/06/CARTILHA-DE-SERVICOS.pdf"
+                <h2 className="font-bold text-blue-800 mt-4">Policlínica José Carneiro Lins
+                </h2>
+                <p className="mb-4">Rua Dr. luiz Regueira, S/N – Prazeres</p>
 
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ENDEREÇO DE TODAS AS UNIDADES BÁSICAS <br /> DE SAÚDE
-            </a>
+              </div>
 
+              <div className="pl-10 w-full">
+                <h2 className="font-bold text-blue-800 mt-4">Policlínica Mariinha Melo</h2>
+                <p className="mb-4">Rua Boa Esperança, S/N – Vila Rica</p>
+                <h2 className="font-bold text-blue-800 mt-4">
+                Policlínica Manuel Calheiros </h2>
+                <p className="mb-4">Av. Dois, S/N – Curado IV</p>
+                <h2 className="font-bold text-blue-800 mt-4">
+                Policlínica Cônego Pedro Souza Leão</h2>
+                <p className="mb-4">Rua Joaquim Tenorio, S/N – Cavaleiro</p>
+                
+              </div>
+            </div>
 
             <iframe
               className="w-full mt-4 h-[400px] md:h-[600px]"
