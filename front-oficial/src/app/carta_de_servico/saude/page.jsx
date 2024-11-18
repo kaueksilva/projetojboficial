@@ -2,12 +2,16 @@ import Saude from "./saude-servico";
 import Model from "../../../components/model-page";
 import Link from "next/link"; 
 
+export const metadata = {
+  title: "Serviços de Saúde - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>
       <Model
         caminhoImagem={"/images/servicodesaude.jpg"}
         titulo={"Serviços de Saúde"}
+        
         subtitulo={
           <span>
             <Link

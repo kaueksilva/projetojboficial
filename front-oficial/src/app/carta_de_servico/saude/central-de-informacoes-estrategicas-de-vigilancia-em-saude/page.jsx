@@ -1,6 +1,8 @@
 import Ubs from "./saude";
 import Model from "../../../../components/model-page-servicos";
-
+export const metadata = {
+  title: "Central de informações Estratégicas de Vigilância em Saúde - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>

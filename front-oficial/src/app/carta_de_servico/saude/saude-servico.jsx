@@ -59,19 +59,19 @@ const ambiente = () => {
               title: 'Centro de Tratamento e Abordagem a Fumantes',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Centro de Tratamento e Abordagem ao Fumante – Conta com equipe multidisciplinar composta por: médico, assistente social, psicólogo, auxiliares de enfermagem e auxiliar administrativo. O serviço atende por demanda espontânea, sendo realizadas atividades',
-              link: '#'
+              link: '/carta_de_servico/saude/centro-de-tratamento-e-abordagem-a-fumantes'
             },
             {
               title: 'Centro de Testagem e Aconselhamento em IST/AIDS – CTA',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Centro de Testagem e Aconselhamento em IST/AIDS – CTA – Atende a população realizando testes de HIV, sífilis e hepatite B, além de ser uma referência no atendimento às doenças sexualmente transmissíveis (DST).',
-              link: '#'
+              link: '/carta_de_servico/saude/centro-de-testagem-e-aconselhamento-em-ist-aids-cta'
             },
             {
               title: 'Centro de Referência em Saúde da Mulher (CRSM)',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Centro de Referência da Mulher – Presta assistência de média complexidade às mulheres do município. Serviços oferecidos: – Tratamento de Lesões;– Colposcopia;– Ultrassonografia;– Atendimento ginecológico;– Mastologia;– Climatério;– Planejamento Reprodutivo;– Pré-natal de alto risco;',
-              link: '#'
+              link: '/carta_de_servico/saude/centro-de-referencia-em-saude-da-mulher'
             },
             {
               title: 'Academia da Saúde',

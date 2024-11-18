@@ -15,24 +15,38 @@ const Saude = () => {
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
                 <br />
                 <p>
-                Laboratório Municipal – Possui a missão de usar de excelência técnica nas análises laboratoriais, a fim de atender de forma adequada e completa as necessidades da população atendidas nas unidades da Rede Municipal de Saúde, para que o diagnóstico clínico seja rápido e preciso aos municípios. <br/><br/>
-
-                Sendo neste serviço de saúde executados as seguintes categorias de exames:<br/><br/>
-                 
-                <li> Ø Bioquímicos;</li>
-                <li>Ø Hematológicos;</li>
-                <li>Ø Imunológicos e hormonal;</li>
-                <li>Ø Parasitológicos;</li>
-                <li>Ø Urinálise;</li>
-                <li>Ø Virologia.</li>
-                
+                  UBS – Unidade Básica de Saúde – O que é uma UBS? De acordo com
+                  a PNAB (Política Nacional de Atenção Básica) todos os
+                  estabelecimentos de saúde que prestem ações e serviços de
+                  Atenção Básica (AB), no âmbito do SUS, serão denominados
+                  Unidade Básica de Saúde. Todos os municípios de áreas cobertas
+                  pela AB deverão se cadastrar em suas respectivas UBS’s para
+                  ter garantido seu acesso ao serviço
                 </p>
 
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
-                
+                <p className="mb-4 mt-4">
+                  RG, Cartão do SUS, Comprovante de residência
+                </p>
+
                 <h2 className="font-bold text-blue-800 mt-4 mb-4">
                   PRINCIPAIS ETAPAS
                 </h2>
+                <p>
+                  Os Usuários dos municípios de Jaboatão cadastrados podem ter
+                  acesso a ações de promoção, prevenção e tratamento
+                  relacionadas a saúde da mulher, da criança, saúde mental,
+                  planejamento familiar, prevenção do câncer, pré-natal e
+                  cuidado de doenças crônicas como diabete e hipertensão, fazer
+                  curativos, fazer inalações, tomar vacinas, coletar exames
+                  laboratoriais, ter tratamento odontológico, receber medicação
+                  básica, ser encaminhado para atendimentos com especialistas.{" "}
+                  <br />
+                  <br />
+                  Localiza-se próxima da sua Residência, sendo a principal porta
+                  de entrada para atendimento e comunicação com toda Rede de
+                  Atenção a Saúde disponível no município
+                </p>
               </div>
 
               <div className="pl-10 w-full">
@@ -55,10 +69,22 @@ const Saude = () => {
               SECRETARIA MUNICIPAL DE SAÚDE
             </h2>
             <p>
-            Endereço: Avenida Zequinha Barreto, 412 – Massangana, <br/>
-            Jaboatão dos Guararapes – PE. <br/>
-            Das 8h às 17h
+              Av. Barreto de Menezes, S/N – Prazeres, <br />
+              Jaboatão dos Guararapes – PE.
             </p>
+
+            <a
+              className="roboto-medium inline-block bg-[#004376] text-white py-2 px-6 my-4 rounded-2xl text-center text-sm md:text-base hover:bg-[#00AEF9] transition-colors"
+
+              href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/06/CARTILHA-DE-SERVICOS.pdf"
+
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ENDEREÇO DE TODAS AS UNIDADES BÁSICAS <br /> DE SAÚDE
+            </a>
+
+
             <iframe
               className="w-full mt-4 h-[400px] md:h-[600px]"
               src="https://www.google.com/maps/d/u/1/embed?mid=1ORcftMNYjkSyf8TbVk2kFJSvDXDW7sU&amp;ehbc=2E312F"
@@ -90,7 +116,7 @@ const Saude = () => {
                     endereço eletrônico disponível abaixo.
                   </p>
                   <a
-                    className="roboto-medium w-full md:w-auto bg-[#004376] text-white py-2 px-6 rounded-lg  md:text-base hover:bg-[#00ACED] transition-colors"
+                    className=" w-full md:w-auto bg-[#004376] text-white py-2 px-6 rounded-lg text-sm md:text-base hover:bg-[#00ACED] transition-colors"
                     href="https://ouvidoria.jaboatao.pe.gov.br/"
                     target="_blank" // Abre o link em uma nova aba
                     rel="noopener noreferrer" // Segurança adicional ao abrir links externos
