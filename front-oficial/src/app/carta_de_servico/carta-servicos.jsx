@@ -412,7 +412,6 @@ const Cartaservico = () => {
                 SAÚDE
                 </h3>
                 <p className="text-white bg-[#3a5498] bg-opacity-70 rounded-full px-3 py-1 my-2 transition-colors duration-300">
-                  
                   26 Serviços
                 </p>
               </div>

@@ -19,7 +19,7 @@ const menuItems = [
   { name: 'Ouvidoria', href: '/carta_de_servico/ouvidoria' },
   { name: 'Previdência', href: '/carta_de_servico/previdencia' },
   { name: 'Procuradoria', href: '/carta_de_servico/procuradoria' },
-  { name: 'Saúde', href: '/carta_de_servico/saude' },
+  { name: 'Saúde', href: '/carta_de_servico/saude-servico' },
   { name: 'Trabalho e Emprego', href: '/carta_de_servico/trabalho-emprego' },
   { name: 'Trânsito e Transporte', href: '/carta_de_servico/transito-transporte' },
   { name: 'Serviços Urbanos', href: '/carta_de_servico/servicos-urbanos' },
