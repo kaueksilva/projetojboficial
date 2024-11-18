@@ -2,6 +2,10 @@ import Mapaescola from "./mapa-das-escola";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Mapa das Escolas Municipais - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

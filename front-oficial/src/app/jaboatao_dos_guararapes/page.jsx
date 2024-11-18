@@ -2,6 +2,10 @@ import Jbdosguararapes from "./jaboatao-dos-guararapes";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Jaboatão dos Guararapes - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

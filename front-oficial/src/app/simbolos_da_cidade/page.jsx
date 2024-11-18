@@ -2,6 +2,10 @@ import Simbolos from "./simbolos-da-cidade";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Símbolos da Cidade - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

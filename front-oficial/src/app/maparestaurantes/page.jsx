@@ -2,6 +2,10 @@ import Maparestaurantes from "./mapa-restaurantes";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Mapa dos Bares e Restaurantes - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

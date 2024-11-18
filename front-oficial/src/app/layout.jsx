@@ -9,10 +9,7 @@ import VLibras from "../components/Vlibras";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Prefeitura do Jaboatão dos Guararapes",
-  description: "Desenvolvido por Kauê Nascimento e Larissa Machado",
-};
+
 
 export default function RootLayout({ children }) {
   return (
