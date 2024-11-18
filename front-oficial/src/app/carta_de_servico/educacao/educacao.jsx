@@ -16,7 +16,7 @@ const educacao = () => {
               title: 'Matrícula On-line',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Forma de ingresso para os estudantes novatos que desejam estudar na Rede Pública de Ensino da Secretaria',
-              link: '/carta-de-servico/educacao/matricula-on-line'
+              link: '/carta_de_servico/educacao/matricula-on-line'
             },
             {
               title: 'Solicitação de Documentação das Escolas Extintas',

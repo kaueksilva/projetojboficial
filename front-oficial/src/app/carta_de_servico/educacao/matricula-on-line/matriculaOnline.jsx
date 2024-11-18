@@ -14,7 +14,7 @@ const Fiscalizacao = () => {
               <div className="pr-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
                 <ul className="  mb-4">
-                  <li>O Núcleo de Apoio às Vítimas de Violência (NAVV) está vinculado à Secretaria Executiva de Direitos Humanos, da Família e Políticas sobre Drogas, da Secretaria Municipal de Assistência Social e Cidadania do Jaboatão dos Guararapes. Funciona como principal porta de entrada de denúncias de supostas violações dos direitos humanos relativas às pessoas idosas, às pessoas com deficiência, à população negra e aos povos tradicionais e à população LGBTQIAPN+. O serviço recebe as denúncias e realiza visitas domiciliares, registrando as informações em bancos de dados (PMAVV), prestando orientações às vítimas e seus familiares, quanto aos seus direitos e realizando os encaminhamentos necessários junto a rede municipal e Estadual de promoção dos Direitos Humanos.</li>
+                  <li>Forma de ingresso para os estudantes novatos que desejam estudar na Rede Pública de Ensino da Secretaria Municipal de Educação do Jaboatão dos Guararapes.</li>
                 </ul>
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
                 
