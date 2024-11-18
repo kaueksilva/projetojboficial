@@ -16,7 +16,7 @@ const Imposto = () => {
               title: 'TAXAS MERCANTIS',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A taxa de poder de polícia é devida pela atividade municipal de vigilância ou fiscalização do cumprimento',
-              link: '#'
+              link: '/carta_de_servico/impostos-taxas/taxas-mercantis'
             },
             {
               title: 'IPTU e TLP',
