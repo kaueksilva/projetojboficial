@@ -1,19 +1,20 @@
-import Fiscalizacao from "./matriculaOnline";
+import Educacao from "./cursoPreparatorio";
 import Model from "../../../../components/model-page-servicos";
 
 export default function config() {
   return (
-    <div>
+    <div >
       <Model
         caminhoImagem={"/images/carta-de-servico/tampao.png"}
-        titulo={"MATRICULA ONLINE"}
+        titulo={"CURSO PREPARATORIO - PROGRAMA JABOATAO PREPARA"}
+        
         subtitulo={
           <span>
             <span className="brightness-125">SERVIÇOS DE EDUCAÇÃO</span>
           </span>
         }
       >
-        <Fiscalizacao />
+        <Educacao/>
       </Model>
     </div>
   );

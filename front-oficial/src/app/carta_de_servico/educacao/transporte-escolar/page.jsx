@@ -1,4 +1,4 @@
-import Fiscalizacao from "./matriculaOnline";
+import Educacao from "./TransporteEscola";
 import Model from "../../../../components/model-page-servicos";
 
 export default function config() {
@@ -6,14 +6,14 @@ export default function config() {
     <div>
       <Model
         caminhoImagem={"/images/carta-de-servico/tampao.png"}
-        titulo={"MATRICULA ONLINE"}
+        titulo={"TRANSPORTE ESCOLAR"}
         subtitulo={
           <span>
             <span className="brightness-125">SERVIÇOS DE EDUCAÇÃO</span>
           </span>
         }
       >
-        <Fiscalizacao />
+        <Educacao/>
       </Model>
     </div>
   );

@@ -1,19 +1,19 @@
-import Fiscalizacao from "./matriculaOnline";
+import Educacao from "./credenciamento";
 import Model from "../../../../components/model-page-servicos";
 
 export default function config() {
   return (
-    <div>
+    <div className="mt-10">
       <Model
         caminhoImagem={"/images/carta-de-servico/tampao.png"}
-        titulo={"MATRICULA ONLINE"}
+        titulo={"CREDENCIAMENTO DE NOVAS UNIDADES MUNICIPAL DE ENSINO PUBLICAS OU PRIVADAS"}
         subtitulo={
           <span>
             <span className="brightness-125">SERVIÇOS DE EDUCAÇÃO</span>
           </span>
         }
       >
-        <Fiscalizacao />
+        <Educacao/>
       </Model>
     </div>
   );

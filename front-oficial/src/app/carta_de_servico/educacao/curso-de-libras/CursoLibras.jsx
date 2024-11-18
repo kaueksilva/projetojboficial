@@ -13,43 +13,42 @@ const Fiscalizacao = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
               <div className="pr-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
-                <ul className="  mb-4">
-                  <li>Forma de ingresso para os estudantes novatos que desejam estudar na Rede Pública de Ensino da Secretaria Municipal de Educação do Jaboatão dos Guararapes.</li>
+                <ul >
+                  <li className="mb-4">Curso oferecido à população do município do Jaboatão dos Guararapes, preferencialmente aos profissionais das nossas unidades de ensino, profissionais da Secretaria Municipal de Educação, estudantes e pais de estudantes com deficiência auditiva. O curso visa ensinar a Língua Brasileira de Sinais (LIBRAS), que é utilizada por deficientes auditivos para a comunicação com outras pessoas, sejam elas surdas ou ouvintes. É oferecido em três módulos (básico, intermediário e avançado), cada um com duração de 6 (seis) meses. As matrículas são iniciadas, geralmente, no mês de julho, na coordenação do setor responsável. O curso é ministrado em uma das unidades de ensino da Rede por professores surdos, coordenadores educacionais da Secretaria Municipal de Educação e intérpretes de LIBRAS.
+
+</li>
+                  <a
+                    className="mt-4 w-full md:w-auto bg-[#004376] text-white py-2 px-4 rounded-lg md:text-base hover:bg-[#00ACED] transition-colors justify-center flex text-center"
+                    href="https://educacao.jaboatao.pe.gov.br/"
+                    target="_blank" // Abre o link em uma nova aba
+                    rel="noopener noreferrer" // Segurança adicional ao abrir links externos
+                  >
+                    SITE DA SECRETARIA MUNICIPAL DE EDUCAÇÃO
+                  </a>
+                
                 </ul>
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
-                <p className="mt-4">Não ser estudante da Rede Pública Municipal de Ensino do Jaboatão dos Guararapes. Para preenchimento do formulário on-line, é necessário os seguintes dados: <br/>
-– Certidão de Nascimento do menor, para os dados pessoais do estudante;<br/>
-–Comprovante de residência dos pais e/ou responsáveis ou do estudante, quando este for maior de idade;<br/>
-– Saber o ano correto que o estudante irá cursar.</p>
+                <ul>
+                    <li>Comparecer, no período de inscrição, à sala da Coordenação de Educação Especial com os seguintes documentos: 1 (uma) foto 3×4, Documento de identificação (RG/carteira de identidade) · Comprovante de residência.</li>
+                    
+                </ul>
         
                 <h2 className="font-bold text-blue-800 mt-4">
                 PRINCIPAIS ETAPAS:
                 </h2>
-                <p className="mb-4">
-                A Para realizar a reserva da matrícula on-line (1ª Etapa), os pais ou responsáveis devem acessar o link amplamente divulgado e preencher o formulário com os dados exigidos em tela. Em seguida, deve-se selecionar o ano que o estudante irá cursar, escolher o turno e a escola, lembrando de finalizar o cadastro. Após essa etapa, os pais ou responsáveis devem se atentar para o período de efetivação da
-matrícula divulgado no Protocolo de reserva, comparecendo à escola reservada (2ª Etapa) com a documentação necessária:<br/>
-– Cópia da Certidão de Nascimento do estudante (caso seja menor de idade) ou Carteira de Identidade;<br/>
-– Cópia do RG e do CPF do Estudante (se possuir);<br/>
-– Cópia do Cartão de Vacinação do Estudante;<br/>
-– Histórico Escolar Original;<br/>
-– Uma foto 3×4<br/>
-– Cópia do Cartão do SUS e do Bolsa Família<br/>
-– Cópia do Comprovante de Residência (últimos 60 dias)<br/>
-– Cópia do RG e CPF da mãe, pai ou responsável.
-                </p>
                 
               </div>
 
               <div className="pl-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">PREVISÃO:</h2>
-                <p className="mb-4">Entre novembro e janeiro.</p>
+                <p className="mb-4"> O curso tem início no mês seguinte à matrícula, geralmente, no mês de agosto.</p>
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO:</h2>
-                <p className="mb-4">Cidadão </p>
+                <p className="mb-4">Cidadão</p>
                 <h2 className="font-bold text-blue-800 mt-4">
                   PRESTAÇÃO DO SERVIÇO/FORMA:
                 </h2>
                 <p className="mb-4">
-                Online
+                Presencial
                 </p>
                 <h2 className="font-bold text-blue-800 mt-4">TAXAS</h2>
                 <p className="mb-4">Não há cobranças de taxas</p>
@@ -59,17 +58,16 @@ matrícula divulgado no Protocolo de reserva, comparecendo à escola reservada (
         }
         setorPublico={
           <>
-          <h2 className="font-bold text-blue-800 mt-4">SECRETARIA MUNICIPAL DE EDUCAÇÃO</h2>
-            <p className="mt-4">
-            Endereço: Av. Barreto de Menezes, 1648 – Prazeres
+          <h2 className="font-bold text-blue-800 mt-4">SECRETARIA MUNICIPAL DE EDUCAÇÃO </h2>
+            <p className="mt-4 mb-4">E-mail: 
+           <a href="mailto:educacaoespecial@educacao.jaboatao.pe.gov.br" className="hover:underline">
+           educacaoespecial@educacao.jaboatao.pe.gov.br
+           </a>
             </p>
-            <p className="mt-4">
-            Atendimento: Das 8h às 13h e das 14h às 17h
+            <p className="mt-4 mb-4">
+            educacaoespecial@educacao.jaboatao.pe.gov.br
             </p>
-            <p className="mt-4">
-            Telefone: (81) 99975-3340 | (81) 99975-4249
-            </p>
-           
+            <p className="mt-4 mb-4">Horário: 8h às 12h30 e 13h30 às 17h.</p>
           </>
         }
         duvidas={

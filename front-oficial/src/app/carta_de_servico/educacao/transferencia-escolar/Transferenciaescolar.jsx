@@ -13,43 +13,40 @@ const Fiscalizacao = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
               <div className="pr-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
-                <ul className="  mb-4">
-                  <li>Forma de ingresso para os estudantes novatos que desejam estudar na Rede Pública de Ensino da Secretaria Municipal de Educação do Jaboatão dos Guararapes.</li>
+                <ul >
+                  <li className="mb-4">Os pais ou responsáveis devem comparecer à unidade de ensino na qual o estudante está matriculado, para fazer a solicitação da transferência. Após a solicitação, a escola emite umatransferência provisória, cuja validade é de 30 (trinta) dias. Após esse prazo, os pais ou responsáveis devem retornar à escola para pegar a transferência definitiva. Em casos
+                  específicos, como viagem ou mudança de endereço, o documento definitivo poderá seremitido de imediato.</li>
+                  <a
+                    className="mt-4 w-full md:w-auto bg-[#004376] text-white py-2 px-4 rounded-lg text-sm md:text-base hover:bg-[#00ACED] transition-colors justify-center flex text-center"
+                    href="https://educacao.jaboatao.pe.gov.br/"
+                    target="_blank" // Abre o link em uma nova aba
+                    rel="noopener noreferrer" // Segurança adicional ao abrir links externos
+                  >
+                    SITE DA SECRETARIA MUNICIPAL DE EDUCAÇÃO
+                  </a>
                 </ul>
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
-                <p className="mt-4">Não ser estudante da Rede Pública Municipal de Ensino do Jaboatão dos Guararapes. Para preenchimento do formulário on-line, é necessário os seguintes dados: <br/>
-– Certidão de Nascimento do menor, para os dados pessoais do estudante;<br/>
-–Comprovante de residência dos pais e/ou responsáveis ou do estudante, quando este for maior de idade;<br/>
-– Saber o ano correto que o estudante irá cursar.</p>
+                <p className="mt-4">Para emitir a transferência, é preciso que a escola de origem esteja de posse de todos os documentos exigidos na matrícula e que os pais ou responsáveis apresentem um documento de identificação.</p>
         
                 <h2 className="font-bold text-blue-800 mt-4">
                 PRINCIPAIS ETAPAS:
                 </h2>
                 <p className="mb-4">
-                A Para realizar a reserva da matrícula on-line (1ª Etapa), os pais ou responsáveis devem acessar o link amplamente divulgado e preencher o formulário com os dados exigidos em tela. Em seguida, deve-se selecionar o ano que o estudante irá cursar, escolher o turno e a escola, lembrando de finalizar o cadastro. Após essa etapa, os pais ou responsáveis devem se atentar para o período de efetivação da
-matrícula divulgado no Protocolo de reserva, comparecendo à escola reservada (2ª Etapa) com a documentação necessária:<br/>
-– Cópia da Certidão de Nascimento do estudante (caso seja menor de idade) ou Carteira de Identidade;<br/>
-– Cópia do RG e do CPF do Estudante (se possuir);<br/>
-– Cópia do Cartão de Vacinação do Estudante;<br/>
-– Histórico Escolar Original;<br/>
-– Uma foto 3×4<br/>
-– Cópia do Cartão do SUS e do Bolsa Família<br/>
-– Cópia do Comprovante de Residência (últimos 60 dias)<br/>
-– Cópia do RG e CPF da mãe, pai ou responsável.
-                </p>
+                Os pais ou responsáveis devem comparecer à unidade de ensino na qual o estudante está matriculado, para fazer a solicitação da transferência. Após a solicitação, a escola emite uma transferência provisória, cuja validade é de 60 (sessenta) dias. Após esse prazo, os pais ou responsáveis devem retornar à escola para pegar a transferência definitiva. Em casos específicos, como viagem ou mudança de endereço, o documento definitivo poderá ser emitido de imediato.</p>
                 
               </div>
 
               <div className="pl-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">PREVISÃO:</h2>
-                <p className="mb-4">Entre novembro e janeiro.</p>
+                <p className="mb-4">Transferência provisória: No mesmo dia da solicitação;<br/>
+                Transferência definitiva: 30 (trinta) dias após a solicitação.</p>
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO:</h2>
-                <p className="mb-4">Cidadão </p>
+                <p className="mb-4">Estudante da Rede Municipal de Ensino </p>
                 <h2 className="font-bold text-blue-800 mt-4">
                   PRESTAÇÃO DO SERVIÇO/FORMA:
                 </h2>
                 <p className="mb-4">
-                Online
+                Presencial 
                 </p>
                 <h2 className="font-bold text-blue-800 mt-4">TAXAS</h2>
                 <p className="mb-4">Não há cobranças de taxas</p>
@@ -59,16 +56,22 @@ matrícula divulgado no Protocolo de reserva, comparecendo à escola reservada (
         }
         setorPublico={
           <>
-          <h2 className="font-bold text-blue-800 mt-4">SECRETARIA MUNICIPAL DE EDUCAÇÃO</h2>
+          <h2 className="font-bold text-blue-800 mt-4">SECRETARIA MUNICIPAL DE EDUCAÇÃO </h2>
             <p className="mt-4">
-            Endereço: Av. Barreto de Menezes, 1648 – Prazeres
+            Horário de atendimento: Horário da Unidade de
             </p>
-            <p className="mt-4">
-            Atendimento: Das 8h às 13h e das 14h às 17h
+            <p className="mt-2 mb-2">
+            Ensino onde o estudante está matriculado.
             </p>
-            <p className="mt-4">
-            Telefone: (81) 99975-3340 | (81) 99975-4249
-            </p>
+
+            <a
+                    className="mt-2 w-full md:w-auto bg-[#004376] text-white py-2 px-6 rounded-lg text-sm md:text-base hover:bg-[#00ACED] transition-colors"
+                    href="https://jaboatao.pe.gov.br/wp-content/uploads/2024/05/ESCOLAS-ENDERECOS-TELEFONES-2024.pdf"
+                    target="_blank" // Abre o link em uma nova aba
+                    rel="noopener noreferrer" // Segurança adicional ao abrir links externos
+                  >
+                    Telefones institucionais das escolas municipais
+                  </a>
            
           </>
         }

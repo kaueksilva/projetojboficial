@@ -13,43 +13,36 @@ const Fiscalizacao = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
               <div className="pr-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
-                <ul className="  mb-4">
-                  <li>Forma de ingresso para os estudantes novatos que desejam estudar na Rede Pública de Ensino da Secretaria Municipal de Educação do Jaboatão dos Guararapes.</li>
+                <ul >
+                  <li className="mb-4">O Programa Jaboatão Prepara é um curso preparatório para ingresso dos nossos estudantes dos 9º anos nas Escolas Técnicas Estaduais e Institutos Federais de Educação e contribui para a melhoria dos resultados das avaliações externas como SAEPE e PROVA BRASIL. Os estudantes participantes são selecionados a partir de critérios estabelecidos e divulgados à comunidade por cada unidade educacional.</li>
+                  <a
+                    className="mt-2 w-full md:w-auto bg-[#004376] text-white py-2 px-6 rounded-lg text-sm md:text-base hover:bg-[#00ACED] transition-colors text-center justify-center flex"
+                    href="https://educacao.jaboatao.pe.gov.br"
+                    target="_blank" // Abre o link em uma nova aba
+                    rel="noopener noreferrer" // Segurança adicional ao abrir links externos
+                  >
+                    SITE DA SECRETARiA MUNICIPAL DE EDUCAÇÃO
+                  </a>
                 </ul>
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
-                <p className="mt-4">Não ser estudante da Rede Pública Municipal de Ensino do Jaboatão dos Guararapes. Para preenchimento do formulário on-line, é necessário os seguintes dados: <br/>
-– Certidão de Nascimento do menor, para os dados pessoais do estudante;<br/>
-–Comprovante de residência dos pais e/ou responsáveis ou do estudante, quando este for maior de idade;<br/>
-– Saber o ano correto que o estudante irá cursar.</p>
-        
+                <p className="mt-4">Ser estudante regularmente matriculado no 9º ano de uma das escolas da Rede Pública Municipal de Ensino do Jaboatão dos Guararapes.</p>
                 <h2 className="font-bold text-blue-800 mt-4">
                 PRINCIPAIS ETAPAS:
                 </h2>
-                <p className="mb-4">
-                A Para realizar a reserva da matrícula on-line (1ª Etapa), os pais ou responsáveis devem acessar o link amplamente divulgado e preencher o formulário com os dados exigidos em tela. Em seguida, deve-se selecionar o ano que o estudante irá cursar, escolher o turno e a escola, lembrando de finalizar o cadastro. Após essa etapa, os pais ou responsáveis devem se atentar para o período de efetivação da
-matrícula divulgado no Protocolo de reserva, comparecendo à escola reservada (2ª Etapa) com a documentação necessária:<br/>
-– Cópia da Certidão de Nascimento do estudante (caso seja menor de idade) ou Carteira de Identidade;<br/>
-– Cópia do RG e do CPF do Estudante (se possuir);<br/>
-– Cópia do Cartão de Vacinação do Estudante;<br/>
-– Histórico Escolar Original;<br/>
-– Uma foto 3×4<br/>
-– Cópia do Cartão do SUS e do Bolsa Família<br/>
-– Cópia do Comprovante de Residência (últimos 60 dias)<br/>
-– Cópia do RG e CPF da mãe, pai ou responsável.
-                </p>
-                
               </div>
-
               <div className="pl-10 w-full">
+<h2 className="font-bold text-blue-800 mt-4">
+                PRINCIPAIS ETAPAS:
+                </h2>
                 <h2 className="font-bold text-blue-800 mt-4">PREVISÃO:</h2>
-                <p className="mb-4">Entre novembro e janeiro.</p>
+                <p className="mb-4">O Curso tem início no mês de abril, com duração de 25 sábados, sendo concluído em dezembro.</p>
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO:</h2>
-                <p className="mb-4">Cidadão </p>
+                <p className="mb-4">Estudantes dos 9° anos da Rede Municipal do Jaboatão dos Guararapes.</p>
                 <h2 className="font-bold text-blue-800 mt-4">
                   PRESTAÇÃO DO SERVIÇO/FORMA:
                 </h2>
                 <p className="mb-4">
-                Online
+                Presencial 
                 </p>
                 <h2 className="font-bold text-blue-800 mt-4">TAXAS</h2>
                 <p className="mb-4">Não há cobranças de taxas</p>
@@ -59,17 +52,26 @@ matrícula divulgado no Protocolo de reserva, comparecendo à escola reservada (
         }
         setorPublico={
           <>
-          <h2 className="font-bold text-blue-800 mt-4">SECRETARIA MUNICIPAL DE EDUCAÇÃO</h2>
-            <p className="mt-4">
-            Endereço: Av. Barreto de Menezes, 1648 – Prazeres
-            </p>
-            <p className="mt-4">
-            Atendimento: Das 8h às 13h e das 14h às 17h
-            </p>
-            <p className="mt-4">
-            Telefone: (81) 99975-3340 | (81) 99975-4249
-            </p>
-           
+          <h2 className="font-bold text-blue-800 mt-4">SECRETARIA MUNICIPAL DE EDUCAÇÃO </h2>
+            Email: 
+            <a
+                    href="mailto:jaboataoprepara@educacao.jaboatao.pe.g"
+                    className="hover:underline"
+                  >
+                     jaboataoprepara@educacao.jaboatao.pe.g
+                  </a>
+                  <p className="mt-2">Endereço:</p>
+                  <p className="mt-2">Setor Responsável: Av. Pres. Castelo Branco, 5677 – Candeias, Jaboatão dos Guararapes – PE, 54440-050:</p>
+                  <p className="mt-2">Endereço onde ocorre o curso:</p>
+                  <p className="mt-2 mb-3">O curso é ministrado em polos de estudos, definidos após a seleção dos estudantes. O curso acontece aos sábados, no horário das 8h às 12h.</p>
+                  <a
+                    className="mt-2 w-full md:w-auto bg-[#004376] text-white py-2 px-6 rounded-lg text-sm md:text-base hover:bg-[#00ACED] transition-colors"
+                    href="https://jaboatao.pe.gov.br/wp-content/uploads/2024/05/ESCOLAS-ENDERECOS-TELEFONES-2024.pdf"
+                    target="_blank" // Abre o link em uma nova aba
+                    rel="noopener noreferrer" // Segurança adicional ao abrir links externos
+                  >
+                    Telefones institucionais das escolas municipais
+                  </a>
           </>
         }
         duvidas={

@@ -7,7 +7,7 @@ export default function config() {
     <div>
       <Model
         caminhoImagem={"/images/educacao.jpg"}
-        titulo={"Serviços de Direitos Humanos"}
+        titulo={"SERVIÇOS DE EDUCAÇÃO"}
         subtitulo={
           <span>
             <Link
@@ -16,7 +16,7 @@ export default function config() {
             >
               INÍCIO
             </Link>
-            &nbsp;» <span className="brightness-125">Serviços de Direitos Humanos</span>
+            &nbsp;» <span className="brightness-125">Serviços de Educação</span>
           </span>
         }
       >
