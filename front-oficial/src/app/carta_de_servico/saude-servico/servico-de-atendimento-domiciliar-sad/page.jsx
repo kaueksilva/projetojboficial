@@ -1,14 +1,14 @@
 import Ubs from "./saude";
 import Model from "../../../../components/model-page-servicos";
 export const metadata = {
-  title: "Centro de Especialidades Odontológicas - Prefeitura do Jaboatão dos Guararapes",
+  title: "Servico de atendimento domiciliar - Prefeitura do Jaboatão dos Guararapes",
 };
 export default function config() {
   return (
     <div>
       <Model
         caminhoImagem={"/images/carta-de-servico/saude.png"}
-        titulo={"Centro de Especialidades Odontológicas (CEO)"}
+        titulo={"Serviço de Atendimento Domiciliar (SAD)"}
         subtitulo={
           <span>
             <span className="brightness-125">Serviços de Saúde</span>
