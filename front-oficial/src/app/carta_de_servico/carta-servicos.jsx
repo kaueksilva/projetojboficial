@@ -402,7 +402,7 @@ const Cartaservico = () => {
 
           {/* SAÚDE */}
           <a
-            href="/carta_de_servico/saude"
+            href="/carta_de_servico/saude-servico"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">

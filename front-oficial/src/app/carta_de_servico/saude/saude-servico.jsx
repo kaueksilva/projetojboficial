@@ -16,44 +16,38 @@ const ambiente = () => {
               title: 'Marcação de Consultas e Exames – Central de Regulação na Carta de Serviço da Saúde',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A regulação é o mecanismo de gestão que possibilita que o usuário seja atendidopelos diferentes serviços de saúde especializados da rede própria e conveniada noSUS. A organização, controle, gerenciamento e priorização de acesso',
-              link: '#'
+              link: '/carta_de_servico/saude/marcacao-de-consultas-e-exames-central-de-regulacao-na-carta-de-servico-da-saude' 
             },
             
             {
               title: 'Centro de Vigilância Ambiental (CVA)',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Centro de Vigilância Ambiental (CVA) – Jaboatão é o primeiro município do estado a contar com um CVA equipado com área isolada para análise de zoonoses. O equipamento, responsável por atuar na observação,',
-              link: '#'
+              link: '/carta_de_servico/saude/centro-de-vigilancia'
             },
             {
               title: 'Centro de Referência em Saúde do Trabalhador (CEREST)',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Centro de Referência em Saúde do Trabalhador (CEREST) – É um local de atendimento especializado em Saúde do Trabalhador. Além de atender diretamente o trabalhador, serve como uma fonte geradora de conhecimento, ou',
-              link: '#'
+              link: '/carta_de_servico/saude/centro-de-referencia-em-saude-do-trabalhador'
             },
             {
               title: 'Central de informações Estratégicas de Vigilância em Saúde (CIEVS-PE))',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Central de informações Estratégicas de Vigilância em Saúde (CIEVS-PE) – É uma unidade componente da Rede Nacional de Monitoramento e Respostas às Emergências em Saúde Pública, que tem por objetivos a articulação de',
-              link: '#'
+              link: '/carta_de_servico/saude/central-de-informacoes-estrategicas-de-vigilancia-em-saude'
             },
             {
               title: 'UBS',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO UBS – Unidade Básica de Saúde – O que é uma UBS? De acordo com a PNAB (Política Nacional de Atenção Básica) todos os estabelecimentos de saúde que prestem ações e serviços de',
-              link: '#'
-            },
-            {
-              title: 'Centro de Referência em Saúde do Trabalhador (CEREST)',
-              description:
-                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Centro de Referência em Saúde do Trabalhador (CEREST) – É um local de atendimento especializado em Saúde do Trabalhador. Além de atender diretamente o trabalhador, serve como uma fonte geradora de conhecimento, ou',
-              link: '#'
+              link: '/carta_de_servico/saude/ubs'
             },
             {
               title: 'Ouvidoria SUS',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Ouvidoria – É canal democrático de comunicação e articulação com a Gestão Municipal no sentido de melhorar a qualidade dos serviços de saúde prestados. O (a) cidadão (ã) pode procurar o atendimento da',
-              link: '#'
+              link: '/carta_de_servico/saude/ouvidoria-sus'
             },
             {
               title: 'Laboratório Municipal',
