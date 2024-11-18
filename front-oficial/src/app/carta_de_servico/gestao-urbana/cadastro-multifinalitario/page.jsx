@@ -5,7 +5,7 @@ export default function config() {
   return (
     <div>
       <Model
-        caminhoImagem={"/images/doc.png"}
+        caminhoImagem={"/images/carta-de-servico/doc.png"}
         titulo={"CADASTRO MULTIFINALITÁRIO"}
         subtitulo={
           <span>

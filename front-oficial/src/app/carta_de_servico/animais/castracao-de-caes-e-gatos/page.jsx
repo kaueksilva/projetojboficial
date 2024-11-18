@@ -5,7 +5,7 @@ export default function config() {
   return (
     <div>
       <Model
-        caminhoImagem={"/images/pet.png"}
+        caminhoImagem={"/images/carta-de-servico/pet.png"}
         titulo={"Cadastro para Cirurgia de Castração de Cães e Gatos"}
         subtitulo={
           <span>
