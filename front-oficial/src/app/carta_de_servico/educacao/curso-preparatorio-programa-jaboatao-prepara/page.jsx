@@ -1,6 +1,10 @@
 import Educacao from "./cursoPreparatorio";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "CURSO PREPARATORIO  - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div >

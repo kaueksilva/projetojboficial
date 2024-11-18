@@ -1,6 +1,10 @@
 import Fiscalizacao from "./Solicitacao";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: " SOLICITAÇÃO DE DOCUMENTAÇÃO DAS ESCOLAS EXTINTAS - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

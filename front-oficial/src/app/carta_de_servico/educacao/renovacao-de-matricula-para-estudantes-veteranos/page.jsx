@@ -1,6 +1,9 @@
 import Educacao from "./renovacaoMatricula";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: " RENOVAÇÃO DE MATÍCULA (PARA ESTUDANTES VETERANOS) - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>

@@ -1,6 +1,9 @@
 import Educacao from "./programaLeitura";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "PROGRAMA DE LEITURA ESCOLA QUE LE FAZ A MUDANÇA ACONTECER  - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>

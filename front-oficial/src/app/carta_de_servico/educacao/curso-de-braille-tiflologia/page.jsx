@@ -1,6 +1,9 @@
 import Educacao from "./CursoBraille";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "CURSO DE BRAILLE E TIFLOLOGIA  - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>

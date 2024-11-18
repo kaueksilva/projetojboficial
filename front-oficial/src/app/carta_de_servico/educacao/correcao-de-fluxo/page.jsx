@@ -1,6 +1,9 @@
 import Educacao from "./correcaoFluxo";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "CORREÇÃO DE FLUXO  - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>

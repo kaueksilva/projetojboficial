@@ -1,6 +1,10 @@
 import Educacao from "./apoioEstudante";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+    title: "APOIO AO ESTUDANTE COM DEFICIÊNCIA - Prefeitura do Jaboatão dos Guararapes",
+  };
+
 export default function config() {
   return (
     <div>

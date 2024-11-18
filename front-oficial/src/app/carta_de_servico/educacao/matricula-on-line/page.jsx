@@ -1,6 +1,9 @@
 import Fiscalizacao from "./matriculaOnline";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "MATRICULA ONLINE  - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>

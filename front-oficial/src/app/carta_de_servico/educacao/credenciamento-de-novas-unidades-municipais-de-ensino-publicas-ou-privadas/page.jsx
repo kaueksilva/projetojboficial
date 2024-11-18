@@ -1,6 +1,10 @@
 import Educacao from "./credenciamento";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "CREDENCIAMENTO DE NOVAS UNIDADES MUNICIPAL DE ENSINO PUBLICAS OU PRIVADAS  - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div className="mt-10">

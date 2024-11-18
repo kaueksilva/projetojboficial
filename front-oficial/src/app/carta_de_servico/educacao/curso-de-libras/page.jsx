@@ -1,6 +1,10 @@
 import Educacao from "./CursoLibras";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "CURSO DE LIBRAS  - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

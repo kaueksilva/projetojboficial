@@ -1,5 +1,8 @@
 import Educacao from "./fardamento";
 import Model from "../../../../components/model-page-servicos";
+export const metadata = {
+  title: " FARDAMENTO ESCOLAR  - Prefeitura do Jaboatão dos Guararapes",
+};
 
 export default function config() {
   return (

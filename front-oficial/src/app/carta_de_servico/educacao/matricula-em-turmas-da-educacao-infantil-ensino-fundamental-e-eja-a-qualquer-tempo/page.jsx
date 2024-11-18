@@ -1,6 +1,9 @@
 import Educacao from "./MatriculaInfantil";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "MATRICULA EM TURMAS DA EDUCACAO INFANTIL, ENSINO FUNDAMENTAL E EJA A QUALQUER TEMPO  - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>

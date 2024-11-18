@@ -1,6 +1,10 @@
 import Fiscalizacao from "./Transferenciaescolar";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "TRANSFERÊNCIA ESCOLAR  - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

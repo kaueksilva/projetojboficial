@@ -1,6 +1,10 @@
 import Educacao from "./material";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: " MATERIAL ESCOLAR - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

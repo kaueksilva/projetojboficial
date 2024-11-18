@@ -1,6 +1,10 @@
 import Educacao from "./saladerecursos";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "SALA DE RECURSOS MULTIFUNCIONAIS  - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

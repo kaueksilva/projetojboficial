@@ -1,6 +1,10 @@
 import Educacao from "./TransporteEscola";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "TRANSPORTE ESCOLAR  - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>
