@@ -53,7 +53,7 @@ const ambiente = () => {
               title: 'Laboratório Municipal',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Laboratório Municipal – Possui a missão de usar de excelência técnica nas análises laboratoriais, a fim de atender de forma adequada e completa as necessidades da população atendidas nas unidades da Rede Municipal',
-              link: '#'
+              link: '/carta_de_servico/saude/laboratorio-municipal'
             },
             {
               title: 'Centro de Tratamento e Abordagem a Fumantes',
