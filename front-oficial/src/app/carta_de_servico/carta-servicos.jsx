@@ -401,13 +401,8 @@ const Cartaservico = () => {
 
           {/* SAÚDE */}
           <a
-<<<<<<< HEAD
             href="/carta_de_servico/saude-servico"
-            className="relative flex-1 max-w-sm transition-transform duration-500 group"
-=======
-            href="/carta_de_servico/saude"
             className="relative flex transition-transform duration-500 group"
->>>>>>> kauezin
           >
             <div className="relative w-full h-40 bg-[#003476] bg-center">
               <div className="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 group-hover:opacity-0">
