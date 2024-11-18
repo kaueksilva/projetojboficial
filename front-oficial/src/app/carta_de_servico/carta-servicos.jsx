@@ -402,7 +402,7 @@ const Cartaservico = () => {
 
           {/* SAÚDE */}
           <a
-            href="/carta_de_servico/saude"
+            href="/carta_de_servico/saude-servico"
             className="relative flex-1 max-w-sm transition-transform duration-500 group"
           >
             <div className="relative h-full bg-[#003476] bg-center">
@@ -412,7 +412,6 @@ const Cartaservico = () => {
                 SAÚDE
                 </h3>
                 <p className="text-white bg-[#3a5498] bg-opacity-70 rounded-full px-3 py-1 my-2 transition-colors duration-300">
-                  
                   26 Serviços
                 </p>
               </div>

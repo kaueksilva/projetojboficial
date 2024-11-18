@@ -24,8 +24,6 @@ const Saude = () => {
             className="roboto-medium text-xl border-white border-2 px-8 py-4 rounded-full bg-[#003476] transition-colors duration-300 hover:bg-[#22AAFE]">
                 PPP - SAÚDE
             </button>
-
-
             </div>
         </div>
   

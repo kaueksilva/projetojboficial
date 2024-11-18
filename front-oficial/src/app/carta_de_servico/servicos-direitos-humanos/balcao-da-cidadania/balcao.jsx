@@ -9,7 +9,6 @@ import PesquisaSatisfacao from "../../../../components/PesquisaSatisfacao";
 
 const Servicos = () => {
 
-  // Exemplo de URLs ou caminhos das imagens
   const images = [
     "/images/carrosel/balcao01.jpeg",
     "/images/carrosel/balcao02.jpeg",

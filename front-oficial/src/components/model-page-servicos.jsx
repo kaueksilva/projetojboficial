@@ -16,7 +16,7 @@ export default function Model({ children, caminhoImagem, titulo, subtitulo }) {
         />
         <div className="z-10 text-left text-white pb-2 md:pb-3 lg:pb-4">
           <p className="text-[13px] md:text-[15px] lg:text-[15px] mb-1 md:mb-2">{subtitulo}</p>
-          <h1 className="text-[24px] md:text-[30px] lg:text-[35px] leading-[28px] md:leading-[36px] lg:leading-[40px] pb-[3px] md:pb-[4px] lg:pb-[5px] font-bold drop-shadow-[0_4px_6px_rgba(0,0,0,0.9)]">
+          <h1 className="text-[24px] md:text-[30px] lg:text-[35px] leading-[28px] md:leading-[36px] lg:leading-[40px] pb-[3px] md:pb-[4px] lg:pb-[5px] font-bold drop-shadow-[0_4px_6px_rgba(0,0,0,0.9)] uppercase">
             {titulo}
           </h1>
         </div>

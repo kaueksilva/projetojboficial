@@ -2,11 +2,44 @@
 
 import React from "react";
 import CartaDeServico from "../../../../components/carta-de-servicos";
-
+import PesquisaSatisfacao from "../../../../components/PesquisaSatisfacao";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Nucleo = () => {
+
+  const images = [
+    "/images/carrosel/deficiencia01.jpeg",
+    "/images/carrosel/deficiencia02.jpeg",
+  ];
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500, // Velocidade da transição (em milissegundos)
+    autoplay: true, // Ativa o autoplay
+    autoplaySpeed: 3000, // Tempo de transição entre as imagens (em milissegundos)
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
+  };
+
   return (
-    <div>
+    <div className="container mx-auto my-10 p-5 max-w-7xl">
       <CartaDeServico
         dadosGerais={
           <>
@@ -199,7 +232,22 @@ const Nucleo = () => {
         }
       />
 
-      
+      {/* Carrossel abaixo do card */}
+      <div className="mt-24 mb-28">
+        <Slider {...settings}>
+          {images.map((src, index) => (
+            <div key={index} className="px-4">
+              <img 
+                src={src}
+                alt={`Imagem ${index + 1}`}
+                className="cursor-pointer object-cover w-72 mb-3 rounded-md"
+              />
+            </div>
+          ))}
+        </Slider>
+      </div>
+
+      <PesquisaSatisfacao/>
     </div>
   );
 };
