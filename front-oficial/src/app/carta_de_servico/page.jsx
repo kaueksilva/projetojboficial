@@ -2,6 +2,10 @@ import Cartaservico from "./carta-servicos";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Carta de Serviços - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

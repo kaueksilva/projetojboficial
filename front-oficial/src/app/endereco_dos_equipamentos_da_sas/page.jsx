@@ -2,6 +2,10 @@ import Equipamentosas from "./equipamento-sas";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Endereços dos Equipamentos da SAS - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

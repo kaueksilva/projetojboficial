@@ -2,6 +2,10 @@ import Mapacrascreas from "./mapa-unidades-cras-creas";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Mapa das Unidades do CRAS e CREAS - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

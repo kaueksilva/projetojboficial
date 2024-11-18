@@ -2,6 +2,10 @@ import Mapaestrategia from "./mapa-da-estrategia";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Mapa da Estratégia - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

@@ -2,6 +2,10 @@ import Mapasaude from "./mapa-unidades-saude";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Mapas das Unidades de Saúde - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

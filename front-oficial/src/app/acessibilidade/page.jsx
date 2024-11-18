@@ -2,6 +2,10 @@ import Acessibilidade from "./acessibilidade";
 import Model from "../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Informações de Acessibilidade - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>
