@@ -4,7 +4,7 @@ import React from "react";
 import CartaDeServico from "../../../../components/carta-de-servicos";
 import PesquisaSatisfacao from "../../../../components/PesquisaSatisfacao";
 
-const Fiscalizacao = () => {
+const Servicos = () => {
   return (
     <div>
       <CartaDeServico
@@ -166,4 +166,4 @@ adolescentes , jovens e adultos com surdez que não dominam sua língua natural 
   );
 };
 
-export default Fiscalizacao;
+export default Servicos;

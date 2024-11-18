@@ -94,7 +94,7 @@ const Cartaservico = () => {
                 </h3>
                 <p className="text-white bg-[#3a5498] bg-opacity-70 rounded-full px-3 py-1 my-2 transition-colors duration-300">
                   
-                  1 Serviço
+                  5 Serviços
                 </p>
               </div>
               <div className="absolute inset-0 flex items-center text-center justify-center hover:bg-gradient-to-br hover:from-[#002A66] hover:to-[#377BB5] text-white text-xs opacity-0 transition-opacity duration-500 group-hover:opacity-100 p-2">

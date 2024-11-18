@@ -6,7 +6,7 @@ import PesquisaSatisfacao from "../../../../components/PesquisaSatisfacao";
 
 const Fiscalizacao = () => {
   return (
-    <div>
+    <div >
       <CartaDeServico
         dadosGerais={
           <>
@@ -166,6 +166,8 @@ const Fiscalizacao = () => {
           </>
         }
       />
+
+      <PesquisaSatisfacao/>
 
       
     </div>
