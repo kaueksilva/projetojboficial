@@ -16,45 +16,47 @@ const Vigilancia = () => {
                   <p className="mb-4">
                   De acordo com a Lei Federal nº 8080/90, a Vigilância Sanitária é responsável por desenvolver um conjunto de ações capazes de eliminar, diminuir ou prevenir riscos à saúde e de intervir nos problemas sanitários decorrentes do meio ambiente, da produção e circulação de bens e de prestação de serviços de interesse à saúde. A Vigilância Sanitária de Jaboatão dos Guararapes desenvolve, entre outras ações, a fiscalização de estabelecimentos comerciais que exercem atividades de interesse à saúde: como comércio de alimentos, consultórios médicos, salões de beleza, farmácias, etc. Realizam inspeções e ações educativas, como cursos e capacitações para o comércio informal, setor regulado e o comércio ambulante, dentre outras. 
                   </p>
-                  <a href="https://cidadao-jaboatao.sissofia.com.br/login" target="_blank" className=" w-full md:w-auto bg-[#004376] text-white py-2 px-6  rounded-xl text-sm md:text-base hover:bg-[#00ACED] transition-colors">PORTAL DE LICENCIAMENTO</a>
+                  <a href="https://cidadao-jaboatao.sissofia.com.br/login" target="_blank" className=" w-full md:w-auto bg-[#004376] text-white py-2 px-6  rounded-xl text-sm md:text-base hover:bg-[#00ACED] transition-colors roboto-medium">PORTAL DE LICENCIAMENTO</a>
 
 
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2><br/>
                 <p className="mb-4">
-                De acordo com a atividade de cada estabelecimento e baseado na legislação sanitária vigente.
+                Presencial na sede vigilância sanitária – Apresentar 02 (dois) conjuntos completos, Padrão ANT contendo: plantas de situação, locação e coberta, Planta Baixa (Escala:1/50) com cotas e Layout, 2 cortes(Sendo: um longitudinal, um transversal) e Fachadas, colocar no quadro de legendas: Razão Social, Nome Fantasia, CNPJ, Endereço Completo, Área Terreno, Área de Construção, Nome do Proprietário por Extenso, CPF e Assinatura, Nome do Projetista-Assinatura e  Número do Conselho. Apresentar: Relatório Técnico, ART ou RRT, boleto e comprovante de pagamento, memorial descritivo dos Serviços/Atividades/Procedimentos Realizados com detalhes.
                 </p>
 
                 <h2 className="font-bold text-blue-800 mt-4">PRINCIPAIS ETAPAS</h2>
                 <p className="mb-4">
-                Após o deferimento da licença sanitária pela equipe técnica, o processo é encaminhado pela coordenação para o setor de protocolo para emissão da licença sanitária, apenas para os processos físicos, pois os digitais serão emitidos diretamente no site por liberação do insVigilanciaor.
+                Na sede vigilância sanitária, Após recebimento do projeto arquitetônico, será realizada análise do projeto. Após análise caso tenha exigência, o engenheiro ou arquiteto será notificado para as devidas alterações. Após cumprimento das exigências o processo será inspecionado e aprovado caso o projeto corresponda com o que for observado. Resposta em até 10 dias.
                 </p>
                 
               </div>
 
               <div className="pl-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
-                <p className="mb-4">60 dias</p>
+                <p className="mb-4">Imediato a 15 dias.</p>
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO</h2>
                 <p className="mb-4">Cidadão</p>
                 <h2 className="font-bold text-blue-800 mt-4">PRESTAÇÃO DO SERVIÇO/FORMA</h2>
-                <p className="mb-4">Presencial</p>
+                <p className="mb-4"> Presencial e telefone.</p>
 
                 <h2 className="font-bold text-blue-800 mt-4">TAXAS</h2>
                 <p className="mb-4">
                 De acordo com a
                 </p>
-                <a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/06/LEI-No-1.325-2017-Taxas.pdf" target="_blank" className=" w-full md:w-auto bg-[#004376] text-white py-2 px-6  rounded-xl text-sm md:text-base hover:bg-[#00ACED] transition-colors">LEI N° 1325/2017</a>
+                <a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/06/LEI-No-1.325-2017-Taxas.pdf" target="_blank" className=" w-full md:w-auto bg-[#004376] text-white py-2 px-6  rounded-xl text-sm md:text-base hover:bg-[#00ACED] transition-colors roboto-medium">LEI N° 1325/2017</a>
               </div>
             </div>
           </>
         }
         setorPublico={
           <>
+          
           <h2 className="font-bold text-blue-800 mt-4 mb-4">ENDEREÇO</h2>
           <p>
             R. Adalberto Coimbra, 250 – Jardim Jordão<br/>
             Horário de atendimento: Segunda a sexta de 8h às 16h<br/>
             Telefone: 9.9975-3952
+
             </p>
           </>
         }

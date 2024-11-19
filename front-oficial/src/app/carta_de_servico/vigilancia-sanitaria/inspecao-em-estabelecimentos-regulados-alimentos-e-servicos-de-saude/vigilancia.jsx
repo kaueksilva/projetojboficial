@@ -12,48 +12,98 @@ const Vigilancia = () => {
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
               <div className="pr-10 w-full">
-                <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2><br/>
-                  <p className="mb-4">
-                  De acordo com a Lei Federal nº 8080/90, a Vigilância Sanitária é responsável por desenvolver um conjunto de ações capazes de eliminar, diminuir ou prevenir riscos à saúde e de intervir nos problemas sanitários decorrentes do meio ambiente, da produção e circulação de bens e de prestação de serviços de interesse à saúde. A Vigilância Sanitária de Jaboatão dos Guararapes desenvolve, entre outras ações, a fiscalização de estabelecimentos comerciais que exercem atividades de interesse à saúde: como comércio de alimentos, consultórios médicos, salões de beleza, farmácias, etc. Realizam inspeções e ações educativas, como cursos e capacitações para o comércio informal, setor regulado e o comércio ambulante, dentre outras. 
-                  </p>
-                  <a href="https://cidadao-jaboatao.sissofia.com.br/login" target="_blank" className=" w-full md:w-auto bg-[#004376] text-white py-2 px-6  rounded-xl text-sm md:text-base hover:bg-[#00ACED] transition-colors">PORTAL DE LICENCIAMENTO</a>
-
-
-                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2><br/>
+                <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
+                <br />
                 <p className="mb-4">
-                De acordo com a atividade de cada estabelecimento e baseado na legislação sanitária vigente.
+                  Através de processos de licenciamento (físicos ou digitais)
+                  para concessão de licença inicial ou renovação; através de
+                  atendimento a denúncia ou busca ativa em estabelecimentos
+                  passíveis de fiscalização sanitária. Necessitando de
+                  documentos como: CNPJ, Contrato Social, Carnê de Inscrição
+                  Municipal- CIM e Memorial Descritivo, entre outros documentos
+                  técnicos exigidos, conforme atividade desenvolvida.
+                </p>
+                <a
+                  href="https://cidadao-jaboatao.sissofia.com.br/login"
+                  target="_blank"
+                  className=" w-full md:w-auto bg-[#004376] text-white py-2 px-6  rounded-xl text-sm md:text-base hover:bg-[#00ACED] transition-colors roboto-medium"
+                >
+                  PORTAL DE LICENCIAMENTO
+                </a>
+
+                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
+                <p className="mb-4 mt-4">
+                  Presencial na sede vigilância sanitária – Apresentar 02 (dois)
+                  conjuntos completos, Padrão ANT contendo: plantas de situação,
+                  locação e coberta, Planta Baixa (Escala:1/50) com cotas e
+                  Layout, 2 cortes(Sendo: um longitudinal, um transversal) e
+                  Fachadas, colocar no quadro de legendas: Razão Social, Nome
+                  Fantasia, CNPJ, Endereço Completo, Área Terreno, Área de
+                  Construção, Nome do Proprietário por Extenso, CPF e
+                  Assinatura, Nome do Projetista-Assinatura e Número do
+                  Conselho. Apresentar: Relatório Técnico, ART ou RRT, boleto e
+                  comprovante de pagamento, memorial descritivo dos
+                  Serviços/Atividades/Procedimentos Realizados com detalhes.
                 </p>
 
-                <h2 className="font-bold text-blue-800 mt-4">PRINCIPAIS ETAPAS</h2>
-                <p className="mb-4">
-                Após o deferimento da licença sanitária pela equipe técnica, o processo é encaminhado pela coordenação para o setor de protocolo para emissão da licença sanitária, apenas para os processos físicos, pois os digitais serão emitidos diretamente no site por liberação do insVigilanciaor.
+                <h2 className="font-bold text-blue-800 mt-4">
+                  PRINCIPAIS ETAPAS
+                </h2>
+                <p className="mb-4 mt-4">
+                  Inspeção ou reinspeção sanitária, até atendimento das
+                  exigências contidas nos termos de notificação com o
+                  deferimento ou indeferimento da licença.
                 </p>
-                
               </div>
 
               <div className="pl-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
-                <p className="mb-4">60 dias</p>
+                <p className="mb-4">
+                  Imediato, porém a liberação da licença depende do atendimento
+                  as exigências.
+                </p>
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO</h2>
                 <p className="mb-4">Cidadão</p>
-                <h2 className="font-bold text-blue-800 mt-4">PRESTAÇÃO DO SERVIÇO/FORMA</h2>
-                <p className="mb-4">Presencial</p>
+                <h2 className="font-bold text-blue-800 mt-4">
+                  PRESTAÇÃO DO SERVIÇO/FORMA
+                </h2>
+                <p className="mb-4">
+                  {" "}
+                  Presencial e telefone.
+                  <br />
+                  <br />
+                  Protocolo: segunda a sexta de 8h às 16h. Inspeções aos
+                  estabelecimentos: segunda a sexta de 8h às 17h e finais de
+                  semana das 17h às 23h.
+                </p>
 
                 <h2 className="font-bold text-blue-800 mt-4">TAXAS</h2>
-                <p className="mb-4">
-                De acordo com a
-                </p>
-                <a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/06/LEI-No-1.325-2017-Taxas.pdf" target="_blank" className=" w-full md:w-auto bg-[#004376] text-white py-2 px-6  rounded-xl text-sm md:text-base hover:bg-[#00ACED] transition-colors">LEI N° 1325/2017</a>
+                <p className="mb-4">De acordo com a</p>
+                <a
+                  href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/06/LEI-No-1.325-2017-Taxas.pdf"
+                  target="_blank"
+                  className=" w-full md:w-auto bg-[#004376] text-white py-2 px-6  rounded-xl text-sm md:text-base hover:bg-[#00ACED] transition-colors roboto-medium"
+                >
+                  LEI N° 1325/2017
+                </a>
               </div>
             </div>
           </>
         }
         setorPublico={
           <>
-          <h2 className="font-bold text-blue-800 mt-4 mb-4">ENDEREÇO</h2>
-          <p>
-            R. Adalberto Coimbra, 250 – Jardim Jordão<br/>
-            Horário de atendimento: Segunda a sexta de 8h às 16h<br/>
+            
+            <h2 className="font-bold text-blue-800 mt-4 mb-4">ENDEREÇO</h2>
+            <p>
+            Horário de atendimento: Segunda a sexta de 8h às 16h <br/> <br/>
+
+            Protocolo: <br/>
+            segunda a sexta de 8h às 16h. <br/>
+            Inspeções aos estabelecimentos:  <br/>
+            segunda a sexta de 8h às 17h e finais de semana das 17h às 23h. <br/> <br/>
+
+            Endereço: R. Adalberto Coimbra, 250 – Jardim Jordão <br/> <br/>
+
             Telefone: 9.9975-3952
             </p>
           </>
@@ -109,9 +159,10 @@ const Vigilancia = () => {
                   </p>
                   <p className="mt-1">
                     <a
-                      href="mailto:ouvidoria@jaboatao.pe.gov.br" className="text-blue-700 underline"
+                      href="mailto:ouvidoria@jaboatao.pe.gov.br"
+                      className="text-blue-700 underline"
                     >
-                    ouvidoria@jaboatao.pe.gov.br
+                      ouvidoria@jaboatao.pe.gov.br
                     </a>
                   </p>
                 </div>
@@ -138,9 +189,7 @@ const Vigilancia = () => {
                   <h2 className="font-bold text-blue-800 text-lg mt-6 mb-2">
                     GESTOR DA OUVIDORIA
                   </h2>
-                  <p>
-                  Lorena Ventura
-                  </p>
+                  <p>Lorena Ventura</p>
 
                   <h2 className="font-bold text-blue-800 text-lg mt-6 mb-2">
                     HORÁRIO DE ATENDIMENTO

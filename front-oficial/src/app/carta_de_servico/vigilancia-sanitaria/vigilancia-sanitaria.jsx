@@ -4,7 +4,7 @@ import React from 'react';
 import SideMenu from '../../../components/SideMenu';
 import { FaEye } from "react-icons/fa";
 
-const ambiente = () => {
+const Vigilancia = () => {
   return (
     <div className="flex mx-4 sm:mx-10 md:mx-20 lg:mx-36 xl:mx-72 my-10">
       <SideMenu activeItem="Vigilância Sanitária" />
@@ -22,25 +22,25 @@ const ambiente = () => {
               title: 'Atendimento ao Setor Regulado',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO De acordo com a Lei Federal nº 8080/90, a Vigilância Sanitária é responsável por desenvolver um conjunto',
-              link: '#'
+              link: '/carta_de_servico/vigilancia-sanitaria/atendimento-ao-setor-regulado'
             },
             {
               title: 'Emissão de Licenças Sanitárias',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO De acordo com a Lei Federal nº 8080/90, a Vigilância Sanitária é responsável por desenvolver um conjunto',
-              link: '#'
+              link: '/carta_de_servico/vigilancia-sanitaria/emissao-de-licencas-sanitarias'
             },
             {
               title: 'Engenharia',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO De acordo com a Lei Federal nº 8080/90, a Vigilância Sanitária é responsável por desenvolver um conjunto',
-              link: '#'
+              link: '/carta_de_servico/vigilancia-sanitaria/engenharia'
             },
             {
               title: 'Inspeção em Estabelecimentos Regulados (Alimentos e Serviços de Saúde)',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO De acordo com a Lei Federal nº 8080/90, a Vigilância Sanitária é responsável por desenvolver um conjunto',
-              link: '#'
+              link: '/carta_de_servico/vigilancia-sanitaria/inspecao-em-estabelecimentos-regulados-alimentos-e-servicos-de-saude'
             }
           ].map((item, index) => (
             <div key={index} className="flex items-start mb-4 border-b pb-4">
@@ -61,4 +61,4 @@ const ambiente = () => {
   );
 };
 
-export default ambiente;
+export default Vigilancia;
