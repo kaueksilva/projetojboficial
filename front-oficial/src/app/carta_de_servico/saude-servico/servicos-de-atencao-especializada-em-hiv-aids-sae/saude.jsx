@@ -15,23 +15,9 @@ const Saude = () => {
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
                 <br />
                 <p>
-                Serviço de Atendimento Domiciliar (SAD) – É uma forma de atenção à saúde, oferecida na moradia do paciente e caracterizado por um conjunto de ações de promoção à saúde, prevenção e tratamento de doenças e reabilitação, com garantia da continuidade do cuidado e integrada à Rede de Atenção à Saúde. Este tipo de cuidado é de acordo com a necessidade do paciente, e realizado por diferentes equipes. Quando o paciente precisa ser visitado com menos frequência, por exemplo, uma vez por mês, e já está mais estável, este cuidado pode ser realizado pela equipe de Saúde da Família/Atenção Básica de sua referência. Já os casos de maior complexidade são acompanhados pelas equipes multiprofissionais de atenção domiciliar (EMAD) e de apoio (EMAP), dos Serviços de Atenção Domiciliar (SAD) – Melhor em Casa.
+                Serviços de Atenção Especializada em HIV-AIDS (SAE) – O SAE é uma unidade assistencial de caráter ambulatorial, que propícia o vínculo do paciente portador do vírus HIV/Aids e outras IST’s (Infecções Sexualmente Transmissíveis). Serviço de uma equipe multidisciplinar de profissionais que realizam o atendimento, dentre os quais médicos infectologistas, assistente social, enfermeira, técnica de enfermagem e de laboratório; que orientam e aconselham os usuários sobre prevenção e tratamento das Infecções Sexualmente Transmissíveis (IST’s).
                 </p>
 
-                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
-                <p className="mb-4 mt-4">
-                Documentos necessários:
-                </p>
-                <li>RG</li>
-                <li>Cartão do SUS</li>
-                <li>Comprovante de residência;</li>
-
-                <h2 className="font-bold text-blue-800 mt-4 mb-4">
-                  PRINCIPAIS ETAPAS
-                </h2>
-                <p>
-                É geralmente feito no hospital em que o usuário estiver internado ou ainda por solicitação da equipe de Saúde da Família/Atenção Básica ou Policlínica. Caso você precise deste serviço ou saiba de alguém que precise, faça contato com a Unidade mais próxima da sua casa ou com a Secretaria de Saúde.
-                </p>
               </div>
 
               <div className="pl-10 w-full">
@@ -54,20 +40,9 @@ const Saude = () => {
               SECRETARIA MUNICIPAL DE SAÚDE
             </h2>
             <p>
-              Av. Barreto de Menezes, S/N – Prazeres, <br />
-              Jaboatão dos Guararapes – PE.
+            Rua Joaquim Tenório, s/n Cavaleiro – Cep:  54250-310. <br/>
+            Atendimento: Segunda a sexta – feira das 07h às 15h
             </p>
-
-            <a
-              className="roboto-medium inline-block bg-[#004376] text-white py-2 px-6 my-4 rounded-2xl text-center text-sm md:text-base hover:bg-[#00AEF9] transition-colors"
-
-              href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/06/CARTILHA-DE-SERVICOS.pdf"
-
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ENDEREÇO DE TODAS AS UNIDADES BÁSICAS <br /> DE SAÚDE
-            </a>
 
 
             <iframe

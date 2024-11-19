@@ -15,25 +15,9 @@ const Saude = () => {
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
                 <br />
                 <p>
-                Serviço de Atendimento Domiciliar (SAD) – É uma forma de atenção à saúde, oferecida na moradia do paciente e caracterizado por um conjunto de ações de promoção à saúde, prevenção e tratamento de doenças e reabilitação, com garantia da continuidade do cuidado e integrada à Rede de Atenção à Saúde. Este tipo de cuidado é de acordo com a necessidade do paciente, e realizado por diferentes equipes. Quando o paciente precisa ser visitado com menos frequência, por exemplo, uma vez por mês, e já está mais estável, este cuidado pode ser realizado pela equipe de Saúde da Família/Atenção Básica de sua referência. Já os casos de maior complexidade são acompanhados pelas equipes multiprofissionais de atenção domiciliar (EMAD) e de apoio (EMAP), dos Serviços de Atenção Domiciliar (SAD) – Melhor em Casa.
-                </p>
-
-                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
-                <p className="mb-4 mt-4">
-                Documentos necessários:
-                </p>
-                <li>RG</li>
-                <li>Cartão do SUS</li>
-                <li>Comprovante de residência;</li>
-
-                <h2 className="font-bold text-blue-800 mt-4 mb-4">
-                  PRINCIPAIS ETAPAS
-                </h2>
-                <p>
-                É geralmente feito no hospital em que o usuário estiver internado ou ainda por solicitação da equipe de Saúde da Família/Atenção Básica ou Policlínica. Caso você precise deste serviço ou saiba de alguém que precise, faça contato com a Unidade mais próxima da sua casa ou com a Secretaria de Saúde.
+                Rede de Atenção Psicossocial (RAPS) – Tem como finalidade a ampliação e articulação de pontos de atenção a saúde para pessoas com sofrimento ou transtorno mental e com necessidades decorrentes do uso de crack, álcool e outra drogas, no âmbito do Sistema Único de Saúde (SUS).
                 </p>
               </div>
-
               <div className="pl-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO</h2>
                 <p className="mb-4">Cidadão</p>
@@ -50,24 +34,37 @@ const Saude = () => {
         }
         setorPublico={
           <>
-            <h2 className="font-bold text-blue-800 mt-4 mb-4">
-              SECRETARIA MUNICIPAL DE SAÚDE
-            </h2>
-            <p>
-              Av. Barreto de Menezes, S/N – Prazeres, <br />
-              Jaboatão dos Guararapes – PE.
-            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
+              <div className="pr-10 w-full">
+                <h2 className="font-bold text-blue-800 mt-4">SECRETARIA MUNICIPAL DE SAÚDE</h2>
+                <br />
+                <p>
+                Av. Barreto de Menezes, S/N – Prazeres, Jaboatão dos Guararapes – PE.
+                </p>
+                <h2 className="font-bold text-blue-800 mt-4">ORGANIZAÇÃO DAS RAPS</h2>
+                <h2 className="font-bold text-blue-800 mt-4">CAPS TRANSTORNO</h2>
+                <p>Atende pessoas com transtorno mentais, decorrentes do uso de crack, álcool e outras drogas de todas as faixas etárias.<br/><br/>
 
-            <a
-              className="roboto-medium inline-block bg-[#004376] text-white py-2 px-6 my-4 rounded-2xl text-center text-sm md:text-base hover:bg-[#00AEF9] transition-colors"
+                Onde encontrar? Rua Emiliano Ribeiro,280,Piedade.</p>
 
-              href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/06/CARTILHA-DE-SERVICOS.pdf"
+                <h2 className="font-bold text-blue-800 mt-4" >CAPS AD:</h2>
+                <p>Atende adultos ou crianças e adolescentes, considerando as normativas do estatuto da criança e do adolescente, com necessidades decorrentes do uso de crack, álcool e outras drogas.<br/><br/>
 
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ENDEREÇO DE TODAS AS UNIDADES BÁSICAS <br /> DE SAÚDE
-            </a>
+                Onde encontrar? Rua Dr. Manoel, benício Fontinelle,110, Piedade.</p>
+
+              </div>
+              <div className="pl-10 w-full">
+                <h2 className="font-bold text-blue-800 mt-4">CAPS 1: </h2>
+                <p className="mb-4 mt-2">Atende crianças e adolescente com transtorno mentais graves e persistentes e os que fazem uso de crack, álcool e outras drogas.
+                Onde encontrar? Rua Manoel Carneiro Leão, 175, Dois Carneiros Baixo.</p>
+                <h2 className="font-bold text-blue-800 mt-4">
+                SERVIÇOS RESIDENCIAIS TERAPEUTICOS (RT):
+                </h2>
+                <p className="mt-2">São pontos de atenção na RAPS nas estratégias de desinstitucionalização, que são moradias inseridas na comunidade, destinadas a acolher pessoas egressas de internação de longa permanência (Dois anos ou mais initerrruptos), egressas de hospitais psiquiátricos e hospitais de custódia, entre outras. </p>
+
+                
+              </div>
+            </div>
 
 
             <iframe

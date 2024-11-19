@@ -15,23 +15,14 @@ const Saude = () => {
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
                 <br />
                 <p>
-                Serviço de Atendimento Domiciliar (SAD) – É uma forma de atenção à saúde, oferecida na moradia do paciente e caracterizado por um conjunto de ações de promoção à saúde, prevenção e tratamento de doenças e reabilitação, com garantia da continuidade do cuidado e integrada à Rede de Atenção à Saúde. Este tipo de cuidado é de acordo com a necessidade do paciente, e realizado por diferentes equipes. Quando o paciente precisa ser visitado com menos frequência, por exemplo, uma vez por mês, e já está mais estável, este cuidado pode ser realizado pela equipe de Saúde da Família/Atenção Básica de sua referência. Já os casos de maior complexidade são acompanhados pelas equipes multiprofissionais de atenção domiciliar (EMAD) e de apoio (EMAP), dos Serviços de Atenção Domiciliar (SAD) – Melhor em Casa.
+                Centro de Reabilitação e Fisioterapia – Visam à melhoria da qualidade de vida dos usuários, a reintegração à vida social e a atividade laboral, propiciando recuperação da condição física, fonoaudiologia e psicossocial no limite de sua capacidade.
                 </p>
 
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
                 <p className="mb-4 mt-4">
-                Documentos necessários:
+                A marcação será realizada nos próprios centros com encaminhamento do médico. Portando o RG e Cartão do SUS.
                 </p>
-                <li>RG</li>
-                <li>Cartão do SUS</li>
-                <li>Comprovante de residência;</li>
 
-                <h2 className="font-bold text-blue-800 mt-4 mb-4">
-                  PRINCIPAIS ETAPAS
-                </h2>
-                <p>
-                É geralmente feito no hospital em que o usuário estiver internado ou ainda por solicitação da equipe de Saúde da Família/Atenção Básica ou Policlínica. Caso você precise deste serviço ou saiba de alguém que precise, faça contato com a Unidade mais próxima da sua casa ou com a Secretaria de Saúde.
-                </p>
               </div>
 
               <div className="pl-10 w-full">
@@ -50,24 +41,29 @@ const Saude = () => {
         }
         setorPublico={
           <>
-            <h2 className="font-bold text-blue-800 mt-4 mb-4">
-              SECRETARIA MUNICIPAL DE SAÚDE
-            </h2>
-            <p>
-              Av. Barreto de Menezes, S/N – Prazeres, <br />
-              Jaboatão dos Guararapes – PE.
-            </p>
+           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
+              <div className="pr-10 w-full">
+                <h2 className="font-bold text-blue-800 mt-4">SECRETARIA MUNICIPAL DE SAÚDE</h2>
+                <br />
+                <h2 className="font-bold text-blue-800 mt-4">Centro de Reabilitação e Fisioterapia Antônio Caldas de Sá Barreto – Regional I</h2>
+                <p>
+                Rua Alto da Boa Esperança, s/n, Vila Rica. Com atendimento de fisioterapia, fonoterapia, audiometria e imitanciometria.
+                </p>
 
-            <a
-              className="roboto-medium inline-block bg-[#004376] text-white py-2 px-6 my-4 rounded-2xl text-center text-sm md:text-base hover:bg-[#00AEF9] transition-colors"
+                <h2 className="font-bold text-blue-800 mt-4">Centro de Reabilitação e Fisioterapia Francisco Loureiro – Regional II</h2>
+                <p className="mb-4 ">
+                Av Agamenon Magalhães, s/n, Cavaleiro. Com atendimento de psicologia.
+                </p>
 
-              href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/06/CARTILHA-DE-SERVICOS.pdf"
+              </div>
 
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ENDEREÇO DE TODAS AS UNIDADES BÁSICAS <br /> DE SAÚDE
-            </a>
+              <div className="pl-10 w-full">
+                <h2 className="font-bold text-blue-800 mt-4">Centro de Reabilitação e Fisioterapia– Regional V</h2>
+                <p className="mb-4">Rua Dr. Luiz Regueira, s/n, prazeres. Com atendimento de psicologia. <br/> <br/>
+                Segunda a sexta – feira das 07h às 17h
+                </p>
+              </div>
+            </div>
 
 
             <iframe

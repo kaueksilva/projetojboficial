@@ -15,23 +15,30 @@ const Saude = () => {
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
                 <br />
                 <p>
-                Serviço de Atendimento Domiciliar (SAD) – É uma forma de atenção à saúde, oferecida na moradia do paciente e caracterizado por um conjunto de ações de promoção à saúde, prevenção e tratamento de doenças e reabilitação, com garantia da continuidade do cuidado e integrada à Rede de Atenção à Saúde. Este tipo de cuidado é de acordo com a necessidade do paciente, e realizado por diferentes equipes. Quando o paciente precisa ser visitado com menos frequência, por exemplo, uma vez por mês, e já está mais estável, este cuidado pode ser realizado pela equipe de Saúde da Família/Atenção Básica de sua referência. Já os casos de maior complexidade são acompanhados pelas equipes multiprofissionais de atenção domiciliar (EMAD) e de apoio (EMAP), dos Serviços de Atenção Domiciliar (SAD) – Melhor em Casa.
+                Cuidar bem – É um programa de transporte eletivo criado pela Secretaria de Saúde da Prefeitura Municipal de Jaboatão dos Guararapes, que tem o objetivo de fornecer transporte de qualidade para usuários do Sistema Único de Saúde – SUS, residentes do município, que fazem tratamento de saúde em clínicas e hospitais públicos ou conveniados com o SUS.
                 </p>
 
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
                 <p className="mb-4 mt-4">
-                Documentos necessários:
+                Documentos necessários para participar:
                 </p>
-                <li>RG</li>
-                <li>Cartão do SUS</li>
-                <li>Comprovante de residência;</li>
+                <li>Foto 3×4;</li>
+                <li>Documento oficial de identificação com foto;</li>
+                <li>CPF;</li>
+                <li>Cartão do SUS;</li>
+                <li>Cartão Cidadão;</li>
+                <li>Comprovante de Residência;</li>
+                <li>Comprovante de Renda;</li>
+                <li>Laudo médico ou de um profissional de nível superior de saúde;</li>
+                <p>Encaminhamento ou marcação do serviço de saúde a ser realizado ou que esteja em acompanhamento com as seguintes informações: nome do serviço, dias, horários e tipo de tratamento. <br/><br/>
 
-                <h2 className="font-bold text-blue-800 mt-4 mb-4">
-                  PRINCIPAIS ETAPAS
-                </h2>
-                <p>
-                É geralmente feito no hospital em que o usuário estiver internado ou ainda por solicitação da equipe de Saúde da Família/Atenção Básica ou Policlínica. Caso você precise deste serviço ou saiba de alguém que precise, faça contato com a Unidade mais próxima da sua casa ou com a Secretaria de Saúde.
-                </p>
+                Pacientes que estão realizando tratamento de:</p>
+
+                <li>Terapia Renal Substitutiva (hemodiálise);</li>
+                <li>Quimioterapia/Radioterapia;</li>
+                <li>Pacientes em Reabilitação com:deficit de locomoção, total ou parcialmente dependentes;</li>
+                <li>Crianças acometidas pela Síndrome Congênita do Zika Vírus;</li>
+                <li>Usuários do SUS Jaboatão dos Guararapes classificados como totalmente dependente de acordo com o Índice de Katz;</li>
               </div>
 
               <div className="pl-10 w-full">
@@ -54,21 +61,10 @@ const Saude = () => {
               SECRETARIA MUNICIPAL DE SAÚDE
             </h2>
             <p>
-              Av. Barreto de Menezes, S/N – Prazeres, <br />
-              Jaboatão dos Guararapes – PE.
+            Av. Barreto de Menezes, S/N – Prazeres, <br />
+            Jaboatão dos Guararapes – PE.<br />
+            Telefone: (81) 99823-0131 / (81) 99939-1889
             </p>
-
-            <a
-              className="roboto-medium inline-block bg-[#004376] text-white py-2 px-6 my-4 rounded-2xl text-center text-sm md:text-base hover:bg-[#00AEF9] transition-colors"
-
-              href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/06/CARTILHA-DE-SERVICOS.pdf"
-
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ENDEREÇO DE TODAS AS UNIDADES BÁSICAS <br /> DE SAÚDE
-            </a>
-
 
             <iframe
               className="w-full mt-4 h-[400px] md:h-[600px]"
