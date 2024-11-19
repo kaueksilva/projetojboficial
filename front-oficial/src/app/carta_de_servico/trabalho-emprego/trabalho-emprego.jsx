@@ -16,20 +16,20 @@ const ambiente = () => {
               title: 'Qualificação Profissional',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Qualificação Profissional para a população do município do Jaboatão dos Guararapes. O município do Jaboatão, por meio',
-              link: '#'
+              link: '/carta_de_servico/trabalho-emprego/qualificacao-profissional'
             },
             
             {
               title: 'Programa Jovem Mais Jaboatão',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Programa Jovem Mais Jaboatão. Por meio da Coordenação, o projeto procura atender juventude de 15 a 29',
-              link: '#'
+              link: '/carta_de_servico/trabalho-emprego/programa-jovem-mais-jaboatao'
             },
             {
               title: 'Economia Solidária',
               description:
                 'DADOS GERAIS SETORES PÚEconomia SolidáriBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Economia Solidária. Fomento as ações dos empreendimentos econômicos solidários do município do Jaboatão dos Guararapes. Por meio',
-              link: '#'
+              link: '/carta_de_servico/trabalho-emprego/economia-solidaria'
             },
             {
               title: 'Economia Criativa',
