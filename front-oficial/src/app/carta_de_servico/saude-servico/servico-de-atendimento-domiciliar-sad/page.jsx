@@ -1,4 +1,4 @@
-import Ubs from "./saude";
+import Saude from "./saude";
 import Model from "../../../../components/model-page-servicos";
 export const metadata = {
   title: "Servico de atendimento domiciliar - Prefeitura do Jaboatão dos Guararapes",
@@ -15,7 +15,7 @@ export default function config() {
           </span>
         }
       >
-        <Ubs />
+        <Saude />
       </Model>
     </div>
   );

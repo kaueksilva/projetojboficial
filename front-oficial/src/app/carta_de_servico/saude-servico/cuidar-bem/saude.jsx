@@ -15,38 +15,30 @@ const Saude = () => {
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
                 <br />
                 <p>
-                  UBS – Unidade Básica de Saúde – O que é uma UBS? De acordo com
-                  a PNAB (Política Nacional de Atenção Básica) todos os
-                  estabelecimentos de saúde que prestem ações e serviços de
-                  Atenção Básica (AB), no âmbito do SUS, serão denominados
-                  Unidade Básica de Saúde. Todos os municípios de áreas cobertas
-                  pela AB deverão se cadastrar em suas respectivas UBS’s para
-                  ter garantido seu acesso ao serviço
+                Cuidar bem – É um programa de transporte eletivo criado pela Secretaria de Saúde da Prefeitura Municipal de Jaboatão dos Guararapes, que tem o objetivo de fornecer transporte de qualidade para usuários do Sistema Único de Saúde – SUS, residentes do município, que fazem tratamento de saúde em clínicas e hospitais públicos ou conveniados com o SUS.
                 </p>
 
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
                 <p className="mb-4 mt-4">
-                  RG, Cartão do SUS, Comprovante de residência
+                Documentos necessários para participar:
                 </p>
+                <li>Foto 3×4;</li>
+                <li>Documento oficial de identificação com foto;</li>
+                <li>CPF;</li>
+                <li>Cartão do SUS;</li>
+                <li>Cartão Cidadão;</li>
+                <li>Comprovante de Residência;</li>
+                <li>Comprovante de Renda;</li>
+                <li>Laudo médico ou de um profissional de nível superior de saúde;</li>
+                <p>Encaminhamento ou marcação do serviço de saúde a ser realizado ou que esteja em acompanhamento com as seguintes informações: nome do serviço, dias, horários e tipo de tratamento. <br/><br/>
 
-                <h2 className="font-bold text-blue-800 mt-4 mb-4">
-                  PRINCIPAIS ETAPAS
-                </h2>
-                <p>
-                  Os Usuários dos municípios de Jaboatão cadastrados podem ter
-                  acesso a ações de promoção, prevenção e tratamento
-                  relacionadas a saúde da mulher, da criança, saúde mental,
-                  planejamento familiar, prevenção do câncer, pré-natal e
-                  cuidado de doenças crônicas como diabete e hipertensão, fazer
-                  curativos, fazer inalações, tomar vacinas, coletar exames
-                  laboratoriais, ter tratamento odontológico, receber medicação
-                  básica, ser encaminhado para atendimentos com especialistas.{" "}
-                  <br />
-                  <br />
-                  Localiza-se próxima da sua Residência, sendo a principal porta
-                  de entrada para atendimento e comunicação com toda Rede de
-                  Atenção a Saúde disponível no município
-                </p>
+                Pacientes que estão realizando tratamento de:</p>
+
+                <li>Terapia Renal Substitutiva (hemodiálise);</li>
+                <li>Quimioterapia/Radioterapia;</li>
+                <li>Pacientes em Reabilitação com:deficit de locomoção, total ou parcialmente dependentes;</li>
+                <li>Crianças acometidas pela Síndrome Congênita do Zika Vírus;</li>
+                <li>Usuários do SUS Jaboatão dos Guararapes classificados como totalmente dependente de acordo com o Índice de Katz;</li>
               </div>
 
               <div className="pl-10 w-full">
@@ -69,21 +61,10 @@ const Saude = () => {
               SECRETARIA MUNICIPAL DE SAÚDE
             </h2>
             <p>
-              Av. Barreto de Menezes, S/N – Prazeres, <br />
-              Jaboatão dos Guararapes – PE.
+            Av. Barreto de Menezes, S/N – Prazeres, <br />
+            Jaboatão dos Guararapes – PE.<br />
+            Telefone: (81) 99823-0131 / (81) 99939-1889
             </p>
-
-            <a
-              className="roboto-medium inline-block bg-[#004376] text-white py-2 px-6 my-4 rounded-2xl text-center text-sm md:text-base hover:bg-[#00AEF9] transition-colors"
-
-              href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/06/CARTILHA-DE-SERVICOS.pdf"
-
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ENDEREÇO DE TODAS AS UNIDADES BÁSICAS <br /> DE SAÚDE
-            </a>
-
 
             <iframe
               className="w-full mt-4 h-[400px] md:h-[600px]"
