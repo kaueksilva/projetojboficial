@@ -1,6 +1,8 @@
 import Ubs from "./resgate-de-animais-marinhos-e-silvestres";
 import Model from "../../../../components/model-page-servicos";
-
+export const metadata = {
+  title: "Resgate de Animais Marinhos e Silvestres - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>

@@ -1,7 +1,9 @@
 import Vigilancia from "./vigilancia-sanitaria";
 import Model from "../../../components/model-page";
 import Link from "next/link"; 
-
+export const metadata = {
+  title: "Serviços de Vigilância Sanitária - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>

@@ -1,6 +1,8 @@
 import Pet from "./castracao-de-caes-e-gatos";
 import Model from "../../../../components/model-page-servicos";
-
+export const metadata = {
+  title: "Cadastro para Cirurgia de Castração de Cães e Gatos - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>
