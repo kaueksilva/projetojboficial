@@ -28,19 +28,19 @@ const Imposto = () => {
               title: 'ITBI',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO ITBI é o imposto que incidirá sobre a transmissão de bens imóveis ou direitos a eles relativos,',
-              link: '#'
+              link: '/carta_de_servico/impostos-taxas/itbi'
             },
             {
               title: 'ISS Imposto Sobre Serviço',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO O ISS ou ISSQN é o imposto sobre serviços de qualquer natureza, da competência constitucional dos Municípios',
-              link: '#'
+              link: '/carta_de_servico/impostos-taxas/iss-imposto-sobre-servico'
             },
             {
               title: 'Simples Nacional',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO O Simples Nacional é um regime de tributação diferenciado para as Micro Empresas – ME e Empresas',
-              link: '#'
+              link: '/carta_de_servico/impostos-taxas/simples-nacional'
             }
           ].map((item, index) => (
             <div key={index} className="flex items-start mb-4 border-b pb-4">
