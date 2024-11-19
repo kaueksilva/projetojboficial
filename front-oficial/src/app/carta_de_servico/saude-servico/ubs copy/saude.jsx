@@ -15,22 +15,37 @@ const Saude = () => {
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
                 <br />
                 <p>
-                Serviço de Atendimento Domiciliar (SAD) – É uma forma de atenção à saúde, oferecida na moradia do paciente e caracterizado por um conjunto de ações de promoção à saúde, prevenção e tratamento de doenças e reabilitação, com garantia da continuidade do cuidado e integrada à Rede de Atenção à Saúde. Este tipo de cuidado é de acordo com a necessidade do paciente, e realizado por diferentes equipes. Quando o paciente precisa ser visitado com menos frequência, por exemplo, uma vez por mês, e já está mais estável, este cuidado pode ser realizado pela equipe de Saúde da Família/Atenção Básica de sua referência. Já os casos de maior complexidade são acompanhados pelas equipes multiprofissionais de atenção domiciliar (EMAD) e de apoio (EMAP), dos Serviços de Atenção Domiciliar (SAD) – Melhor em Casa.
+                  UBS – Unidade Básica de Saúde – O que é uma UBS? De acordo com
+                  a PNAB (Política Nacional de Atenção Básica) todos os
+                  estabelecimentos de saúde que prestem ações e serviços de
+                  Atenção Básica (AB), no âmbito do SUS, serão denominados
+                  Unidade Básica de Saúde. Todos os municípios de áreas cobertas
+                  pela AB deverão se cadastrar em suas respectivas UBS’s para
+                  ter garantido seu acesso ao serviço
                 </p>
 
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
                 <p className="mb-4 mt-4">
-                Documentos necessários:
+                  RG, Cartão do SUS, Comprovante de residência
                 </p>
-                <li>RG</li>
-                <li>Cartão do SUS</li>
-                <li>Comprovante de residência;</li>
 
                 <h2 className="font-bold text-blue-800 mt-4 mb-4">
                   PRINCIPAIS ETAPAS
                 </h2>
                 <p>
-                É geralmente feito no hospital em que o usuário estiver internado ou ainda por solicitação da equipe de Saúde da Família/Atenção Básica ou Policlínica. Caso você precise deste serviço ou saiba de alguém que precise, faça contato com a Unidade mais próxima da sua casa ou com a Secretaria de Saúde.
+                  Os Usuários dos municípios de Jaboatão cadastrados podem ter
+                  acesso a ações de promoção, prevenção e tratamento
+                  relacionadas a saúde da mulher, da criança, saúde mental,
+                  planejamento familiar, prevenção do câncer, pré-natal e
+                  cuidado de doenças crônicas como diabete e hipertensão, fazer
+                  curativos, fazer inalações, tomar vacinas, coletar exames
+                  laboratoriais, ter tratamento odontológico, receber medicação
+                  básica, ser encaminhado para atendimentos com especialistas.{" "}
+                  <br />
+                  <br />
+                  Localiza-se próxima da sua Residência, sendo a principal porta
+                  de entrada para atendimento e comunicação com toda Rede de
+                  Atenção a Saúde disponível no município
                 </p>
               </div>
 
