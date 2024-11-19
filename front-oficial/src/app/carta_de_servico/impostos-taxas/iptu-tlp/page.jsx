@@ -1,8 +1,8 @@
-import Ubs from "./taxas-mercantis";
+import Ubs from "./iptu-tlp";
 import Model from "../../../../components/model-page-servicos";
 
 export const metadata = {
-  title: "Taxas Mercantis - Prefeitura do Jaboatão dos Guararapes",
+  title: "Iptu e Tlp - Prefeitura do Jaboatão dos Guararapes",
 };
 
 export default function config() {
@@ -10,7 +10,7 @@ export default function config() {
     <div>
       <Model
         caminhoImagem={"/images/carta-de-servico/taxa.png"}
-        titulo={"TAXAS MERCANTIS"}
+        titulo={"IPTU e TLP"}
         subtitulo={
           <span>
             <span className="brightness-125">Serviços de Impostos e Taxas

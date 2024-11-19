@@ -22,7 +22,7 @@ const Imposto = () => {
               title: 'IPTU e TLP',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO O IPTU é o imposto sobre a propriedade predial e territorial urbana, tem como fato gerador a',
-              link: '#'
+              link: '/carta_de_servico/impostos-taxas/iptu-tlp'
             },
             {
               title: 'ITBI',
