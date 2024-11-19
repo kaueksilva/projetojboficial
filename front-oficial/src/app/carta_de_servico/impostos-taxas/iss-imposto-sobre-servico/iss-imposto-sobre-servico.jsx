@@ -15,41 +15,55 @@ const Pet = () => {
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
                 <br />
                 <p>
-                  O IPTU é o imposto sobre a propriedade predial e territorial
-                  urbana, tem como fato gerador a propriedade, o domínio útil ou
-                  a posse de bem imóvel, por natureza ou acessão física, como
-                  definido na lei civil, localizado na zona urbana ou
-                  urbanizável do Município, independentemente de sua forma,
-                  estrutura ou destinação. O IPTU incide sobre os imóveis
-                  localizados fora da zona urbana, utilizados para indústria,
-                  comércio, prestação de serviços e sítios de recreio. A Taxa de
-                  Limpeza Pública – TLP tem como fato gerador a prestação ou a
-                  colocação à disposição dos contribuintes dos serviços
-                  municipais, específicos e divisíveis, de coleta e remoção de
-                  lixo, coleta especial e eventual de lixo e colocação de
-                  recipientes coletores de lixo. A TLP é lançada e cobrada junto
-                  o IPTU.
+                  O ISS ou ISSQN é o imposto sobre serviços de qualquer
+                  natureza, da competência constitucional dos Municípios e do
+                  Distrito Federal, que incidirá sobre as atividades de
+                  prestação de serviços exercidas por empresas ou profissionais
+                  autônomos.
                   <br />
                   <br />
-                  PRINCIPAIS SERVIÇOS:
+                  O imposto é apurado mensalmente sobre o valor dos serviços
+                  prestados, podendo também ser apurado com base em valores
+                  fixos quando forem prestados por sociedade simples em relação
+                  a cada um dos profissionais habilitados.
                   <br />
-                  – Isenção;
                   <br />
-                  – Imunidade;
+                  O imposto também é apurado com base em valores fixos quando os
+                  serviços forem prestados por profissionais autônomos. Neste
+                  caso, o tributo é cobrado em duas parcelas semestrais através
+                  do documento de arrecadação municipal, popularmente conhecido
+                  como CIM.
                   <br />
-                  – Restituição;
                   <br />
-                  – Averbação;
-                  <br />
-                  – Certidão de Regularidade Fiscal;
+                  PRINCIPAIS SERVIÇOS RELACIONADOS AO ITBI:
                   <br />
                   – Parcelamento;
                   <br />
-                  – Revisão/ Reclamação de lançamento;
+                  – Confissão de débitos;
                   <br />
-                  – Baixa de débitos imobiliários;
+                  – Inscrição Mercantil de Pessoa Física (Autônomo);
                   <br />
-                  – Compensação de crédito imobiliário;
+                  – Alteração Cadastral de Pessoa Física (Autônomo);
+                  <br />
+                  – Alteração/Cadastro Mercantil – Pessoa Jurídica;
+                  <br />
+                  – Cancelamento Nota Fiscal de Serviço Eletrônica;
+                  <br />
+                  – Cancelamento Nota Fiscal Avulsa (com substituição);
+                  <br />
+                  – Cancelamento Nota Fiscal Avulsa;
+                  <br />
+                  – Isenção;
+                  <br />
+                  – Restituição;
+                  <br />
+                  – Revisão/ Reclamação contra lançamento;
+                  <br />
+                  – Certidão de Regularidade Fiscal;
+                  <br />
+                  – Suspensão de atividade mercantil;
+                  <br />
+                  – Reinício da atividade temporariamente suspensa.
                   <br />
                   <br />
                   Link do Serviço:
@@ -63,7 +77,8 @@ const Pet = () => {
                   >
                     PORTAL DO CONTRIBUINTE
                   </a>
-                  <br /><br />
+                  <br />
+                  <br />
                 </p>
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
 
@@ -77,7 +92,9 @@ const Pet = () => {
                   rel="noopener noreferrer" // Segurança adicional ao abrir links externos
                 >
                   CARTA DE SERVIÇOS COMPLETA
-                </a><br /><br />
+                </a>
+                <br />
+                <br />
               </div>
 
               <div className="pl-10 w-full">
@@ -90,22 +107,21 @@ const Pet = () => {
                   que o munícipe tenha que se deslocar até as Unidades de
                   Atendimento ao Contribuinte. Ele poderá acessar diretamente
                   através do Portal do Contribuinte pelo site
-                  https://jaboatao.pe.gov.br/contribuinte - na tela principal
-                  na área GERAL clicar na aba Processos - abrirá uma nova tela
-                  e nessa clicar na caixa Abertura de Processos On-Line, ali
-                  constarão os serviços oferecidos. <br /> Para acompanhamento dos
-                  processos abertos, poderão ser feitos através dos canais
-                  (e-mail e WhatsApp) disponibilizados na Carta de Serviços.
+                  https://jaboatao.pe.gov.br/contribuinte - na tela principal na
+                  área GERAL clicar na aba Processos - abrirá uma nova tela e
+                  nessa clicar na caixa Abertura de Processos On-Line, ali
+                  constarão os serviços oferecidos. <br />
                 </p>
                 <a
                   className="roboto-medium w-full md:w-auto bg-[#004376] text-white py-2 px-6 rounded-full text-sm md:text-base hover:bg-[#00ACED] transition-colors"
-                  href="https://jaboatao.pe.gov.br/wp-content/uploads/2024/07/CARTA_DE_SERVICOS_SEREC_VERSAO_10_DE_09_07_2024-publicacao-nos-sites.pdf"
+                  href="https://www.tinus.com.br/csp/JABOATAO/portal/index.csp"
                   target="_blank" // Abre o link em uma nova aba
                   rel="noopener noreferrer" // Segurança adicional ao abrir links externos
                 >
-                  CARTA DE SERVIÇOS COMPLETA
+                  PORTAL DO CONTRIBUINTE
                 </a>
-                <br /><br />
+                <br />
+                <br />
                 <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
                 <p className="mb-4">
                   Tempo de Espera no Atendimento presencial: de 15 a 30 minutos.
@@ -117,9 +133,11 @@ const Pet = () => {
                   rel="noopener noreferrer" // Segurança adicional ao abrir links externos
                 >
                   CARTA DE SERVIÇOS COMPLETA
-                </a><br /><br />
+                </a>
+                <br />
+                <br />
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO</h2>
-                <p className="mb-4">Cidadão e empresas</p>
+                <p className="mb-4">Empresas e Profissional autônomo.</p>
 
                 <h2 className="font-bold text-blue-800 mt-4">
                   PRESTAÇÃO DO SERVIÇO/FORMA:
@@ -146,13 +164,24 @@ const Pet = () => {
             <div>
               <strong>
                 <h1>
-                Caso prefira o atendimento presencial, este poderá ser feito nas Unidades de Atendimento ao Contribuinte:
+                  Caso prefira o atendimento presencial, este poderá ser feito
+                  nas Unidades de Atendimento ao Contribuinte:
                 </h1>
               </strong>
               <br />
               <section>
                 <h2>Sede da Prefeitura</h2>
-                <p>(Palácio da Batalha – Av. Barreto de Menezes, 1.648, Prazeres – Jaboatão dos Guararapes – PE. CEP: 54.330-900). É necessário fazer o agendamento prévio site https://jaboatao.pe.gov.br/contribuinte - na tela principal na área GERAL clicar na aba Agendamento de Atendimento - abrirá uma nova tela e nessa colocar as informações solicitadas, basta escolher a data e hora que deseja ser atendido. O agendamento também pode ser feito através do e-mail atendimento.sefaz@jaboatao.pe.gov.br ou ainda pelo WhatsApp (81) 99975-5532 (somente mensagem).
+                <p>
+                  (Palácio da Batalha – Av. Barreto de Menezes, 1.648, Prazeres
+                  – Jaboatão dos Guararapes – PE. CEP: 54.330-900). É necessário
+                  fazer o agendamento prévio site
+                  https://jaboatao.pe.gov.br/contribuinte - na tela principal na
+                  área GERAL clicar na aba Agendamento de Atendimento - abrirá
+                  uma nova tela e nessa colocar as informações solicitadas,
+                  basta escolher a data e hora que deseja ser atendido. O
+                  agendamento também pode ser feito através do e-mail
+                  atendimento.sefaz@jaboatao.pe.gov.br ou ainda pelo WhatsApp
+                  (81) 99975-5532 (somente mensagem).
                 </p>
               </section>
               <br />
