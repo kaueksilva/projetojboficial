@@ -16,32 +16,32 @@ const previdencia = () => {
               title: 'Simulação de Cálculo de Aposentadoria',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Simulação de Cálculo de Aposentadoria – O Instituto de Previdênciados Servidores Públicos do Município do Jaboatão dos',
-              link: '#'
+              link: '/carta_de_servico/previdencia/simulacao-de-calculo-de-aposentadoria'
             },
             
             {
               title: 'Concessão de Aposentadoria',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Concessão de aposentadoria – O Instituto de Previdência dos Servidores Públicos do Município do Jaboatão dos Guararapes',
-              link: '#'
+              link: '/carta_de_servico/previdencia/concessao-de-aposentadoria'
             },
             {
               title: 'Concessão de Pensão',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Concessão de pensão – O Instituto de Previdência dos Servidores Públicos do Município do Jaboatão dos Guararapes',
-              link: '#'
+              link: '/carta_de_servico/previdencia/concessao-de-pensao'
             },
             {
               title: 'Emissão de Certidão de Tempo de Contribuição',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Emissão de Certidão de Tempo de Contribuição – O Instituto de Previdência dos Servidores Públicos do Município',
-              link: '#'
+              link: '/carta_de_servico/previdencia/emissao-de-certidao-de-tempo-de-contribuicao'
             },
             {
               title: 'Revisão de Benefícios e Proventos',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Revisão de Benefícios e Proventos – O Instituto de Previdência dosServidores Públicos do Município do Jaboatão dos',
-              link: '#'
+              link: '/carta_de_servico/previdencia/revisao-de-beneficios-e-proventos'
             }
           ].map((item, index) => (
             <div key={index} className="flex items-start mb-4 border-b pb-4">

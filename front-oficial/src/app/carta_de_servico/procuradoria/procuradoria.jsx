@@ -16,14 +16,14 @@ const ambiente = () => {
               title: 'Débitos da dívida ativa judicial (DAJ) e Débitos da dívida ativa procuradoria (DAP), executados via processo judicial',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Equipe de Apoio Técnico e Administrativo da Procuradoria da Fazenda Municipal realiza o atendimento aos contribuintes,',
-              link: '#'
+              link: '/carta_de_servico/procuradoria/debitos-da-divida-ativa-judicial-daj-e-debitos-da-divida-ativa-procuradoria-dap-executados-via-processo-judicial'
             },
             
             {
               title: 'Câmara Privada de Mediação e Conciliação da Prefeitura de Jaboatão dos Guararapes',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Sessão de mediação sobre Divórcio, Alimentos, Regulamentação de Visita, Dissolução de União Estável, Exoneração de Pensão Alimentícia,',
-              link: '#'
+              link: '/carta_de_servico/procuradoria/camara-privada-de-mediacao-e-conciliacao-da-prefeitura-de-jaboatao-dos-guararapes'
             }
           ].map((item, index) => (
             <div key={index} className="flex items-start mb-4 border-b pb-4">

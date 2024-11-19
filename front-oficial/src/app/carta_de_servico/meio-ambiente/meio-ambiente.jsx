@@ -16,20 +16,20 @@ const ambiente = () => {
               title: 'Espaço Vida Marinha',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO GERAL: O Espaço Vida Marinha é um projeto de educação ambiental com foco nos ecossistemas marinhos do',
-              link: '#'
+              link: '/carta_de_servico/meio-ambiente/espaco-vida-marinha'
             },
             
             {
               title: 'Educação Ambiental',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Coordenação de Educação Ambiental – CEA realiza palestras de Sensibilização ambiental com foco em um tema',
-              link: '#'
+              link: '/carta_de_servico/meio-ambiente/educacao-ambiental'
             },
             {
               title: 'Plantio ou Erradicação de Árvores',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Coordenação de Arborização, Praças e Jardins (CAPJ) é encarregada de coordenar e executar as ações de',
-              link: '#'
+              link: '/carta_de_servico/meio-ambiente/plantio-ou-erradicacao-de-arvores'
             }
           ].map((item, index) => (
             <div key={index} className="flex items-start mb-4 border-b pb-4">
