@@ -2,6 +2,10 @@ import MeioAmbiente from "./meio-ambiente";
 import Model from "../../../components/model-page";
 import Link from "next/link"; 
 
+export const metadata = {
+  title: " Serviços do Meio Ambiente  - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

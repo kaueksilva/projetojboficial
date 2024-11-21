@@ -2,6 +2,10 @@ import DefesaCivil from "./defesa-civil";
 import Model from "../../../components/model-page";
 import Link from "next/link"; 
 
+export const metadata = {
+  title: "Defesa Civil - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>
