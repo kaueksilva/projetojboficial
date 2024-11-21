@@ -34,12 +34,12 @@ const Notícias = () => {
       </div>
 
 
+      {/* AS NOTICIAS PELO FETCH */}
       <div className="w-auto h-auto flex items-center justify-center">
 
 
+
       </div>
-
-
 
     </section>
   );
