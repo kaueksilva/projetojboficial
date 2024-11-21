@@ -1,13 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Notícias = () => {
+  const [noticias, setNoticias] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  // Função para buscar as notícias
+  useEffect(() => {
+    const fetchNoticias = async () => {
+      const res = await fetch("https://jaboatao.pe.gov.br/wp-json/wp/v2/posts");
+      const data = await res.json();
+      setNoticias(data);
+      setLoading(false);
+    };
+
+    fetchNoticias();
+  }, []);
+
   return (
     <section>
       {/* Título "Notícias" */}
-      <div
-        id="Notícias"
-        className="Notícias border-t border-[#FFC719] bg-[#003470]"
-      >
+      <div id="Notícias" className="Notícias border-t border-[#FFC719] bg-[#003470]">
         <h1 className="font-montserrat font-semibold text-4xl text-white flex justify-center p-3 mt-28">
           MAIS NOTÍCIAS
         </h1>
@@ -33,14 +45,35 @@ const Notícias = () => {
         </svg>
       </div>
 
-
-      {/* AS NOTICIAS PELO FETCH */}
+      {/* AS NOTÍCIAS PELO FETCH */}
       <div className="w-auto h-auto flex items-center justify-center">
-
-
-
+        {loading ? (
+          <p>Carregando notícias...</p>
+        ) : (
+          <div className="w-full max-w-screen-lg mx-auto p-4">
+            {/* Grid para 4 colunas */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {noticias.map((noticia) => (
+                <div key={noticia.id} className="p-4 border  rounded-lg shadow-md">
+                  <h2 className="text-2xl font-semibold">{noticia.title.rendered}</h2>
+                  <div
+                    className="text-gray-600 mt-2"
+                    dangerouslySetInnerHTML={{ __html: noticia.excerpt.rendered }}
+                  />
+                  <a
+                    href={noticia.link}
+                    className="text-blue-500 hover:underline mt-2 block"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Leia mais
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
-
     </section>
   );
 };
