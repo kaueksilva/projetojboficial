@@ -4,7 +4,7 @@ import React from 'react';
 import SideMenu from '../../../components/SideMenu';
 import { IoWomanSharp } from "react-icons/io5";
 
-const ambiente = () => {
+const Mulher = () => {
   return (
     <div className="flex mx-4 sm:mx-10 md:mx-20 lg:mx-36 xl:mx-72 my-10">
       <SideMenu activeItem="Meio Ambiente" />
@@ -16,14 +16,14 @@ const ambiente = () => {
               title: 'Atendimento às Mulheres Vítimas de Violência',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO: Centro de Referência a Mulher Maristela Just é um espaço destinado a prestar acolhimento e atendimento humanizado',
-              link: '#'
+              link: '/carta_de_servico/mulher/atendimento-as-mulheres-vitimas-de-violencia'
             },
             
             {
               title: 'Espaço Mulher Empreendedora',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO: O Espaço mulher empreendedora tem a finalidade de formular, implementar, coordenar acompanhar desenvolver políticas, programas projetos e',
-              link: '#'
+              link: '/carta_de_servico/mulher/espaco-mulher-empreendedora'
             }
           ].map((item, index) => (
             <div key={index} className="flex items-start mb-4 border-b pb-4">
@@ -44,4 +44,4 @@ const ambiente = () => {
   );
 };
 
-export default ambiente;
+export default Mulher;

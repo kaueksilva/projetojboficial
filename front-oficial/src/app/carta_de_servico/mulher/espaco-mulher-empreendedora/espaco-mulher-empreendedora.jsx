@@ -4,7 +4,7 @@ import React from "react";
 import CartaDeServico from "../../../../components/carta-de-servicos";
 import PesquisaSatisfacao from "../../../../components/PesquisaSatisfacao";
 
-const Pet = () => {
+const Mulher = () => {
   return (
     <div>
       <CartaDeServico
@@ -12,57 +12,50 @@ const Pet = () => {
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
               <div className="pr-10 w-full">
-                <h2 className="font-bold text-blue-800 mt-4 mb-4">DESCRIÇÃO</h2>
+                <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2><br/>
                   <p>
-                  A Secretaria Executiva de Bem-Estar Animal realiza atendimento clínico-veterinário (consultas médicas veterinárias de acompanhamento) e vacinação antirrábica por meio das Unidades Básicas
-                  de Saúde Pet. UBS-PET <br /> 
-                  Para saber mais sobre os atendimentos ou tirar dúvidas sobre o atendimento nas Unidades, o usuário pode mandar mensagem via whatsapp para o telefone (81) 9.9939-9652 e aguardar atendimento.
+                  O Espaço mulher empreendedora tem a finalidade de formular, implementar, coordenar acompanhar desenvolver políticas, programas projetos e ações voltados para empoderamento sócio-economico da mulher, inserindo-as no mercado de trabalho e assim promovendo sua auto-estima e autonomia financeira. <br />
+                  <br />
+                  O Programa Mulher Empreendedora tem como objetivo empoderar o sócio e economicamente as mulheres do município do Jaboatão dos Guararapes, especialmente as que sofreram ou sofrem violência doméstica e familiar, visando a independência financeira, pessoal, profissional e social. Possui três eixos de atuação: (I ) ofertar cursos profissionalizantes; ( II ) promover orientação ao empreendedorismo; e (III ) viabilizar a comercialização dos produtos elaborados pelas mulheres. O espaço realiza cursos na área de beleza( designer de sobrancelhas, corte e escova de cabelo, limpeza de pele, manicure, SPA dos pés..), na área de gastronomia ( confeitaria, bolos e tortas, doces e salgados, hamburguês gourmet, comida chinesa..) Estética ( depilação, drenagem linfática,..)artesanato ( bijuterias, biscuit..) corte e costura.
                   </p>
-                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
-                <p className="mb-4 mt-4">
-                – Documento de identificação RG;<br/>
-                – Comprovante de residência;<br/>
-                – Número de identificação social - NIS (originais e xerox) ou documento que comprove baixa renda.
+                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2><br/>
+                <p className="mb-4">
+                  As mulheres que procurarem o serviço deverão estar de posse da sua documentação pessoal ( RG, CPF e comprovante de residência).
                 </p>
 
-                <h2 className="font-bold text-blue-800 mt-4">PRINCIPAIS ETAPAS</h2>
-                <p className="mb-4 mt-4">
-                  Ordem de chegada
+                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2><br/>
+                <p className="mb-4">
+                  As mulheres que procurarem o serviço deverão estar de posse da sua documentação pessoal ( RG, CPF e comprovante de residência).
                 </p>
-
-                <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
-                <p className="mb-4 mt-4">
-                São distribuídas 20 fichas para atendimento diário na UBS-PET Massangana e 10 fichas para a UBS-PET Cavaleiro.
-                </p> 
-
+                
               </div>
 
               <div className="pl-10 w-full">
+                <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
+                <p className="mb-4">Imediato</p>
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO</h2>
-                <p className="mb-4">Munícipes de Jaboatão</p>
+                <p className="mb-4">Cidadão</p>
+                <h2 className="font-bold text-blue-800 mt-4">PRESTAÇÃO DO SERVIÇO/FORMA</h2>
+                <p className="mb-4">Presencial</p>
 
                 <h2 className="font-bold text-blue-800 mt-4">TAXAS</h2>
                 <p className="mb-4">
                 Não há cobranças de taxas
                 </p>
-
-                <h2 className="font-bold text-blue-800 mt-4">PRESTAÇÃO DO SERVIÇO/FORMA</h2>
-                <p className="mb-4">Presencial</p>
               </div>
             </div>
           </>
         }
         setorPublico={
           <>
-            <h2 className="font-bold text-blue-800 mt-4 mb-2"></h2>
+          <h2 className="font-bold text-blue-800 mt-4 mb-4"></h2>
             <p>
-            Endereço: UBS Pet Massagana (Localizada na Av. Zequinha Barreto, 380, Praça de <br/>
-            Terminal de ônibus Brigadeiro Ivo Borges) ou UBS- PET Cavaleiro (Localizada na Praça <br/>
-            Murilo Braga, ao lado da estação de Metrô de cavaleiro).<br/><br/>
-
-            Telefone: (81) 99939-9652<br/>
-            E-mail: ubspet.pmjg@gmail.com<br/>
-            Horário de atendimento: De segunda a sexta feira, das 8h às 15h
+              Telefone: (81) 99975-3918 <br />
+              E-mail:  sec.especialdamulher@gmail.com <br />
+              Endereço: Rua Doutor Luis Regueira número 85 – Mercado das Mangueiras primeiro <br />
+              Andar- Prazeres <br />
+              <br />
+              Horário de atendimento: segunda a sexta feira de 08h às 17h
             </p>
           </>
         }
@@ -153,7 +146,7 @@ const Pet = () => {
                   <h2 className="font-bold text-blue-800 text-lg mt-6 mb-2">
                     HORÁRIO DE ATENDIMENTO
                   </h2>
-                  <p>Segunda a sexta-feira, das 08:00h às 14:00h.</p>
+                  <p>08h às 14h – de segunda a sexta-feira</p>
                 </div>
               </div>
             </div>
@@ -166,4 +159,4 @@ const Pet = () => {
   );
 };
 
-export default Pet;
+export default Mulher;

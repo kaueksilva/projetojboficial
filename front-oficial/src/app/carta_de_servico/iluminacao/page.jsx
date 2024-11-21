@@ -1,4 +1,4 @@
-import Iluminacao from "./educacao";
+import Iluminacao from "./ilunimacao";
 import Model from "../../../components/model-page";
 import Link from "next/link";
 

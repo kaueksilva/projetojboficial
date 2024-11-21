@@ -14,10 +14,10 @@ const Funeral = () => {
           {[
             
             {
-              title: 'Necrópolis',
+              title: 'Serviços de iluminação',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A NECRÓPOLE tem o compromisso de prestação de serviços funerários aos municípios: sepultamentos, manutenção de covas, jazigos,',
-              link: '#'
+              link: '/carta_de_servico/funerario/necropolis'
             }
             
           ].map((item, index) => (

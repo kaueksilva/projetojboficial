@@ -4,7 +4,7 @@ import React from "react";
 import CartaDeServico from "../../../../components/carta-de-servicos";
 import PesquisaSatisfacao from "../../../../components/PesquisaSatisfacao";
 
-const Pet = () => {
+const Mulher = () => {
   return (
     <div>
       <CartaDeServico
@@ -12,57 +12,51 @@ const Pet = () => {
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
               <div className="pr-10 w-full">
-                <h2 className="font-bold text-blue-800 mt-4 mb-4">DESCRIÇÃO</h2>
+                <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2><br/>
                   <p>
-                  A Secretaria Executiva de Bem-Estar Animal realiza atendimento clínico-veterinário (consultas médicas veterinárias de acompanhamento) e vacinação antirrábica por meio das Unidades Básicas
-                  de Saúde Pet. UBS-PET <br /> 
-                  Para saber mais sobre os atendimentos ou tirar dúvidas sobre o atendimento nas Unidades, o usuário pode mandar mensagem via whatsapp para o telefone (81) 9.9939-9652 e aguardar atendimento.
+                  Centro de Referência a Mulher Maristela Just é um espaço destinado a prestar acolhimento e atendimento humanizado às mulheres em situação de violência, proporcionando atendimento psicológico , social, orientação e encaminhamentos jurídicos necessários à superação da situação de violência, contribuindo para o fortalecimento da mulher. <br />
+                  Trata-se, portanto, de um espaço estratégico da política de enfrentamento à violência contra as mulheres que desenvolve seu trabalho por meio de uma atuação articulada com instituições governamentais e não governamentais que integram a Rede de Atendimento às Mulheres.
                   </p>
-                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
-                <p className="mb-4 mt-4">
-                – Documento de identificação RG;<br/>
-                – Comprovante de residência;<br/>
-                – Número de identificação social - NIS (originais e xerox) ou documento que comprove baixa renda.
+
+                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2><br/>
+                <p className="mb-4">
+                Acolhimento, acompanhamento da Mulher em vulnerabilidade de violência doméstica e familiar. As mulheres que procurarem o serviço deverão estar de posse da sua documentação pessoal (RG, CPF e comprovante de residência).
                 </p>
 
-                <h2 className="font-bold text-blue-800 mt-4">PRINCIPAIS ETAPAS</h2>
-                <p className="mb-4 mt-4">
-                  Ordem de chegada
+                <h2 className="font-bold text-blue-800 mt-4">PRINCIPAIS ETAPAS:</h2><br/>
+                <p className="mb-4">
+                O Centro atende demandas encaminhadas pelos serviços municipais, privados e demanda espontânea, onde as mesmas serão ouvidas de imediato por um técnico do serviço e devidamente orientada. <br />
+                Após a primeira escuta, se assim for o seu desejo da vítima, ocorrerá os encaminhamentos necessários (delegacia, abrigamento, medida protetiva) para início do processo. <br />
+                Além disso, o Centro promove diariamente Rodas de diálogos e Abordagem dirigida nas unidades Governamentais e não governamentais, levando a comunidade o entendimento da Lei Maria da Penha e divulgando o trabalho do Centro de Referência Maristela Just.
                 </p>
-
-                <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
-                <p className="mb-4 mt-4">
-                São distribuídas 20 fichas para atendimento diário na UBS-PET Massangana e 10 fichas para a UBS-PET Cavaleiro.
-                </p> 
-
+                
               </div>
 
               <div className="pl-10 w-full">
+                <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
+                <p className="mb-4"></p>
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO</h2>
-                <p className="mb-4">Munícipes de Jaboatão</p>
+                <p className="mb-4">Cidadão</p>
+                <h2 className="font-bold text-blue-800 mt-4">PRESTAÇÃO DO SERVIÇO/FORMA</h2>
+                <p className="mb-4">Presencial</p>
 
                 <h2 className="font-bold text-blue-800 mt-4">TAXAS</h2>
                 <p className="mb-4">
                 Não há cobranças de taxas
                 </p>
-
-                <h2 className="font-bold text-blue-800 mt-4">PRESTAÇÃO DO SERVIÇO/FORMA</h2>
-                <p className="mb-4">Presencial</p>
               </div>
             </div>
           </>
         }
         setorPublico={
           <>
-            <h2 className="font-bold text-blue-800 mt-4 mb-2"></h2>
+          <h2 className="font-bold text-blue-800 mt-4 mb-4">CENTRO DE REFERÊNCIA A MULHER MARISTELA JUST</h2>
             <p>
-            Endereço: UBS Pet Massagana (Localizada na Av. Zequinha Barreto, 380, Praça de <br/>
-            Terminal de ônibus Brigadeiro Ivo Borges) ou UBS- PET Cavaleiro (Localizada na Praça <br/>
-            Murilo Braga, ao lado da estação de Metrô de cavaleiro).<br/><br/>
-
-            Telefone: (81) 99939-9652<br/>
-            E-mail: ubspet.pmjg@gmail.com<br/>
-            Horário de atendimento: De segunda a sexta feira, das 8h às 15h
+            Rua Almirante Antonio de Farias, n° 664 – Piedade <br />
+            Ponto de referência: Por trás do GOT <br />
+            Horário de atendimento: segunda a sexta feira de 08h às 17h <br />
+            Telefones: (81) 3468-2485 e (81)99464-6253 ( ligação e whatsapp ) <br />
+            e-mail <a href="mailto:crm.maristelajust@gmail">crm.maristelajust@gmail.com</a>
             </p>
           </>
         }
@@ -153,7 +147,7 @@ const Pet = () => {
                   <h2 className="font-bold text-blue-800 text-lg mt-6 mb-2">
                     HORÁRIO DE ATENDIMENTO
                   </h2>
-                  <p>Segunda a sexta-feira, das 08:00h às 14:00h.</p>
+                  <p>08h às 14h – de segunda a sexta-feira</p>
                 </div>
               </div>
             </div>
@@ -166,4 +160,4 @@ const Pet = () => {
   );
 };
 
-export default Pet;
+export default Mulher;

@@ -4,7 +4,7 @@ import React from "react";
 import CartaDeServico from "../../../../components/carta-de-servicos";
 import PesquisaSatisfacao from "../../../../components/PesquisaSatisfacao";
 
-const Pet = () => {
+const Funeral = () => {
   return (
     <div>
       <CartaDeServico
@@ -12,59 +12,96 @@ const Pet = () => {
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
               <div className="pr-10 w-full">
-                <h2 className="font-bold text-blue-800 mt-4 mb-4">DESCRIÇÃO</h2>
+                <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2><br/>
                   <p>
-                  A Secretaria Executiva de Bem-Estar Animal realiza atendimento clínico-veterinário (consultas médicas veterinárias de acompanhamento) e vacinação antirrábica por meio das Unidades Básicas
-                  de Saúde Pet. UBS-PET <br /> 
-                  Para saber mais sobre os atendimentos ou tirar dúvidas sobre o atendimento nas Unidades, o usuário pode mandar mensagem via whatsapp para o telefone (81) 9.9939-9652 e aguardar atendimento.
+                  A NECRÓPOLE tem o compromisso de prestação de serviços funerários aos municípios: sepultamentos, manutenção de covas, jazigos, os usuários e de um atendimento humanizado a todo cidadão Jaboatonense. Prezamos pelo cuidado e transparência em todo o processo necessário.
                   </p>
-                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
-                <p className="mb-4 mt-4">
-                – Documento de identificação RG;<br/>
-                – Comprovante de residência;<br/>
-                – Número de identificação social - NIS (originais e xerox) ou documento que comprove baixa renda.
+                <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2><br/>
+                <p className="mb-4">
+                
                 </p>
 
-                <h2 className="font-bold text-blue-800 mt-4">PRINCIPAIS ETAPAS</h2>
-                <p className="mb-4 mt-4">
-                  Ordem de chegada
+                <h2 className="font-bold text-blue-800 mt-4">PRINCIPAIS ETAPAS</h2><br/>
+                <p className="mb-4">
+                
                 </p>
 
-                <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
-                <p className="mb-4 mt-4">
-                São distribuídas 20 fichas para atendimento diário na UBS-PET Massangana e 10 fichas para a UBS-PET Cavaleiro.
-                </p> 
-
+                <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2><br/>
+                <p className="mb-4">
+                  Para dar entrada em uma solicitação de sepultamento leva em média de 1h a 2h.
+                </p>
+                
+                
               </div>
 
               <div className="pl-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO</h2>
-                <p className="mb-4">Munícipes de Jaboatão</p>
+                <p className="mb-4">Cidadão</p>
+                <h2 className="font-bold text-blue-800 mt-4">PRESTAÇÃO DO SERVIÇO/FORMA</h2>
+                <p className="mb-4">Presencial</p>
 
                 <h2 className="font-bold text-blue-800 mt-4">TAXAS</h2>
                 <p className="mb-4">
-                Não há cobranças de taxas
+                <a href="https://jaboatao.pe.gov.br/wp-content/uploads/2024/01/Nova-tabela-2024.pdf">Taxas utilizadas pelos Cemitérios Municipais de Jaboatão dos Guararapes 2024 (clique aqui para mais detalhes)</a>
                 </p>
-
-                <h2 className="font-bold text-blue-800 mt-4">PRESTAÇÃO DO SERVIÇO/FORMA</h2>
-                <p className="mb-4">Presencial</p>
               </div>
             </div>
           </>
         }
         setorPublico={
-          <>
-            <h2 className="font-bold text-blue-800 mt-4 mb-2"></h2>
-            <p>
-            Endereço: UBS Pet Massagana (Localizada na Av. Zequinha Barreto, 380, Praça de <br/>
-            Terminal de ônibus Brigadeiro Ivo Borges) ou UBS- PET Cavaleiro (Localizada na Praça <br/>
-            Murilo Braga, ao lado da estação de Metrô de cavaleiro).<br/><br/>
 
-            Telefone: (81) 99939-9652<br/>
-            E-mail: ubspet.pmjg@gmail.com<br/>
-            Horário de atendimento: De segunda a sexta feira, das 8h às 15h
-            </p>
-          </>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 w-full">
+              <div className="pr-10 w-full">
+                  <p>
+                  Relação de setores públicos onde este serviço é oferecido. <br /> <br />
+                  Telefone: (81) 3462-8046 ou (81) 3462-8776 <br /> <br />
+                  E-mail: <br /> 
+                  Cemitério Parque da Paz:  cemiterioparquedapaz@gmail.com <br />  <br /> 
+                  Cemitério da Saudade: <a href="cemiteriodasaudade22@gmail.com">cemiteriodasaudade22@gmail.com.</a>
+                  </p>
+                
+              </div>
+
+              <div className="pl-10 w-full">
+                <h2 className="font-bold text-blue-800 mt-4">Onde encontrar (google maps):</h2>
+                  
+                    <br />
+
+                    <a
+                      className=" w-full md:w-auto bg-[#004376] text-white py-2 px-6 rounded-lg text-sm md:text-base hover:bg-[#00ACED] transition-colors"
+                      href="https://www.google.com.br/maps/place/Cemit%C3%A9rio/@-8.1530666,-34.951896,17z/data=!3m1!4b1!4m5!3m4!1s0x7aae1f80ad2fd45:0x391ab9db1d58b367!8m2!3d-8.1530693!4d-34.9497083?shorturl=1"
+                      target="_blank" // Abre o link em uma nova aba
+                      rel="noopener noreferrer" // Segurança adicional ao abrir links externos
+                    >
+                      CEMITÉRIO DA PAZ
+                    </a>
+
+                    <br />
+                    <br />
+
+
+                    <a
+                      className=" w-full md:w-auto bg-[#004376] text-white py-2 px-6 rounded-lg text-sm md:text-base hover:bg-[#00ACED] transition-colors"
+                      href="https://www.google.com.br/maps/place/Cemit%C3%A9rio/@-8.1530666,-34.951896,17z/data=!3m1!4b1!4m5!3m4!1s0x7aae1f80ad2fd45:0x391ab9db1d58b367!8m2!3d-8.1530693!4d-34.9497083?shorturl=1"
+                      target="_blank" // Abre o link em uma nova aba
+                      rel="noopener noreferrer" // Segurança adicional ao abrir links externos
+                    >
+                      CEMITÉRIO DA SAUDADE
+                    </a>
+
+                    <br />
+                    <br />
+
+                    <a
+                      className=" w-full md:w-auto bg-[#004376] text-white py-2 px-6 rounded-lg text-sm md:text-base hover:bg-[#00ACED] transition-colors"
+                      href="https://www.google.com.br/maps/place/Cemit%C3%A9rio/@-8.1530666,-34.951896,17z/data=!3m1!4b1!4m5!3m4!1s0x7aae1f80ad2fd45:0x391ab9db1d58b367!8m2!3d-8.1530693!4d-34.9497083?shorturl=1"
+                      target="_blank" // Abre o link em uma nova aba
+                      rel="noopener noreferrer" // Segurança adicional ao abrir links externos
+                    >
+                      CEMITÉRIO MURIBECA DOS GUARARAPES
+                    </a>
+              </div>
+            </div>
         }
         duvidas={
           <>
@@ -153,7 +190,7 @@ const Pet = () => {
                   <h2 className="font-bold text-blue-800 text-lg mt-6 mb-2">
                     HORÁRIO DE ATENDIMENTO
                   </h2>
-                  <p>Segunda a sexta-feira, das 08:00h às 14:00h.</p>
+                  <p>08h às 14h – de segunda a sexta-feira</p>
                 </div>
               </div>
             </div>
@@ -166,4 +203,4 @@ const Pet = () => {
   );
 };
 
-export default Pet;
+export default Funeral;
