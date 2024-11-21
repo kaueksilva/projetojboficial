@@ -8,69 +8,69 @@ const Footer = () => {
           <div className="footer-column1">
             <h3 className="footer-title opensanshebrewcondensed-bold text-xl">MAPA DO SITE</h3> 
             <h4 className="footer-border"></h4>
-            <ul className="footer-list opensanshebrewcondensed-regular text-base">
+            <ul className="footer-list text-base">
               <li>
-                <a href="http://example.com/mapa-estrategia" >
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/mapa-estrategia" >
                   MAPA DA ESTRATÉGIA
                 </a>
               </li>
               <li>
-                <a href="http://example.com/portal-transparencia">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/portal-transparencia">
                   PORTAL DA TRANSPARÊNCIA
                 </a>
               </li>
               <li>
-                <a href="http://example.com/estrutura-organizacional">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/estrutura-organizacional">
                   ESTRUTURA ORGANIZACIONAL
                 </a>
               </li>
               <li>
-                <a href="http://example.com/galeria-elogios">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/galeria-elogios">
                   GALERIA DE ELOGIOS
                 </a>
               </li>
               <li>
-                <a href="http://example.com/cidadao">CIDADÃO</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/cidadao">CIDADÃO</a>
               </li>
               <li>
-                <a href="http://example.com/cartas-servico">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/cartas-servico">
                   CARTAS DE SERVIÇO
                 </a>
               </li>
               <li>
-                <a href="http://example.com/empresa">EMPRESA</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/empresa">EMPRESA</a>
               </li>
               <li>
-                <a href="http://example.com/servidor">SERVIDOR</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/servidor">SERVIDOR</a>
               </li>
               <li>
-                <a href="http://example.com/turista">TURISTA</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/turista">TURISTA</a>
               </li>
               <li>
-                <a href="http://example.com/ppp-saude">PPP-SAUDE</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/ppp-saude">PPP-SAUDE</a>
               </li>
               <li>
-                <a href="http://example.com/mapa-escolas-municipais">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/mapa-escolas-municipais">
                   MAPA DAS ESCOLAS MUNICIPAIS
                 </a>
               </li>
               <li>
-                <a href="http://example.com/mapa-unidades-saude">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/mapa-unidades-saude">
                   MAPA DAS UNIDADES DE SAÚDE POR REGIONAIS
                 </a>
               </li>
               <li>
-                <a href="http://example.com/mapa-bares-restaurantes">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/mapa-bares-restaurantes">
                   MAPA DOS BARES E RESTAURANTES
                 </a>
               </li>
               <li>
-                <a href="http://example.com/mapa-mercados-publicos">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/mapa-mercados-publicos">
                   MAPA DOS MERCADOS PÚBLICOS
                 </a>
               </li>
               <li>
-                <a href="http://example.com/mapa-unidades-cras-creas">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/mapa-unidades-cras-creas">
                   MAPA DAS UNIDADES DO CRAS E CREAS MUNICIPAIS
                 </a>
               </li>
@@ -82,80 +82,80 @@ const Footer = () => {
             <h4 className="footer-border"></h4>
             <ul className="footer-list opensanshebrewcondensed-regular text-base">
               <li>
-                <a href="http://example.com/amor-jaboatao">AMOR JABOATÃO</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/amor-jaboatao">AMOR JABOATÃO</a>
               </li>
               <li>
-                <a href="http://example.com/bem-estar-animal">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/bem-estar-animal">
                   BEM ESTAR ANIMAL
                 </a>
               </li>
               <li>
-                <a href="http://example.com/conselho-usuarios">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/conselho-usuarios">
                   CONSELHO DE USUÁRIOS
                 </a>
               </li>
               <li>
-                <a href="http://example.com/de-olho-na-consulta">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/de-olho-na-consulta">
                   DE OLHO NA CONSULTA
                 </a>
               </li>
               <li>
-                <a href="http://example.com/diario-oficial">DIÁRIO OFICIAL</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/diario-oficial">DIÁRIO OFICIAL</a>
               </li>
               <li>
-                <a href="http://example.com/educacao">EDUCAÇÃO</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/educacao">EDUCAÇÃO</a>
               </li>
               <li>
-                <a href="http://example.com/economia-criativa">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/economia-criativa">
                   ECONOMIA CRIATIVA
                 </a>
               </li>
               <li>
-                <a href="http://example.com/emlume">EMLUME</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/emlume">EMLUME</a>
               </li>
               <li>
-                <a href="http://example.com/estacao-bem-estar">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/estacao-bem-estar">
                   ESTAÇÃO BEM ESTAR
                 </a>
               </li>
               <li>
-                <a href="http://example.com/jaboatao-em-acao">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/jaboatao-em-acao">
                   JABOATÃO EM AÇÃO
                 </a>
               </li>
               <li>
-                <a href="http://example.com/jaboataoprev">JABOATAOPREV</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/jaboataoprev">JABOATAOPREV</a>
               </li>
               <li>
-                <a href="http://example.com/meio-ambiente">MEIO AMBIENTE</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/meio-ambiente">MEIO AMBIENTE</a>
               </li>
               <li>
-                <a href="http://example.com/oficial">OFICIAL</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/oficial">OFICIAL</a>
               </li>
               <li>
-                <a href="http://example.com/ouvidoria">OUVIDORIA</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/ouvidoria">OUVIDORIA</a>
               </li>
               <li>
-                <a href="http://example.com/portal-contribuinte">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/portal-contribuinte">
                   PORTAL DO CONTRIBUINTE
                 </a>
               </li>
               <li>
-                <a href="http://example.com/portal-transparencia">
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/portal-transparencia">
                   PORTAL DA TRANSPARÊNCIA
                 </a>
               </li>
               <li>
-                <a href="http://example.com/procon">PROCON</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/procon">PROCON</a>
               </li>
               <li>
-                <a href="http://example.com/servidor">SERVIDOR</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/servidor">SERVIDOR</a>
               </li>
               <li>
-                <a href="http://example.com/trabalho">TRABALHO</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/trabalho">TRABALHO</a>
               </li>
               <li>
-                <a href="http://example.com/viver">VIVER</a>
+                <a className="opensanshebrewcondensed-regular" href="http://example.com/viver">VIVER</a>
               </li>
             </ul>
           </div>
@@ -168,7 +168,7 @@ const Footer = () => {
             <p className="opensanshebrewcondensed-regular text-base">ATENDIMENTO DE SEGUNDA A SEXTA-FEIRA, DAS 8H ÀS 14H</p>
             <p className="opensanshebrewcondensed-regular text-base">E-MAIL: ouvidoria@jaboatao.pe.gov.br</p>
 
-            <h3 className="footer-title opensanshebrewcondensed-bold text-xl"><br/>ACESSIBILIDADE</h3>
+            <h3 className="footer-title opensanshebrewcondensed-bold mt-3 text-xl">ACESSIBILIDADE</h3>
             <h4 className="footer-border"></h4>
             <ul className="footer-list">
               <li>
@@ -176,7 +176,7 @@ const Footer = () => {
               </li>
             </ul>
 
-            <h3 className="footer-title opensanshebrewcondensed-bold text-xl"><br/>NAVEGABILIDADE</h3>
+            <h3 className="footer-title opensanshebrewcondensed-bold text-xl">NAVEGABILIDADE</h3>
             <h4 className="footer-border"></h4>
 
             <ul className="footer-list">
@@ -185,7 +185,7 @@ const Footer = () => {
               </li>
             </ul>
 
-            <h3 className="footer-title opensanshebrewcondensed-bold text-xl"><br/>ACOMPANHE-NOS</h3>
+            <h3 className="footer-title opensanshebrewcondensed-bold text-xl">ACOMPANHE-NOS</h3>
             <h4 className="footer-border"></h4>
             <div className="icones-footer">
               <a
