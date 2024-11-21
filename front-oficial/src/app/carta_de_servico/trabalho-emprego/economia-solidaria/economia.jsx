@@ -15,26 +15,26 @@ const Vigilancia = () => {
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
                 <br />
                 <p className="mb-4">
-                Economia Solidária. Fomento as ações dos empreendimentos econômicos solidários do município do Jaboatão dos Guararapes. Por meio da Gerência de Economia Solidária, o município de Jaboatão apoia a organização de empreendimentos econômicos solidários, ajudando-os a formatar e elaborar projetos com o objetivo de proporcionar oportunidades de comercialização de produtos e serviços de grupos solidários. Além disso, promove e fortalece o segmento, incentivando a constituição de cadeias produtivas, apoiando a organização, a legalização e o registro de empreendimentos; atua na difusão do artesanato local; promove a qualificação de artesãos; e apoia o cooperativismo popular. Exemplo disso são as Feiras Itinerantes de Economia Solidária realizadas no município que abrem oportunidades para artesãos comercializarem seus produtos, promovendo a geração de renda para os participantes, além de difundir a Economia Solidária para a população em geral, disseminando princípios de cooperação, democracia, finanças solidárias, comércio justo e consumo responsável. A Coordenação de Economia Solidária faz parte do organograma da Secretaria Executiva de Trabalho, Qualificação e Empreendedorismo (SETQE) que, por sua vez, foi criada em janeiro de 2011 e está abrigada na Secretaria Municipal de Desenvolvimento Econômico e Sustentabilidade. Sob sua ação, Jaboatão criou o Conselho Municipal de Economia Popular Solidária (CMEPS) conforme a Lei 711/2011 promulgada no dia 21/12/2011, conforme Diário Oficial de n.º 241. Proporcionou também o surgimento do Fórum de Economia Popular Solidária do Jaboatão dos Guararapes (FEPS/JG), cujo lançamento ocorreu no dia 25 de novembro de 2011. Em março de 2014, realizou a 1ª Conferência Municipal de Economia Solidária e em outubro do mesmo ano inaugurou o Centro de Orientação Permanente à Economia Solidária (COPES).
+                Economia Solidária. Fomento as ações dos empreendimentos econômicos solidários do município do Jaboatão dos Guararapes. Por meio da Gerência de Economia Solidária, o município de Jaboatão apoia a organização de empreendimentos econômicos solidários, ajudando-os a formatar e elaborar projetos com o objetivo de proporcionar oportunidades de comercialização de produtos e serviços de grupos solidários. Além disso, promove e fortalece o segmento, incentivando a constituição de cadeias produtivas, apoiando a organização, a legalização e o registro de empreendimentos; atua na difusão do artesanato local; promove a qualificação de artesãos; e apoia o cooperativismo popular. Exemplo disso são as Feiras Itinerantes de Economia Solidária realizadas no município que abrem oportunidades para artesãos comercializarem seus produtos, promovendo a geração de renda para os participantes, além de difundir a Economia Solidária para a população em geral, disseminando princípios de cooperação, democracia, finanças solidárias, comércio justo e consumo responsável. A Coordenação de Economia Solidária faz parte do organograma da Secretaria Executiva de Trabalho, Qualificação e Empreendedorismo (SETQE) que, por sua vez, foi criada em janeiro de 2011 e está abrigada na Secretaria Municipal de Desenvolvimento Econômico e Sustentabilidade. Sob sua ação, Jaboatão criou o Conselho Municipal de Economia Popular Solidária (CMEPS) conforme a Lei 711/2011 promulgada no dia 21/12/2011, conforme Diário Oficial de n.º 241. Proporcionou também o surgimento do Fórum de Economia Popular Solidária do Jaboatão dos Guararapes (FEPS/JG), cujo lançamento ocorreu no dia 25 de novembro de 2011. Em março de 2014, realizou a 1ª Conferência Municipal de Economia Solidária e em outubro do mesmo ano inaugurou o Centro de Orientação Permanente à Economia Solidária (COPES). <br/> <br/>
 
-Outras informações: Além das atividades mencionadas, Jaboatão conta com 3 lojas colaborativas em formato de container que são geridas pelos próprios empreendedores solidários e estão localizadas em Prazeres, Jaboatão, Centro e Cavaleiro.
+                Outras informações: Além das atividades mencionadas, Jaboatão conta com 3 lojas colaborativas em formato de container que são geridas pelos próprios empreendedores solidários e estão localizadas em Prazeres, Jaboatão, Centro e Cavaleiro.
                 </p>
-              </div>
 
-              <div className="pl-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
-                <p className="mb-4">Documentos pessoais com foto e comprovação de residência no município.</p>
-
+                <p className="mb-4">Para estar devidamente inscrito na secretaria, o empreendedor precisa comprovar residência no município, documentos pessoais e os produtos que desenvolve manualmente ou artesanalmente.</p>
+              </div>
+              <div className="pl-10 w-full">
+                
                 <h2 className="font-bold text-blue-800 mt-4">PRINCIPAIS ETAPAS
                 </h2>
-                <p className="mb-4">Sensibilização, mobilização, divulgação e inscrição dos beneficiários; Realização dos cursos de qualificação profissionalizante; Conclusão dos cursos e entrega dos certificados.</p>
+                <p className="mb-4">Cadastro na secretaria e inserção em algum grupo empreendedor solidário.</p>
 
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO</h2>
                 <p className="mb-4">Cidadão</p>
                 <h2 className="font-bold text-blue-800 mt-4">
                   PRESTAÇÃO DO SERVIÇO/FORMA
                 </h2>
-                <p className="mb-4"> Presencial ou online.</p>
+                <p className="mb-4"> Presencialmente, telefone e e-mail.</p>
 
                 <h2 className="font-bold text-blue-800 mt-4">TAXAS</h2>
                 <p className="mb-4">Não há cobranças de taxas</p>
@@ -50,26 +50,26 @@ Outras informações: Além das atividades mencionadas, Jaboatão conta com 3 lo
                 <h2 className="font-bold text-blue-800 mt-4">SECRETARIA DE TRABALHO, QUALIDADE E EMPREENDORISMO
                 </h2>
                 <p className="mb-4 mt-4">
-                Horário de atendimento: 08:00 às 16:00 <br/>
-                Telefones: (81) 3482-1413 | 3343-6512 | 9.9975-6597
+                Horário de atendimento: 08:00 às 16:00 <br/><br/>
+
+Telefones: 81-9.9937-2986 <br/><br/>
+
+Endereço: Rua Coronel Francisco Galvão, 769 – Piedade – Jaboatão dos Guararapes <br/><br/>
+
+E-mail: rafael.saap@gmail.com <br/><br/>
+
+Posto Jaboatão Centro: supervisorcvagas.jaboatao@gmail.com <br/><br/>
+
+Posto Cavaleiro: postocavaleiros@gmail.com <br/><br/>
+
+Posto Curado: curadopostospvimosd@gmail.com <br/><br/>
+
+Posto Piedade: supervisoragencia@hotmail.com <br/><br/>
+
+Posto Guararapes: postoguarapesimosd@gmail.com
                 </p>
 
-                <h2 className="font-bold text-blue-800 mt-4">ENDERECO</h2>
-                <p className="mb-4 mt-4">
-                Rua Coronel Francisco Galvão, 769 – Piedade – Jaboatão dos Guararapes<br/><br/>
-
-                Email: <a href="mailto:carolsetqe@outlook.com" className="underline hover:text-blue-800" target="_blank">carolsetqe@outlook.com</a> <br/><br/>
-                Posto Jaboatão Centro: supervisorcvagas.jaboatao@gmail.com<br/><br/>
-
-                Posto Cavaleiro: postocavaleiros@gmail.com<br/><br/>
-
-                Posto Curado: curadopostospvimosd@gmail.com<br/><br/>
-
-                Posto Piedade: supervisoragencia@hotmail.com<br/><br/>
-
-                Posto Guararapes: postoguarapesimosd@gmail.com
-                </p>
-
+                
               </div>
 
               <div className="md:pl-8">
@@ -112,7 +112,7 @@ Outras informações: Além das atividades mencionadas, Jaboatão conta com 3 lo
                     endereço eletrônico disponível abaixo.
                   </p>
                   <a
-                    className=" w-full md:w-auto bg-[#004376] text-white py-2 px-6 rounded-lg text-sm md:text-base hover:bg-[#00ACED] transition-colors"
+                    className="roboto-medium w-full md:w-auto bg-[#004376] text-white py-2 px-6 rounded-full text-sm md:text-base hover:bg-[#00ACED] transition-colors"
                     href="https://ouvidoria.jaboatao.pe.gov.br/"
                     target="_blank" // Abre o link em uma nova aba
                     rel="noopener noreferrer" // Segurança adicional ao abrir links externos
