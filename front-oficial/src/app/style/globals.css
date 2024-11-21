@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 @font-face {
     font-family: 'BarlowCondensed-Medium';
     src: url('/fontes/BarlowCondensed-Medium.ttf') format('truetype');

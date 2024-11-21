@@ -6,6 +6,7 @@ import { GiKnifeFork } from "react-icons/gi";
 import AccessibilityButton from "../components/AccessibilityButton";
 import "./style/globals.css";
 import Destaques from "../components/Destaques";
+import Noticias from "../components/Noticias";
 
 const handleScrollToMapas = (event) => {
   event.preventDefault();
@@ -152,6 +153,9 @@ const Home = () => {
         {/* DESTAQUES */}
         <Destaques/>
 
+
+        {/* DESTAQUES */}
+        <Noticias/>
 
 
           {/* O MEIO E O TITULO MAPAS!!! */}
