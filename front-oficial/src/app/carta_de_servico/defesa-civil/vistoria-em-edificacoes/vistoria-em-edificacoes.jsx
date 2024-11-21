@@ -15,9 +15,9 @@ const Pet = () => {
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO</h2>
                 <br />
                 <p>
-                  Vistoria em edificações: prédios, pontes, casas ou muros.
-                  Informações necessárias para acessar os serviços: Nome:
-                  Endereço: Data de Nascimento: Tipo de Ocorrência:
+                  Vistoria em edificações: prédios, pontes, casas ou muros.<br />
+                  Informações necessárias para acessar os serviços:<br /> Nome:<br />
+                  Endereço:<br /> Data de Nascimento:<br /> Tipo de Ocorrência:
                   <br />
                   <br />
                 </p>
