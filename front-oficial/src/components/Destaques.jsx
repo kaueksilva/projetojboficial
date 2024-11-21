@@ -1,12 +1,36 @@
 import React from "react";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Destaques = () => {
+  const images = [
+    { src: "/images/destaques/1.jpeg", link: "https://jaboatao.pe.gov.br/jaboatao-oferece-mais-uma-oportunidade-de-qualificacao-profissional-com-curso-de-reparacao-automotiva/" }, //criar pagina
+    { src: "/images/destaques/2.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2024/11/Locais-de-Vacinacao.pdf" },
+    { src: "/images/destaques/3.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2024/02/Programacao-Blocos-Carnaval-Jaboatao-2024.pdf" },
+    { src: "/images/destaques/4.jpeg", link: "https://www.tinus.com.br/csp/JABOATAO/portal/index.csp" },
+    { src: "/images/destaques/5.png", link: "https://jaboatao.pe.gov.br/capacitacao-de-empreendedores/" },
+    { src: "/images/destaques/6.jpeg", link: "https://mulherempreendedora.jaboatao.pe.gov.br/menu/" },
+    { src: "/images/destaques/7.jpeg", link: "https://viver.jaboatao.pe.gov.br/cadastro-lei-paulo-gustavo" },
+    { src: "/images/destaques/8.jpeg", link: "https://mulherempreendedoraead.jaboatao.pe.gov.br/menu/" },
+    { src: "/images/destaques/9.jpeg", link: "https://jaboatao.pe.gov.br/cadunico/" },
+    { src: "/images/destaques/10.jpg", link: "https://jaboatao.pe.gov.br/oscs/" },
+    { src: "/images/destaques/11.jpg", link: "https://bit.ly/ColetivoPrefeituraJaboatao" },
+    { src: "/images/destaques/12.jpeg", link: "https://jaboatao.pe.gov.br/projeto-cores-para-todos" },
+    { src: "/images/destaques/13.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2022/07/JB-009-22-panfleto-A5-combate-ao-mosquito-web.pdf" },
+    { src: "/images/destaques/14.jpeg", link: "https://jaboatao.pe.gov.br/inscricao-projeto-jovem-mais/" },
+    { src: "/images/destaques/15.jpeg", link: "https://jaboatao.pe.gov.br/qualifica-mais/" },
+    { src: "/images/destaques/16.jpeg", link: "https://jaboatao.pe.gov.br/mulherprotegida/" },
+    { src: "/images/destaques/17.png", link: "https://cidadao-jaboatao.sissofia.com.br/login'" },
+    { src: "/images/destaques/18.jpeg", link: "#" },
+    { src: "/images/destaques/19.jpeg", link: "#" },
+  ];
+
   const settings = {
-    dots: false, // Não exibe os pontos de navegação
+    dots: true, // Exibe os pontos de navegação
     infinite: true, // Loop infinito
     speed: 500, // Velocidade da transição
-    slidesToShow: 1, // Quantos slides aparecem de uma vez
+    slidesToShow: 3, // Quantos slides aparecem de uma vez
     slidesToScroll: 1, // Quantos slides rolam ao clicar
     autoplay: true, // Passa automaticamente
     autoplaySpeed: 3000, // Intervalo de 3 segundos
@@ -14,12 +38,12 @@ const Destaques = () => {
 
   return (
     <section>
-      {/* O MEIO E O TÍTULO "DESTAQUES" */}
+      {/* Título "Destaques" */}
       <div
         id="Destaques"
         className="Destaques border-t border-[#FFC719] bg-[#003470]"
       >
-        <h1 className="Montserrat-SemiBold text-white font-montserrat font-semibold text-4xl flex justify-center p-3 mt-28 z-10 ">
+        <h1 className="Montserrat-SemiBold text-white font-montserrat font-semibold text-4xl flex justify-center p-3 mt-28 z-10">
           DESTAQUES
         </h1>
       </div>
@@ -49,40 +73,22 @@ const Destaques = () => {
         </svg>
       </div>
 
-
-      {/* SLIDER DE DESTAQUES */}
-      <div className="relative w-full max-w-4xl mx-auto"> {/* Centraliza e limita o tamanho */}
+      {/* Slider de imagens */}
+      <div className="mt-12 mb-20">
         <Slider {...settings}>
-          <div>
-            <a
-              href="https://jaboatao.pe.gov.br/jaboatao-oferece-mais-uma-oportunidade-de-qualificacao-profissional-com-curso-de-reparacao-automotiva/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/images/destaques/1.jpeg"
-                alt="Denúncias"
-                className="w-full max-h-[300px] object-cover rounded-lg"
-              />
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://jaboatao.pe.gov.br/jaboatao-oferece-mais-uma-oportunidade-de-qualificacao-profissional-com-curso-de-reparacao-automotiva/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/images/destaques/1.jpeg"
-                alt="Denúncias"
-                className="w-full max-h-[300px] object-cover rounded-lg"
-              />
-            </a>
-          </div>
+          {images.map((image, index) => (
+            <div key={index} className="flex justify-center px-2">
+              <a href={image.link} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={image.src}
+                  alt={`Imagem ${index + 1}`}
+                  className="w-80 h-auto object-cover rounded-md shadow-lg"
+                />
+              </a>
+            </div>
+          ))}
         </Slider>
       </div>
-
-
     </section>
   );
 };
