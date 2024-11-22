@@ -4,7 +4,7 @@ import React from 'react';
 import SideMenu from '../../../components/SideMenu';
 import { IoMegaphone } from "react-icons/io5";
 
-const ambiente = () => {
+const Ouvidoria = () => {
   return (
     <div className="flex mx-4 sm:mx-10 md:mx-20 lg:mx-36 xl:mx-72 my-10">
       <SideMenu activeItem="Ouvidoria" />
@@ -16,7 +16,7 @@ const ambiente = () => {
               title: 'Registro de reclamações, denúncias, solicitações, elogios e sugestões',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Ouvidoria Geral do município do Jaboatão dos Guararapes é um espaço de comunicação entre o cidadão',
-              link: '#'
+              link: '/carta_de_servico/ouvidoria/registro-de-reclamacoes,-denuncias,-solicitacoes,-elogios-e-sugestoes'
             },
             
             {
@@ -44,4 +44,4 @@ const ambiente = () => {
   );
 };
 
-export default ambiente;
+export default Ouvidoria;

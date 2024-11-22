@@ -14,40 +14,47 @@ const Pet = () => {
               <div className="pr-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4 mb-4">DESCRIÇÃO</h2>
                   <p>
-                  A coordenação de proteção e defesa animal realiza atendimento clínico-veterinário e vacinação. O serviço é realizado de forma itinerante, ficando 30 dias em cada Regional (Jaboatão Centro, Cavaleiro, Curado, Muribeca, Prazeres, Praias e Guararapes). Para saber a localização, o usuário deverá ligar para o telefone (81) 9.9187-1118.
+                  A Secretaria Executiva de Bem-Estar Animal realiza atendimento clínico-veterinário (consultas médicas veterinárias de acompanhamento) e vacinação antirrábica por meio das Unidades Básicas
+                  de Saúde Pet. UBS-PET <br /> 
+                  Para saber mais sobre os atendimentos ou tirar dúvidas sobre o atendimento nas Unidades, o usuário pode mandar mensagem via whatsapp para o telefone (81) 9.9939-9652 e aguardar atendimento.
                   </p>
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS</h2>
                 <p className="mb-4 mt-4">
-                – Comprovação que se enquadra em população de baixa renda;<br/>
-                – Comprovante de residência;<br/>
                 – Documento de identificação RG;<br/>
-                – Número de identificação social (originais e xerox).
+                – Comprovante de residência;<br/>
+                – Número de identificação social - NIS (originais e xerox) ou documento que comprove baixa renda.
+                </p>
+
+                <h2 className="font-bold text-blue-800 mt-4">PRINCIPAIS ETAPAS</h2>
+                <p className="mb-4 mt-4">
+                  Ordem de chegada
                 </p>
 
                 <h2 className="font-bold text-blue-800 mt-4">PREVISÃO</h2>
                 <p className="mb-4 mt-4">
-                São distribuídas 20 fichas para atendimento diário por ordem de chegada.
+                São distribuídas 20 fichas para atendimento diário na UBS-PET Massangana e 10 fichas para a UBS-PET Cavaleiro.
                 </p> 
 
               </div>
 
               <div className="pl-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO</h2>
-                <p className="mb-4">Cidadão</p>
-                <h2 className="font-bold text-blue-800 mt-4">PRESTAÇÃO DO SERVIÇO/FORMA</h2>
-                <p className="mb-4">Presencial</p>
+                <p className="mb-4">Munícipes de Jaboatão</p>
 
                 <h2 className="font-bold text-blue-800 mt-4">TAXAS</h2>
                 <p className="mb-4">
                 Não há cobranças de taxas
                 </p>
+
+                <h2 className="font-bold text-blue-800 mt-4">PRESTAÇÃO DO SERVIÇO/FORMA</h2>
+                <p className="mb-4">Presencial</p>
               </div>
             </div>
           </>
         }
         setorPublico={
           <>
-            <h2 className="font-bold text-blue-800 mt-4 mb-2">COORDENAÇÃO DE ANIMAIS DE GRANDE PORTE</h2>
+            <h2 className="font-bold text-blue-800 mt-4 mb-2"></h2>
             <p>
             Endereço: UBS Pet Massagana (Localizada na Av. Zequinha Barreto, 380, Praça de <br/>
             Terminal de ônibus Brigadeiro Ivo Borges) ou UBS- PET Cavaleiro (Localizada na Praça <br/>
@@ -146,7 +153,7 @@ const Pet = () => {
                   <h2 className="font-bold text-blue-800 text-lg mt-6 mb-2">
                     HORÁRIO DE ATENDIMENTO
                   </h2>
-                  <p>08h às 14h – de segunda a sexta-feira</p>
+                  <p>Segunda a sexta-feira, das 08:00h às 14:00h.</p>
                 </div>
               </div>
             </div>

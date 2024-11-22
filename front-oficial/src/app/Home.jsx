@@ -5,6 +5,8 @@ import { FaStore, FaMapLocationDot } from "react-icons/fa6";
 import { GiKnifeFork } from "react-icons/gi";
 import AccessibilityButton from "../components/AccessibilityButton";
 import "./style/globals.css";
+import Destaques from "../components/Destaques";
+import Noticias from "../components/Noticias";
 
 const handleScrollToMapas = (event) => {
   event.preventDefault();
@@ -146,8 +148,18 @@ const Home = () => {
           </div>
         </div>
 
-        {/* O MEIO E O TITULO MAPAS!!! */}
-        <div
+     
+        
+        {/* DESTAQUES */}
+        <Destaques/>
+
+
+        {/* DESTAQUES */}
+        <Noticias/>
+
+
+          {/* O MEIO E O TITULO MAPAS!!! */}
+          <div
           id="mapas"
           className="mapas border-t border-[#FFC719] bg-[#003470]"
         >
@@ -155,6 +167,7 @@ const Home = () => {
             MAPAS
           </h1>
         </div>
+
 
         {/* DIVISOR DE FORMA*/}
         <div className="relative w-full">

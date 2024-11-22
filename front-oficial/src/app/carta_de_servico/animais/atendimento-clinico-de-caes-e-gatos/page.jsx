@@ -1,6 +1,8 @@
 import Pet from "./atendimento-clinico-de-caes-e-gatos";
 import Model from "../../../../components/model-page-servicos";
-
+export const metadata = {
+  title: "Atendimento Clínico de Cães e Gatos - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>

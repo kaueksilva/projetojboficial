@@ -1,13 +1,15 @@
 import TrabalhoEmprego from "./trabalho-emprego";
 import Model from "../../../components/model-page";
 import Link from "next/link"; 
-
+export const metadata = {
+  title: "Qualificação Profissional - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>
       <Model
         caminhoImagem={"/images/trabalho.Jpg"}
-        titulo={"Serviços de Trabalho e Emprego"}
+        titulo={"Qualificação Profissional"}
         subtitulo={
           <span>
             <Link
@@ -16,7 +18,7 @@ export default function config() {
             >
               INÍCIO
             </Link>
-            &nbsp;» <span className="brightness-125">Serviços de Trabalho e Emprego</span>
+            &nbsp;» <span className="brightness-125">Qualificação Profissional</span>
           </span>
         }
       >

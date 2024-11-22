@@ -1,6 +1,8 @@
 import Ubs from "./ubs-pet";
 import Model from "../../../../components/model-page-servicos";
-
+export const metadata = {
+  title: "UBS PET - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>

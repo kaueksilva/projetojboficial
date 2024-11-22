@@ -1,7 +1,9 @@
 import Animais from "./Animais";
 import Model from "../../../components/model-page";
 import Link from "next/link";
-
+export const metadata = {
+  title: "Serviço de Animais - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>

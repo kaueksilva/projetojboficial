@@ -1,6 +1,8 @@
 import Pet from "./maus-tratos-de-animais";
 import Model from "../../../../components/model-page-servicos";
-
+export const metadata = {
+  title: "Maus Tratos de Animais de Grande Porte – Denúncia - Prefeitura do Jaboatão dos Guararapes",
+};
 export default function config() {
   return (
     <div>
