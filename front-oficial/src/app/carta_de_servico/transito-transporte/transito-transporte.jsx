@@ -29,7 +29,7 @@ const ambiente = () => {
               title: 'Cadastramento e Vistoria dos Operadores e dos Veículos de Transporte Público',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Secretaria Executiva de Mobilidade e Ordem Pública é responsável pelo cadastramento e vistoria dos operadores e',
-              link: '/carta_de_servico/transito-transporte/planejamento-e-progracao-do-transporte-publico'
+              link: '/carta_de_servico/transito-transporte/cadastro-e-vistoria-dos-operadores'
             },
             {
               title: 'Emissão de Credenciais Para Uso de Vagas de Estacionamento Destinadas a Idosos, Deficientes, Pessoas Com Dificuldade de Locomoção e Gestantes',
