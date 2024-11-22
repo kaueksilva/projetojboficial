@@ -1,6 +1,10 @@
 import Fiscalizacao from "./fortalecendo";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "Fortalecendo Laços - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

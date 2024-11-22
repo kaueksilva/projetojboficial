@@ -1,6 +1,10 @@
 import Fiscalizacao from "./integra";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "Integra - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

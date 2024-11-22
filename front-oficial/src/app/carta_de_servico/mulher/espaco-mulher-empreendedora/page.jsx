@@ -1,6 +1,10 @@
 import Mulher from "./espaco-mulher-empreendedora";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "Espaço Mulher empreendedora - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

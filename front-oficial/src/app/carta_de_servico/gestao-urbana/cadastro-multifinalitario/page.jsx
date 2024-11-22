@@ -1,6 +1,10 @@
 import Fiscalizacao from "./cadastro-multifinalitario";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "Cadastro Multifinalitário - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

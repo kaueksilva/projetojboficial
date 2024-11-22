@@ -2,6 +2,10 @@ import ServicosDeFeiras from "./feiras-mercados";
 import Model from "../../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Serviços de Feiras e Mercados Públicos - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

@@ -2,6 +2,10 @@ import Ouvidoria from "./ouvidoria";
 import Model from "../../../components/model-page";
 import Link from "next/link"; 
 
+export const metadata = {
+  title: "Serviços de Ouvidoria - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

@@ -1,8 +1,8 @@
-import Ouvidoria from "./registro-de-reclamacoes,-denuncias,-solicitacoes,-elogios-e-sugestoes";
+import Ouvidoria from "./pedido-de-acesso-a-informacao";
 import Model from "../../../../components/model-page-servicos";
 
 export const metadata = {
-  title: "Registro de Reclamações, Denúncias, Solicitações, Elogios e Sugestões - Prefeitura do Jaboatão dos Guararapes",
+  title: "Pedido de Acesso a Informação - Prefeitura do Jaboatão dos Guararapes",
 };
 
 export default function config() {
@@ -10,7 +10,7 @@ export default function config() {
     <div>
       <Model
         caminhoImagem={"/images/carta-de-servico/ouvidoria.png"}
-        titulo={"Registro de reclamações, denúncias, solicitações, elogios e sugestões"}
+        titulo={"Pedido de Acesso à Informação"}
         subtitulo={
           <span>
             <span className="brightness-125">Serviços de Ouvidoria</span>

@@ -2,6 +2,10 @@ import Gestaourbana from "./gestao-urbana";
 import Model from "../../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Gestão Urbana - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

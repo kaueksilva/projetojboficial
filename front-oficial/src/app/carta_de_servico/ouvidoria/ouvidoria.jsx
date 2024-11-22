@@ -23,7 +23,7 @@ const Ouvidoria = () => {
               title: 'Pedido de Acesso à Informação',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Ouvidoria disponibiliza o Serviço de Atendimento ao Cidadão – SIC, onde o usuário poderá solicitar acesso',
-              link: '#'
+              link: '/carta_de_servico/ouvidoria/pedido-de-acesso-a-informacao'
             }
           ].map((item, index) => (
             <div key={index} className="flex items-start mb-4 border-b pb-4">

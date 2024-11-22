@@ -1,6 +1,10 @@
 import Ubs from "./abertura-de-reclamacao";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "Abertura de Reclamação - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

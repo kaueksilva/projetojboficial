@@ -2,6 +2,10 @@ import ServicosDeDireitosHumanos from "./educacao";
 import Model from "../../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Serviços de Educação - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

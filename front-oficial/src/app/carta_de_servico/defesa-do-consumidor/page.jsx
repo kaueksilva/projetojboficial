@@ -2,6 +2,10 @@ import Defesa from "./defesa-do-consumidor";
 import Model from "../../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Defesa do Consumidor - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>
