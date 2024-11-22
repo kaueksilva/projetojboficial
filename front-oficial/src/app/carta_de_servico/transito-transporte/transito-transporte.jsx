@@ -59,25 +59,25 @@ const ambiente = () => {
               title: 'Implantação e Manutenção da Sinalização Gráfica Vertical e Horizontal',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO O usuário poderá solicitar a manutenção de sinalização já existente como: faixa de pedestres,  parada, abrigo, terminal',
-              link: '#'
+              link: '/carta_de_servico/transito-transporte/implantacao-e-manutencao'
             },
             {
               title: 'Fiscalização de Acidentes de Trânsito',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Realizar ação de fiscalização no local do acidente de trânsito ocorrido em via pública, para garantir a',
-              link: '#'
+              link: '/carta_de_servico/transito-transporte/fiscalizacao-de-acidentes'
             },
             {
               title: 'Fiscalização dos Operadores e dos Veículos Prestadores de Serviço do Sistema de Transporte Público',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Realizar fiscalização de forma rotineira por agentes de trânsito e transporte. REQUISITOS PRINCIPAIS ETAPAS Para a realização',
-              link: '#'
+              link: '/carta_de_servico/transito-transporte/fiscalizacao-dos-operadores'
             },
             {
               title: 'Fiscalização de Trânsito',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Fiscalizar situações que apresentem desacordo com as leis de trânsito brasileira. REQUISITOS Apresentar informações básicas de identificação',
-              link: '#'
+              link: '/carta_de_servico/transito-transporte/fiscalizacao-de-transito'
             }
           ].map((item, index) => (
             <div key={index} className="flex items-start mb-4 border-b pb-4">
