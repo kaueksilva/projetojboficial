@@ -2,6 +2,10 @@ import Saude from "./assistencia-social";
 import Model from "../../../components/model-page";
 import Link from "next/link"; 
 
+export const metadata = {
+  title: "Assistência Social - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>
