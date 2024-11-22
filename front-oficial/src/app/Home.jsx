@@ -1,16 +1,38 @@
-'use client';
+"use client";
 import { useState, useEffect } from "react";
-import { FaSchool, FaHospital, FaHouseUser } from "react-icons/fa";
+import {
+  FaSchool,
+  FaHospital,
+  FaHouseUser,
+  FaExclamationTriangle,
+} from "react-icons/fa";
 import { FaStore, FaMapLocationDot } from "react-icons/fa6";
+import { IoBookSharp } from "react-icons/io5";
 import { GiKnifeFork } from "react-icons/gi";
 import AccessibilityButton from "../components/AccessibilityButton";
 import "./style/globals.css";
 import Destaques from "../components/Destaques";
 import Noticias from "../components/Noticias";
 
+const handleScrollToNoticias = (event) => {
+  event.preventDefault();
+  const target = document.getElementById("noticias");
+  if (target) {
+    target.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
 const handleScrollToMapas = (event) => {
   event.preventDefault();
   const target = document.getElementById("mapas");
+  if (target) {
+    target.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
+const handleScrollToDestaques = (event) => {
+  event.preventDefault();
+  const target = document.getElementById("destaques");
   if (target) {
     target.scrollIntoView({ behavior: "smooth" });
   }
@@ -94,11 +116,10 @@ const Home = () => {
                 EMPRESA
               </button>
 
-              <button
-                className="bg-[#003476] text-white py-4 px-8 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
-              >
-                <a href="https://servidor.jaboatao.pe.gov.br/" target="_blank">SERVIDOR</a>
-                
+              <button className="bg-[#003476] text-white py-4 px-8 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
+                <a href="https://servidor.jaboatao.pe.gov.br/" target="_blank">
+                  SERVIDOR
+                </a>
               </button>
 
               <button
@@ -111,11 +132,13 @@ const Home = () => {
 
             {/* Segunda linha de botões */}
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-6">
-              <button
-                className="bg-[#003476] text-white py-4 px-8 sm:px-20 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
-              >
-                <a href="https://portaldatransparencia.jaboatao.pe.gov.br/" target="_blank">PORTAL DA TRANSPARÊNCIA</a>
-                
+              <button className="bg-[#003476] text-white py-4 px-8 sm:px-20 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
+                <a
+                  href="https://portaldatransparencia.jaboatao.pe.gov.br/"
+                  target="_blank"
+                >
+                  PORTAL DA TRANSPARÊNCIA
+                </a>
               </button>
 
               <button
@@ -133,33 +156,62 @@ const Home = () => {
               </button>
             </div>
 
-            {/* Botão MAPAS */}
-            <div className="mapas flex justify-center items-center z-10">
-              <button
-                onClick={handleScrollToMapas}
-                className="flex items-center group"
-              >
-                <FaMapLocationDot className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
-                <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
-                  MAPAS
-                </p>
-              </button>
-            </div>
+            {/* SECTION DOS BOTOES DE DIRECIONAMENTO */}
+            <section className="flex justify-center items-center z-10 gap-3">
+              {/* Botão NOTÍCIAS */}
+              <div className="mapas flex justify-center items-center z-10">
+                <button
+                  onClick={handleScrollToNoticias}
+                  className="flex items-center group"
+                >
+                  <IoBookSharp className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
+                  <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
+                    NOTÍCIAS
+                  </p>
+                </button>
+              </div>
+
+              {/*  MAPAS */}
+              <div className="mapas flex justify-center items-center z-10">
+                <button
+                  onClick={handleScrollToMapas}
+                  className="flex items-center group"
+                >
+                  <FaMapLocationDot className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
+                  <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
+                    MAPAS
+                  </p>
+                </button>
+              </div>
+
+              {/*  DESTAQUES */}
+              <div className="mapas flex justify-center items-center z-10">
+                <button
+                  onClick={handleScrollToDestaques}
+                  className="flex items-center group"
+                >
+                  <FaExclamationTriangle className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
+                  <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
+                    DESTAQUES
+                  </p>
+                </button>
+              </div>
+            </section>
           </div>
         </div>
 
-     
-        
         {/* DESTAQUES */}
-        <Destaques/>
+        <div id="destaques">
+          <Destaques />
+        </div>
 
+        {/* NOTICIAS */}
+        <div id="noticias">
+          <Noticias />
+        </div>
 
-        {/* DESTAQUES */}
-        <Noticias/>
-
-
-          {/* O MEIO E O TITULO MAPAS!!! */}
-          <div
+        {/* O MEIO E O TITULO MAPAS!!! */}
+        <div
           id="mapas"
           className="mapas border-t border-[#FFC719] bg-[#003470]"
         >
@@ -167,7 +219,6 @@ const Home = () => {
             MAPAS
           </h1>
         </div>
-
 
         {/* DIVISOR DE FORMA*/}
         <div className="relative w-full">
@@ -195,13 +246,12 @@ const Home = () => {
         </div>
 
         {/* MAPAS*/}
-        <div
-          className="mapas-cartaz mt-20 flex flex-col md:flex-row items-center justify-center z-10 text-center text-white cursor-pointer"
-        >
+        <div className="mapas-cartaz mt-20 flex flex-col md:flex-row items-center justify-center z-10 text-center text-white cursor-pointer">
           {/*ESCOLAS MUNICIPAIS */}
-          <a 
-          onClick={() => (window.location.href = "../mapaescolas")}
-          className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto">
+          <a
+            onClick={() => (window.location.href = "../mapaescolas")}
+            className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-r-0 md:border-r-2 border-[#FFC719] w-full md:w-auto"
+          >
             <div
               className="relative h-[16rem] md:h-[24rem] bg-cover bg-center"
               style={{ backgroundImage: "url('/images/escolas.jpg')" }}
