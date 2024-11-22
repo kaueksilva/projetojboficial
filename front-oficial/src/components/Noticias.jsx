@@ -46,11 +46,11 @@ const Notícias = () => {
       </div>
 
       {/* AS NOTÍCIAS PELO FETCH */}
-      <div className="w-auto h-auto flex items-center justify-center">
+      <div>
         {loading ? (
           <p>Carregando notícias...</p>
         ) : (
-          <div className="w-full max-w-screen-lg mx-auto p-4">
+          <div className="w-full py-10 px-16 mx-auto p-4">
             {/* Grid para 4 colunas */}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {noticias.map((noticia) => (
