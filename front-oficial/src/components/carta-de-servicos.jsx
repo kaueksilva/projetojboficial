@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import { FaStream, } from "react-icons/fa";
+import { FaBuildingUser } from "react-icons/fa6";
+import { BsQuestionCircleFill } from "react-icons/bs";
+
 
 const CartaDeServico = ({ dadosGerais, setorPublico, duvidas }) => {
   const [activeTab, setActiveTab] = useState("dados-gerais");
@@ -8,21 +12,45 @@ const CartaDeServico = ({ dadosGerais, setorPublico, duvidas }) => {
 
       {/* Tabs */}
       <div className="flex border-b mb-4">
-        <button 
-          onClick={() => setActiveTab("dados-gerais")} 
-          className={`p-4 ${activeTab === "dados-gerais" ? "font-semibold text-blue-800 border-b-2 border-blue-800" : "text-gray-600"}`}>
-          DADOS GERAIS
-        </button>
-        <button 
-          onClick={() => setActiveTab("setor-publico")} 
-          className={`p-4 ${activeTab === "setor-publico" ? "font-semibold text-blue-800 border-b-2 border-blue-800" : "text-gray-600"}`}>
-          SETOR PÚBLICO
-        </button>
-        <button 
-          onClick={() => setActiveTab("duvidas")} 
-          className={`p-4 ${activeTab === "duvidas" ? "font-semibold text-blue-800 border-b-2 border-blue-800" : "text-gray-600"}`}>
-          DÚVIDAS
-        </button>
+      <button te
+        onClick={() => setActiveTab("dados-gerais")} 
+        className={`flex ims-center gap-2 p-4 ${
+          activeTab === "dados-gerais" 
+            ? "font-semibold text-blue-800 border-b-2 border-blue-800" 
+            : "text-gray-600"
+        }`}
+      >
+        <FaStream className="text-lg" />
+        DADOS GERAIS
+      </button>
+
+
+        {/* Botão SETOR PÚBLICO */}
+<button 
+  onClick={() => setActiveTab("setor-publico")} 
+  className={`flex items-center gap-2 p-4 ${
+    activeTab === "setor-publico" 
+      ? "font-semibold text-blue-800 border-b-2 border-blue-800" 
+      : "text-gray-600"
+  }`}
+>
+  <FaBuildingUser className="text-lg" />
+  SETOR PÚBLICO
+</button>
+
+{/* Botão DÚVIDAS */}
+<button 
+  onClick={() => setActiveTab("duvidas")} 
+  className={`flex items-center gap-2 p-4 ${
+    activeTab === "duvidas" 
+      ? "font-semibold text-blue-800 border-b-2 border-blue-800" 
+      : "text-gray-600"
+  }`}
+>
+  <BsQuestionCircleFill className="text-lg" />
+  DÚVIDAS
+</button>
+
       </div>
       
       {/* Conteúdo das abas */}
