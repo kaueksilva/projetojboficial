@@ -3,7 +3,7 @@ export default function Model({ children, caminhoImagem, titulo, subtitulo }) {
   return (
     <div>
       <AccessibilityButton />
-      <div className="relative w-full h-[250px] flex items-end bg-[#172C4E] px-6 md:px-20 lg:px-80">
+      <div className="relative w-full h-[250px] mt-11 flex items-end bg-[#172C4E] px-6 md:px-20 lg:px-80">
         <img
           src={caminhoImagem}
           width={40} // Tamanho menor da imagem para telas pequenas

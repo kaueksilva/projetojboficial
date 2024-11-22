@@ -46,10 +46,10 @@ const Pet = () => {
           <>
           <h2 className="font-bold text-blue-800 mt-4 mb-4">SECRETARIA EXECUTIVA DE MOBILIDADE E ORDEM PÚBLICA – SEMOP</h2>
             <p>
-            Endereço:  R. Zelindo Marafante, 20 – Piedade <br/>
-Central de Atendimento SEMOP –  81 99476-3655 e (81) 3342-1857 <br/>
-Horário de atendimento: <br/>
-O atendimento é exclusivamente presencial e  <br/>ocorre de segunda a sexta, exceto nas quartas,  <br/>das 8h às 13h, na sede da SEMOP.
+            Endereço:  R. Zelindo Marafante, 20 – Piedade<br />
+Central de Atendimento SEMOP –  81 99476-3655 e (81) 3342-1857<br />
+Horário de atendimento:
+Segunda a Sexta, das 08h às 14h.
             </p>
           </>
         }
