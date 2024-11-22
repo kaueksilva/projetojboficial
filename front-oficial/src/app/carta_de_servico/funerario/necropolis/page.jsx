@@ -1,6 +1,10 @@
 import Funeral from "./necropolis";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "Necrópolis - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

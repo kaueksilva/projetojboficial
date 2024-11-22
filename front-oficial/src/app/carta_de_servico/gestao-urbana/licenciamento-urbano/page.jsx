@@ -1,6 +1,10 @@
 import Fiscalizacao from "./licenciamento-urbano";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "Licenciamento Urbano - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

@@ -1,6 +1,10 @@
 import Pet from "./vacina-antirrabica";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "Vacinação Antirrábica Animal - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

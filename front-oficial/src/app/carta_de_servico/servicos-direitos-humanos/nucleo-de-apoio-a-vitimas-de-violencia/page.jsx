@@ -1,6 +1,10 @@
 import Fiscalizacao from "./nucleoApoio";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "Núcleo de Apoio a Vítimas de Violação - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

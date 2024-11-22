@@ -3,7 +3,7 @@ import Model from "../../../components/model-page";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Impostos e Taxas - Prefeitura do Jaboatão dos Guararapes",
+  title: "Serviços de Impostos e Taxas - Prefeitura do Jaboatão dos Guararapes",
 };
 
 export default function config() {

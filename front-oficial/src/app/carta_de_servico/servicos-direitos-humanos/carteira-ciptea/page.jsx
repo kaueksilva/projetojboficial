@@ -1,6 +1,10 @@
 import Fiscalizacao from "./carteira";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "Carteira CIPTEA - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

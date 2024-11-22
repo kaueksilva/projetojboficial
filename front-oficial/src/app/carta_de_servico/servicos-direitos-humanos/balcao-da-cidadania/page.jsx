@@ -1,6 +1,10 @@
 import Fiscalizacao from "./balcao";
 import Model from "../../../../components/model-page-servicos";
 
+export const metadata = {
+  title: "Balcão da Cidadania - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

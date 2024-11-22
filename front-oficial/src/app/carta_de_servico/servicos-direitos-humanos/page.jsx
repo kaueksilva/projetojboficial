@@ -2,6 +2,10 @@ import ServicosDeDireitosHumanos from "./servicos-direitos-humanos";
 import Model from "../../../components/model-page";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Serviços de Direitos Humanos - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

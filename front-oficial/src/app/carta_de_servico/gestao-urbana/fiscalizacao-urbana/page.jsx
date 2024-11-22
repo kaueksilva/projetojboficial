@@ -2,6 +2,10 @@ import Fiscalizacao from "./fiscalizacao";
 import Model from "../../../../components/model-page-servicos";
 import { FaFileCircleCheck } from "react-icons/fa6";
 
+export const metadata = {
+  title: "Fiscalização Urbana - Prefeitura do Jaboatão dos Guararapes",
+};
+
 export default function config() {
   return (
     <div>

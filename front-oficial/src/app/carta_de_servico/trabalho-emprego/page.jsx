@@ -2,7 +2,7 @@ import TrabalhoEmprego from "./trabalho-emprego";
 import Model from "../../../components/model-page";
 import Link from "next/link"; 
 export const metadata = {
-  title: "Qualificação Profissional - Prefeitura do Jaboatão dos Guararapes",
+  title: "Serviços de Qualificação Profissional - Prefeitura do Jaboatão dos Guararapes",
 };
 export default function config() {
   return (
