@@ -157,46 +157,47 @@ const Home = () => {
             </div>
 
             {/* SECTION DOS BOTOES DE DIRECIONAMENTO */}
-            <section className="flex justify-center items-center z-10 gap-3">
-              {/* Botão NOTÍCIAS */}
-              <div className="mapas flex justify-center items-center z-10">
-                <button
-                  onClick={handleScrollToNoticias}
-                  className="flex items-center group"
-                >
-                  <IoBookSharp className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
-                  <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
-                    NOTÍCIAS
-                  </p>
-                </button>
-              </div>
+<section className="flex flex-wrap justify-center items-center z-10 gap-3 md:flex-row sm:flex-col">
+  {/* Botão NOTÍCIAS */}
+  <div className="flex justify-center items-center z-10">
+    <button
+      onClick={handleScrollToNoticias}
+      className="flex items-center group"
+    >
+      <IoBookSharp className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
+      <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
+        NOTÍCIAS
+      </p>
+    </button>
+  </div>
 
-              {/*  MAPAS */}
-              <div className="mapas flex justify-center items-center z-10">
-                <button
-                  onClick={handleScrollToMapas}
-                  className="flex items-center group"
-                >
-                  <FaMapLocationDot className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
-                  <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
-                    MAPAS
-                  </p>
-                </button>
-              </div>
+  {/* MAPAS */}
+  <div className="flex justify-center items-center z-10">
+    <button
+      onClick={handleScrollToMapas}
+      className="flex items-center group"
+    >
+      <FaMapLocationDot className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
+      <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
+        MAPAS
+      </p>
+    </button>
+  </div>
 
-              {/*  DESTAQUES */}
-              <div className="mapas flex justify-center items-center z-10">
-                <button
-                  onClick={handleScrollToDestaques}
-                  className="flex items-center group"
-                >
-                  <FaExclamationTriangle className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
-                  <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
-                    DESTAQUES
-                  </p>
-                </button>
-              </div>
-            </section>
+  {/* DESTAQUES */}
+  <div className="flex justify-center items-center z-10">
+    <button
+      onClick={handleScrollToDestaques}
+      className="flex items-center group"
+    >
+      <FaExclamationTriangle className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
+      <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
+        DESTAQUES
+      </p>
+    </button>
+  </div>
+</section>
+
           </div>
         </div>
 
