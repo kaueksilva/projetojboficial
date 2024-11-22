@@ -16,44 +16,44 @@ const ambiente = () => {
               title: 'Manutenção da Rede Semafórica',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A ação de manutenção deve ocorrer no menor tempo possível, evitando acidente ao pedestre e ao usuário',
-              link: '#'
+              link: '/carta_de_servico/transito-transporte/manutencao-de-rede-semaforica'
             },
             
             {
               title: 'Planejamento e Programação do Transporte Público',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Secretaria Executiva de Mobilidade e Ordem Pública é responsável pelo cadastramento e vistoria dos operadores e',
-              link: '#'
+              link: '/carta_de_servico/transito-transporte/planejamento-e-progracao-do-transporte-publico'
             },
             {
               title: 'Cadastramento e Vistoria dos Operadores e dos Veículos de Transporte Público',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Secretaria Executiva de Mobilidade e Ordem Pública é responsável pelo cadastramento e vistoria dos operadores e',
-              link: '#'
+              link: '/carta_de_servico/transito-transporte/planejamento-e-progracao-do-transporte-publico'
             },
             {
               title: 'Emissão de Credenciais Para Uso de Vagas de Estacionamento Destinadas a Idosos, Deficientes, Pessoas Com Dificuldade de Locomoção e Gestantes',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Emitir credenciais para uso de vagas de estacionamentos destinadas a idoso, portadores de deficiência, pessoa com dificuldade',
-              link: '#'
+              link: '/carta_de_servico/transito-transporte/emissao-de-credenciais'
             },
             {
               title: 'Emissão de Taxas de Serviço e Multas dos Modais do Serviço de Transporte Público',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Informar e expedir taxas e multas de transporte relativas as pendências administrativas dos cadastros dos modais. REQUISITOS',
-              link: '#'
+              link: '/carta_de_servico/transito-transporte/emissao-de-taxas'
             },
             {
               title: 'Expedição de Declaração de Acidente Com e Sem Vítimas',
               description:
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Verificar a via e os possíveis fatores que acarretaram o acidente, além de coletar o depoimento das',
-              link: '#'
+              link: '/carta_de_servico/transito-transporte/expedicao-de-declaracao'
             },
             {
               title: 'Fornecimento de Cópia do Auto de Infração de Trânsito',
               description:
                 'DADADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO REQUISITOS Documento oficial que identifique a parte envolvida. PRINCIPAIS ETAPAS Solicitação – A solicitação deverá ser realizada',
-              link: '#'
+              link: '/carta_de_servico/transito-transporte/fornecimento-de-copia'
             },
             {
               title: 'Implantação e Manutenção da Sinalização Gráfica Vertical e Horizontal',
