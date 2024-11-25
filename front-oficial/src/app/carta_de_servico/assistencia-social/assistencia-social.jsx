@@ -39,7 +39,7 @@ const ambiente = () => {
                 "Centro de Referência Especializada em Assistência Social (CREAS)",
               description:
                 "DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO GERAL: O Centro de Referência Especializada em Assistência Social (CREAS) é a unidade pública estatal que oferta",
-              link: "/carta_de_servico/assistencia-social/centro-de-referencia-especializada",
+              link: "/carta_de_servico/assistencia-social/centro-de-referencia-especializada-creas",
             },
             {
               title: "Programa Primeira Infância no SUAS – Criança Feliz",

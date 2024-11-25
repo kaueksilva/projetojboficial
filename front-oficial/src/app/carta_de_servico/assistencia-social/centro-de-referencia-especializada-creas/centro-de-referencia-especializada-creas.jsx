@@ -14,7 +14,11 @@ const Pet = () => {
               <div className="pr-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO GERAL:</h2>
                 <p>
-                O Centro de Referência Especializado para População em Situação de Rua – Centro POP, constitui-se em uma unidade de referência da Proteção Social Especial de Média Complexidade, de caráter público estatal, com papel importante no alcance dos objetivos da Política Nacional para a População em Situação de Rua. As ações desenvolvidas pelo Centro POP e pelo Serviço Especializado para Pessoas em Situação de Rua devem integrar-se às demais ações da política de assistência social, dos órgãos de defesa de direitos e das demais políticas públicas – saúde, educação, previdência social, trabalho e renda, moradia, cultura, esporte, lazer e segurança alimentar e nutricional – de modo a compor um conjunto de ações públicas de promoção de direitos, que possam conduzir a impactos mais efetivos no fortalecimento da autonomia e potencialidades dessa população, visando à construção de novas trajetórias de vida.
+                O Centro de Referência Especializada em Assistência Social (CREAS) é a unidade pública estatal que oferta serviços continuados de proteção social especial de média complexidade e destina-se ao atendimento e acompanhamento de famílias e indivíduos em situação de risco pessoal ou social, cujos direitos tenham sido violados ou ameaçados. O atendimento pode ser através de demanda espontânea e encaminhamentos da rede socioassistencial, saúde, sistema de justiça e outros. O CREAS oferece os seguintes serviços: <br/><br/>
+
+● Serviço de Proteção e Atendimento Especializado a Famílias e Indivíduos -PAEFI que atende crianças e/ou adolescentes vítimas de violência intrafamiliar; Crianças ou adolescentes vítimas de abuso ou exploração sexual; Crianças ou adolescentes em situação de trabalho infantil; Pessoas idosas vítimas de violência intrafamiliar física, psicológica ou sexual, negligência ou abandono; Pessoas com deficiência vítimas de violência intrafamiliar física, psicológica ou sexual, negligência ou abandono; Pessoas vítimas de tráfico de seres humanos e pessoas vítimas de discriminação por orientação sexual.<br/>
+● Serviço Especializado de Abordagem Social que consiste na oferta de forma continuada e programada com a finalidade de assegurar trabalho social de abordagem e busca ativa que identifique nos territórios a incidência de trabalho infantil, exploração sexual de crianças e adolescentes, situação de rua, dentre outras.<br/>
+● Serviço de proteção social a adolescentes em cumprimento de medida socioeducativa de Liberdade Assistida (LA) e de Prestação de Serviços à Comunidade (PSC);
                 </p>
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS:</h2>
                 <p></p>
@@ -27,10 +31,9 @@ const Pet = () => {
               <div className="pl-10 w-full">
                 
                 <h2 className="font-bold text-blue-800 mt-4">PREVISÃO:</h2>
-                <p></p>
+                <p>Variável de acordo com o perfil da demanda.</p>
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO:</h2>
-                <p className="mb-4">Atendimento a pessoas com direitos violados que utilizam as ruas como espaço de moradia e/ou
-                sobrevivência</p>
+                <p className="mb-4">Cidadão</p>
                 <h2 className="font-bold text-blue-800 mt-4">
                   PRESTAÇÃO DO SERVIÇO/FORMA:
                 </h2>
@@ -45,17 +48,18 @@ const Pet = () => {
           <>
             <div>
             <h2 className="font-bold text-blue-800 mt-4">ENDEREÇO:</h2> <br />
-                <p>Rua Emiliano Ribeiro, n°450 – Prazeres (atende todas as Regionais)<br />
-Telefone: (81) 9.9239-0401 E-mail: centro.pop@jaboatao.pe.gov.br<br /><br />
+                <p>Horário de atendimento: das 7h às 16h<br /><br />
 
-Horário de atendimento: das 7h às 16h<br /><br />
+CREAS – Prazeres<br />
+Rua Brás Moscow, no 126 – Piedade<br />
+(atende as Regionais 4,5,6 e 7)<br />
+Telefone: (81) 9.9975-4133 E-mail:creas.prazeres@jaboatao.pe.gov.br<br /><br />
 
-CENTRO POP – PRAZERES<br />
-Rua Emiliano Ribeiro, n°450 – Prazeres (atende todas as Regionais)<br />
-Telefone: (81) 9.9239-0401 E-mail: centro.pop@jaboatao.pe.gov.br<br />
-CENTRO POP – OBRA DE MARIA<br />
-Rua Alto Serra Caiada, 154 – Monte Verde (atende todas as Regionais)<br />
-Telefone: (81) 98125-5271 E-mail: centropopobrademaria@gmail.com
+CREAS Cavaleiro<br />
+Av. Agamenon Magalhães, no 370 – Cavaleiro<br />
+(atende as Regionais 1,2,3)<br /><br />
+
+Telefone: (81) 9.9975-2216 E-mail: creas.cavaleiro@jaboatao.pe.gov.br
                 </p>
                 
             </div>
