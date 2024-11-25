@@ -112,7 +112,7 @@ const ambiente = () => {
                 "Centro de Referência Especializado para População em Situação de Rua",
               description:
                 "DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO GERAL: O Centro de Referência Especializado para População em Situação de Rua – Centro POP constitui-se em",
-              link: "/carta_de_servico/assistencia-social/centro-de-referencia-especializado",
+              link: "/carta_de_servico/assistencia-social/centro-de-referencia-especializado-para-populacao-em-situacao-de-rua",
             },
             {
               title: "Auxílio Moradia",
