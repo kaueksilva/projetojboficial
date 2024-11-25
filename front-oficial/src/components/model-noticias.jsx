@@ -33,7 +33,7 @@ export default function ModelPage({ children, caminhoImagem, titulo, data, hora,
           className="absolute inset-0 w-full h-full object-cover"
         />
         {/* Camada de sobreposição para escurecer a imagem */}
-        <div className="absolute inset-0 bg-black opacity-40"></div>
+        <div className="absolute inset-0 bg-[#4266ab] opacity-40"></div>
         {/* Conteúdo sobre a imagem */}
         <div className="z-10 text-center text-white pb-4 px-4">
           {/* Título principal */}
