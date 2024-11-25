@@ -11,6 +11,7 @@ import { IoBookSharp } from "react-icons/io5";
 import { GiKnifeFork } from "react-icons/gi";
 import AccessibilityButton from "../components/AccessibilityButton";
 import "./style/globals.css";
+import "./style/slide.css";
 import Destaques from "../components/Destaques";
 import Noticias from "../components/Noticias";
 
@@ -50,47 +51,14 @@ const images = [
 ];
 
 const Home = () => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [nextImageIndex, setNextImageIndex] = useState(1);
-  const [fadeOut, setFadeOut] = useState(false);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setFadeOut(true);
-
-      setTimeout(() => {
-        setCurrentImageIndex(nextImageIndex);
-        setNextImageIndex((nextImageIndex + 1) % images.length);
-        setFadeOut(false);
-      }, 1000); // Duração do fade-out
-    }, 5000); // Tempo total de exibição de cada imagem
-
-    return () => clearInterval(interval);
-  }, [nextImageIndex]);
-
-  const currentImage = images[currentImageIndex];
-  const nextImage = images[nextImageIndex];
-
+  
   return (
     <div>
       <main className="bg-[#dfdfdf] z-[-1]">
         <AccessibilityButton />
         <div className="text-center w-full h-screen overflow-hidden flex justify-center items-center relative z-20">
           <div className="absolute inset-0 w-full h-full z-[-1]">
-            {/* Camada de imagem atual */}
-            <div
-              className={`absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${
-                fadeOut ? "opacity-0" : "opacity-100"
-              }`}
-              style={{ backgroundImage: `url(${currentImage})` }}
-            />
-            {/* Camada de próxima imagem */}
-            <div
-              className={`absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${
-                fadeOut ? "opacity-100" : "opacity-0"
-              }`}
-              style={{ backgroundImage: `url(${nextImage})` }}
-            />
+            <div className="header"/>
             <div className="absolute inset-0 bg-black opacity-50" />
             {/* Overlay escuro */}
           </div>

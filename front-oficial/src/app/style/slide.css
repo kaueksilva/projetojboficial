@@ -1,0 +1,53 @@
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  animation: slideBackground 48s infinite; /* 8 imagens x 6 segundos cada */
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+@keyframes slideBackground {
+  0% {
+    background-image: url("../../../public/images/slide.jpg");
+  }
+  12.5% {
+    background-image: url("../../../public/images/slide2.jpg");
+  }
+  25% {
+    background-image: url("../../../public/images/slide3.jpg");
+  }
+  37.5% {
+    background-image: url("../../../public/images/slide4.jpg");
+  }
+  50% {
+    background-image: url("../../../public/images/slide5.jpg");
+  }
+  62.5% {
+    background-image: url("../../../public/images/slide6.jpg");
+  }
+  75% {
+    background-image: url("../../../public/images/slide7.jpg");
+  }
+  87.5% {
+    background-image: url("../../../public/images/slide8.jpg");
+  }
+  100% {
+    background-image: url("../../../public/images/slide.jpg"); /* Volta suavemente para a imagem 1 */
+  }
+}
