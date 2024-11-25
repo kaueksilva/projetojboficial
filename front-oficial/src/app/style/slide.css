@@ -1,0 +1,90 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Garante que a altura seja igual à altura da tela */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Impede que as imagens saiam do container */
+}
+
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Assegura que a imagem cubra o contêiner sem distorção */
+  opacity: 0; /* Começa invisível */
+  animation: fadeSlide 32s infinite; /* 8 imagens x 4 segundos cada */
+}
+
+.image-container img:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.image-container img:nth-child(2) {
+  animation-delay: 4s;
+}
+
+.image-container img:nth-child(3) {
+  animation-delay: 8s;
+}
+
+.image-container img:nth-child(4) {
+  animation-delay: 12s;
+}
+
+.image-container img:nth-child(5) {
+  animation-delay: 16s;
+}
+
+.image-container img:nth-child(6) {
+  animation-delay: 20s;
+}
+
+.image-container img:nth-child(7) {
+  animation-delay: 24s;
+}
+
+.image-container img:nth-child(8) {
+  animation-delay: 28s;
+}
+
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  37.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Sobreposição escura */
+  z-index: 2;
+}

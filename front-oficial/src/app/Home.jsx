@@ -11,6 +11,7 @@ import { IoBookSharp } from "react-icons/io5";
 import { GiKnifeFork } from "react-icons/gi";
 import AccessibilityButton from "../components/AccessibilityButton";
 import "./style/globals.css";
+import "./style/slide.css";
 import Destaques from "../components/Destaques";
 import Noticias from "../components/Noticias";
 
@@ -50,47 +51,25 @@ const images = [
 ];
 
 const Home = () => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [nextImageIndex, setNextImageIndex] = useState(1);
-  const [fadeOut, setFadeOut] = useState(false);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setFadeOut(true);
-
-      setTimeout(() => {
-        setCurrentImageIndex(nextImageIndex);
-        setNextImageIndex((nextImageIndex + 1) % images.length);
-        setFadeOut(false);
-      }, 1000); // Duração do fade-out
-    }, 5000); // Tempo total de exibição de cada imagem
-
-    return () => clearInterval(interval);
-  }, [nextImageIndex]);
-
-  const currentImage = images[currentImageIndex];
-  const nextImage = images[nextImageIndex];
-
   return (
     <div>
       <main className="bg-[#dfdfdf] z-[-1]">
         <AccessibilityButton />
         <div className="text-center w-full h-screen overflow-hidden flex justify-center items-center relative z-20">
           <div className="absolute inset-0 w-full h-full z-[-1]">
-            {/* Camada de imagem atual */}
-            <div
-              className={`absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${
-                fadeOut ? "opacity-0" : "opacity-100"
-              }`}
-              style={{ backgroundImage: `url(${currentImage})` }}
-            />
-            {/* Camada de próxima imagem */}
-            <div
-              className={`absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${
-                fadeOut ? "opacity-100" : "opacity-0"
-              }`}
-              style={{ backgroundImage: `url(${nextImage})` }}
-            />
+            <div class="header">
+              <div class="image-container">
+                <img src="/images/slide.jpg" class="active" alt="Slide 1" />
+                <img src="/images/slide2.jpg" alt="Slide 2" />
+                <img src="/images/slide3.jpg" alt="Slide 3" />
+                <img src="/images/slide4.jpg" alt="Slide 4" />
+                <img src="/images/slide5.jpg" alt="Slide 5" />
+                <img src="/images/slide6.jpg" alt="Slide 6" />
+                <img src="/images/slide7.jpg" alt="Slide 7" />
+                <img src="/images/slide8.jpg" alt="Slide 8" />
+              </div>
+            </div>
+
             <div className="absolute inset-0 bg-black opacity-50" />
             {/* Overlay escuro */}
           </div>
@@ -157,47 +136,46 @@ const Home = () => {
             </div>
 
             {/* SECTION DOS BOTOES DE DIRECIONAMENTO */}
-<section className="flex flex-wrap justify-center items-center z-10 gap-3 md:flex-row sm:flex-col">
-  {/* Botão NOTÍCIAS */}
-  <div className="flex justify-center items-center z-10">
-    <button
-      onClick={handleScrollToNoticias}
-      className="flex items-center group"
-    >
-      <IoBookSharp className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
-      <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
-        NOTÍCIAS
-      </p>
-    </button>
-  </div>
+            <section className="flex flex-wrap justify-center items-center z-10 gap-3 md:flex-row sm:flex-col">
+              {/* Botão NOTÍCIAS */}
+              <div className="flex justify-center items-center z-10">
+                <button
+                  onClick={handleScrollToNoticias}
+                  className="flex items-center group"
+                >
+                  <IoBookSharp className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
+                  <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
+                    NOTÍCIAS
+                  </p>
+                </button>
+              </div>
 
-  {/* MAPAS */}
-  <div className="flex justify-center items-center z-10">
-    <button
-      onClick={handleScrollToMapas}
-      className="flex items-center group"
-    >
-      <FaMapLocationDot className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
-      <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
-        MAPAS
-      </p>
-    </button>
-  </div>
+              {/* MAPAS */}
+              <div className="flex justify-center items-center z-10">
+                <button
+                  onClick={handleScrollToMapas}
+                  className="flex items-center group"
+                >
+                  <FaMapLocationDot className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
+                  <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
+                    MAPAS
+                  </p>
+                </button>
+              </div>
 
-  {/* DESTAQUES */}
-  <div className="flex justify-center items-center z-10">
-    <button
-      onClick={handleScrollToDestaques}
-      className="flex items-center group"
-    >
-      <FaExclamationTriangle className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
-      <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
-        DESTAQUES
-      </p>
-    </button>
-  </div>
-</section>
-
+              {/* DESTAQUES */}
+              <div className="flex justify-center items-center z-10">
+                <button
+                  onClick={handleScrollToDestaques}
+                  className="flex items-center group"
+                >
+                  <FaExclamationTriangle className="text-white transition-colors duration-300 group-hover:text-yellow-500 text-2xl" />
+                  <p className="text-white font-roboto font-semibold text-lg p-1 ml-2 transition-colors duration-300 group-hover:text-yellow-500 group-hover:animate-shake">
+                    DESTAQUES
+                  </p>
+                </button>
+              </div>
+            </section>
           </div>
         </div>
 
