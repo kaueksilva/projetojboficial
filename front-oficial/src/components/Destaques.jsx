@@ -32,21 +32,21 @@ const Destaques = () => {
 
     { src: "/images/destaques/4.jpeg", link: "https://www.tinus.com.br/csp/JABOATAO/portal/index.csp" },
     
-    { src: "/images/destaques/7.jpeg", link: "https://viver.jaboatao.pe.gov.br/cadastro-lei-paulo-gustavo" },
+    { src: "/images/destaques/5.jpeg", link: "https://viver.jaboatao.pe.gov.br/cadastro-lei-paulo-gustavo" },
   
-    { src: "/images/destaques/9.jpeg", link: "/cadunico" },
+    { src: "/images/destaques/6.jpeg", link: "/cadunico" },
    
-    { src: "/images/destaques/11.jpg", link: "https://bit.ly/ColetivoPrefeituraJaboatao" },
+    { src: "/images/destaques/7.jpg", link: "https://bit.ly/ColetivoPrefeituraJaboatao" },
 
-    { src: "/images/destaques/13.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2022/07/JB-009-22-panfleto-A5-combate-ao-mosquito-web.pdf" },
+    { src: "/images/destaques/8.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2022/07/JB-009-22-panfleto-A5-combate-ao-mosquito-web.pdf" },
 
-    { src: "/images/destaques/16.jpeg", link: "https://jaboatao.pe.gov.br/mulherprotegida/" },
+    { src: "/images/destaques/9.jpeg", link: "https://jaboatao.pe.gov.br/mulherprotegida/" },
 
-    { src: "/images/destaques/18.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2021/04/denuncia-maustratos.jpeg" },
+    { src: "/images/destaques/10.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2021/04/denuncia-maustratos.jpeg" },
 
-    { src: "/images/destaques/19.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2021/04/ubs-pet.jpeg" },
+    { src: "/images/destaques/11.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2021/04/ubs-pet.jpeg" },
 
-    { src: "/images/destaques/20.png", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2024/11/folder-.png" }
+    { src: "/images/destaques/12.png", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2024/11/folder-.png" }
   ];
 
   // Configurações do slider
