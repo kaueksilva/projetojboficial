@@ -42,41 +42,33 @@ const NoticiaDetalhada = ({ post }) => {
       </Head>
 
       <NoticiasLayout>
-        <section className="flex flex-col justify-center items-center py-10">
-           
-          <div className="flex flex-col justify-center items-center bg-slate-600 h-screen w-full"> 
+        <section className="relative h-screen flex flex-col">
           {/* Imagem destacada */}
           {post.featuredImage && (
             <img
-            src={`/api/image-proxy?url=${encodeURIComponent(post.featuredImage.node.sourceUrl)}`}
-            alt={post.title}
-            className="w-full h-[calc(100vh-6rem)] object-cover rounded-t"
-            style={{ maxHeight: "calc(100vh - 6rem)" }}
-          />
+              src={`/api/image-proxy?url=${encodeURIComponent(post.featuredImage.node.sourceUrl)}`}
+              alt={post.title}
+              className="w-full h-full object-cover"
+            />
           )}
 
-          {/* Título da notícia */}
-          <div className="absolute bottom-0 left-0 w-full bg-[#00347097] p-4">
-            <h1 className="uppercase Montserrat-Bold text-4xl font-bold text-white text-center drop-shadow-2xl">
+          {/* Título sobreposto */}
+          <div className="absolute bottom-0 left-0 w-full bg-[#00347097] p-4 drop-shadow-[0_4px_6px_rgba(0,0,0,0.9)]">
+            <h1 className="uppercase text-4xl font-bold text-white text-center">
               {post.title}
             </h1>
-            <p className="text-sm text-white mt-2 flex justify-center items-center">
+            <p className="text-sm text-white mt-2 text-center">
               Publicado em: {new Date(post.date).toLocaleDateString("pt-BR")}
             </p>
           </div>
-          </div>
-
-
-
-
-          {/* Conteúdo */}
-          <div
-            className="content mt-10 mb-10 leading-relaxed text-gray-700 px-20"
-            dangerouslySetInnerHTML={{ __html: post.content }}
-          />
-
-
         </section>
+
+
+        {/* Conteúdo */}
+        <div
+          className="content mt-10 mb-10 leading-relaxed text-gray-700 px-20"
+          dangerouslySetInnerHTML={{ __html: post.content }}
+        />
       </NoticiasLayout>
     </>
   );
