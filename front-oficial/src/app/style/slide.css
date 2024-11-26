@@ -25,7 +25,7 @@
   height: 100%;
   object-fit: cover; /* Assegura que a imagem cubra o contêiner sem distorção */
   opacity: 0; /* Começa invisível */
-  animation: fadeSlide 32s infinite; /* 8 imagens x 4 segundos cada */
+  animation: fadeSlide 30s infinite; /* 8 imagens x 4 segundos cada */
 }
 
 .image-container img:nth-child(1) {
@@ -64,19 +64,20 @@
   0% {
     opacity: 0;
   }
-  12.5% {
+  5% {
+    opacity: 1;
+  }
+  20% {
     opacity: 1;
   }
   25% {
-    opacity: 1;
-  }
-  37.5% {
     opacity: 0;
   }
   100% {
     opacity: 0;
   }
 }
+
 
 .header::after {
   content: "";
