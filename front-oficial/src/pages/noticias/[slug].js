@@ -42,28 +42,40 @@ const NoticiaDetalhada = ({ post }) => {
       </Head>
 
       <NoticiasLayout>
-        <section className="mt-[150px] py-10 px-16 mx-auto max-w-9xl">
-          {/* Título da notícia */}
-          <div className="border-b pb-6 mb-6">
-            <h1 className="text-4xl font-bold  text-[#003470]">{post.title}</h1>
-            <p className="text-sm text-gray-500 mt-2">
-              Publicado em: {new Date(post.date).toLocaleDateString("pt-BR")}
-            </p>
-          </div>
+        <section className="flex flex-col justify-center items-center py-10">
+           
+          <div className="flex flex-col justify-center items-center bg-slate-600 h-screen w-full"> 
           {/* Imagem destacada */}
           {post.featuredImage && (
             <img
-              // Usando o proxy para carregar a imagem
-              src={`/api/image-proxy?url=${encodeURIComponent(post.featuredImage.node.sourceUrl)}`}
-              alt={post.title}
-              className="w-full h-auto object-cover rounded mb-6"
-            />
+            src={`/api/image-proxy?url=${encodeURIComponent(post.featuredImage.node.sourceUrl)}`}
+            alt={post.title}
+            className="w-full h-[calc(100vh-6rem)] object-cover rounded-t"
+            style={{ maxHeight: "calc(100vh - 6rem)" }}
+          />
           )}
+
+          {/* Título da notícia */}
+          <div className="absolute bottom-0 left-0 w-full bg-[#00347097] p-4">
+            <h1 className="uppercase Montserrat-Bold text-4xl font-bold text-white text-center drop-shadow-2xl">
+              {post.title}
+            </h1>
+            <p className="text-sm text-white mt-2 flex justify-center items-center">
+              Publicado em: {new Date(post.date).toLocaleDateString("pt-BR")}
+            </p>
+          </div>
+          </div>
+
+
+
+
           {/* Conteúdo */}
           <div
-            className="content mt-10 mb-10 leading-relaxed text-gray-700"
+            className="content mt-10 mb-10 leading-relaxed text-gray-700 px-20"
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
+
+
         </section>
       </NoticiasLayout>
     </>
