@@ -10,67 +10,67 @@ const Footer = () => {
             <h4 className="footer-border"></h4>
             <ul className="footer-list text-base">
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/mapa-estrategia" >
+                <a className="opensanshebrewcondensed-regular" href="/mapa_da_estrategia" >
                   MAPA DA ESTRATÉGIA
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/portal-transparencia">
+                <a className="opensanshebrewcondensed-regular" href="https://portaldatransparencia.jaboatao.pe.gov.br/">
                   PORTAL DA TRANSPARÊNCIA
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/estrutura-organizacional">
+                <a className="opensanshebrewcondensed-regular" href="https://portaldatransparencia.jaboatao.pe.gov.br/estrutura-organizacional/">
                   ESTRUTURA ORGANIZACIONAL
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/galeria-elogios">
+                <a className="opensanshebrewcondensed-regular" href="#">
                   GALERIA DE ELOGIOS
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/cidadao">CIDADÃO</a>
+                <a className="opensanshebrewcondensed-regular" href="/carta_de_servico">CIDADÃO</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/cartas-servico">
+                <a className="opensanshebrewcondensed-regular" href="/carta_de_servico">
                   CARTAS DE SERVIÇO
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/empresa">EMPRESA</a>
+                <a className="opensanshebrewcondensed-regular" href="/empresa">EMPRESA</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/servidor">SERVIDOR</a>
+                <a className="opensanshebrewcondensed-regular" href="https://servidor.jaboatao.pe.gov.br/">SERVIDOR</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/turista">TURISTA</a>
+                <a className="opensanshebrewcondensed-regular" href="/turista">TURISTA</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/ppp-saude">PPP-SAUDE</a>
+                <a className="opensanshebrewcondensed-regular" href="/ppp">PPP-SAUDE</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/mapa-escolas-municipais">
+                <a className="opensanshebrewcondensed-regular" href="/mapaescolas">
                   MAPA DAS ESCOLAS MUNICIPAIS
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/mapa-unidades-saude">
+                <a className="opensanshebrewcondensed-regular" href="/mapaunidadesdesaude">
                   MAPA DAS UNIDADES DE SAÚDE POR REGIONAIS
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/mapa-bares-restaurantes">
+                <a className="opensanshebrewcondensed-regular" href="/maparestaurantes">
                   MAPA DOS BARES E RESTAURANTES
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/mapa-mercados-publicos">
+                <a className="opensanshebrewcondensed-regular" href="/mapamercados">
                   MAPA DOS MERCADOS PÚBLICOS
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/mapa-unidades-cras-creas">
+                <a className="opensanshebrewcondensed-regular" href="/mapacrascreas">
                   MAPA DAS UNIDADES DO CRAS E CREAS MUNICIPAIS
                 </a>
               </li>
@@ -82,80 +82,80 @@ const Footer = () => {
             <h4 className="footer-border"></h4>
             <ul className="footer-list opensanshebrewcondensed-regular text-base">
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/amor-jaboatao">AMOR JABOATÃO</a>
+                <a className="opensanshebrewcondensed-regular" href="http://amorpor.jaboatao.pe.gov.br/">AMOR JABOATÃO</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/bem-estar-animal">
+                <a className="opensanshebrewcondensed-regular" href="https://bemestaranimal.jaboatao.pe.gov.br/">
                   BEM ESTAR ANIMAL
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/conselho-usuarios">
+                <a className="opensanshebrewcondensed-regular" href="https://conselhodeusuarios.jaboatao.pe.gov.br/">
                   CONSELHO DE USUÁRIOS
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/de-olho-na-consulta">
+                <a className="opensanshebrewcondensed-regular" href="https://deolhonaconsulta.jaboatao.pe.gov.br/">
                   DE OLHO NA CONSULTA
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/diario-oficial">DIÁRIO OFICIAL</a>
+                <a className="opensanshebrewcondensed-regular" href="https://diariooficial.jaboatao.pe.gov.br/">DIÁRIO OFICIAL</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/educacao">EDUCAÇÃO</a>
+                <a className="opensanshebrewcondensed-regular" href="https://educacao.jaboatao.pe.gov.br/">EDUCAÇÃO</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/economia-criativa">
+                <a className="opensanshebrewcondensed-regular" href="https://economiacriativa.jaboatao.pe.gov.br/">
                   ECONOMIA CRIATIVA
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/emlume">EMLUME</a>
+                <a className="opensanshebrewcondensed-regular" href="https://emlume.com.br/">EMLUME</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/estacao-bem-estar">
+                <a className="opensanshebrewcondensed-regular" href="https://estacaobemestar.jaboatao.pe.gov.br/">
                   ESTAÇÃO BEM ESTAR
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/jaboatao-em-acao">
+                <a className="opensanshebrewcondensed-regular" href="https://jaboataoemacao.jaboatao.pe.gov.br/">
                   JABOATÃO EM AÇÃO
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/jaboataoprev">JABOATAOPREV</a>
+                <a className="opensanshebrewcondensed-regular" href="https://jaboataoprev.jaboatao.pe.gov.br/">JABOATAOPREV</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/meio-ambiente">MEIO AMBIENTE</a>
+                <a className="opensanshebrewcondensed-regular" href="https://semam.jaboatao.pe.gov.br/">MEIO AMBIENTE</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/oficial">OFICIAL</a>
+                <a className="opensanshebrewcondensed-regular" href="https://jaboatao.pe.gov.br/">OFICIAL</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/ouvidoria">OUVIDORIA</a>
+                <a className="opensanshebrewcondensed-regular" href="https://ouvidoria.jaboatao.pe.gov.br/">OUVIDORIA</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/portal-contribuinte">
+                <a className="opensanshebrewcondensed-regular" href="https://www.tinus.com.br/csp/JABOATAO/portal/index.csp">
                   PORTAL DO CONTRIBUINTE
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/portal-transparencia">
+                <a className="opensanshebrewcondensed-regular" href="https://portaldatransparencia.jaboatao.pe.gov.br/">
                   PORTAL DA TRANSPARÊNCIA
                 </a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/procon">PROCON</a>
+                <a className="opensanshebrewcondensed-regular" href="https://procon.jaboatao.pe.gov.br/">PROCON</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/servidor">SERVIDOR</a>
+                <a className="opensanshebrewcondensed-regular" href="https://servidor.jaboatao.pe.gov.br/">SERVIDOR</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/trabalho">TRABALHO</a>
+                <a className="opensanshebrewcondensed-regular" href="https://trabalho.jaboatao.pe.gov.br/">TRABALHO</a>
               </li>
               <li>
-                <a className="opensanshebrewcondensed-regular" href="http://example.com/viver">VIVER</a>
+                <a className="opensanshebrewcondensed-regular" href="https://viver.jaboatao.pe.gov.br/">VIVER</a>
               </li>
             </ul>
           </div>
