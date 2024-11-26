@@ -54,7 +54,7 @@ const NoticiaDetalhada = ({ post }) => {
 
           {/* Título sobreposto */}
           <div className="absolute bottom-0 left-0 w-full bg-[#00347097] p-4 drop-shadow-[0_4px_6px_rgba(0,0,0,0.9)]">
-            <h1 className="uppercase text-4xl font-bold text-white text-center">
+            <h1 className="Montserrat-Bold uppercase text-4xl text-white text-center">
               {post.title}
             </h1>
             <p className="text-sm text-white mt-2 text-center">
@@ -66,7 +66,7 @@ const NoticiaDetalhada = ({ post }) => {
 
         {/* Conteúdo */}
         <div
-          className="content mt-10 mb-10 leading-relaxed text-gray-700 px-20"
+          className="montserrat-regular leading-loose content justify-center my-10 mx-56 box-shadow-2xl text-gray-700 px-20 text-xl"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
       </NoticiasLayout>
