@@ -45,6 +45,8 @@ const Destaques = () => {
     { src: "/images/destaques/18.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2021/04/denuncia-maustratos.jpeg" },
 
     { src: "/images/destaques/19.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2021/04/ubs-pet.jpeg" },
+
+    { src: "/images/destaques/20.png", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2024/11/folder-.png" }
   ];
 
   // Configurações do slider

@@ -56,7 +56,7 @@ const NoticiaDetalhada = ({ post }) => {
               // Usando o proxy para carregar a imagem
               src={`/api/image-proxy?url=${encodeURIComponent(post.featuredImage.node.sourceUrl)}`}
               alt={post.title}
-              className="w-full h-90 object-cover rounded mb-6"
+              className="w-full h-40 object-cover rounded mb-6"
             />
           )}
           {/* Conteúdo */}
