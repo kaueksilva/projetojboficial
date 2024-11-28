@@ -142,7 +142,7 @@ const Institucional = () => {
           <h3 className="Montserrat-Bold text-4xl font-bold text-white mb-6 jusrtify-center text-center">TIME CGM:</h3>
           <div className="border-b-2 border-white w-60 mx-auto mb-6"/>
 
-          <img src="/images/CGM.png" alt="CGM" className="mx-auto" />
+          <img src="/images/CGM.JPG" alt="CGM" className="mx-auto" />
 
         </div>
 
