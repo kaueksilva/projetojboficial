@@ -6,7 +6,7 @@ import { AiOutlineAudit } from "react-icons/ai";
 import { TiMessages } from "react-icons/ti";
 import { MdOutlineFactCheck } from "react-icons/md";
 import { RiSearchEyeLine } from "react-icons/ri";
-import Noticias from "../../components/Noticias";
+import Noticias from "../../components/NoticiasControladoria";
 
 
 const Controladoria = () => {
@@ -97,7 +97,7 @@ const Controladoria = () => {
         <div className="mapas-cartaz flex flex-col md:flex-row mx-[6rem] items-center justify-center z-10 text-center text-white cursor-pointer md:border-[1px] border-[#FFC719]">
           {/* INSTITUCIONAL */}
           <a
-            href="#"
+            href="./controladoria/institucional"
             onMouseEnter={(e) =>
               (e.currentTarget.querySelector(".hover-text").style.opacity = "1")
             }
@@ -213,7 +213,7 @@ const Controladoria = () => {
 
           {/* TRANSPARÊNCIA */}
           <a
-            href="#"
+            href="https://portaldatransparencia.jaboatao.pe.gov.br/"
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
@@ -274,13 +274,8 @@ const Controladoria = () => {
           </svg>
         </div>
 
-        <div className=" bg-[#3271A5] pb-[100px] text-white p-8 flex items-center justify-center">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-8 max-w-[1500px] w-full">
-            <div className="w-full md:w-1/2"/>
-            
+        <div className=" bg-[#3271A5] p-8 flex items-center justify-center">
             <Noticias />
-
-          </div>
         </div>
       </div>
 
