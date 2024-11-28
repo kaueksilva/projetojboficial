@@ -169,7 +169,8 @@ const Controladoria = () => {
 
           {/* OUVIDORIA */}
           <a
-            href="#"
+            href="https://ouvidoria.jaboatao.pe.gov.br/"
+            target="_blank"
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group md:border-r-[1px] border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
@@ -191,7 +192,7 @@ const Controladoria = () => {
 
           {/* CORREIÇÃO */}
           <a
-            href="#"
+            href="./controladoria/correcao"
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group md:border-r-[1px] border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
