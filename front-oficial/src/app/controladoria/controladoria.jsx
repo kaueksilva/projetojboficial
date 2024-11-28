@@ -1,16 +1,34 @@
 "use client";
 import Image from "next/image";
-import { FaSchool, FaRegBuilding } from "react-icons/fa";
+import { FaRegBuilding } from "react-icons/fa";
 import { CgInternal } from "react-icons/cg";
 import { AiOutlineAudit } from "react-icons/ai";
 import { TiMessages } from "react-icons/ti";
 import { MdOutlineFactCheck } from "react-icons/md";
 import { RiSearchEyeLine } from "react-icons/ri";
+import Noticias from "../../components/Noticias";
+
 
 const Controladoria = () => {
   const handleScrollToCGM = (event) => {
     event.preventDefault();
     const target = document.getElementById("CGM");
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const handleScrollToFaleconosco = (event) => {
+    event.preventDefault();
+    const target = document.getElementById("fale-conosco");
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const handleScrollToNoticias = (event) => {
+    event.preventDefault();
+    const target = document.getElementById("noticias");
     if (target) {
       target.scrollIntoView({ behavior: "smooth" });
     }
@@ -32,7 +50,7 @@ const Controladoria = () => {
 
         <div className="bg-[#0075B4] opacity-60 absolute inset-0"></div>
 
-        {/* Conteúdo */}
+        {/* TELA PRINCIPAL */}
         <div className="relative z-10 text-center text-white px-4">
           {/* Ajuste responsivo do título */}
           <h1 className="text-[40px] sm:text-[50px] md:text-[70px] lg:text-[90px] font-bold mb-5">
@@ -48,36 +66,48 @@ const Controladoria = () => {
               CONHEÇA A CGM
             </button>
 
-            <button className="bg-[#003476] text-white py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base md:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10">
+            <button
+              onClick={handleScrollToNoticias}
+              className="bg-[#003476] text-white py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base md:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
+            >
               NOTÍCIAS
             </button>
 
-            <button className="bg-[#003476] text-white py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base md:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10">
+            <button
+              onClick={handleScrollToFaleconosco}
+              className="bg-[#003476] text-white py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base md:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
+            >
               FALE CONOSCO
             </button>
           </div>
         </div>
       </div>
 
+      
+
+      {/* CONHEÇA A CGM */}
       <div
         id="CGM"
-        className="border-t border-[#FFC719] bg-[radial-gradient(circle_at_center,#ffffff,#6EC1E4)] pb-[100px]"
+        className="border-t border-[#FFC719] bg-[radial-gradient(circle_at_center,#c2eaf9,#6EC1E4)] pb-[100px]"
       >
-        <h1 className=" text-[#00215A] font-bold text-[30px] text-left ml-[6rem] pb-[10px] mt-[6rem]">
+        <h1 className="BebasNeue-Regular text-[#00215A] text-5xl text-left ml-[6rem] pb-[10px] mt-[6rem]">
           CONHEÇA A CGM
         </h1>
 
-        <div className="mapas-cartaz  flex flex-col md:flex-row mx-[6rem] items-center justify-center z-10 text-center text-white cursor-pointer md:border-[1px] border-[#FFC719]">
+        <div className="mapas-cartaz flex flex-col md:flex-row mx-[6rem] items-center justify-center z-10 text-center text-white cursor-pointer md:border-[1px] border-[#FFC719]">
           {/* INSTITUCIONAL */}
           <a
-            onClick={() => (window.location.href = "../mapaescolas")}
+            href="#"
+            onMouseEnter={(e) =>
+              (e.currentTarget.querySelector(".hover-text").style.opacity = "1")
+            }
+            onMouseLeave={(e) =>
+              (e.currentTarget.querySelector(".hover-text").style.opacity = "0")
+            }
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group md:border-r-[1px] border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
-              {/* Sobreposição de cor */}
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#6EC1E4,#003476)] opacity-80 z-0"></div>
-
-              {/* Sobreposição de texto e ícone */}
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
                 <FaRegBuilding className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
@@ -85,23 +115,21 @@ const Controladoria = () => {
                 </h3>
               </div>
             </div>
-
-            {/* Sobreposição com gradiente e texto no hover */}
-            <div className="absolute inset-0 flex items-center justify-center bg-[#224276] text-white leading-none text-lg font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100 ">
-              INSTITUCIONAL
+            <div className="absolute inset-0 flex items-center justify-center bg-[#224276] text-white leading-none opacity-0 transition-opacity duration-500 hover-text">
+            <div className="text-center">
+            <h3 className="text-lg font-bold pb-3 ">INSTITUCIONAL</h3>
+            <p className="text-base">Conheça a estrutura organizacional da CGM, sua missão, objetivo e contatos</p>
+          </div>
             </div>
           </a>
 
           {/* CONTROLE INTERNO */}
           <a
-            onClick={() => (window.location.href = "../mapaescolas")}
+            href="#"
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group md:border-r-[1px] border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
-              {/* Sobreposição de cor */}
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#6EC1E4,#003476)] opacity-80 z-0"></div>
-
-              {/* Sobreposição de texto e ícone */}
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
                 <CgInternal className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
@@ -109,23 +137,21 @@ const Controladoria = () => {
                 </h3>
               </div>
             </div>
-
-            {/* Sobreposição com gradiente e texto no hover */}
-            <div className="absolute inset-0 flex items-center justify-center bg-[#224276] text-white leading-none text-lg font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100 ">
-              CONTROLE INTERNO
+            <div className="absolute inset-0 flex items-center justify-center bg-[#224276] text-white leading-none text-lg opacity-0 transition-opacity duration-500 group-hover:opacity-100 ">
+            <div className="text-center"> 
+              <h3 className="text-lg font-bold pb-3">CONTROLE INTERNO</h3>
+              <p className="text-base">Têm como objetuco desenvolver competências com foco na melhoria do desempenho institucional e fortalecer o equilíbio fiscal, atuando como um instrumento importante para a gestão eficiente e transparente dos recursos público</p>
+            </div>
             </div>
           </a>
 
           {/* AUDITORIA */}
           <a
-            onClick={() => (window.location.href = "../mapaescolas")}
+            href="#"
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group md:border-r-[1px] border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
-              {/* Sobreposição de cor */}
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#6EC1E4,#003476)] opacity-80 z-0"></div>
-
-              {/* Sobreposição de texto e ícone */}
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
                 <AiOutlineAudit className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
@@ -133,23 +159,21 @@ const Controladoria = () => {
                 </h3>
               </div>
             </div>
-
-            {/* Sobreposição com gradiente e texto no hover */}
-            <div className="absolute inset-0 flex items-center justify-center bg-[#224276] text-white leading-none text-lg font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100 ">
-              AUDITORIA
+            <div className="absolute inset-0 flex items-center justify-center bg-[#224276] text-white leading-none text-lg opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+            <div className="text-center"> 
+              <h3 className="text-lg font-bold pb-3">AUDITORIA</h3>
+              <p className="text-base">Tem como objetivo propor melhorias no desenvolvimento das atividades internas, orientando os gestores quanto a legalidade e utilização dos recursos, além de prezarpela eficiência da gestão pública municipal.</p>
+            </div>
             </div>
           </a>
 
           {/* OUVIDORIA */}
           <a
-            onClick={() => (window.location.href = "../mapaescolas")}
+            href="#"
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group md:border-r-[1px] border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
-              {/* Sobreposição de cor */}
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#6EC1E4,#003476)] opacity-80 z-0"></div>
-
-              {/* Sobreposição de texto e ícone */}
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
                 <TiMessages className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
@@ -157,23 +181,21 @@ const Controladoria = () => {
                 </h3>
               </div>
             </div>
-
-            {/* Sobreposição com gradiente e texto no hover */}
-            <div className="absolute inset-0 flex items-center justify-center bg-[#224276] text-white leading-none text-lg font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100 ">
-              OUVIDORIA
+            <div className="absolute inset-0 flex items-center justify-center bg-[#224276] text-white leading-none text-lg opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+            <div className="text-center"> 
+              <h3 className="text-lg font-bold pb-3">OUVIDORIA</h3>
+              <p className="text-base">Promover a participação popular, orientação das demais umidades e contribuir efetivamente para a melhoria da qualidade dos serviços públicos municipais.</p>
+            </div>
             </div>
           </a>
 
-          {/*  CORREIÇÃO */}
+          {/* CORREIÇÃO */}
           <a
-            onClick={() => (window.location.href = "../mapaescolas")}
+            href="#"
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group md:border-r-[1px] border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
-              {/* Sobreposição de cor */}
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#6EC1E4,#003476)] opacity-80 z-0"></div>
-
-              {/* Sobreposição de texto e ícone */}
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
                 <MdOutlineFactCheck className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
@@ -181,23 +203,21 @@ const Controladoria = () => {
                 </h3>
               </div>
             </div>
-
-            {/* Sobreposição com gradiente e texto no hover */}
-            <div className="absolute inset-0 flex items-center justify-center bg-[#224276] text-white leading-none text-lg font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100 ">
-              CORREIÇÃO
+            <div className="absolute inset-0 flex items-center justify-center bg-[#224276] text-white leading-none text-lg  opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+            <div className="text-center"> 
+              <h3 className="text-lg font-bold pb-3">CORREIÇÃO</h3>
+              <p className="text-base">Tem como atribuição zelar pela integridade funcional de agentes públicos. Atuando na apuração de irregularidades administrativas, propondo medidas para padronizar procedimentos e sanar potenciais desvios de conduta ou práticas lesivas ao patrimônio público.</p>
+            </div>
             </div>
           </a>
 
-          {/*  TRANSPARÊNCIA */}
+          {/* TRANSPARÊNCIA */}
           <a
-            onClick={() => (window.location.href = "../mapaescolas")}
+            href="#"
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
-              {/* Sobreposição de cor */}
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#6EC1E4,#003476)] opacity-80 z-0"></div>
-
-              {/* Sobreposição de texto e ícone */}
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
                 <RiSearchEyeLine className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
@@ -205,14 +225,65 @@ const Controladoria = () => {
                 </h3>
               </div>
             </div>
-
-            {/* Sobreposição com gradiente e texto no hover */}
-            <div className="absolute inset-0 flex items-center justify-center bg-[#224276] text-white leading-none text-lg font-bold opacity-0 transition-opacity duration-500 group-hover:opacity-100 ">
-              TRANSPARÊNCIA
+            <div className="absolute inset-0 flex items-center justify-center bg-[#224276] text-white leading-none text-lg opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+            <div className="text-center"> 
+              <h3 className="text-lg font-bold pb-3">TRANSPARÊNCIA</h3>
+              <p className="text-base">Disponibiliza informações relacionadas às atividades governamentais, promovendo a transparência dos processos administrativos, orçamentários e decisórios da gestão.</p>
+            </div>
             </div>
           </a>
         </div>
       </div>
+
+
+
+
+      {/* NOTICIAS */}
+      <div>
+        <div
+          id="noticias"
+          className="fale-conosco border-t border-[#FFC719] bg-[#003470]"
+        >
+          <h1 className="Montserrat-SemiBold text-white font-montserrat font-semibold text-4xl flex justify-center p-3 mt-10 z-10 ">
+            NOTÍCIAS
+          </h1>
+        </div>
+
+        {/* DIVISOR DE FORMA*/}
+        <div className="relative w-full bg-[#3271A5]">
+          <svg
+            width="100%"
+            viewBox="0 0 2000 96"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              opacity="0.33"
+              d="M946 62.22C538.2 152.254 419.8 27.5523 305.4 62.22C132 115.037 0 54.4708 0 54.4708V-6.40161H2000V54.4708C2000 54.4708 1875.8 81.0833 1810.2 84.3462C1744.6 87.711 1684.6 71.8046 1658.6 61.8122C1612 44.1724 1490.6 2.46924 1389.8 -1.60931C1289 -5.68786 984.8 53.757 946 62.22Z"
+              fill="#003470"
+            />
+            <path
+              opacity="0.66"
+              d="M1468 62.22C1377 62.22 1313.6 38.5644 1209.8 22.3522C1152.6 13.4813 909.2 12.0538 701.8 62.22C494.4 112.386 518.4 27.1445 403.4 62.22C231.4 114.222 0 34.18 0 34.18V-6.40161H2000V30.8152C2000 30.8152 1943.6 11.9519 1815.8 11.9519C1620.4 12.0538 1551.4 62.22 1468 62.22Z"
+              fill="#003470"
+            />
+            <path
+              d="M1532.2 23.0659C1132.2 -35.5633 1000.2 89.8522 742 42.9489C484 -4.56626 484 -0.895566 369.6 14.6029C256 30.1014 264.6 39.3801 179.8 47.1294C57.2 58.5493 0 -6.40161 0 -6.40161H2000C2000 -6.40161 1980.2 35.3016 1832.8 42.643C1685.4 49.9844 1659.2 41.5214 1532.2 23.0659Z"
+              fill="#003470"
+            />
+          </svg>
+        </div>
+
+        <div className=" bg-[#3271A5] pb-[100px] text-white p-8 flex items-center justify-center">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8 max-w-[1500px] w-full">
+            <div className="w-full md:w-1/2"/>
+            
+            <Noticias />
+
+          </div>
+        </div>
+      </div>
+
 
       {/* FALE CONOSCO */}
       <div>

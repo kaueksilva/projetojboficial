@@ -208,3 +208,13 @@
 .futura-pt-heavy {
     font-family: 'Futura-PT-Heavy';
 }
+
+
+@font-face{
+    font-family: 'BebasNeue-Regular';
+    src: url('/fontes/BebasNeue-Regular.ttf') format('truetype');
+}
+
+.BebasNeue-Regular{
+    font-family: 'BebasNeue-Regular';
+}
