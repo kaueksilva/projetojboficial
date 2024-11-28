@@ -69,15 +69,41 @@ const Menu = () => {
           {/* Top Menu */}
           <div className="top-menu fixed top-0 w-full z-50 bg-[#003470] p-1.5 flex justify-center lg:justify-between">
             <div className="icones flex ml-10 gap-5">
-              <i className="ri-twitter-x-line text-white text-[17px]"></i>
-              <i className="ri-facebook-circle-fill text-white text-[17px]"></i>
-              <i className="ri-instagram-line text-white text-[17px]"></i>
-              <i className="ri-youtube-fill text-white text-[17px]"></i>
+              <a
+                href="https://x.com/jaboataoonline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="ri-twitter-x-line text-white text-[17px]"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/PrefeituradoJaboatao"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="ri-facebook-circle-fill text-white text-[17px]"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/prefjaboatao/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="ri-instagram-line text-white text-[17px]"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/prefeiturajaboatao?gl=BR&hl=pt"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="ri-youtube-fill text-white text-[17px]"></i>
+              </a>
             </div>
+
             <ul className="menu-topo hidden lg:flex gap-3 mr-11 font-open-sans">
               <li className="nav-topo">
                 <a
-                  href="#"
+                  href="http://diariooficial.jaboatao.pe.gov.br/"
+                  target="_blank"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
                   Diário Oficial
@@ -85,7 +111,8 @@ const Menu = () => {
               </li>
               <li className="nav-topo">
                 <a
-                  href="#"
+                  href="https://portaldatransparencia.jaboatao.pe.gov.br/"
+                  target="_blank"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
                   Portal da Transparência
@@ -93,7 +120,8 @@ const Menu = () => {
               </li>
               <li className="nav-topo">
                 <a
-                  href="#"
+                  href="http://ouvidoria.jaboatao.pe.gov.br/"
+                  target="_blank"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
                   Ouvidoria
@@ -101,7 +129,8 @@ const Menu = () => {
               </li>
               <li className="nav-topo">
                 <a
-                  href="#"
+                  href="https://www.tinus.com.br/csp/JABOATAO/portal/index.csp"
+                  target="_blank"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
                   Portal do Contribuinte
@@ -109,7 +138,8 @@ const Menu = () => {
               </li>
               <li className="nav-topo">
                 <a
-                  href="#"
+                  href="https://servidor.jaboatao.pe.gov.br/"
+                  target="_blank"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
                   Portal do Servidor
@@ -117,7 +147,8 @@ const Menu = () => {
               </li>
               <li className="nav-topo">
                 <a
-                  href="#"
+                  href="https://jaboataoemacao.jaboatao.pe.gov.br/"
+                  target="_blank"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
                   COVID-19
@@ -125,14 +156,19 @@ const Menu = () => {
               </li>
               <li className="nav-topo">
                 <a
-                  href="#"
+                  href="https://radardatransparencia.atricon.org.br/radar-da-transparencia-publica.html"
+                  target="_blank"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
                   Radar da Transparência
                 </a>
               </li>
               <li>
-                <a href="#" className="icone-amarelo">
+                <a
+                  href="https://eouve.com.br/#/ouvidoria"
+                  target="_blank"
+                  className="icone-amarelo"
+                >
                   <Image
                     src="/images/iconamarelo.png"
                     alt="foto amarela"
@@ -534,7 +570,6 @@ const Menu = () => {
                     </div>
                   )}
                 </div>
-
               </ul>
             </div>
           </div>
@@ -545,13 +580,37 @@ const Menu = () => {
               {" "}
               {/* Adiciona lg:hidden */}
               <div className="icones flex gap-5 mb-10">
-                <i className="ri-twitter-x-line text-white text-[24px]"></i>
-                <i className="ri-facebook-circle-fill text-white text-[24px]"></i>
-                <i className="ri-instagram-line text-white text-[24px]"></i>
-                <i className="ri-youtube-fill text-white text-[24px]"></i>
+              <a
+                href="https://x.com/jaboataoonline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="ri-twitter-x-line text-white text-[17px]"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/PrefeituradoJaboatao"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="ri-facebook-circle-fill text-white text-[17px]"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/prefjaboatao/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="ri-instagram-line text-white text-[17px]"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/prefeiturajaboatao?gl=BR&hl=pt"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="ri-youtube-fill text-white text-[17px]"></i>
+              </a>
               </div>
-              <ul className="text-center text-[20px] font-bold">
-                <li className="mb-6">
+              <ul className="text-center text-[12px] font-bold">
+                <li className="mb-2">
                   <a
                     href="#"
                     onClick={() => toggleDropdown("institucional")}
@@ -585,7 +644,7 @@ const Menu = () => {
                   )}
                 </li>
 
-                <li className="mb-6">
+                <li className="mb-2">
                   <a
                     href="#"
                     onClick={() => toggleDropdown("cidade")}
@@ -620,7 +679,7 @@ const Menu = () => {
                   )}
                 </li>
 
-                <li className="mb-6">
+                <li className="mb-2">
                   <a
                     href="#"
                     onClick={() => toggleDropdown("secretarias")}
@@ -746,7 +805,8 @@ const Menu = () => {
                     </ul>
                   )}
                 </li>
-                <li className="mb-6">
+
+                <li className="mb-2">
                   <a
                     href="#"
                     onClick={() => toggleDropdown("orgaos")}
@@ -787,7 +847,8 @@ const Menu = () => {
                     </ul>
                   )}
                 </li>
-                <li className="mb-6">
+
+                <li className="mb-2">
                   <a
                     href="#"
                     onClick={() => toggleDropdown("servicos")}
@@ -855,9 +916,95 @@ const Menu = () => {
                     </ul>
                   )}
                 </li>
-                <li className="mb-6">
+
+                <li className="mb-2">
                   <a href="../acessibilidade" onClick={toggleMenu}>
                     ACESSIBILIDADE
+                  </a>
+                </li>
+
+                <li className="mb-2">
+                  <a
+                    href="http://diariooficial.jaboatao.pe.gov.br/"
+                    target="_blank"
+                    onClick={toggleMenu}
+                  >
+                    Diário Oficial
+                  </a>
+                </li>
+
+                <li className="mb-2">
+                  <a
+                    href="https://portaldatransparencia.jaboatao.pe.gov.br/"
+                    target="_blank"
+                    onClick={toggleMenu}
+                  >
+                    Portal da Transparência
+                  </a>
+                </li>
+
+                <li className="mb-2">
+                  <a
+                    href="http://ouvidoria.jaboatao.pe.gov.br/"
+                    target="_blank"
+                    onClick={toggleMenu}
+                  >
+                    Ouvidoria
+                  </a>
+                </li>
+
+                <li className="mb-2">
+                  <a
+                    href="https://www.tinus.com.br/csp/JABOATAO/portal/index.csp"
+                    target="_blank"
+                    onClick={toggleMenu}
+                  >
+                    Portal do Contribuinte
+                  </a>
+                </li>
+
+                <li className="mb-2">
+                  <a
+                    href="https://servidor.jaboatao.pe.gov.br/"
+                    target="_blank"
+                    onClick={toggleMenu}
+                  >
+                    Portal do Servidor
+                  </a>
+                </li>
+
+                <li className="mb-2">
+                  <a
+                    href="https://jaboataoemacao.jaboatao.pe.gov.br/"
+                    target="_blank"
+                    onClick={toggleMenu}
+                  >
+                    COVID-19
+                  </a>
+                </li>
+
+                <li className="mb-2">
+                  <a
+                    href="https://radardatransparencia.atricon.org.br/radar-da-transparencia-publica.html"
+                    target="_blank"
+                    onClick={toggleMenu}
+                  >
+                    Radar da Transparência
+                  </a>
+                </li>
+
+                <li className="flex justify-center ">
+                  <a
+                    href="https://eouve.com.br/#/ouvidoria"
+                    target="_blank"
+                    className="icone-amarelo"
+                  >
+                    <Image
+                      src="/images/iconamarelo.png"
+                      alt="foto amarela"
+                      width={20}
+                      height={20}
+                    />
                   </a>
                 </li>
               </ul>
