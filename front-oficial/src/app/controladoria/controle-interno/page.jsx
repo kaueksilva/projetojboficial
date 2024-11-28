@@ -1,4 +1,4 @@
-import Controle from "./institucional";
+import Controle from "./controle";
 import Model from "../../../components/model-page";
 import Link from "next/link";
 

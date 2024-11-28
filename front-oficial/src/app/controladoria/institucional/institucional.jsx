@@ -128,13 +128,6 @@ const Institucional = () => {
             </div>
           ))}
         </div>
-
-        {/* TIME CGM */}
-        <div className="mt-12">
-          <h3 className="Montserrat-Bold text-4xl font-bold text-white mb-6 text-center">TIME CGM:</h3>
-          <div className="border-b-1 border-white w-32 mx-auto mb-6"/>
-          {/* Aqui você pode adicionar mais conteúdo sobre a equipe */}
-        </div>
       </div>
 
        {/* TIME CGM */}
