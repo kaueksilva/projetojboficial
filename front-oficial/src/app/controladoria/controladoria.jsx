@@ -147,7 +147,7 @@ const Controladoria = () => {
 
           {/* AUDITORIA */}
           <a
-            href="#"
+            href="./controladoria/auditoria"
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group md:border-r-[1px] border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
@@ -239,16 +239,11 @@ const Controladoria = () => {
 
 
       {/* NOTICIAS */}
-      <div>
-        <div
-          id="noticias"
-          className="fale-conosco border-t border-[#FFC719] bg-[#003470]"
-        >
-          <h1 className="Montserrat-SemiBold text-white font-montserrat font-semibold text-4xl flex justify-center p-3 mt-10 z-10 ">
+      <div id="noticias" className="border-t border-[#FFC719] bg-[#003470]">
+          <h1 
+          className="Montserrat-SemiBold text-white font-montserrat font-semibold text-4xl flex justify-center p-3 mt-10 z-10 ">
             NOTÍCIAS
           </h1>
-        </div>
-
         {/* DIVISOR DE FORMA*/}
         <div className="relative w-full bg-[#3271A5]">
           <svg
