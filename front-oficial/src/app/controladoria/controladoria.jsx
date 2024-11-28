@@ -125,7 +125,7 @@ const Controladoria = () => {
 
           {/* CONTROLE INTERNO */}
           <a
-            href="#"
+            href="./controladoria/controle-interno"
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group md:border-r-[1px] border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
