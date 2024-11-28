@@ -82,7 +82,7 @@ const Institucional = () => {
             <img
               src="/images/controladoria/punicao.jpeg"
               alt="Jaboatão Eficiente"
-              className="w-4/5 max-w-[150px] sm:max-w-[200px] md:max-w-[250px] rounded-full shadow-lg aspect-square object-cover"
+              className="w-4/5 max-w-[150px] sm:max-w-[200px] md:max-w-[250px] rounded-full shadow-lg"
             />
             <div className="text-[#144D8A]">
               <h4 className="text-lg md:text-2xl font-semibold mb-2">
@@ -113,12 +113,12 @@ const Institucional = () => {
           <a href="https://jaboatao.pe.gov.br/wp-content/uploads/2023/06/MANUAL-PRATICO-DO-CODIGO-DE-CONDUTA-FUNCIONAL-17.03.22.pdf" target="_blank" className="hover:underline hover:text-blue-300" >Manual Prático do Código de Conduta Funcional</a>
         </div>
 
-        <div>
+        {/* <div>
           <iframe
             className="w-auto h-auto mx-auto"
             src="https://www.youtube.com/embed/0o8d3Z2Pn4c"
           />
-        </div>
+        </div> */}
     </section>
   );
 };

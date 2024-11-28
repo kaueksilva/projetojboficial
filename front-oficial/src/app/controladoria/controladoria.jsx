@@ -48,7 +48,7 @@ const Controladoria = () => {
           />
         </div>
 
-        <div className="bg-[#0075B4] opacity-60 absolute inset-0"></div>
+        <div className="bg-[#0069b4] opacity-60 absolute inset-0"></div>
 
         {/* TELA PRINCIPAL */}
         <div className="relative z-10 text-center text-white px-4">
@@ -57,29 +57,29 @@ const Controladoria = () => {
             CONTROLADORIA
           </h1>
 
-          {/* Ajuste responsivo dos botões */}
-          <div className="flex flex-wrap gap-4 justify-center">
+          {/* Botões */}
+          {/* <div className="flex flex-wrap gap-4 justify-center">
             <button
               onClick={handleScrollToCGM}
-              className="bg-[#003476] text-white py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base md:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
+              className="bg-[#00306b] text-white py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base md:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
             >
               CONHEÇA A CGM
             </button>
 
             <button
               onClick={handleScrollToNoticias}
-              className="bg-[#003476] text-white py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base md:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
+              className="bg-[#00306b] text-white py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base md:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
             >
               NOTÍCIAS
             </button>
 
             <button
               onClick={handleScrollToFaleconosco}
-              className="bg-[#003476] text-white py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base md:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
+              className="bg-[#00306b] text-white py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base md:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
             >
               FALE CONOSCO
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -88,13 +88,13 @@ const Controladoria = () => {
       {/* CONHEÇA A CGM */}
       <div
         id="CGM"
-        className="border-t border-[#FFC719] bg-[radial-gradient(circle_at_center,#c2eaf9,#6EC1E4)] pb-[100px]"
+        className="border-t border-[#FFC719] bg-[radial-gradient(circle_at_center,#c2eaf9,#4fb5dd)] pb-[100px]"
       >
         <h1 className="BebasNeue-Regular text-[#00215A] text-5xl text-left ml-[6rem] pb-[10px] mt-[6rem]">
           CONHEÇA A CGM
         </h1>
 
-        <div className="mapas-cartaz flex flex-col md:flex-row mx-[6rem] items-center justify-center z-10 text-center text-white cursor-pointer md:border-[1px] border-[#FFC719]">
+        <div className=" flex flex-col md:flex-row mx-[6rem] items-center justify-center z-10 text-center text-white cursor-pointer md:border-[1px] border-[#FFC719]">
           {/* INSTITUCIONAL */}
           <a
             href="./controladoria/institucional"
@@ -107,7 +107,7 @@ const Controladoria = () => {
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group md:border-r-[1px] border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#6EC1E4,#003476)] opacity-80 z-0"></div>
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#4fb5dd,#00306b)] opacity-80 z-0"/>
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
                 <FaRegBuilding className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
@@ -129,7 +129,7 @@ const Controladoria = () => {
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group md:border-r-[1px] border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#6EC1E4,#003476)] opacity-80 z-0"></div>
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#4fb5dd,#00306b)] opacity-80 z-0"></div>
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
                 <CgInternal className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
@@ -151,7 +151,7 @@ const Controladoria = () => {
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group md:border-r-[1px] border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#6EC1E4,#003476)] opacity-80 z-0"></div>
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#4fb5dd,#00306b)] opacity-80 z-0"></div>
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
                 <AiOutlineAudit className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
@@ -174,7 +174,7 @@ const Controladoria = () => {
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group md:border-r-[1px] border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#6EC1E4,#003476)] opacity-80 z-0"></div>
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#4fb5dd,#00306b)] opacity-80 z-0"></div>
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
                 <TiMessages className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
@@ -192,11 +192,11 @@ const Controladoria = () => {
 
           {/* CORREIÇÃO */}
           <a
-            href="./controladoria/correcao"
+            href="./controladoria/correicao"
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group md:border-r-[1px] border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#6EC1E4,#003476)] opacity-80 z-0"></div>
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#4fb5dd,#00306b)] opacity-80 z-0"></div>
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
                 <MdOutlineFactCheck className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
@@ -218,7 +218,7 @@ const Controladoria = () => {
             className="relative flex-1 transition-transform duration-500 hover:rotate-y-180 group border-[#FFC719] w-full md:w-auto"
           >
             <div className="relative h-[16rem] md:h-[24rem] bg-cover bg-center">
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#6EC1E4,#003476)] opacity-80 z-0"></div>
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#4fb5dd,#00306b)] opacity-80 z-0"></div>
               <div className="relative z-10 flex flex-col items-center justify-center h-full transition-opacity duration-500 group-hover:opacity-0">
                 <RiSearchEyeLine className="text-5xl md:text-7xl text-white mb-2" />
                 <h3 className="text-white text-lg font-bold leading-none">
@@ -235,8 +235,6 @@ const Controladoria = () => {
           </a>
         </div>
       </div>
-
-
 
 
       {/* NOTICIAS */}
