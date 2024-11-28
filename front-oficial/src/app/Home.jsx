@@ -80,7 +80,7 @@ const Home = () => {
             className="justify-center max-w-[90%] mx-auto mt-11 z-10"
           >
             {/* Primeira linha de botões com tamanho limitado */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 max-w-[86%] mx-auto mb-7">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
               <button
                 onClick={() => (window.location.href = "../cidadao")}
                 className="bg-[#003476] text-white py-4 px-8 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none font-roboto z-10"
@@ -110,7 +110,7 @@ const Home = () => {
             </div>
 
             {/* Segunda linha de botões */}
-            <div className="flex flex-col sm:flex-row justify-center gap-4 mb-6">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
               <button className="bg-[#003476] text-white py-4 px-8 sm:px-20 text-base sm:text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
                 <a
                   href="https://portaldatransparencia.jaboatao.pe.gov.br/"
