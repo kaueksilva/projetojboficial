@@ -1,7 +1,12 @@
-import { ApolloClient, InMemoryCache } from '@apollo/client';
+import { ApolloClient, InMemoryCache, HttpLink } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'https://jaboatao.pe.gov.br/graphql', // URL do GraphQL
+  link: new HttpLink({
+    uri: 'https://jaboatao.pe.gov.br/graphql',
+    fetchOptions: {
+      timeout: 10000, // Tempo limite em milissegundos
+    },
+  }),
   cache: new InMemoryCache(),
 });
 

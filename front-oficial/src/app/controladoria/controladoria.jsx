@@ -6,7 +6,8 @@ import { AiOutlineAudit } from "react-icons/ai";
 import { TiMessages } from "react-icons/ti";
 import { MdOutlineFactCheck } from "react-icons/md";
 import { RiSearchEyeLine } from "react-icons/ri";
-import Noticias from "../../components/NoticiasControladoria";
+import NotíciasControladoria from "@/components/NoticiasControladoria";
+
 
 
 const Controladoria = () => {
@@ -269,7 +270,7 @@ const Controladoria = () => {
         </div>
 
         <div className=" bg-[#3271A5] p-8 flex items-center justify-center">
-            <Noticias />
+            <NotíciasControladoria />
         </div>
       </div>
 

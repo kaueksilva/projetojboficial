@@ -3,23 +3,31 @@ import React, { useState } from "react";
 import { gql, useQuery } from "@apollo/client";
 import client from "../lib/apollo-client";
 
-const GET_POSTS = gql`
-  query GetPosts($first: Int!, $after: String) {
-    posts(first: $first, after: $after, where: { status: PUBLISH }) {
+// Query para pegar os posts, com a categoria "Controladoria"
+const GET_FILTERED_POSTS = gql`
+  query GetFilteredPosts($first: Int!, $after: String, $status: PostStatusEnum) {
+    posts(
+      first: $first
+      after: $after
+      where: { categoryName: "Controladoria", status: $status }
+    ) {
       edges {
         node {
           id
           title
-          excerpt
-          link
-          slug
+          date
           featuredImage {
             node {
               sourceUrl
-              
             }
           }
-          date
+          categories {
+            edges {
+              node {
+                name
+              }
+            }
+          }
         }
       }
       pageInfo {
@@ -32,26 +40,21 @@ const GET_POSTS = gql`
   }
 `;
 
-const Notícias = () => {
+const NotíciasControladoria = () => {
   const postsPerPage = 8; // Número de posts por página
   const [currentPage, setCurrentPage] = useState(1); // Página atual
   const [cursor, setCursor] = useState(null); // Usado para navegação entre as páginas
 
-  // Função para limitar o número de palavras no excerpt
-  const truncateText = (text, wordLimit) => {
-    const words = text.split(" ");
-    if (words.length > wordLimit) {
-      return words.slice(0, wordLimit).join(" ") + " ...";
-    }
-    return text;
-  };
+  // IDs das categorias a serem excluídas
+  const excludedCategories = [2754, 2734];
 
-  // Realiza a consulta passando os parâmetros de paginação
-  const { data, loading, error } = useQuery(GET_POSTS, {
+  // Realiza a consulta passando os parâmetros de paginação e exclusão de categorias
+  const { data, loading, error } = useQuery(GET_FILTERED_POSTS, {
     client,
     variables: {
       first: postsPerPage,
       after: cursor, // Envia o cursor de paginação, se existir
+      status: "PUBLISH", // Apenas posts publicados
     },
   });
 
@@ -88,7 +91,6 @@ const Notícias = () => {
 
   return (
     <section className="mb-10">
-
       {/* AS NOTÍCIAS VIA GRAPHQL */}
       <div className="mt-10 w-full py-10 px-16 mx-auto p-4">
         {/* Grid para 4 colunas */}
@@ -103,12 +105,12 @@ const Notícias = () => {
                 />
               )}
               <h2 className="text-2xl font-semibold mt-2">{node.title}</h2>
-              {/* Exibe a data e a hora do post */}
+              {/* Exibe a data */}
               <p className="text-gray-500 text-sm mt-1">
-                {new Date(node.date).toLocaleDateString("pt-BR")} | {new Date(node.date).toLocaleTimeString("pt-BR")}
+                {new Date(node.date).toLocaleDateString("pt-BR")}
               </p>
               <a
-                href={`/noticias/${node.slug}`}
+                href={`/noticias/${node.id}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:underline mt-2 block"
@@ -146,4 +148,4 @@ const Notícias = () => {
   );
 };
 
-export default Notícias;
+export default NotíciasControladoria;
