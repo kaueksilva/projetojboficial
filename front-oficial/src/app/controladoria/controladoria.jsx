@@ -49,14 +49,19 @@ const Controladoria = () => {
           />
         </div>
 
-        <div className="bg-[#0069b4] opacity-60 absolute inset-0"></div>
+        <div className="bg-[#2f80ba] opacity-60 absolute inset-0"></div>
 
         {/* TELA PRINCIPAL */}
         <div className="relative z-10 text-center text-white px-4">
           {/* Ajuste responsivo do título */}
-          <h1 className="text-[40px] sm:text-[50px] md:text-[70px] lg:text-[90px] font-bold mb-5">
+          <h1 className="futura-pt-heavy text-[35px] sm:text-[50px] md:text-[70px] lg:text-[90px] font-bold text-white">
             CONTROLADORIA
           </h1>
+          <div
+            className="border-t border-white mx-auto"
+            style={{ borderWidth: "1px", width: "400px" }}
+          ></div>
+
 
           {/* Botões */}
           {/* <div className="flex flex-wrap gap-4 justify-center">
@@ -94,6 +99,7 @@ const Controladoria = () => {
         <h1 className="BebasNeue-Regular text-[#00215A] text-5xl text-left ml-[6rem] pb-[10px] mt-[6rem]">
           CONHEÇA A CGM
         </h1>
+        
 
         <div className=" flex flex-col md:flex-row mx-[6rem] items-center justify-center z-10 text-center text-white cursor-pointer md:border-[1px] border-[#FFC719]">
           {/* INSTITUCIONAL */}
