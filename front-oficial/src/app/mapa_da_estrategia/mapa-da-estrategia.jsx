@@ -10,7 +10,7 @@ const Mapaestrategia = () => {
           Os endereços estão publicados em formato PDF. Para fazer download
           clique{" "}
           <a
-            href="/pdf/mapa-da-estrategia.pdf"
+            href="/pdf/Mapa-da-estrategia.pdf"
             download
             className="text-blue-500 underline hover:text-blue-700"
           >
