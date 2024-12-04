@@ -2,12 +2,12 @@ import React from "react";
 
 function Ciptea() {
   return (
-    <div className="bg-[#0F3974] w-full flex py-10 justify-center">
+    <div className="bg-[#0F3974] w-full flex flex-col items-center py-10">
       <div className="text-center">
         <img
           src="/images/cidadao/logo-pref-ciptea.png"
           alt="Ciptea"
-          className="mb-6" // Adiciona um espaço abaixo da imagem
+          className="mb-6 mx-auto" // Adiciona espaço inferior e centraliza horizontalmente
         />
         <a
           href="/cidadao/cadastro-da-carteira-de-identificacao-da-pessoa-com-transtorno-do-espectro-do-autismo/lei-no-1548-2023-de-22-de-marco-de-2023"
@@ -15,19 +15,15 @@ function Ciptea() {
         >
           LEI Nº 1548 / 2023
         </a>
-
-        <iframe
-        src="https://ciptea.jaboatao.pe.gov.br/form_tbl_autismo/"
-        className="w-full"
-        style={{
-          height: "1150px",
-          overflow: "hidden",
-          border: "none",
-        }}
-      ></iframe>
       </div>
 
-      
+      <iframe
+        src="https://ciptea.jaboatao.pe.gov.br/form_tbl_autismo/"
+        className="w-full max-w-screen-2xl h-[1150px] border-none"
+        style={{
+          overflow: "hidden",
+        }}
+      ></iframe>
     </div>
   );
 }
