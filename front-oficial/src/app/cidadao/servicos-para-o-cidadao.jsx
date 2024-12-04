@@ -311,7 +311,6 @@ const Cidadao = () => {
         {/* CIPTEA */}
         <a
             href="./cidadao/cadastro-da-carteira-de-identificacao-da-pessoa-com-transtorno-do-espectro-do-autismo"
-            target="_blank"
           >
             <div className="bg-[#002A66] text-white w-full sm:w-[300px] h-[200px] mx-auto flex flex-col justify-center items-center shadow-lg hover:text-white group transition-all duration-300 ease-in-out relative">
                 <FaPuzzlePiece className="text-4xl text-white" />
