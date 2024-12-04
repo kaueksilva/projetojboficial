@@ -1,5 +1,5 @@
 import Ciptea from "./ciptea.jsx";
-import Model from "../../components/model-page";
+import Model from "../../../components/model-page";
 import Link from "next/link";
 
 export const metadata = {
@@ -10,7 +10,7 @@ export default function config() {
   return (
     <div>
       <Model
-        caminhoImagem={"/images/servicos-Ciptea.jpg"}
+        caminhoImagem={"/images/cidadao/ciptea.jpg"}
         titulo={"CADASTRO DA CARTEIRA DE IDENTIFICAÇÃO DA PESSOA COM TRANSTORNO DO ESPECTRO DO AUTISMO"}
         subtitulo={
           <span>
