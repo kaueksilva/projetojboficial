@@ -2,6 +2,13 @@
 import "../style/globals.css";
 
 const Cadunico = () => {
+  // Obtém a hora atual
+  const now = new Date();
+  const currentHour = now.getHours();
+
+  // Verifica se está entre 7:00h e 16:59h
+  const isButtonVisible = currentHour >= 7 && currentHour <= 16;
+
   return (
     <section>
       <section className="relative pb-20 w-full h-screen overflow-hidden bg-[#0061FF]">
@@ -104,13 +111,17 @@ const Cadunico = () => {
       </section>
 
 
-      <section className="flex justify-center w-auto h-screen bg-[#E7E7E7]"> 
-        <iframe
-          width="100%"
-        />
-      </section>
-
-      
+      {/* Botão exibido apenas no horário especificado */}
+      {isButtonVisible && (
+        <div className="flex justify-center items-center w-full h-80 bg-[#E7E7E7]">
+          <a
+            href="/cadunico"
+            className="roboto-medium tracking-widest text-xl bg-blue-500 text-white py-3 px-10 rounded-full border-2 border-white hover:bg-blue-600 transition-colors duration-300 ease-in-out"
+          >
+            Agendamento CADUNICO
+          </a>
+        </div>
+      )}
     </section>
   );
 };
