@@ -8,7 +8,7 @@ const PdfViewer = () => {
     <div style={{ height: '100%', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
         <Viewer 
-          fileUrl="/pdf/mapa-da-estrategia.pdf" 
+          fileUrl="/pdf/Mapa-da-estrategia.pdf" 
           defaultScale={1.5} // Define a escala para 80%
         />
       </Worker>

@@ -77,63 +77,63 @@ const Home = () => {
           {/* Botões e outros elementos */}
           <div
             id="botoes"
-            className="justify-center max-w-[90%] mx-auto mt-11 z-10"
+            className="justify-center max-w-[90%] mx-auto mt-24 z-10"
           >
-{/* Primeira linha de botões com tamanho limitado */}
-<div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-  <button
-    onClick={() => (window.location.href = "../cidadao")}
-    className="bg-[#003476] text-white py-3 px-10 text-base sm:text-lg cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
-  >
-    CIDADÃO
-  </button>
+            {/* Primeira linha de botões com tamanho limitado */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
+              <button
+                onClick={() => (window.location.href = "../cidadao")}
+                className="bg-[#003476] text-white py-3 px-10 text-base sm:text-lg cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+              >
+                CIDADÃO
+              </button>
 
-  <button
-    onClick={() => (window.location.href = "../empresa")}
-    className="bg-[#003476] text-white py-3 px-10 text-base sm:text-lg cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
-  >
-    EMPRESA
-  </button>
+              <button
+                onClick={() => (window.location.href = "../empresa")}
+                className="bg-[#003476] text-white py-3 px-10 text-base sm:text-lg cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+              >
+                EMPRESA
+              </button>
 
-  <button className="bg-[#003476] text-white py-3 px-10 text-base sm:text-lg cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
-    <a href="https://servidor.jaboatao.pe.gov.br/" target="_blank">
-      SERVIDOR
-    </a>
-  </button>
+              <button className="bg-[#003476] text-white py-3 px-10 text-base sm:text-lg cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
+                <a href="https://servidor.jaboatao.pe.gov.br/" target="_blank">
+                  SERVIDOR
+                </a>
+              </button>
 
-  <button
-    onClick={() => (window.location.href = "../turista")}
-    className="bg-[#003476] text-white py-3 px-10 text-base sm:text-lg cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
-  >
-    TURISTA
-  </button>
-</div>
+              <button
+                onClick={() => (window.location.href = "../turista")}
+                className="bg-[#003476] text-white py-3 px-10 text-base sm:text-lg cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+              >
+                TURISTA
+              </button>
+            </div>
 
-{/* Segunda linha de botões */}
-<div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-  <button className="bg-[#003476] text-white py-3 px-10 text-base sm:text-lg cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
-    <a
-      href="https://portaldatransparencia.jaboatao.pe.gov.br/"
-      target="_blank"
-    >
-      PORTAL DA TRANSPARÊNCIA
-    </a>
-  </button>
+            {/* Segunda linha de botões */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
+              <button className="bg-[#003476] text-white py-3 px-10 text-base sm:text-lg cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10">
+                <a
+                  href="https://portaldatransparencia.jaboatao.pe.gov.br/"
+                  target="_blank"
+                >
+                  PORTAL DA TRANSPARÊNCIA
+                </a>
+              </button>
 
-  <button
-    onClick={() => (window.location.href = "../carta_de_servico")}
-    className="bg-[#003476] text-white py-3 px-10 text-base sm:text-lg cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
-  >
-    CARTA DE SERVIÇOS
-  </button>
+              <button
+                onClick={() => (window.location.href = "../carta_de_servico")}
+                className="bg-[#003476] text-white py-3 px-10 text-base sm:text-lg cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+              >
+                CARTA DE SERVIÇOS
+              </button>
 
-  <button
-    onClick={() => (window.location.href = "../ppp")}
-    className="bg-[#003476] text-white py-3 px-10 text-base sm:text-lg cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
-  >
-    PPP - SAÚDE
-  </button>
-</div>
+              <button
+                onClick={() => (window.location.href = "../ppp")}
+                className="bg-[#003476] text-white py-3 px-10 text-base sm:text-lg cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none z-10"
+              >
+                PPP - SAÚDE
+              </button>
+            </div>
 
             {/* SECTION DOS BOTOES DE DIRECIONAMENTO */}
             <section className="flex flex-wrap justify-center items-center z-10 gap-3 md:flex-row sm:flex-col">
