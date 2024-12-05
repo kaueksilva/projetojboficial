@@ -31,12 +31,12 @@ const ambiente = () => {
                 'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO A Secretaria Executiva de Mobilidade e Ordem Pública é responsável pelo cadastramento e vistoria dos operadores e',
               link: '/carta_de_servico/transito-transporte/cadastro-e-vistoria-dos-operadores'
             },
-            {
-              title: 'Emissão de Credenciais Para Uso de Vagas de Estacionamento Destinadas a Idosos, Deficientes, Pessoas Com Dificuldade de Locomoção e Gestantes',
-              description:
-                'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Emitir credenciais para uso de vagas de estacionamentos destinadas a idoso, portadores de deficiência, pessoa com dificuldade',
-              link: '/carta_de_servico/transito-transporte/emissao-de-credenciais'
-            },
+            // {
+            //   title: 'Emissão de Credenciais Para Uso de Vagas de Estacionamento Destinadas a Idosos, Deficientes, Pessoas Com Dificuldade de Locomoção e Gestantes',
+            //   description:
+            //     'DADOS GERAIS SETORES PÚBLICOS DÚVIDAS DADOS GERAIS DESCRIÇÃO Emitir credenciais para uso de vagas de estacionamentos destinadas a idoso, portadores de deficiência, pessoa com dificuldade',
+            //   link: '/carta_de_servico/transito-transporte/emissao-de-credenciais'
+            // },
             {
               title: 'Emissão de Taxas de Serviço e Multas dos Modais do Serviço de Transporte Público',
               description:

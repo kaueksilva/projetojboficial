@@ -1,17 +1,17 @@
-import Turista from "./turista";
-import Model from "../../components/model-page";
+import Resultado from "./resultado.jsx";
+import Model from "../../../components/model-page.jsx";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Serviços para o Turista - Prefeitura do Jaboatão dos Guararapes",
+  title: "Resultado de exames - Prefeitura do Jaboatão dos Guararapes",
 };
 
 export default function config() {
   return (
     <div>
       <Model
-        caminhoImagem={"/images/turista-crop.jpg"}
-        titulo={"SERVIÇOS PARA O TURISTA"}
+        caminhoImagem={"/images/exames.jpg"}
+        titulo={"Resultado de exames"}
         subtitulo={
           <span>
             <Link
@@ -21,11 +21,11 @@ export default function config() {
               Início
             </Link>
             &nbsp;»{" "}
-            <span className="brightness-125">SERVIÇOS PARA O TURISTA</span>
+            <span className="brightness-125">Resultado de exames</span>
           </span>
         }
       >
-        <Turista />
+        <Resultado />
       </Model>
     </div>
   );

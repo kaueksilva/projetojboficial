@@ -202,10 +202,9 @@ const Cidadao = () => {
           </div>
         </a>
 
-        {/* RESULTADO DE EXAMESL */}
+        {/* RESULTADO DE EXAMES */}
         <a
-          href="https://jaboatao.pe.gov.br/resultado-de-exames/"
-          target="_blank"
+          href="./cidadao/resultado-de-exames" 
         >
           <div className="bg-[#002A66] text-white w-full sm:w-[300px] h-[200px] mx-auto flex flex-col justify-center items-center shadow-lg hover:text-white group transition-all duration-300 ease-in-out relative">
           <FaFileMedical className="text-4xl text-white" />
