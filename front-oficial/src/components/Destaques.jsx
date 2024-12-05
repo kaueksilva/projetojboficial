@@ -7,45 +7,35 @@ import "slick-carousel/slick/slick-theme.css";
 const CustomArrow = ({ onClick, direction }) => {
   return (
     <button
-        type="button"
-        onClick={onClick}
-        className={`absolute top-1/2 transform -translate-y-1/2 z-10 text-white 
-          ${
-            direction === "left"
-              ? "left-[-50px] bg-blue-500 hover:bg-blue-700" // Move a seta mais para o lado esquerdo
-              : "right-2 bg-blue-500 hover:bg-blue-700"
-          }
-          rounded-full p-3 shadow-md`}
-      >
-        {direction === "left" ? "←" : "→"}
-      </button>
+      type="button"
+      onClick={onClick}
+      className={`absolute top-1/2 transform -translate-y-1/2 z-10 text-white 
+        hidden md:block 
+        ${
+          direction === "left"
+            ? "left-[-50px] bg-blue-500 hover:bg-blue-700" 
+            : "right-2 bg-blue-500 hover:bg-blue-700"
+        }
+        rounded-full p-3 shadow-md`}
+    >
+      {direction === "left" ? "←" : "→"}
+    </button>
   );
 };
 
 const Destaques = () => {
   // Lista de imagens com links
   const images = [
-
     { src: "/images/destaques/2.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2024/11/Locais-de-Vacinacao.pdf" },
-
     { src: "/images/destaques/3.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2024/02/Programacao-Blocos-Carnaval-Jaboatao-2024.pdf" },
-
     { src: "/images/destaques/4.jpeg", link: "https://www.tinus.com.br/csp/JABOATAO/portal/index.csp" },
-    
     { src: "/images/destaques/5.jpeg", link: "https://viver.jaboatao.pe.gov.br/cadastro-lei-paulo-gustavo" },
-  
     { src: "/images/destaques/6.jpeg", link: "/cadunico" },
-   
     { src: "/images/destaques/7.jpg", link: "https://bit.ly/ColetivoPrefeituraJaboatao" },
-
     { src: "/images/destaques/8.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2022/07/JB-009-22-panfleto-A5-combate-ao-mosquito-web.pdf" },
-
     { src: "/images/destaques/9.jpeg", link: "https://jaboatao.pe.gov.br/mulherprotegida/" },
-
     { src: "/images/destaques/10.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2021/04/denuncia-maustratos.jpeg" },
-
     { src: "/images/destaques/11.jpeg", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2021/04/ubs-pet.jpeg" },
-
     { src: "/images/destaques/12.png", link: "https://jaboatao.pe.gov.br/wp-content/uploads/2024/11/folder-.png" }
   ];
 
@@ -58,23 +48,29 @@ const Destaques = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    swipe: true, // Habilitar deslize
+    arrows: true, // Habilitar/desabilitar setas
     prevArrow: <CustomArrow direction="left" />,
     nextArrow: <CustomArrow direction="right" />,
+    responsive: [
+      {
+        breakpoint: 768, // Ocultar setas em telas menores que 768px
+        settings: {
+          arrows: false, // Desabilita as setas no mobile
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
     <section>
-      {/* Título "Destaques" */}
-      <div
-        id="Destaques"
-        className="Destaques border-t border-[#FFC719] bg-[#003470]"
-      >
+      <div id="Destaques" className="Destaques border-t border-[#FFC719] bg-[#003470]">
         <h1 className="font-montserrat font-semibold text-4xl text-white flex justify-center p-3 mt-28">
           DESTAQUES
         </h1>
       </div>
 
-      {/* Divisor de forma */}
       <div className="relative w-full">
         <svg
           width="100%"
@@ -94,7 +90,6 @@ const Destaques = () => {
         </svg>
       </div>
 
-      {/* Slider de imagens */}
       <div className="mt-12 mb-20 container mx-auto p-5 max-w-7xl">
         <Slider {...settings}>
           {images.map((image, index) => (
