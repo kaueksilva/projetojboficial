@@ -77,7 +77,7 @@ const Home = () => {
           {/* Botões e outros elementos */}
           <div
             id="botoes"
-            className="justify-center max-w-[90%] mx-auto mt-16 z-10"
+            className="justify-center max-w-[90%] mx-auto mt-24 z-10"
           >
             {/* Primeira linha de botões com tamanho limitado */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
