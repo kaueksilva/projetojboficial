@@ -115,7 +115,7 @@ const Cadunico = () => {
       {isButtonVisible && (
         <div className="flex justify-center items-center w-full h-80 bg-[#E7E7E7]">
           <a
-            href="/cadunico"
+            href="https://cadunico.jaboatao.pe.gov.br"
             className="roboto-medium tracking-widest text-xl bg-blue-500 text-white py-3 px-10 rounded-full border-2 border-white hover:bg-blue-600 transition-colors duration-300 ease-in-out"
           >
             Agendamento CADUNICO
