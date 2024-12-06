@@ -14,7 +14,7 @@ const Pet = () => {
               <div className="pr-10 w-full">
                 <h2 className="font-bold text-blue-800 mt-4">DESCRIÇÃO GERAL:</h2>
                 <p>
-                O Abrigo Cristo Redentor é uma organização da Sociedade Civil que executa o serviço de acolhimento institucional enquanto objeto da parceria firmada com a Secretaria Municipal de Assistência Social e Cidadania do Jaboatão dos Guararapes. Atua para pessoas idosas como moradia provisória, e, excepcionalmente, de longa permanência quando esgotadas todas as possibilidades de autossustento e convívio com os familiares, sendo este decorrente de situações de vulnerabilidade, violação de direitos e/ou violência.
+                  O Abrigo Cristo Redentor é uma organização da Sociedade Civil que executa o serviço de acolhimento institucional enquanto objeto da parceria firmada com a Secretaria Municipal de Assistência Social e Cidadania do Jaboatão dos Guararapes. Atua para pessoas idosas como moradia provisória, e, excepcionalmente, de longa permanência quando esgotadas todas as possibilidades de autossustento e convívio com os familiares, sendo este decorrente de situações de vulnerabilidade, violação de direitos e/ou violência.
                 </p>
                 <h2 className="font-bold text-blue-800 mt-4">REQUISITOS:</h2>
                 <p>Relatório de encaminhamento da rede socioassistencial ou do poder judiciário, bem documentos pessoais e exames médicos (quando existentes).</p>
@@ -25,9 +25,9 @@ const Pet = () => {
               </div>
 
               <div className="pl-10 w-full">
-                
+
                 <h2 className="font-bold text-blue-800 mt-4">PREVISÃO:</h2>
-                <p>Variável de acordo com o perfil da demanda.</p>
+                <p>Atendimento Imediato à Demanda</p>
                 <h2 className="font-bold text-blue-800 mt-4">PÚBLICO ALVO:</h2>
                 <p className="mb-4">Pessoas idosas</p>
                 <h2 className="font-bold text-blue-800 mt-4">
@@ -43,12 +43,12 @@ const Pet = () => {
         setorPublico={
           <>
             <div>
-            <h2 className="font-bold text-blue-800 mt-4">ENDEREÇO:</h2>
-                <p>Horário de atendimento: 24 horas/dia <br/>
-Endereço: Avenida Agamenon Magalhães, S/N – Jangadinha/Cavaleiro, Jaboatão dos
-Guararapes.<br/>
-Telefone: (81) 3257-8000 / (81) 3251-3092</p>
-                
+              <h2 className="font-bold text-blue-800 mt-4">ENDEREÇO:</h2>
+              <p>Horário de atendimento: 24 horas/dia <br />
+                Endereço: Avenida Agamenon Magalhães, S/N – Jangadinha/Cavaleiro, Jaboatão dos
+                Guararapes.<br />
+                Telefone: (81) 3257-8000 / (81) 3251-3092</p>
+
             </div>
           </>
         }
@@ -68,9 +68,7 @@ Telefone: (81) 3257-8000 / (81) 3251-3092</p>
                     VIA INTERNET
                   </h2>
                   <p className="mb-7 text-justify">
-                    Caso não encontre o que procura, faça uma manifestação por
-                    meio do Sistema da Ouvidoria Eletrônica, acessando o
-                    endereço eletrônico disponível abaixo.
+                  Caso não encontre o que procura, faça uma manifestação por meio do Sistema da Ouvidoria Eletrônica, acessando o endereço eletrônico disponível abaixo.
                   </p>
                   <a
                     className="roboto-medium w-full md:w-auto bg-[#004376] text-white py-2 px-6 rounded-full text-sm md:text-base hover:bg-[#00ACED] transition-colors"
@@ -85,10 +83,7 @@ Telefone: (81) 3257-8000 / (81) 3251-3092</p>
                     PRESENCIALMENTE
                   </h2>
                   <p className="text-justify">
-                    É disponibilizado ao cidadão um canal de comunicação de
-                    forma física também. A Ouvidoria da Prefeitura Municipal de
-                    Jaboatão dos Guararapes está disponível a todos os cidadãos
-                    no seguinte endereço:
+                  É disponibilizado ao cidadão um canal de comunicação de forma física também. A Ouvidoria da Prefeitura Municipal de Jaboatão dos Guararapes está disponível à todo(a) cidadão(ã) no seguinte endereço:
                   </p>
                   <p className="mt-2">
                     Avenida Barreto de Menezes, 1648 – Prazeres
