@@ -14,7 +14,7 @@ const Saude = () => {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#59C7F7,#003476)] opacity-60"/>
             
             <div className="z-10 text-center text-white px-4">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold futura-heavy futura-pt-heavy">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[80px] font-bold futura-heavy futura-pt-heavy">
                 SECRETARIA DE SAÚDE
               </h1>
             <div className="border-t-2 border-white my-4 w-1/2 sm:w-3/4 md:w-1/2 lg:w-1/4 mx-auto"/>
